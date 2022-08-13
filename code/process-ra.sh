@@ -15,12 +15,8 @@ python3 ra-to-rdf.py $1.csv $1.ttl
 # Upload to GLEIF
 # TBD
 
-# Upload to data.world
-echo uploading $1.ttl to data.world $2/files/RegistrationAuthorityData.ttl
+echo moving $1.ttl to output/RegistrationAuthorityData.ttl
+mv $1.ttl ../output/RegistrationAuthorityData.ttl
 
-curl -H "Authorization: Bearer $DATAWORLD_TOKEN" \
-  -X PUT -H "Content-Type: application/octet-stream" \
-  --data-binary @$1.ttl \
-  https://api.data.world/v0/uploads/$2/files/RegistrationAuthorityData.ttl
   
 echo RA processing complete

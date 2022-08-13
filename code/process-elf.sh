@@ -12,15 +12,7 @@ echo Processing ELF file $1 to dataset $2
 echo Converting to $1.ttl
 python3 elf-to-rdf.py $1.csv $1.ttl
 
-# Upload to GLEIF
-# TBD
-
-# Upload to data.world 
-echo uploading $1.ttl to data.world $2/files/EntityLegalFormData.ttl
-
-curl -H "Authorization: Bearer $DATAWORLD_TOKEN" \
-  -X PUT -H "Content-Type: application/octet-stream" \
-  --data-binary @$1.ttl \
-  https://api.data.world/v0/uploads/$2/files/EntityLegalFormData.ttl
+echo moving $1.ttl to ../output/EntityLegalFormData.ttl
+mv $1.ttl ../output/EntityLegalFormData.ttl
   
 echo ELF processing complete

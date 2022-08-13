@@ -13,6 +13,8 @@ if [ -f decrypt-secrets.py ]; then
 	`python3 decrypt-secrets.py`
 fi
 
+mkdir -p ../output
+
 echo Processing GLEIF files to dataset $1
 
 # Get URIs for latest files
@@ -43,11 +45,12 @@ local1=${LL1%.xml.zip}
 # zip $local1.zip $local1.rdf
 # FTP $local1.rdf to GLEIF
 
-export JVM_ARGS="-Xmx512M"
+export JVM_ARGS="-Xmx5g"
 
 # rename to predictable name
 mv $local1.rdf L1Data.rdf
-riot --output=TTL L1Data.rdf > L1Data.ttl
+#./apache-jena-4.5.0/bin/riot --output=TTL L1Data.rdf > L1Data.ttl
+java -Xmx512M -cp 'tools/*' com.msd.gin.halyard.tools.RDFSplitter L1Data.rdf ../output 1 .ttl.gz
 
 
 ### L2
@@ -66,7 +69,8 @@ local2=${LL2%.xml.zip}
 
 # rename to predictable name
 mv $local2.rdf L2Data.rdf
-riot  --output=TTL L2Data.rdf > L2Data.ttl
+#./apache-jena-4.5.0/bin/riot  --output=TTL L2Data.rdf > L2Data.ttl
+java -Xmx512M -cp 'tools/*' com.msd.gin.halyard.tools.RDFSplitter L2Data.rdf ../output 1 .ttl.gz
 
 ### RepEx
 echo RepEx processing
@@ -84,18 +88,15 @@ localr=${LRepEx%.xml.zip}
 
 # rename to predictable name
 mv $localr.rdf RepExData.rdf
-riot --output=TTL RepExData.rdf > RepExData.ttl
+#./apache-jena-4.5.0/bin/riot --output=TTL RepExData.rdf > RepExData.ttl
+java -Xmx512M -cp 'tools/*' com.msd.gin.halyard.tools.RDFSplitter RepExData.rdf ../output 1 .ttl.gz
 
 # Combine all files
-echo zipping 3 files
-zip upload.zip L1Data.ttl L2Data.ttl RepExData.ttl
+#echo zipping 3 files
+#zip upload.zip L1Data.ttl L2Data.ttl RepExData.ttl
 
-# Upload to data.world
-echo uploading to data.world dataset $1
-curl -H "Authorization: Bearer $DATAWORLD_TOKEN" \
-  -X PUT -H "Content-Type: application/octet-stream" \
-  --data-binary @upload.zip \
-  https://api.data.world/v0/uploads/$1/files/upload.zip?expandArchive=true
+#echo moving upload.zip to ../output/upload.zip
+#mv upload.zip ../output/upload.zip
 
 echo Getting URI for latest Registration Authorities List
 `python3 latest-ra.py`
@@ -104,7 +105,7 @@ RRA1=${RA##*/}
 RRA1=${RRA1%.csv}
 
 echo Fetching file $RRA1 from GLEIF site
-curl -C- -O $RA
+wget -c $RA
 
 ./process-ra.sh $RRA1 $1
 
@@ -115,7 +116,7 @@ ELF1=${ELF##*/}
 ELF1=${ELF1%.csv}
 
 echo Fetching file $ELF1 from GLEIF site
-curl -C- -O $ELF
+wget -c $ELF
 
 ./process-elf.sh $ELF1 $1
 
@@ -126,7 +127,7 @@ BIC1=${BIC##*/}
 BIC1=${BIC1%.csv}
 
 echo Fetching file $BIC1 from GLEIF site
-curl -C- -O $BIC
+wget -c $BIC
 
 ./process-bic.sh $BIC1 $1
 
