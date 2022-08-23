@@ -190,11 +190,12 @@ with open(inputfile, 'rt', encoding='utf8') as f:
                         tag = c.value(subject=identifier, predicate=LCCLR.hasTag)
                         g.add( (this, BASE.hasCoverageArea, LCC2[tag]) )
                     elif len(regions) == 0:
-                        print('In country: ', countryCode, ' could not find region: ', jurisdictionName + '@' + ralang)
+                        region = jurisdictionName + ('@' + ralang if ralang else '')
+                        print('In country: ', countryCode, ' could not find region: ', region)
                         g.add( (this, BASE.hasCoverageArea, LCC1[countryCode]) )
-                        g.add( (this, RDFS.comment, Literal('Jurisdiction, which could not be mapped to an official region: ' + jurisdictionName+ '@' + ralang)) )
+                        g.add( (this, RDFS.comment, Literal('Jurisdiction, which could not be mapped to an official region: ' + region)) )
                     else:
-                        print('In country: ', countryCode, ' found more than one match for region: ', jurisdictionName + '@' + ralang, ': ')
+                        print('In country: ', countryCode, ' found more than one match for region: ', region, ': ')
                         for i, reg in enumerate(regions):
                             print('    ', reg, '|')
                         g.add( (this, BASE.hasCoverageArea, LCC1[countryCode]) )
