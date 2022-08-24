@@ -1,0 +1,804 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cf: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Central African Republic (the) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cf" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Central African Republic (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CF.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	.
+
+lcc-3166-2-cf:Bamingui-Bangoran
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-BB-Subdivision ;
+	.
+
+lcc-3166-2-cf:Bangui
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-BGF-Subdivision ;
+	.
+
+lcc-3166-2-cf:Basse-Kotto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-BK-Subdivision ;
+	.
+
+lcc-3166-2-cf:CF-194-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"préfecture économique"@fr ,
+		"sêse tî kömändâ-kötä"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision category préfecture économique in the country of Central African Republic (the)" ;
+	.
+
+lcc-3166-2-cf:CF-339-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"préfecture"@fr ,
+		"sêse tî kömändâ-kötä"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision category préfecture in the country of Central African Republic (the)" ;
+	.
+
+lcc-3166-2-cf:CF-446-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"commune"@fr ,
+		"kötä gbätä"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision category commune in the country of Central African Republic (the)" ;
+	.
+
+lcc-3166-2-cf:CF-AC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-AC-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-AC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-AC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Ouham in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-AC-Subdivision ;
+	lcc-lr:hasTag "CF-AC" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-AC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-AC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ouham"@fr ,
+		"Wâmo"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Ouham in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Ouham"@fr ;
+	lcc-cr:hasLocalShortName "Wâmo"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-BB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-BB-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-BB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-BB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Bamingui-Bangoran in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-BB-Subdivision ;
+	lcc-lr:hasTag "CF-BB" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-BB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-BB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bamingui-Bangoran"@fr ,
+		"Bamïngï-Bangoran"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Bamingui-Bangoran in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Bamingui-Bangoran"@fr ;
+	lcc-cr:hasLocalShortName "Bamïngï-Bangoran"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-BGF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-BGF-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-BGF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-BGF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the commune of Bangui in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-BGF-Subdivision ;
+	lcc-lr:hasTag "CF-BGF" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-BGF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-BGF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bangui"@fr ,
+		"Bangî"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the commune of Bangui in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Bangui"@fr ;
+	lcc-cr:hasLocalShortName "Bangî"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-446-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-BK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-BK-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-BK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-BK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Basse-Kotto in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-BK-Subdivision ;
+	lcc-lr:hasTag "CF-BK" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-BK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-BK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Basse-Kotto"@fr ,
+		"Do-Kötö"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Basse-Kotto in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Basse-Kotto"@fr ;
+	lcc-cr:hasLocalShortName "Do-Kötö"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-HK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-HK-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-HK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-HK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Haute-Kotto in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-HK-Subdivision ;
+	lcc-lr:hasTag "CF-HK" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-HK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-HK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Haute-Kotto"@fr ,
+		"Tö-Kötö"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Haute-Kotto in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Haute-Kotto"@fr ;
+	lcc-cr:hasLocalShortName "Tö-Kötö"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-HM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-HM-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-HM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-HM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Haut-Mbomou in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-HM-Subdivision ;
+	lcc-lr:hasTag "CF-HM" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-HM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-HM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Haut-Mbomou"@fr ,
+		"Tö-Mbömü"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Haut-Mbomou in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Haut-Mbomou"@fr ;
+	lcc-cr:hasLocalShortName "Tö-Mbömü"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-HS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-HS-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-HS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-HS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Haute-Sangha / Mambéré-Kadéï in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-HS-Subdivision ;
+	lcc-lr:hasTag "CF-HS" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-HS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-HS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Haute-Sangha / Mambéré-Kadéï"@fr ,
+		"Tö-Sangä / Mbaere-Kadeï"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Haute-Sangha / Mambéré-Kadéï in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Haute-Sangha / Mambéré-Kadéï"@fr ;
+	lcc-cr:hasLocalShortName "Tö-Sangä / Mbaere-Kadeï"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-KB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-KB-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-KB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-KB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture économique of Gribingui in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-KB-Subdivision ;
+	lcc-lr:hasTag "CF-KB" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-KB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-KB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Gribingui"@fr ,
+		"Gïrïbïngï"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture économique of Gribingui in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Gribingui"@fr ;
+	lcc-cr:hasLocalShortName "Gïrïbïngï"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-194-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-KG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-KG-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-KG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-KG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Kémo-Gribingui in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-KG-Subdivision ;
+	lcc-lr:hasTag "CF-KG" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-KG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-KG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kemö-Gïrïbïngï"@sg ,
+		"Kémo-Gribingui"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Kémo-Gribingui in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Kémo-Gribingui"@fr ;
+	lcc-cr:hasLocalShortName "Kemö-Gïrïbïngï"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-LB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-LB-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-LB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-LB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Lobaye in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-LB-Subdivision ;
+	lcc-lr:hasTag "CF-LB" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-LB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-LB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lobaye"@fr ,
+		"Lobâye"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Lobaye in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Lobaye"@fr ;
+	lcc-cr:hasLocalShortName "Lobâye"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-MB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-MB-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-MB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-MB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Mbomou in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-MB-Subdivision ;
+	lcc-lr:hasTag "CF-MB" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-MB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-MB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mbomou"@fr ,
+		"Mbömü"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Mbomou in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Mbomou"@fr ;
+	lcc-cr:hasLocalShortName "Mbömü"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-MP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-MP-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-MP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-MP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Ombella-Mpoko in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-MP-Subdivision ;
+	lcc-lr:hasTag "CF-MP" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-MP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-MP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ombella-Mpoko"@fr ,
+		"Ömbëlä-Pökö"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Ombella-Mpoko in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Ombella-Mpoko"@fr ;
+	lcc-cr:hasLocalShortName "Ömbëlä-Pökö"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-NM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-NM-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-NM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-NM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Nana-Mambéré in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-NM-Subdivision ;
+	lcc-lr:hasTag "CF-NM" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-NM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-NM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Nana-Mambéré"@fr ,
+		"Nanä-Mbaere"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Nana-Mambéré in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Nana-Mambéré"@fr ;
+	lcc-cr:hasLocalShortName "Nanä-Mbaere"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-OP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-OP-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-OP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-OP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Ouham-Pendé in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-OP-Subdivision ;
+	lcc-lr:hasTag "CF-OP" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-OP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-OP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ouham-Pendé"@fr ,
+		"Wâmo-Pendë"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Ouham-Pendé in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Ouham-Pendé"@fr ;
+	lcc-cr:hasLocalShortName "Wâmo-Pendë"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-SE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-SE-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-SE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture économique of Sangha in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-SE-Subdivision ;
+	lcc-lr:hasTag "CF-SE" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-SE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-SE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Sangha"@fr ,
+		"Sangä"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture économique of Sangha in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Sangha"@fr ;
+	lcc-cr:hasLocalShortName "Sangä"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-194-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-UK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-UK-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-UK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-UK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Ouaka in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-UK-Subdivision ;
+	lcc-lr:hasTag "CF-UK" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-UK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-UK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ouaka"@fr ,
+		"Wäkä"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Ouaka in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Ouaka"@fr ;
+	lcc-cr:hasLocalShortName "Wäkä"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:CF-VK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-VK-RegionIdentifier ;
+	.
+
+lcc-3166-2-cf:CF-VK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CF-VK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "subdivision code for the préfecture of Vakaga in the country of Central African Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-cf:CF-VK-Subdivision ;
+	lcc-lr:hasTag "CF-VK" ;
+	lcc-lr:identifies lcc-3166-2-cf:CF-VK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cf:CF-VK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Vakaga"@fr ,
+		"Vakaga"@sg
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CF/> ;
+	skos:definition "the préfecture of Vakaga in the country of Central African Republic (the)" ;
+	lcc-cr:hasFrenchShortName "Vakaga"@fr ;
+	lcc-cr:hasLocalShortName "Vakaga"@sg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cf:CF-339-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-2-cf:Commune
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-446-RegionKind ;
+	.
+
+lcc-3166-2-cf:Gribingui
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-KB-Subdivision ;
+	.
+
+lcc-3166-2-cf:Haut-Mbomou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-HM-Subdivision ;
+	.
+
+lcc-3166-2-cf:Haute-Kotto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-HK-Subdivision ;
+	.
+
+lcc-3166-2-cf:Haute-SanghaMambere-Kadei
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-HS-Subdivision ;
+	.
+
+lcc-3166-2-cf:Kemo-Gribingui
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-KG-Subdivision ;
+	.
+
+lcc-3166-2-cf:Lobaye
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-LB-Subdivision ;
+	.
+
+lcc-3166-2-cf:Mbomou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-MB-Subdivision ;
+	.
+
+lcc-3166-2-cf:Nana-Mambere
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-NM-Subdivision ;
+	.
+
+lcc-3166-2-cf:Ombella-Mpoko
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-MP-Subdivision ;
+	.
+
+lcc-3166-2-cf:Ouaka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-UK-Subdivision ;
+	.
+
+lcc-3166-2-cf:Ouham
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-AC-Subdivision ;
+	.
+
+lcc-3166-2-cf:Ouham-Pende
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-OP-Subdivision ;
+	.
+
+lcc-3166-2-cf:Prefecture
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-339-RegionKind ;
+	.
+
+lcc-3166-2-cf:PrefectureEconomique
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-194-RegionKind ;
+	.
+
+lcc-3166-2-cf:Sangha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-SE-Subdivision ;
+	.
+
+lcc-3166-2-cf:Vakaga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cf:CF-VK-Subdivision ;
+	.
+

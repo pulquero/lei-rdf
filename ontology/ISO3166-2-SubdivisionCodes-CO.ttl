@@ -1,0 +1,1342 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-co: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Colombia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-co" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Colombia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	.
+
+lcc-3166-2-co:Amazonas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-AMA-Subdivision ;
+	.
+
+lcc-3166-2-co:Antioquia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-ANT-Subdivision ;
+	.
+
+lcc-3166-2-co:Arauca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-ARA-Subdivision ;
+	.
+
+lcc-3166-2-co:Atlantico
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-ATL-Subdivision ;
+	.
+
+lcc-3166-2-co:Bolivar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-BOL-Subdivision ;
+	.
+
+lcc-3166-2-co:Boyaca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-BOY-Subdivision ;
+	.
+
+lcc-3166-2-co:CO-104-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "departamento"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision category departamento in the country of Colombia" ;
+	.
+
+lcc-3166-2-co:CO-1116-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the territory of Malpelo Island in the country of Colombia" ;
+	lcc-cr:hasEnglishShortName "Malpelo Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île de Malpelo"@fr ;
+	lcc-cr:hasNumericRegionCode "1116" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-1183-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the territory of San Andrés y Providencia Islands in the country of Colombia" ;
+	lcc-cr:hasEnglishShortName "San Andrés y Providencia Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles San Andrés et Providencia"@fr ;
+	lcc-cr:hasNumericRegionCode "1183" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-143-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "distrito capital"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision category distrito capital in the country of Colombia" ;
+	.
+
+lcc-3166-2-co:CO-AMA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-AMA-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-AMA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-AMA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Amazonas in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-AMA-Subdivision ;
+	lcc-lr:hasTag "CO-AMA" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-AMA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-AMA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amazonas"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Amazonas in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Amazonas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-ANT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-ANT-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-ANT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-ANT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Antioquia in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-ANT-Subdivision ;
+	lcc-lr:hasTag "CO-ANT" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-ANT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-ANT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Antioquia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Antioquia in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Antioquia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-ARA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-ARA-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-ARA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-ARA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Arauca in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-ARA-Subdivision ;
+	lcc-lr:hasTag "CO-ARA" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-ARA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-ARA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arauca"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Arauca in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Arauca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-ATL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-ATL-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-ATL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-ATL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Atlántico in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-ATL-Subdivision ;
+	lcc-lr:hasTag "CO-ATL" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-ATL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-ATL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Atlántico"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Atlántico in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Atlántico"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-BOL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-BOL-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-BOL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-BOL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Bolívar in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-BOL-Subdivision ;
+	lcc-lr:hasTag "CO-BOL" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-BOL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-BOL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolívar"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Bolívar in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Bolívar"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-BOY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-BOY-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-BOY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-BOY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Boyacá in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-BOY-Subdivision ;
+	lcc-lr:hasTag "CO-BOY" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-BOY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-BOY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boyacá"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Boyacá in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Boyacá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-CAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-CAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-CAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Caldas in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-CAL-Subdivision ;
+	lcc-lr:hasTag "CO-CAL" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-CAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-CAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caldas"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Caldas in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Caldas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-CAQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-CAQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-CAQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Caquetá in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-CAQ-Subdivision ;
+	lcc-lr:hasTag "CO-CAQ" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-CAQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-CAQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caquetá"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Caquetá in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Caquetá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-CAS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAS-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-CAS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-CAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Casanare in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-CAS-Subdivision ;
+	lcc-lr:hasTag "CO-CAS" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-CAS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-CAS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Casanare"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Casanare in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Casanare"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-CAU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAU-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-CAU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-CAU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Cauca in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-CAU-Subdivision ;
+	lcc-lr:hasTag "CO-CAU" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-CAU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-CAU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cauca"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Cauca in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Cauca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-CES
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CES-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-CES-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-CES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Cesar in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-CES-Subdivision ;
+	lcc-lr:hasTag "CO-CES" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-CES-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-CES-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cesar"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Cesar in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Cesar"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-CHO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CHO-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-CHO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-CHO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Chocó in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-CHO-Subdivision ;
+	lcc-lr:hasTag "CO-CHO" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-CHO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-CHO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chocó"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Chocó in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Chocó"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-COR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-COR-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-COR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-COR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Córdoba in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-COR-Subdivision ;
+	lcc-lr:hasTag "CO-COR" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-COR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-COR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Córdoba"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Córdoba in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Córdoba"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-CUN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CUN-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-CUN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-CUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Cundinamarca in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-CUN-Subdivision ;
+	lcc-lr:hasTag "CO-CUN" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-CUN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-CUN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cundinamarca"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Cundinamarca in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Cundinamarca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-DC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-DC-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-DC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-DC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the distrito capital of Distrito Capital de Bogotá in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-DC-Subdivision ;
+	lcc-lr:hasTag "CO-DC" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-DC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-DC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Distrito Capital de Bogotá"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the distrito capital of Distrito Capital de Bogotá in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Distrito Capital de Bogotá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-143-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-GUA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-GUA-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-GUA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-GUA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Guainía in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-GUA-Subdivision ;
+	lcc-lr:hasTag "CO-GUA" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-GUA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-GUA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guainía"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Guainía in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Guainía"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-GUV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-GUV-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-GUV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-GUV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Guaviare in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-GUV-Subdivision ;
+	lcc-lr:hasTag "CO-GUV" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-GUV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-GUV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guaviare"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Guaviare in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Guaviare"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-HUI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-HUI-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-HUI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-HUI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Huila in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-HUI-Subdivision ;
+	lcc-lr:hasTag "CO-HUI" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-HUI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-HUI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Huila"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Huila in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Huila"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-LAG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-LAG-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-LAG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-LAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of La Guajira in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-LAG-Subdivision ;
+	lcc-lr:hasTag "CO-LAG" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-LAG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-LAG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Guajira"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of La Guajira in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "La Guajira"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-MAG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-MAG-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-MAG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-MAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Magdalena in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-MAG-Subdivision ;
+	lcc-lr:hasTag "CO-MAG" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-MAG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-MAG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Magdalena"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Magdalena in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Magdalena"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-MET
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-MET-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-MET-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-MET" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Meta in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-MET-Subdivision ;
+	lcc-lr:hasTag "CO-MET" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-MET-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-MET-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Meta"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Meta in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Meta"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-NAR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-NAR-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-NAR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-NAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Nariño in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-NAR-Subdivision ;
+	lcc-lr:hasTag "CO-NAR" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-NAR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-NAR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nariño"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Nariño in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Nariño"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-NSA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-NSA-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-NSA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-NSA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Norte de Santander in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-NSA-Subdivision ;
+	lcc-lr:hasTag "CO-NSA" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-NSA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-NSA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norte de Santander"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Norte de Santander in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Norte de Santander"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-PUT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-PUT-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-PUT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-PUT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Putumayo in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-PUT-Subdivision ;
+	lcc-lr:hasTag "CO-PUT" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-PUT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-PUT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Putumayo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Putumayo in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Putumayo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-QUI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-QUI-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-QUI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-QUI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Quindío in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-QUI-Subdivision ;
+	lcc-lr:hasTag "CO-QUI" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-QUI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-QUI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quindío"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Quindío in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Quindío"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-RIS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-RIS-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-RIS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-RIS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Risaralda in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-RIS-Subdivision ;
+	lcc-lr:hasTag "CO-RIS" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-RIS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-RIS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Risaralda"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Risaralda in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Risaralda"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-SAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-SAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-SAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-SAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Santander in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-SAN-Subdivision ;
+	lcc-lr:hasTag "CO-SAN" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-SAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-SAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santander"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Santander in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Santander"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-SAP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-SAP-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-SAP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-SAP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of San Andrés, Providencia y Santa Catalina in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-SAP-Subdivision ;
+	lcc-lr:hasTag "CO-SAP" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-SAP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-SAP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Andrés, Providencia y Santa Catalina"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of San Andrés, Providencia y Santa Catalina in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "San Andrés, Providencia y Santa Catalina"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-SUC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-SUC-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-SUC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-SUC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Sucre in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-SUC-Subdivision ;
+	lcc-lr:hasTag "CO-SUC" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-SUC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-SUC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sucre"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Sucre in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Sucre"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-TOL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-TOL-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-TOL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-TOL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Tolima in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-TOL-Subdivision ;
+	lcc-lr:hasTag "CO-TOL" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-TOL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-TOL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tolima"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Tolima in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Tolima"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-VAC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-VAC-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-VAC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-VAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Valle del Cauca in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-VAC-Subdivision ;
+	lcc-lr:hasTag "CO-VAC" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-VAC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-VAC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valle del Cauca"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Valle del Cauca in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Valle del Cauca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-VAU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-VAU-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-VAU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-VAU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Vaupés in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-VAU-Subdivision ;
+	lcc-lr:hasTag "CO-VAU" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-VAU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-VAU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vaupés"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Vaupés in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Vaupés"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:CO-VID
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-VID-RegionIdentifier ;
+	.
+
+lcc-3166-2-co:CO-VID-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CO-VID" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "subdivision code for the departamento of Vichada in the country of Colombia" ;
+	lcc-lr:denotes lcc-3166-2-co:CO-VID-Subdivision ;
+	lcc-lr:hasTag "CO-VID" ;
+	lcc-lr:identifies lcc-3166-2-co:CO-VID-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-co:CO-VID-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vichada"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CO/> ;
+	skos:definition "the departamento of Vichada in the country of Colombia" ;
+	lcc-cr:hasLocalShortName "Vichada"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-co:CO-104-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-2-co:Caldas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAL-Subdivision ;
+	.
+
+lcc-3166-2-co:Caqueta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAQ-Subdivision ;
+	.
+
+lcc-3166-2-co:Casanare
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAS-Subdivision ;
+	.
+
+lcc-3166-2-co:Cauca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CAU-Subdivision ;
+	.
+
+lcc-3166-2-co:Cesar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CES-Subdivision ;
+	.
+
+lcc-3166-2-co:Choco
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CHO-Subdivision ;
+	.
+
+lcc-3166-2-co:Cordoba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-COR-Subdivision ;
+	.
+
+lcc-3166-2-co:Cundinamarca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-CUN-Subdivision ;
+	.
+
+lcc-3166-2-co:Departamento
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-104-RegionKind ;
+	.
+
+lcc-3166-2-co:DistritoCapital
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-143-RegionKind ;
+	.
+
+lcc-3166-2-co:DistritoCapitalDeBogota
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-DC-Subdivision ;
+	.
+
+lcc-3166-2-co:Guainia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-GUA-Subdivision ;
+	.
+
+lcc-3166-2-co:Guaviare
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-GUV-Subdivision ;
+	.
+
+lcc-3166-2-co:Huila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-HUI-Subdivision ;
+	.
+
+lcc-3166-2-co:LaGuajira
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-LAG-Subdivision ;
+	.
+
+lcc-3166-2-co:Magdalena
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-MAG-Subdivision ;
+	.
+
+lcc-3166-2-co:MalpeloIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-1116-Territory ;
+	.
+
+lcc-3166-2-co:Meta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-MET-Subdivision ;
+	.
+
+lcc-3166-2-co:Narino
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-NAR-Subdivision ;
+	.
+
+lcc-3166-2-co:NorteDeSantander
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-NSA-Subdivision ;
+	.
+
+lcc-3166-2-co:Putumayo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-PUT-Subdivision ;
+	.
+
+lcc-3166-2-co:Quindio
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-QUI-Subdivision ;
+	.
+
+lcc-3166-2-co:Risaralda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-RIS-Subdivision ;
+	.
+
+lcc-3166-2-co:SanAndres
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-SAP-Subdivision ;
+	.
+
+lcc-3166-2-co:SanAndresYProvidenciaIslands
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-1183-Territory ;
+	.
+
+lcc-3166-2-co:Santander
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-SAN-Subdivision ;
+	.
+
+lcc-3166-2-co:Sucre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-SUC-Subdivision ;
+	.
+
+lcc-3166-2-co:Tolima
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-TOL-Subdivision ;
+	.
+
+lcc-3166-2-co:ValleDelCauca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-VAC-Subdivision ;
+	.
+
+lcc-3166-2-co:Vaupes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-VAU-Subdivision ;
+	.
+
+lcc-3166-2-co:Vichada
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-co:CO-VID-Subdivision ;
+	.
+

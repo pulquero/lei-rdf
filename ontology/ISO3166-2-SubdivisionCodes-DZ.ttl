@@ -1,0 +1,1844 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-dz: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Algeria Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-dz" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Algeria, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-DZ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	.
+
+lcc-3166-2-dz:Adrar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-01-Subdivision ;
+	.
+
+lcc-3166-2-dz:AinDefla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-44-Subdivision ;
+	.
+
+lcc-3166-2-dz:AinTemouchent
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-46-Subdivision ;
+	.
+
+lcc-3166-2-dz:Alger
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-16-Subdivision ;
+	.
+
+lcc-3166-2-dz:Annaba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-23-Subdivision ;
+	.
+
+lcc-3166-2-dz:Batna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-05-Subdivision ;
+	.
+
+lcc-3166-2-dz:Bechar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-08-Subdivision ;
+	.
+
+lcc-3166-2-dz:Bejaia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-06-Subdivision ;
+	.
+
+lcc-3166-2-dz:Biskra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-07-Subdivision ;
+	.
+
+lcc-3166-2-dz:Blida
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-09-Subdivision ;
+	.
+
+lcc-3166-2-dz:BordjBouArreridj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-34-Subdivision ;
+	.
+
+lcc-3166-2-dz:Bouira
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-10-Subdivision ;
+	.
+
+lcc-3166-2-dz:Boumerdes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-35-Subdivision ;
+	.
+
+lcc-3166-2-dz:Chlef
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-02-Subdivision ;
+	.
+
+lcc-3166-2-dz:Constantine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-25-Subdivision ;
+	.
+
+lcc-3166-2-dz:DZ-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Adrar in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-01-Subdivision ;
+	lcc-lr:hasTag "DZ-01" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Adrar"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Adrar in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Adrar"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Chlef in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-02-Subdivision ;
+	lcc-lr:hasTag "DZ-02" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chlef"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Chlef in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Chlef"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Laghouat in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-03-Subdivision ;
+	lcc-lr:hasTag "DZ-03" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Laghouat"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Laghouat in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Laghouat"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Oum el Bouaghi in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-04-Subdivision ;
+	lcc-lr:hasTag "DZ-04" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oum el Bouaghi"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Oum el Bouaghi in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Oum el Bouaghi"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Batna in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-05-Subdivision ;
+	lcc-lr:hasTag "DZ-05" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Batna"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Batna in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Batna"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Béjaïa in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-06-Subdivision ;
+	lcc-lr:hasTag "DZ-06" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Béjaïa"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Béjaïa in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Béjaïa"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Biskra in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-07-Subdivision ;
+	lcc-lr:hasTag "DZ-07" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Biskra"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Biskra in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Biskra"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Béchar in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-08-Subdivision ;
+	lcc-lr:hasTag "DZ-08" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Béchar"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Béchar in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Béchar"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Blida in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-09-Subdivision ;
+	lcc-lr:hasTag "DZ-09" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Blida"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Blida in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Blida"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Bouira in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-10-Subdivision ;
+	lcc-lr:hasTag "DZ-10" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bouira"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Bouira in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Bouira"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tamanrasset in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-11-Subdivision ;
+	lcc-lr:hasTag "DZ-11" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tamanrasset"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tamanrasset in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tamanrasset"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tébessa in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-12-Subdivision ;
+	lcc-lr:hasTag "DZ-12" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tébessa"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tébessa in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tébessa"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tlemcen in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-13-Subdivision ;
+	lcc-lr:hasTag "DZ-13" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tlemcen"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tlemcen in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tlemcen"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tiaret in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-14-Subdivision ;
+	lcc-lr:hasTag "DZ-14" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tiaret"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tiaret in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tiaret"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tizi Ouzou in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-15-Subdivision ;
+	lcc-lr:hasTag "DZ-15" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tizi Ouzou"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tizi Ouzou in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tizi Ouzou"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Alger in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-16-Subdivision ;
+	lcc-lr:hasTag "DZ-16" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alger"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Alger in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Alger"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Djelfa in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-17-Subdivision ;
+	lcc-lr:hasTag "DZ-17" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Djelfa"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Djelfa in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Djelfa"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Jijel in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-18-Subdivision ;
+	lcc-lr:hasTag "DZ-18" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jijel"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Jijel in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Jijel"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Sétif in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-19-Subdivision ;
+	lcc-lr:hasTag "DZ-19" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sétif"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Sétif in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Sétif"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Saïda in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-20-Subdivision ;
+	lcc-lr:hasTag "DZ-20" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saïda"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Saïda in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Saïda"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Skikda in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-21-Subdivision ;
+	lcc-lr:hasTag "DZ-21" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skikda"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Skikda in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Skikda"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Sidi Bel Abbès in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-22-Subdivision ;
+	lcc-lr:hasTag "DZ-22" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sidi Bel Abbès"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Sidi Bel Abbès in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Sidi Bel Abbès"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Annaba in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-23-Subdivision ;
+	lcc-lr:hasTag "DZ-23" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Annaba"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Annaba in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Annaba"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Guelma in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-24-Subdivision ;
+	lcc-lr:hasTag "DZ-24" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guelma"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Guelma in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Guelma"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Constantine in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-25-Subdivision ;
+	lcc-lr:hasTag "DZ-25" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Constantine"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Constantine in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Constantine"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Médéa in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-26-Subdivision ;
+	lcc-lr:hasTag "DZ-26" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Médéa"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Médéa in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Médéa"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Mostaganem in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-27-Subdivision ;
+	lcc-lr:hasTag "DZ-27" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mostaganem"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Mostaganem in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Mostaganem"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-28
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-28-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-28-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of M'sila in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-28-Subdivision ;
+	lcc-lr:hasTag "DZ-28" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-28-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-28-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "M'sila"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of M'sila in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "M'sila"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-29
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-29-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-29-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Mascara in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-29-Subdivision ;
+	lcc-lr:hasTag "DZ-29" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-29-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-29-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mascara"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Mascara in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Mascara"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Ouargla in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-30-Subdivision ;
+	lcc-lr:hasTag "DZ-30" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ouargla"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Ouargla in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Ouargla"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Oran in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-31-Subdivision ;
+	lcc-lr:hasTag "DZ-31" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oran"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Oran in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Oran"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of El Bayadh in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-32-Subdivision ;
+	lcc-lr:hasTag "DZ-32" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Bayadh"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of El Bayadh in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "El Bayadh"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Illizi in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-33-Subdivision ;
+	lcc-lr:hasTag "DZ-33" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Illizi"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Illizi in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Illizi"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Bordj Bou Arréridj in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-34-Subdivision ;
+	lcc-lr:hasTag "DZ-34" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bordj Bou Arréridj"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Bordj Bou Arréridj in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Bordj Bou Arréridj"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-35
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-35-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-35-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Boumerdès in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-35-Subdivision ;
+	lcc-lr:hasTag "DZ-35" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-35-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-35-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boumerdès"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Boumerdès in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Boumerdès"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-36
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-36-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-36-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of El Tarf in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-36-Subdivision ;
+	lcc-lr:hasTag "DZ-36" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-36-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-36-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Tarf"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of El Tarf in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "El Tarf"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-366-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "wilaya"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision category wilaya in the country of Algeria" ;
+	.
+
+lcc-3166-2-dz:DZ-37
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-37-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-37-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tindouf in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-37-Subdivision ;
+	lcc-lr:hasTag "DZ-37" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-37-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-37-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tindouf"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tindouf in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tindouf"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-38
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-38-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-38-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tissemsilt in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-38-Subdivision ;
+	lcc-lr:hasTag "DZ-38" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-38-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-38-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tissemsilt"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tissemsilt in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tissemsilt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-39
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-39-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-39-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of El Oued in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-39-Subdivision ;
+	lcc-lr:hasTag "DZ-39" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-39-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-39-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Oued"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of El Oued in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "El Oued"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-40
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-40-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-40-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Khenchela in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-40-Subdivision ;
+	lcc-lr:hasTag "DZ-40" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-40-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-40-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khenchela"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Khenchela in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Khenchela"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Souk Ahras in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-41-Subdivision ;
+	lcc-lr:hasTag "DZ-41" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Souk Ahras"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Souk Ahras in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Souk Ahras"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Tipaza in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-42-Subdivision ;
+	lcc-lr:hasTag "DZ-42" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tipaza"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Tipaza in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Tipaza"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-43
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-43-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-43-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Mila in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-43-Subdivision ;
+	lcc-lr:hasTag "DZ-43" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-43-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-43-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mila"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Mila in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Mila"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-44
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-44-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-44-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Aïn Defla in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-44-Subdivision ;
+	lcc-lr:hasTag "DZ-44" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-44-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-44-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aïn Defla"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Aïn Defla in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Aïn Defla"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-45
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-45-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-45-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Naama in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-45-Subdivision ;
+	lcc-lr:hasTag "DZ-45" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-45-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-45-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Naama"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Naama in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Naama"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-46
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-46-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-46-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Aïn Témouchent in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-46-Subdivision ;
+	lcc-lr:hasTag "DZ-46" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-46-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-46-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aïn Témouchent"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Aïn Témouchent in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Aïn Témouchent"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-47
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-47-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-47-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Ghardaïa in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-47-Subdivision ;
+	lcc-lr:hasTag "DZ-47" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-47-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-47-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ghardaïa"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Ghardaïa in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Ghardaïa"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:DZ-48
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-48-RegionIdentifier ;
+	.
+
+lcc-3166-2-dz:DZ-48-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DZ-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "subdivision code for the wilaya of Relizane in the country of Algeria" ;
+	lcc-lr:denotes lcc-3166-2-dz:DZ-48-Subdivision ;
+	lcc-lr:hasTag "DZ-48" ;
+	lcc-lr:identifies lcc-3166-2-dz:DZ-48-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dz:DZ-48-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Relizane"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DZ/> ;
+	skos:definition "the wilaya of Relizane in the country of Algeria" ;
+	lcc-cr:hasLocalShortName "Relizane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dz:DZ-366-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-2-dz:Djelfa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-17-Subdivision ;
+	.
+
+lcc-3166-2-dz:ElBayadh
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-32-Subdivision ;
+	.
+
+lcc-3166-2-dz:ElOued
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-39-Subdivision ;
+	.
+
+lcc-3166-2-dz:ElTarf
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-36-Subdivision ;
+	.
+
+lcc-3166-2-dz:Ghardaia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-47-Subdivision ;
+	.
+
+lcc-3166-2-dz:Guelma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-24-Subdivision ;
+	.
+
+lcc-3166-2-dz:Illizi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-33-Subdivision ;
+	.
+
+lcc-3166-2-dz:Jijel
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-18-Subdivision ;
+	.
+
+lcc-3166-2-dz:Khenchela
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-40-Subdivision ;
+	.
+
+lcc-3166-2-dz:Laghouat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-03-Subdivision ;
+	.
+
+lcc-3166-2-dz:Mascara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-29-Subdivision ;
+	.
+
+lcc-3166-2-dz:Medea
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-26-Subdivision ;
+	.
+
+lcc-3166-2-dz:Mila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-43-Subdivision ;
+	.
+
+lcc-3166-2-dz:Mostaganem
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-27-Subdivision ;
+	.
+
+lcc-3166-2-dz:Msila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-28-Subdivision ;
+	.
+
+lcc-3166-2-dz:Naama
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-45-Subdivision ;
+	.
+
+lcc-3166-2-dz:Oran
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-31-Subdivision ;
+	.
+
+lcc-3166-2-dz:Ouargla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-30-Subdivision ;
+	.
+
+lcc-3166-2-dz:OumElBouaghi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-04-Subdivision ;
+	.
+
+lcc-3166-2-dz:Relizane
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-48-Subdivision ;
+	.
+
+lcc-3166-2-dz:Saida
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-20-Subdivision ;
+	.
+
+lcc-3166-2-dz:Setif
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-19-Subdivision ;
+	.
+
+lcc-3166-2-dz:SidiBelAbbes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-22-Subdivision ;
+	.
+
+lcc-3166-2-dz:Skikda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-21-Subdivision ;
+	.
+
+lcc-3166-2-dz:SoukAhras
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-41-Subdivision ;
+	.
+
+lcc-3166-2-dz:Tamanrasset
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-11-Subdivision ;
+	.
+
+lcc-3166-2-dz:Tebessa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-12-Subdivision ;
+	.
+
+lcc-3166-2-dz:Tiaret
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-14-Subdivision ;
+	.
+
+lcc-3166-2-dz:Tindouf
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-37-Subdivision ;
+	.
+
+lcc-3166-2-dz:Tipaza
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-42-Subdivision ;
+	.
+
+lcc-3166-2-dz:Tissemsilt
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-38-Subdivision ;
+	.
+
+lcc-3166-2-dz:TiziOuzou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-15-Subdivision ;
+	.
+
+lcc-3166-2-dz:Tlemcen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-13-Subdivision ;
+	.
+
+lcc-3166-2-dz:Wilaya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-dz:DZ-366-RegionKind ;
+	.
+

@@ -1,0 +1,808 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bt: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Bhutan Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bt" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Bhutan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	.
+
+lcc-3166-2-bt:BT-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Paro in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-11-Subdivision ;
+	lcc-lr:hasTag "BT-11" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paro"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Paro in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Paro"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Chhukha in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-12-Subdivision ;
+	lcc-lr:hasTag "BT-12" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chhukha"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Chhukha in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Chhukha"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Haa in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-13-Subdivision ;
+	lcc-lr:hasTag "BT-13" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haa"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Haa in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Haa"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Samtse in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-14-Subdivision ;
+	lcc-lr:hasTag "BT-14" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samtse"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Samtse in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Samtse"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Thimphu in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-15-Subdivision ;
+	lcc-lr:hasTag "BT-15" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thimphu"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Thimphu in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Thimphu"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-152-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "dzongkhag"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision category dzongkhag in the country of Bhutan" ;
+	.
+
+lcc-3166-2-bt:BT-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Tsirang in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-21-Subdivision ;
+	lcc-lr:hasTag "BT-21" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tsirang"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Tsirang in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Tsirang"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Dagana in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-22-Subdivision ;
+	lcc-lr:hasTag "BT-22" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dagana"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Dagana in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Dagana"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Punakha in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-23-Subdivision ;
+	lcc-lr:hasTag "BT-23" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Punakha"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Punakha in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Punakha"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Wangdue Phodrang in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-24-Subdivision ;
+	lcc-lr:hasTag "BT-24" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wangdue Phodrang"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Wangdue Phodrang in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Wangdue Phodrang"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Sarpang in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-31-Subdivision ;
+	lcc-lr:hasTag "BT-31" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sarpang"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Sarpang in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Sarpang"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Trongsa in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-32-Subdivision ;
+	lcc-lr:hasTag "BT-32" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trongsa"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Trongsa in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Trongsa"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Bumthang in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-33-Subdivision ;
+	lcc-lr:hasTag "BT-33" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bumthang"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Bumthang in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Bumthang"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Zhemgang in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-34-Subdivision ;
+	lcc-lr:hasTag "BT-34" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zhemgang"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Zhemgang in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Zhemgang"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Trashigang in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-41-Subdivision ;
+	lcc-lr:hasTag "BT-41" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trashigang"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Trashigang in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Trashigang"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Monggar in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-42-Subdivision ;
+	lcc-lr:hasTag "BT-42" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monggar"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Monggar in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Monggar"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-43
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-43-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-43-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Pema Gatshel in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-43-Subdivision ;
+	lcc-lr:hasTag "BT-43" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-43-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-43-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pema Gatshel"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Pema Gatshel in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Pema Gatshel"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-44
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-44-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-44-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Lhuentse in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-44-Subdivision ;
+	lcc-lr:hasTag "BT-44" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-44-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-44-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lhuentse"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Lhuentse in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Lhuentse"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-45
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-45-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-45-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Samdrup Jongkhar in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-45-Subdivision ;
+	lcc-lr:hasTag "BT-45" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-45-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-45-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samdrup Jongkhar"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Samdrup Jongkhar in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Samdrup Jongkhar"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Gasa in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-GA-Subdivision ;
+	lcc-lr:hasTag "BT-GA" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gasa"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Gasa in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Gasa"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:BT-TY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-TY-RegionIdentifier ;
+	.
+
+lcc-3166-2-bt:BT-TY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BT-TY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "subdivision code for the dzongkhag of Trashi Yangtse in the country of Bhutan" ;
+	lcc-lr:denotes lcc-3166-2-bt:BT-TY-Subdivision ;
+	lcc-lr:hasTag "BT-TY" ;
+	lcc-lr:identifies lcc-3166-2-bt:BT-TY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bt:BT-TY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trashi Yangtse"@dz ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BT/> ;
+	skos:definition "the dzongkhag of Trashi Yangtse in the country of Bhutan" ;
+	lcc-cr:hasLocalShortName "Trashi Yangtse"@dz ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bt:BT-152-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-2-bt:Bumthang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-33-Subdivision ;
+	.
+
+lcc-3166-2-bt:Chhukha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-12-Subdivision ;
+	.
+
+lcc-3166-2-bt:Dagana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-22-Subdivision ;
+	.
+
+lcc-3166-2-bt:Dzongkhag
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-152-RegionKind ;
+	.
+
+lcc-3166-2-bt:Gasa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-GA-Subdivision ;
+	.
+
+lcc-3166-2-bt:Haa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-13-Subdivision ;
+	.
+
+lcc-3166-2-bt:Lhuentse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-44-Subdivision ;
+	.
+
+lcc-3166-2-bt:Monggar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-42-Subdivision ;
+	.
+
+lcc-3166-2-bt:Paro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-11-Subdivision ;
+	.
+
+lcc-3166-2-bt:PemaGatshel
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-43-Subdivision ;
+	.
+
+lcc-3166-2-bt:Punakha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-23-Subdivision ;
+	.
+
+lcc-3166-2-bt:SamdrupJongkhar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-45-Subdivision ;
+	.
+
+lcc-3166-2-bt:Samtse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-14-Subdivision ;
+	.
+
+lcc-3166-2-bt:Sarpang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-31-Subdivision ;
+	.
+
+lcc-3166-2-bt:Thimphu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-15-Subdivision ;
+	.
+
+lcc-3166-2-bt:TrashiYangtse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-TY-Subdivision ;
+	.
+
+lcc-3166-2-bt:Trashigang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-41-Subdivision ;
+	.
+
+lcc-3166-2-bt:Trongsa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-32-Subdivision ;
+	.
+
+lcc-3166-2-bt:Tsirang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-21-Subdivision ;
+	.
+
+lcc-3166-2-bt:WangduePhodrang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-24-Subdivision ;
+	.
+
+lcc-3166-2-bt:Zhemgang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bt:BT-34-Subdivision ;
+	.
+

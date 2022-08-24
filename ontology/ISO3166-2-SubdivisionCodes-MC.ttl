@@ -1,0 +1,697 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mc: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Monaco Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mc" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Monaco, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MC.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	.
+
+lcc-3166-2-mc:Fontvieille
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-FO-Subdivision ;
+	.
+
+lcc-3166-2-mc:JardinExotique
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-JE-Subdivision ;
+	.
+
+lcc-3166-2-mc:LaColle
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-CL-Subdivision ;
+	.
+
+lcc-3166-2-mc:LaCondamine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-CO-Subdivision ;
+	.
+
+lcc-3166-2-mc:LaGare
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-GA-Subdivision ;
+	.
+
+lcc-3166-2-mc:LaSource
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SO-Subdivision ;
+	.
+
+lcc-3166-2-mc:Larvotto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-LA-Subdivision ;
+	.
+
+lcc-3166-2-mc:MC-212-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "quartier"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision category quartier in the country of Monaco" ;
+	.
+
+lcc-3166-2-mc:MC-CL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-CL-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-CL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of La Colle in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-CL-Subdivision ;
+	lcc-lr:hasTag "MC-CL" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-CL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-CL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Colle"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of La Colle in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "La Colle"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-CO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-CO-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-CO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of La Condamine in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-CO-Subdivision ;
+	lcc-lr:hasTag "MC-CO" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-CO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-CO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Condamine"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of La Condamine in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "La Condamine"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-FO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-FO-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-FO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-FO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Fontvieille in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-FO-Subdivision ;
+	lcc-lr:hasTag "MC-FO" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-FO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-FO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fontvieille"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Fontvieille in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Fontvieille"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of La Gare in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-GA-Subdivision ;
+	lcc-lr:hasTag "MC-GA" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Gare"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of La Gare in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "La Gare"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-JE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-JE-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-JE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-JE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Jardin Exotique in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-JE-Subdivision ;
+	lcc-lr:hasTag "MC-JE" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-JE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-JE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jardin Exotique"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Jardin Exotique in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Jardin Exotique"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-LA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-LA-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-LA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Larvotto in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-LA-Subdivision ;
+	lcc-lr:hasTag "MC-LA" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-LA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-LA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Larvotto"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Larvotto in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Larvotto"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-MA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MA-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-MA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Malbousquet in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-MA-Subdivision ;
+	lcc-lr:hasTag "MC-MA" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-MA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-MA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Malbousquet"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Malbousquet in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Malbousquet"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-MC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MC-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-MC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Monte-Carlo in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-MC-Subdivision ;
+	lcc-lr:hasTag "MC-MC" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-MC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-MC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monte-Carlo"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Monte-Carlo in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Monte-Carlo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-MG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MG-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-MG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-MG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Moneghetti in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-MG-Subdivision ;
+	lcc-lr:hasTag "MC-MG" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-MG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-MG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moneghetti"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Moneghetti in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Moneghetti"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-MO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MO-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-MO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Monaco-Ville in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-MO-Subdivision ;
+	lcc-lr:hasTag "MC-MO" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-MO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-MO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monaco-Ville"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Monaco-Ville in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Monaco-Ville"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-MU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MU-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-MU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Moulins in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-MU-Subdivision ;
+	lcc-lr:hasTag "MC-MU" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-MU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-MU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moulins"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Moulins in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Moulins"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-PH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-PH-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-PH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-PH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Port-Hercule in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-PH-Subdivision ;
+	lcc-lr:hasTag "MC-PH" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-PH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-PH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Port-Hercule"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Port-Hercule in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Port-Hercule"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-SD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SD-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-SD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Sainte-Dévote in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-SD-Subdivision ;
+	lcc-lr:hasTag "MC-SD" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-SD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-SD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sainte-Dévote"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Sainte-Dévote in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Sainte-Dévote"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-SO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SO-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-SO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of La Source in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-SO-Subdivision ;
+	lcc-lr:hasTag "MC-SO" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-SO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-SO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Source"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of La Source in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "La Source"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-SP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SP-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-SP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-SP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Spélugues in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-SP-Subdivision ;
+	lcc-lr:hasTag "MC-SP" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-SP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-SP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Spélugues"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Spélugues in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Spélugues"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-SR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SR-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-SR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-SR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Saint-Roman in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-SR-Subdivision ;
+	lcc-lr:hasTag "MC-SR" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-SR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-SR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint-Roman"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Saint-Roman in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Saint-Roman"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:MC-VR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-VR-RegionIdentifier ;
+	.
+
+lcc-3166-2-mc:MC-VR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MC-VR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "subdivision code for the quartier of Vallon de la Rousse in the country of Monaco" ;
+	lcc-lr:denotes lcc-3166-2-mc:MC-VR-Subdivision ;
+	lcc-lr:hasTag "MC-VR" ;
+	lcc-lr:identifies lcc-3166-2-mc:MC-VR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mc:MC-VR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vallon de la Rousse"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/> ;
+	skos:definition "the quartier of Vallon de la Rousse in the country of Monaco" ;
+	lcc-cr:hasFrenchShortName "Vallon de la Rousse"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mc:MC-212-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-2-mc:Malbousquet
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MA-Subdivision ;
+	.
+
+lcc-3166-2-mc:Monaco-Ville
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MO-Subdivision ;
+	.
+
+lcc-3166-2-mc:Moneghetti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MG-Subdivision ;
+	.
+
+lcc-3166-2-mc:Monte-Carlo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MC-Subdivision ;
+	.
+
+lcc-3166-2-mc:Moulins
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-MU-Subdivision ;
+	.
+
+lcc-3166-2-mc:Port-Hercule
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-PH-Subdivision ;
+	.
+
+lcc-3166-2-mc:Quartier
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-212-RegionKind ;
+	.
+
+lcc-3166-2-mc:Saint-Roman
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SR-Subdivision ;
+	.
+
+lcc-3166-2-mc:Sainte-Devote
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SD-Subdivision ;
+	.
+
+lcc-3166-2-mc:Spelugues
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-SP-Subdivision ;
+	.
+
+lcc-3166-2-mc:VallonDeLaRousse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mc:MC-VR-Subdivision ;
+	.
+

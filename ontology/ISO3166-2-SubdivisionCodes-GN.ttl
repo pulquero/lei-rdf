@@ -1,0 +1,1601 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Guinea Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Guinea, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	.
+
+lcc-3166-2-gn:Beyla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-BE-Subdivision ;
+	.
+
+lcc-3166-2-gn:Boffa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-BF-Subdivision ;
+	.
+
+lcc-3166-2-gn:Boke
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-gn:GN-B-Subdivision ,
+		lcc-3166-2-gn:GN-BK-Subdivision
+		;
+	.
+
+lcc-3166-2-gn:Conakry
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-C-Subdivision ;
+	.
+
+lcc-3166-2-gn:Coyah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-CO-Subdivision ;
+	.
+
+lcc-3166-2-gn:Dabola
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DB-Subdivision ;
+	.
+
+lcc-3166-2-gn:Dalaba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DL-Subdivision ;
+	.
+
+lcc-3166-2-gn:Dinguiraye
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DI-Subdivision ;
+	.
+
+lcc-3166-2-gn:Dubreka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DU-Subdivision ;
+	.
+
+lcc-3166-2-gn:Faranah
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-gn:GN-F-Subdivision ,
+		lcc-3166-2-gn:GN-FA-Subdivision
+		;
+	.
+
+lcc-3166-2-gn:Forecariah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-FO-Subdivision ;
+	.
+
+lcc-3166-2-gn:Fria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-FR-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-184-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "gouvernorat"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision category gouvernorat in the country of Guinea" ;
+	.
+
+lcc-3166-2-gn:GN-346-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "région administrative"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision category région administrative in the country of Guinea" ;
+	.
+
+lcc-3166-2-gn:GN-415-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "préfecture"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision category préfecture in the country of Guinea" ;
+	.
+
+lcc-3166-2-gn:GN-B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-B-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the région administrative of Boké in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-B-Subdivision ;
+	lcc-lr:hasTag "GN-B" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boké"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the région administrative of Boké in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Boké"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-346-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-BE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-BE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-BE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Beyla in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-BE-Subdivision ;
+	lcc-lr:hasTag "GN-BE" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-BE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-BE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Beyla"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Beyla in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Beyla"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-N-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-BF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-BF-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-BF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-BF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Boffa in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-BF-Subdivision ;
+	lcc-lr:hasTag "GN-BF" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-BF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-BF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boffa"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Boffa in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Boffa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-B-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-BK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-BK-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-BK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-BK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Boké in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-BK-Subdivision ;
+	lcc-lr:hasTag "GN-BK" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-BK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-BK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boké"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Boké in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Boké"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-B-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the gouvernorat of Conakry in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-C-Subdivision ;
+	lcc-lr:hasTag "GN-C" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Conakry"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the gouvernorat of Conakry in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Conakry"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-184-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-CO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-CO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-CO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Coyah in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-CO-Subdivision ;
+	lcc-lr:hasTag "GN-CO" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-CO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-CO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Coyah"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Coyah in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Coyah"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-D-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-D
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-D-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-D-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the région administrative of Kindia in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-D-Subdivision ;
+	lcc-lr:hasTag "GN-D" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-D-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-D-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kindia"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the région administrative of Kindia in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Kindia"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-346-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-DB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DB-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-DB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-DB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Dabola in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-DB-Subdivision ;
+	lcc-lr:hasTag "GN-DB" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-DB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-DB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dabola"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Dabola in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Dabola"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-F-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-DI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DI-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-DI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-DI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Dinguiraye in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-DI-Subdivision ;
+	lcc-lr:hasTag "GN-DI" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-DI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-DI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dinguiraye"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Dinguiraye in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Dinguiraye"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-F-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-DL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DL-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-DL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-DL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Dalaba in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-DL-Subdivision ;
+	lcc-lr:hasTag "GN-DL" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-DL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-DL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dalaba"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Dalaba in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Dalaba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-M-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-DU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-DU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-DU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-DU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Dubréka in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-DU-Subdivision ;
+	lcc-lr:hasTag "GN-DU" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-DU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-DU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dubréka"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Dubréka in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Dubréka"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-D-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-F
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-F-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-F-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the région administrative of Faranah in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-F-Subdivision ;
+	lcc-lr:hasTag "GN-F" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-F-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-F-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Faranah"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the région administrative of Faranah in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Faranah"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-346-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-FA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-FA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-FA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-FA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Faranah in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-FA-Subdivision ;
+	lcc-lr:hasTag "GN-FA" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-FA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-FA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Faranah"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Faranah in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Faranah"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-F-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-FO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-FO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-FO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-FO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Forécariah in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-FO-Subdivision ;
+	lcc-lr:hasTag "GN-FO" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-FO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-FO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Forécariah"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Forécariah in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Forécariah"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-D-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-FR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-FR-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-FR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-FR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Fria in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-FR-Subdivision ;
+	lcc-lr:hasTag "GN-FR" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-FR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-FR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fria"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Fria in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Fria"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-B-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Gaoual in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-GA-Subdivision ;
+	lcc-lr:hasTag "GN-GA" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gaoual"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Gaoual in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Gaoual"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-B-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-GU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-GU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-GU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-GU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Guékédou in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-GU-Subdivision ;
+	lcc-lr:hasTag "GN-GU" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-GU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-GU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guékédou"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Guékédou in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Guékédou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-N-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-K
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-K-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-K-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-K" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the région administrative of Kankan in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-K-Subdivision ;
+	lcc-lr:hasTag "GN-K" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-K-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-K-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kankan"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the région administrative of Kankan in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Kankan"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-346-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-KA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-KA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Kankan in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-KA-Subdivision ;
+	lcc-lr:hasTag "GN-KA" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-KA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-KA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kankan"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Kankan in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Kankan"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-K-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-KB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KB-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-KB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-KB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Koubia in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-KB-Subdivision ;
+	lcc-lr:hasTag "GN-KB" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-KB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-KB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Koubia"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Koubia in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Koubia"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-L-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-KD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KD-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-KD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-KD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Kindia in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-KD-Subdivision ;
+	lcc-lr:hasTag "GN-KD" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-KD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-KD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kindia"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Kindia in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Kindia"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-D-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-KE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-KE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-KE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Kérouané in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-KE-Subdivision ;
+	lcc-lr:hasTag "GN-KE" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-KE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-KE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kérouané"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Kérouané in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Kérouané"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-K-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-KN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KN-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-KN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-KN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Koundara in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-KN-Subdivision ;
+	lcc-lr:hasTag "GN-KN" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-KN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-KN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Koundara"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Koundara in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Koundara"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-B-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-KO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-KO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-KO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Kouroussa in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-KO-Subdivision ;
+	lcc-lr:hasTag "GN-KO" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-KO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-KO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kouroussa"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Kouroussa in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Kouroussa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-K-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-KS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KS-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-KS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-KS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Kissidougou in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-KS-Subdivision ;
+	lcc-lr:hasTag "GN-KS" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-KS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-KS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kissidougou"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Kissidougou in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Kissidougou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-F-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the région administrative of Labé in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-L-Subdivision ;
+	lcc-lr:hasTag "GN-L" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Labé"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the région administrative of Labé in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Labé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-346-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-LA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-LA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-LA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Labé in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-LA-Subdivision ;
+	lcc-lr:hasTag "GN-LA" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-LA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-LA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Labé"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Labé in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Labé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-L-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-LE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-LE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-LE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-LE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Lélouma in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-LE-Subdivision ;
+	lcc-lr:hasTag "GN-LE" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-LE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-LE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lélouma"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Lélouma in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Lélouma"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-L-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-LO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-LO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-LO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Lola in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-LO-Subdivision ;
+	lcc-lr:hasTag "GN-LO" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-LO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-LO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lola"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Lola in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Lola"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-N-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-M
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-M-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-M-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the région administrative of Mamou in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-M-Subdivision ;
+	lcc-lr:hasTag "GN-M" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-M-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-M-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mamou"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the région administrative of Mamou in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Mamou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-346-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-MC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-MC-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-MC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Macenta in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-MC-Subdivision ;
+	lcc-lr:hasTag "GN-MC" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-MC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-MC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Macenta"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Macenta in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Macenta"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-N-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-MD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-MD-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-MD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-MD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Mandiana in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-MD-Subdivision ;
+	lcc-lr:hasTag "GN-MD" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-MD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-MD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mandiana"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Mandiana in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Mandiana"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-K-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-ML
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-ML-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-ML-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-ML" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Mali in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-ML-Subdivision ;
+	lcc-lr:hasTag "GN-ML" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-ML-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-ML-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mali"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Mali in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Mali"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-L-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-MM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-MM-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-MM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-MM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Mamou in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-MM-Subdivision ;
+	lcc-lr:hasTag "GN-MM" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-MM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-MM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mamou"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Mamou in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Mamou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-M-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-N
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-N-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-N-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the région administrative of Nzérékoré in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-N-Subdivision ;
+	lcc-lr:hasTag "GN-N" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-N-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-N-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nzérékoré"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the région administrative of Nzérékoré in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Nzérékoré"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-346-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-2-gn:GN-NZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-NZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-NZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-NZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Nzérékoré in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-NZ-Subdivision ;
+	lcc-lr:hasTag "GN-NZ" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-NZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-NZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nzérékoré"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Nzérékoré in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Nzérékoré"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-N-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-PI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-PI-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-PI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-PI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Pita in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-PI-Subdivision ;
+	lcc-lr:hasTag "GN-PI" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-PI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-PI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pita"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Pita in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Pita"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-M-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-SI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-SI-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-SI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-SI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Siguiri in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-SI-Subdivision ;
+	lcc-lr:hasTag "GN-SI" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-SI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-SI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siguiri"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Siguiri in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Siguiri"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-K-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-TE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-TE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-TE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-TE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Télimélé in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-TE-Subdivision ;
+	lcc-lr:hasTag "GN-TE" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-TE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-TE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Télimélé"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Télimélé in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Télimélé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-D-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-TO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-TO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-TO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Tougué in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-TO-Subdivision ;
+	lcc-lr:hasTag "GN-TO" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-TO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-TO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tougué"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Tougué in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Tougué"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-L-Subdivision ;
+	.
+
+lcc-3166-2-gn:GN-YO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-YO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gn:GN-YO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GN-YO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "subdivision code for the préfecture of Yomou in the country of Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gn:GN-YO-Subdivision ;
+	lcc-lr:hasTag "GN-YO" ;
+	lcc-lr:identifies lcc-3166-2-gn:GN-YO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gn:GN-YO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yomou"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GN/> ;
+	skos:definition "the préfecture of Yomou in the country of Guinea" ;
+	lcc-cr:hasFrenchShortName "Yomou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gn:GN-415-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gn:GN-N-Subdivision ;
+	.
+
+lcc-3166-2-gn:Gaoual
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-GA-Subdivision ;
+	.
+
+lcc-3166-2-gn:Gouvernorat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-184-RegionKind ;
+	.
+
+lcc-3166-2-gn:Guekedou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-GU-Subdivision ;
+	.
+
+lcc-3166-2-gn:Kankan
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-gn:GN-K-Subdivision ,
+		lcc-3166-2-gn:GN-KA-Subdivision
+		;
+	.
+
+lcc-3166-2-gn:Kerouane
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KE-Subdivision ;
+	.
+
+lcc-3166-2-gn:Kindia
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-gn:GN-D-Subdivision ,
+		lcc-3166-2-gn:GN-KD-Subdivision
+		;
+	.
+
+lcc-3166-2-gn:Kissidougou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KS-Subdivision ;
+	.
+
+lcc-3166-2-gn:Koubia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KB-Subdivision ;
+	.
+
+lcc-3166-2-gn:Koundara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KN-Subdivision ;
+	.
+
+lcc-3166-2-gn:Kouroussa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-KO-Subdivision ;
+	.
+
+lcc-3166-2-gn:Labe
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-gn:GN-L-Subdivision ,
+		lcc-3166-2-gn:GN-LA-Subdivision
+		;
+	.
+
+lcc-3166-2-gn:Lelouma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-LE-Subdivision ;
+	.
+
+lcc-3166-2-gn:Lola
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-LO-Subdivision ;
+	.
+
+lcc-3166-2-gn:Macenta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-MC-Subdivision ;
+	.
+
+lcc-3166-2-gn:Mali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-ML-Subdivision ;
+	.
+
+lcc-3166-2-gn:Mamou
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-gn:GN-M-Subdivision ,
+		lcc-3166-2-gn:GN-MM-Subdivision
+		;
+	.
+
+lcc-3166-2-gn:Mandiana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-MD-Subdivision ;
+	.
+
+lcc-3166-2-gn:Nzerekore
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-gn:GN-N-Subdivision ,
+		lcc-3166-2-gn:GN-NZ-Subdivision
+		;
+	.
+
+lcc-3166-2-gn:Pita
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-PI-Subdivision ;
+	.
+
+lcc-3166-2-gn:Prefecture
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-415-RegionKind ;
+	.
+
+lcc-3166-2-gn:RegionAdministrative
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-346-RegionKind ;
+	.
+
+lcc-3166-2-gn:Siguiri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-SI-Subdivision ;
+	.
+
+lcc-3166-2-gn:Telimele
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-TE-Subdivision ;
+	.
+
+lcc-3166-2-gn:Tougue
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-TO-Subdivision ;
+	.
+
+lcc-3166-2-gn:Yomou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gn:GN-YO-Subdivision ;
+	.
+

@@ -1,0 +1,74 @@
+# imports: https://www.omg.org/spec/LCC/AboutLCC/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-639-1: <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> .
+@prefix lcc-639-2: <https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-cty: <https://www.omg.org/spec/LCC/Countries/AboutCountries/> .
+@prefix lcc-lng: <https://www.omg.org/spec/LCC/Languages/AboutLanguages/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix lcc-m49: <https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> .
+@prefix lcc-spc: <https://www.omg.org/spec/LCC/AboutLCC/> .
+@prefix lcc-spc-1.2: <https://www.omg.org/spec/LCC/1.2/AboutLCC-1.2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/1.2/AboutLCC-1.2/>
+	a owl:Ontology ;
+	rdfs:label "About the Languages, Countries and Codes (LCC) Specification Version 1.2" ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive, Inc." ,
+		"Copyright (c) 2015-2020 agnos.ai UK Ltd." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC"
+		;
+	sm:fileAbbreviation "lcc-spc-1.2" ;
+	sm:filename "AboutLCC-1.2.rdf" ;
+	sm:publicationDate "2021-11-08T18:00:00"^^xsd:dateTime ;
+	owl:imports
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/AboutLCC-1.2/> ;
+	skos:changeNote "The https://www.omg.org/spec/LCC/20190201/AboutLCC-1.2/ version of this ontology was revised to incorporate the changes required by the LCC 1.2 RTF report." ;
+	.
+
+lcc-spc-1.2:LCCSpecification-1.2
+	a
+		owl:NamedIndividual ,
+		sm:SpecificationVersion
+		;
+	rdfs:label "Languages, Countries and Codes (LCC) Specification Version 1.2" ;
+	sm:addressForComments "http://www.omg.org/issues/"^^xsd:anyURI ;
+	sm:isVersionOf lcc-spc:LCCSpecification ;
+	sm:publicationDate "2021-11-08T18:00:00"^^xsd:dateTime ;
+	sm:specificationVersionStatus "Formal Specification" ;
+	sm:specificationVersionURL "https://www.omg.org/spec/LCC/1.2/"^^xsd:anyURI ;
+	skos:definition "metadata for the Languages, Countries and Codes (LCC) Version 1.2 Specification" ;
+	skos:historyNote """Revisions to the Languages, Countries and Codes (LCC) Specification and related ontologies are managed per the process outlined in the Policies and Procedures for OMG standards, with the intent to maintain backwards compatibility in the ontologies to the degree possible.  It is anticipated that there will be revisions from time to time of the individuals represented herein as the ISO specifications themselves evolve.
+  
+The RDF/XML serialized OWL for the Foundations ODM/OWL ontologies have been checked for syntactic errors and logical consistency with Protege 5 (http://protege.stanford.edu/), HermiT 1.4.3 (http://www.hermit-reasoner.com/), Pellet 2.3 (https://github.com/stardog-union/pellet), and via the Stardog and RDFox knowlege graph applications.""" ;
+	.
+

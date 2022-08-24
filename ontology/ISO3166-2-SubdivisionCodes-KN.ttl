@@ -1,0 +1,693 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-kn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Saint Kitts and Nevis Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-kn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Saint Kitts and Nevis, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	.
+
+lcc-3166-2-kn:ChristChurchNicholaTown
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-01-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Christ Church Nichola Town in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-01-Subdivision ;
+	lcc-lr:hasTag "KN-01" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Christ Church Nichola Town"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Christ Church Nichola Town in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Christ Church Nichola Town"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint Anne Sandy Point in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-02-Subdivision ;
+	lcc-lr:hasTag "KN-02" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Anne Sandy Point"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint Anne Sandy Point in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Anne Sandy Point"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint George Basseterre in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-03-Subdivision ;
+	lcc-lr:hasTag "KN-03" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint George Basseterre"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint George Basseterre in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint George Basseterre"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint George Gingerland in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-04-Subdivision ;
+	lcc-lr:hasTag "KN-04" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint George Gingerland"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint George Gingerland in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint George Gingerland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-N-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint James Windward in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-05-Subdivision ;
+	lcc-lr:hasTag "KN-05" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint James Windward"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint James Windward in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint James Windward"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-N-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint John Capisterre in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-06-Subdivision ;
+	lcc-lr:hasTag "KN-06" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint John Capisterre"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint John Capisterre in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint John Capisterre"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint John Figtree in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-07-Subdivision ;
+	lcc-lr:hasTag "KN-07" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint John Figtree"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint John Figtree in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint John Figtree"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-N-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint Mary Cayon in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-08-Subdivision ;
+	lcc-lr:hasTag "KN-08" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Mary Cayon"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint Mary Cayon in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Mary Cayon"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint Paul Capisterre in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-09-Subdivision ;
+	lcc-lr:hasTag "KN-09" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Paul Capisterre"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint Paul Capisterre in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Paul Capisterre"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint Paul Charlestown in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-10-Subdivision ;
+	lcc-lr:hasTag "KN-10" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Paul Charlestown"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint Paul Charlestown in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Paul Charlestown"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-N-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint Peter Basseterre in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-11-Subdivision ;
+	lcc-lr:hasTag "KN-11" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Peter Basseterre"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint Peter Basseterre in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Peter Basseterre"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-1137-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Nevis *"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the territory of Nevis * in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Nevis *"@en ;
+	lcc-cr:hasFrenchShortName "Niévès*"@fr ;
+	lcc-cr:hasNumericRegionCode "1137" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintKittsAndNevis ;
+	.
+
+lcc-3166-2-kn:KN-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint Thomas Lowland in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-12-Subdivision ;
+	lcc-lr:hasTag "KN-12" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Thomas Lowland"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint Thomas Lowland in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Thomas Lowland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-N-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Saint Thomas Middle Island in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-13-Subdivision ;
+	lcc-lr:hasTag "KN-13" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Thomas Middle Island"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Saint Thomas Middle Island in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Thomas Middle Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the parish of Trinity Palmetto Point in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-15-Subdivision ;
+	lcc-lr:hasTag "KN-15" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trinity Palmetto Point"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the parish of Trinity Palmetto Point in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Trinity Palmetto Point"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-375-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:KN-375-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "parish"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision category parish in the country of Saint Kitts and Nevis" ;
+	.
+
+lcc-3166-2-kn:KN-432-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision category state in the country of Saint Kitts and Nevis" ;
+	.
+
+lcc-3166-2-kn:KN-K
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-K-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-K-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-K" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the state of Saint Kitts in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-K-Subdivision ;
+	lcc-lr:hasTag "KN-K" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-K-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-K-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Kitts"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the state of Saint Kitts in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Saint Kitts"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-432-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintKittsAndNevis ;
+	.
+
+lcc-3166-2-kn:KN-N
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-N-RegionIdentifier ;
+	.
+
+lcc-3166-2-kn:KN-N-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KN-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "subdivision code for the state of Nevis in the country of Saint Kitts and Nevis" ;
+	lcc-lr:denotes lcc-3166-2-kn:KN-N-Subdivision ;
+	lcc-lr:hasTag "KN-N" ;
+	lcc-lr:identifies lcc-3166-2-kn:KN-N-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kn:KN-N-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nevis"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN/> ;
+	skos:definition "the state of Nevis in the country of Saint Kitts and Nevis" ;
+	lcc-cr:hasEnglishShortName "Nevis"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kn:KN-432-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintKittsAndNevis ;
+	.
+
+lcc-3166-2-kn:Nevis
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-kn:KN-1137-Territory ,
+		lcc-3166-2-kn:KN-N-Subdivision
+		;
+	.
+
+lcc-3166-2-kn:Parish
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-375-RegionKind ;
+	.
+
+lcc-3166-2-kn:SaintAnneSandyPoint
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-02-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintGeorgeBasseterre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-03-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintGeorgeGingerland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-04-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintJamesWindward
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-05-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintJohnCapisterre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-06-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintJohnFigtree
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-07-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintKitts
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-K-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintMaryCayon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-08-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintPaulCapisterre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-09-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintPaulCharlestown
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-10-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintPeterBasseterre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-11-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintThomasLowland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-12-Subdivision ;
+	.
+
+lcc-3166-2-kn:SaintThomasMiddleIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-13-Subdivision ;
+	.
+
+lcc-3166-2-kn:State
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-432-RegionKind ;
+	.
+
+lcc-3166-2-kn:TrinityPalmettoPoint
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kn:KN-15-Subdivision ;
+	.
+

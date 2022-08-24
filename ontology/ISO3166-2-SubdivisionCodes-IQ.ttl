@@ -1,0 +1,752 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-iq: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Iraq Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-iq" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Iraq, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IQ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	.
+
+lcc-3166-2-iq:AlAnbar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-AN-Subdivision ;
+	.
+
+lcc-3166-2-iq:AlBasrah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-BA-Subdivision ;
+	.
+
+lcc-3166-2-iq:AlMuthanna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-MU-Subdivision ;
+	.
+
+lcc-3166-2-iq:AlQadisiyah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-QA-Subdivision ;
+	.
+
+lcc-3166-2-iq:AnNajaf
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-NA-Subdivision ;
+	.
+
+lcc-3166-2-iq:Arbil
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-AR-Subdivision ;
+	.
+
+lcc-3166-2-iq:AsSulaymaniyah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-SU-Subdivision ;
+	.
+
+lcc-3166-2-iq:Babil
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-BB-Subdivision ;
+	.
+
+lcc-3166-2-iq:Baghdad
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-BG-Subdivision ;
+	.
+
+lcc-3166-2-iq:Dahuk
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-DA-Subdivision ;
+	.
+
+lcc-3166-2-iq:DhiQar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-DQ-Subdivision ;
+	.
+
+lcc-3166-2-iq:Diyala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-DI-Subdivision ;
+	.
+
+lcc-3166-2-iq:IQ-160-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "muḩāfaz̧ah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision category muḩāfaz̧ah in the country of Iraq" ;
+	.
+
+lcc-3166-2-iq:IQ-AN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-AN-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-AN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Al Anbār in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-AN-Subdivision ;
+	lcc-lr:hasTag "IQ-AN" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-AN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-AN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Anbār"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Al Anbār in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Anbār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-AR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-AR-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-AR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Arbīl in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-AR-Subdivision ;
+	lcc-lr:hasTag "IQ-AR" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-AR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-AR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Arbīl"@ar ,
+		"Hewlêr"@ku
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Arbīl in the country of Iraq" ;
+	lcc-cr:hasLocalShortName
+		"Arbīl"@ar ,
+		"Hewlêr"@ku
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Al Başrah in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-BA-Subdivision ;
+	lcc-lr:hasTag "IQ-BA" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Başrah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Al Başrah in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Başrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-BB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-BB-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-BB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-BB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Bābil in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-BB-Subdivision ;
+	lcc-lr:hasTag "IQ-BB" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-BB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-BB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bābil"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Bābil in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Bābil"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-BG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-BG-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-BG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-BG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Baghdād in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-BG-Subdivision ;
+	lcc-lr:hasTag "IQ-BG" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-BG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-BG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baghdād"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Baghdād in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Baghdād"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-DA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-DA-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-DA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-DA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Dahūk in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-DA-Subdivision ;
+	lcc-lr:hasTag "IQ-DA" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-DA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-DA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Dahūk"@ar ,
+		"Dihok"@ku
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Dahūk in the country of Iraq" ;
+	lcc-cr:hasLocalShortName
+		"Dahūk"@ar ,
+		"Dihok"@ku
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-DI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-DI-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-DI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-DI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Diyālá in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-DI-Subdivision ;
+	lcc-lr:hasTag "IQ-DI" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-DI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-DI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Diyālá"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Diyālá in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Diyālá"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-DQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-DQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-DQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-DQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Dhī Qār in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-DQ-Subdivision ;
+	lcc-lr:hasTag "IQ-DQ" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-DQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-DQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dhī Qār"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Dhī Qār in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Dhī Qār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-KA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-KA-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-KA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Karbalā’ in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-KA-Subdivision ;
+	lcc-lr:hasTag "IQ-KA" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-KA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-KA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karbalā’"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Karbalā’ in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Karbalā’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-KI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-KI-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-KI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-KI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Kirkūk in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-KI-Subdivision ;
+	lcc-lr:hasTag "IQ-KI" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-KI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-KI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kirkūk"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Kirkūk in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Kirkūk"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-MA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-MA-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-MA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Maysān in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-MA-Subdivision ;
+	lcc-lr:hasTag "IQ-MA" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-MA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-MA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maysān"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Maysān in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Maysān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-MU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-MU-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-MU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Al Muthanná in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-MU-Subdivision ;
+	lcc-lr:hasTag "IQ-MU" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-MU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-MU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Muthanná"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Al Muthanná in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Muthanná"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-NA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-NA-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-NA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of An Najaf in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-NA-Subdivision ;
+	lcc-lr:hasTag "IQ-NA" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-NA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-NA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "An Najaf"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of An Najaf in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "An Najaf"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-NI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-NI-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-NI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Nīnawá in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-NI-Subdivision ;
+	lcc-lr:hasTag "IQ-NI" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-NI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-NI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nīnawá"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Nīnawá in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Nīnawá"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-QA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-QA-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-QA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-QA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Al Qādisīyah in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-QA-Subdivision ;
+	lcc-lr:hasTag "IQ-QA" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-QA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-QA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Qādisīyah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Al Qādisīyah in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Qādisīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-SD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-SD-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-SD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Şalāḩ ad Dīn in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-SD-Subdivision ;
+	lcc-lr:hasTag "IQ-SD" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-SD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-SD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şalāḩ ad Dīn"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Şalāḩ ad Dīn in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Şalāḩ ad Dīn"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-SU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-SU-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-SU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of As Sulaymānīyah in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-SU-Subdivision ;
+	lcc-lr:hasTag "IQ-SU" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-SU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-SU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"As Sulaymānīyah"@ar ,
+		"Slêmanî"@ku
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of As Sulaymānīyah in the country of Iraq" ;
+	lcc-cr:hasLocalShortName
+		"As Sulaymānīyah"@ar ,
+		"Slêmanî"@ku
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-WA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-WA-RegionIdentifier ;
+	.
+
+lcc-3166-2-iq:IQ-WA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the muḩāfaz̧ah of Wāsiţ in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:IQ-WA-Subdivision ;
+	lcc-lr:hasTag "IQ-WA" ;
+	lcc-lr:identifies lcc-3166-2-iq:IQ-WA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-WA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wāsiţ"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "the muḩāfaz̧ah of Wāsiţ in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Wāsiţ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:IQ-160-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Karbala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-KA-Subdivision ;
+	.
+
+lcc-3166-2-iq:Kirkuk
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-KI-Subdivision ;
+	.
+
+lcc-3166-2-iq:Maysan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-MA-Subdivision ;
+	.
+
+lcc-3166-2-iq:Muhafazah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-160-RegionKind ;
+	.
+
+lcc-3166-2-iq:Ninawa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-NI-Subdivision ;
+	.
+
+lcc-3166-2-iq:SalahAdDin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-SD-Subdivision ;
+	.
+
+lcc-3166-2-iq:Wasit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-iq:IQ-WA-Subdivision ;
+	.
+

@@ -1,0 +1,542 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ge: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Georgia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ge" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Georgia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	.
+
+lcc-3166-2-ge:Abkhazia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-AB-Subdivision ;
+	.
+
+lcc-3166-2-ge:Ajaria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-AJ-Subdivision ;
+	.
+
+lcc-3166-2-ge:AvtonomiuriRespublika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-299-RegionKind ;
+	.
+
+lcc-3166-2-ge:GE-201-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "mkhare"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision category mkhare in the country of Georgia" ;
+	.
+
+lcc-3166-2-ge:GE-299-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "avt'onomiuri resp'ublik'a"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision category avt'onomiuri resp'ublik'a in the country of Georgia" ;
+	.
+
+lcc-3166-2-ge:GE-314-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "kalaki"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision category kalaki in the country of Georgia" ;
+	.
+
+lcc-3166-2-ge:GE-AB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-AB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-AB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the avt'onomiuri resp'ublik'a of Abkhazia in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-AB-Subdivision ;
+	lcc-lr:hasTag "GE-AB" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-AB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-AB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abkhazia"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the avt'onomiuri resp'ublik'a of Abkhazia in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Abkhazia"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-299-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-AJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-AJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-AJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-AJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the avt'onomiuri resp'ublik'a of Ajaria in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-AJ-Subdivision ;
+	lcc-lr:hasTag "GE-AJ" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-AJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-AJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ajaria"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the avt'onomiuri resp'ublik'a of Ajaria in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Ajaria"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-299-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-GU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-GU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-GU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-GU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Guria in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-GU-Subdivision ;
+	lcc-lr:hasTag "GE-GU" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-GU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-GU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guria"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Guria in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Guria"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-IM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-IM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-IM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-IM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Imereti in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-IM-Subdivision ;
+	lcc-lr:hasTag "GE-IM" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-IM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-IM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Imereti"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Imereti in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Imereti"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-KA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-KA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-KA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of K'akheti in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-KA-Subdivision ;
+	lcc-lr:hasTag "GE-KA" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-KA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-KA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "K'akheti"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of K'akheti in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "K'akheti"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-KK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-KK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-KK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-KK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Kvemo Kartli in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-KK-Subdivision ;
+	lcc-lr:hasTag "GE-KK" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-KK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-KK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kvemo Kartli"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Kvemo Kartli in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Kvemo Kartli"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-MM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-MM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-MM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-MM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Mtskheta-Mtianeti in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-MM-Subdivision ;
+	lcc-lr:hasTag "GE-MM" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-MM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-MM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mtskheta-Mtianeti"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Mtskheta-Mtianeti in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Mtskheta-Mtianeti"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-RL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-RL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-RL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-RL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Rach'a-Lechkhumi-Kvemo Svaneti in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-RL-Subdivision ;
+	lcc-lr:hasTag "GE-RL" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-RL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-RL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rach'a-Lechkhumi-Kvemo Svaneti"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Rach'a-Lechkhumi-Kvemo Svaneti in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Rach'a-Lechkhumi-Kvemo Svaneti"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-SJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-SJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-SJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-SJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Samtskhe-Javakheti in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-SJ-Subdivision ;
+	lcc-lr:hasTag "GE-SJ" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-SJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-SJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samtskhe-Javakheti"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Samtskhe-Javakheti in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Samtskhe-Javakheti"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-SK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-SK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-SK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-SK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Shida Kartli in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-SK-Subdivision ;
+	lcc-lr:hasTag "GE-SK" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-SK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-SK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shida Kartli"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Shida Kartli in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Shida Kartli"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-SZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-SZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-SZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-SZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the mkhare of Samegrelo-Zemo Svaneti in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-SZ-Subdivision ;
+	lcc-lr:hasTag "GE-SZ" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-SZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-SZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samegrelo-Zemo Svaneti"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the mkhare of Samegrelo-Zemo Svaneti in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Samegrelo-Zemo Svaneti"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-201-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:GE-TB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-TB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ge:GE-TB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GE-TB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "subdivision code for the kalaki of Tbilisi in the country of Georgia" ;
+	lcc-lr:denotes lcc-3166-2-ge:GE-TB-Subdivision ;
+	lcc-lr:hasTag "GE-TB" ;
+	lcc-lr:identifies lcc-3166-2-ge:GE-TB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ge:GE-TB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tbilisi"@ka ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GE/> ;
+	skos:definition "the kalaki of Tbilisi in the country of Georgia" ;
+	lcc-cr:hasLocalShortName "Tbilisi"@ka ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ge:GE-314-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-2-ge:Guria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-GU-Subdivision ;
+	.
+
+lcc-3166-2-ge:Imereti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-IM-Subdivision ;
+	.
+
+lcc-3166-2-ge:Kakheti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-KA-Subdivision ;
+	.
+
+lcc-3166-2-ge:Kalaki
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-314-RegionKind ;
+	.
+
+lcc-3166-2-ge:KvemoKartli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-KK-Subdivision ;
+	.
+
+lcc-3166-2-ge:Mkhare
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-201-RegionKind ;
+	.
+
+lcc-3166-2-ge:Mtskheta-Mtianeti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-MM-Subdivision ;
+	.
+
+lcc-3166-2-ge:Racha-Lechkhumi-KvemoSvaneti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-RL-Subdivision ;
+	.
+
+lcc-3166-2-ge:Samegrelo-ZemoSvaneti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-SZ-Subdivision ;
+	.
+
+lcc-3166-2-ge:Samtskhe-Javakheti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-SJ-Subdivision ;
+	.
+
+lcc-3166-2-ge:ShidaKartli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-SK-Subdivision ;
+	.
+
+lcc-3166-2-ge:Tbilisi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ge:GE-TB-Subdivision ;
+	.
+

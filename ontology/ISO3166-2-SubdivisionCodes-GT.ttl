@@ -1,0 +1,882 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gt: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Guatemala Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gt" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Guatemala, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	.
+
+lcc-3166-2-gt:AltaVerapaz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-AV-Subdivision ;
+	.
+
+lcc-3166-2-gt:BajaVerapaz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-BV-Subdivision ;
+	.
+
+lcc-3166-2-gt:Chimaltenango
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-CM-Subdivision ;
+	.
+
+lcc-3166-2-gt:Chiquimula
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-CQ-Subdivision ;
+	.
+
+lcc-3166-2-gt:Departamento
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-372-RegionKind ;
+	.
+
+lcc-3166-2-gt:ElProgreso
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-PR-Subdivision ;
+	.
+
+lcc-3166-2-gt:Escuintla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-ES-Subdivision ;
+	.
+
+lcc-3166-2-gt:GT-372-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "departamento"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision category departamento in the country of Guatemala" ;
+	.
+
+lcc-3166-2-gt:GT-AV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-AV-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-AV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-AV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Alta Verapaz in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-AV-Subdivision ;
+	lcc-lr:hasTag "GT-AV" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-AV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-AV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alta Verapaz"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Alta Verapaz in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Alta Verapaz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-BV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-BV-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-BV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-BV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Baja Verapaz in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-BV-Subdivision ;
+	lcc-lr:hasTag "GT-BV" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-BV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-BV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baja Verapaz"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Baja Verapaz in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Baja Verapaz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-CM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-CM-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-CM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-CM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Chimaltenango in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-CM-Subdivision ;
+	lcc-lr:hasTag "GT-CM" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-CM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-CM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chimaltenango"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Chimaltenango in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Chimaltenango"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-CQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-CQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-CQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-CQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Chiquimula in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-CQ-Subdivision ;
+	lcc-lr:hasTag "GT-CQ" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-CQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-CQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiquimula"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Chiquimula in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Chiquimula"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-ES
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-ES-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-ES-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-ES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Escuintla in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-ES-Subdivision ;
+	lcc-lr:hasTag "GT-ES" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-ES-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-ES-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Escuintla"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Escuintla in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Escuintla"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-GU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-GU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-GU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-GU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Guatemala in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-GU-Subdivision ;
+	lcc-lr:hasTag "GT-GU" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-GU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-GU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guatemala"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Guatemala in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Guatemala"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-HU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-HU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-HU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-HU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Huehuetenango in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-HU-Subdivision ;
+	lcc-lr:hasTag "GT-HU" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-HU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-HU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Huehuetenango"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Huehuetenango in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Huehuetenango"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-IZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-IZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-IZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-IZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Izabal in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-IZ-Subdivision ;
+	lcc-lr:hasTag "GT-IZ" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-IZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-IZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Izabal"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Izabal in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Izabal"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-JA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-JA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-JA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Jalapa in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-JA-Subdivision ;
+	lcc-lr:hasTag "GT-JA" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-JA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-JA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jalapa"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Jalapa in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Jalapa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-JU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-JU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-JU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-JU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Jutiapa in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-JU-Subdivision ;
+	lcc-lr:hasTag "GT-JU" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-JU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-JU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jutiapa"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Jutiapa in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Jutiapa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-PE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-PE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-PE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-PE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Petén in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-PE-Subdivision ;
+	lcc-lr:hasTag "GT-PE" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-PE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-PE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Petén"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Petén in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Petén"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-PR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-PR-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-PR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-PR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of El Progreso in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-PR-Subdivision ;
+	lcc-lr:hasTag "GT-PR" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-PR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-PR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Progreso"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of El Progreso in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "El Progreso"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-QC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-QC-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-QC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-QC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Quiché in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-QC-Subdivision ;
+	lcc-lr:hasTag "GT-QC" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-QC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-QC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quiché"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Quiché in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Quiché"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-QZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-QZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-QZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-QZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Quetzaltenango in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-QZ-Subdivision ;
+	lcc-lr:hasTag "GT-QZ" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-QZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-QZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quetzaltenango"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Quetzaltenango in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Quetzaltenango"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-RE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-RE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-RE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-RE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Retalhuleu in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-RE-Subdivision ;
+	lcc-lr:hasTag "GT-RE" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-RE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-RE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Retalhuleu"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Retalhuleu in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Retalhuleu"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Sacatepéquez in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-SA-Subdivision ;
+	lcc-lr:hasTag "GT-SA" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sacatepéquez"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Sacatepéquez in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Sacatepéquez"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-SM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SM-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-SM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of San Marcos in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-SM-Subdivision ;
+	lcc-lr:hasTag "GT-SM" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-SM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-SM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Marcos"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of San Marcos in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "San Marcos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-SO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-SO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Sololá in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-SO-Subdivision ;
+	lcc-lr:hasTag "GT-SO" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-SO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-SO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sololá"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Sololá in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Sololá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-SR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SR-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-SR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-SR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Santa Rosa in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-SR-Subdivision ;
+	lcc-lr:hasTag "GT-SR" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-SR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-SR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Rosa"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Santa Rosa in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Santa Rosa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-SU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-SU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Suchitepéquez in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-SU-Subdivision ;
+	lcc-lr:hasTag "GT-SU" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-SU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-SU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suchitepéquez"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Suchitepéquez in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Suchitepéquez"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-TO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-TO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-TO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Totonicapán in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-TO-Subdivision ;
+	lcc-lr:hasTag "GT-TO" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-TO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-TO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Totonicapán"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Totonicapán in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Totonicapán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:GT-ZA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-ZA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gt:GT-ZA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GT-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "subdivision code for the departamento of Zacapa in the country of Guatemala" ;
+	lcc-lr:denotes lcc-3166-2-gt:GT-ZA-Subdivision ;
+	lcc-lr:hasTag "GT-ZA" ;
+	lcc-lr:identifies lcc-3166-2-gt:GT-ZA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gt:GT-ZA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zacapa"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT/> ;
+	skos:definition "the departamento of Zacapa in the country of Guatemala" ;
+	lcc-cr:hasLocalShortName "Zacapa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gt:GT-372-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-2-gt:Guatemala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-GU-Subdivision ;
+	.
+
+lcc-3166-2-gt:Huehuetenango
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-HU-Subdivision ;
+	.
+
+lcc-3166-2-gt:Izabal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-IZ-Subdivision ;
+	.
+
+lcc-3166-2-gt:Jalapa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-JA-Subdivision ;
+	.
+
+lcc-3166-2-gt:Jutiapa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-JU-Subdivision ;
+	.
+
+lcc-3166-2-gt:Peten
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-PE-Subdivision ;
+	.
+
+lcc-3166-2-gt:Quetzaltenango
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-QZ-Subdivision ;
+	.
+
+lcc-3166-2-gt:Quiche
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-QC-Subdivision ;
+	.
+
+lcc-3166-2-gt:Retalhuleu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-RE-Subdivision ;
+	.
+
+lcc-3166-2-gt:Sacatepequez
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SA-Subdivision ;
+	.
+
+lcc-3166-2-gt:SanMarcos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SM-Subdivision ;
+	.
+
+lcc-3166-2-gt:SantaRosa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SR-Subdivision ;
+	.
+
+lcc-3166-2-gt:Solola
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SO-Subdivision ;
+	.
+
+lcc-3166-2-gt:Suchitepequez
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-SU-Subdivision ;
+	.
+
+lcc-3166-2-gt:Totonicapan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-TO-Subdivision ;
+	.
+
+lcc-3166-2-gt:Zacapa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gt:GT-ZA-Subdivision ;
+	.
+

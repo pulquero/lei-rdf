@@ -1,0 +1,660 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-de: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Germany Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-de" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Germany, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-DE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	.
+
+lcc-3166-2-de:Baden-Wurttemberg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BW-Subdivision ;
+	.
+
+lcc-3166-2-de:Bayern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BY-Subdivision ;
+	.
+
+lcc-3166-2-de:Berlin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BE-Subdivision ;
+	.
+
+lcc-3166-2-de:Brandenburg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BB-Subdivision ;
+	.
+
+lcc-3166-2-de:Bremen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-HB-Subdivision ;
+	.
+
+lcc-3166-2-de:DE-198-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "Land"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision category Land in the country of Germany" ;
+	.
+
+lcc-3166-2-de:DE-BB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BB-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-BB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-BB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Brandenburg in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-BB-Subdivision ;
+	lcc-lr:hasTag "DE-BB" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-BB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-BB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brandenburg"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Brandenburg in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Brandenburg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-BE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BE-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-BE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Berlin in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-BE-Subdivision ;
+	lcc-lr:hasTag "DE-BE" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-BE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-BE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Berlin"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Berlin in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Berlin"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-BW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BW-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-BW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-BW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Baden-Württemberg in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-BW-Subdivision ;
+	lcc-lr:hasTag "DE-BW" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-BW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-BW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baden-Württemberg"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Baden-Württemberg in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Baden-Württemberg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-BY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-BY-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-BY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-BY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Bayern in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-BY-Subdivision ;
+	lcc-lr:hasTag "DE-BY" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-BY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-BY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bayern"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Bayern in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Bayern"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-HB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-HB-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-HB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-HB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Bremen in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-HB-Subdivision ;
+	lcc-lr:hasTag "DE-HB" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-HB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-HB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bremen"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Bremen in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Bremen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-HE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-HE-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-HE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-HE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Hessen in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-HE-Subdivision ;
+	lcc-lr:hasTag "DE-HE" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-HE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-HE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hessen"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Hessen in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Hessen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-HH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-HH-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-HH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-HH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Hamburg in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-HH-Subdivision ;
+	lcc-lr:hasTag "DE-HH" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-HH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-HH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hamburg"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Hamburg in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Hamburg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-MV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-MV-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-MV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-MV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Mecklenburg-Vorpommern in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-MV-Subdivision ;
+	lcc-lr:hasTag "DE-MV" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-MV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-MV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mecklenburg-Vorpommern"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Mecklenburg-Vorpommern in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Mecklenburg-Vorpommern"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-NI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-NI-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-NI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Niedersachsen in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-NI-Subdivision ;
+	lcc-lr:hasTag "DE-NI" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-NI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-NI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niedersachsen"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Niedersachsen in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Niedersachsen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-NW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-NW-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-NW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-NW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Nordrhein-Westfalen in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-NW-Subdivision ;
+	lcc-lr:hasTag "DE-NW" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-NW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-NW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nordrhein-Westfalen"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Nordrhein-Westfalen in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Nordrhein-Westfalen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-RP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-RP-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-RP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-RP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Rheinland-Pfalz in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-RP-Subdivision ;
+	lcc-lr:hasTag "DE-RP" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-RP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-RP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rheinland-Pfalz"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Rheinland-Pfalz in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Rheinland-Pfalz"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-SH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-SH-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-SH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Schleswig-Holstein in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-SH-Subdivision ;
+	lcc-lr:hasTag "DE-SH" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-SH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-SH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Schleswig-Holstein"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Schleswig-Holstein in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Schleswig-Holstein"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-SL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-SL-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-SL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-SL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Saarland in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-SL-Subdivision ;
+	lcc-lr:hasTag "DE-SL" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-SL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-SL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saarland"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Saarland in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Saarland"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-SN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-SN-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-SN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Sachsen in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-SN-Subdivision ;
+	lcc-lr:hasTag "DE-SN" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-SN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-SN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sachsen"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Sachsen in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Sachsen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-ST
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-ST-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-ST-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-ST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Sachsen-Anhalt in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-ST-Subdivision ;
+	lcc-lr:hasTag "DE-ST" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-ST-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-ST-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sachsen-Anhalt"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Sachsen-Anhalt in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Sachsen-Anhalt"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:DE-TH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-TH-RegionIdentifier ;
+	.
+
+lcc-3166-2-de:DE-TH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DE-TH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "subdivision code for the Land of Thüringen in the country of Germany" ;
+	lcc-lr:denotes lcc-3166-2-de:DE-TH-Subdivision ;
+	lcc-lr:hasTag "DE-TH" ;
+	lcc-lr:identifies lcc-3166-2-de:DE-TH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-de:DE-TH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thüringen"@de ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/> ;
+	skos:definition "the Land of Thüringen in the country of Germany" ;
+	lcc-cr:hasLocalShortName "Thüringen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-de:DE-198-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Germany ;
+	.
+
+lcc-3166-2-de:Hamburg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-HH-Subdivision ;
+	.
+
+lcc-3166-2-de:Hessen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-HE-Subdivision ;
+	.
+
+lcc-3166-2-de:Land
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-198-RegionKind ;
+	.
+
+lcc-3166-2-de:Mecklenburg-Vorpommern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-MV-Subdivision ;
+	.
+
+lcc-3166-2-de:Niedersachsen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-NI-Subdivision ;
+	.
+
+lcc-3166-2-de:Nordrhein-Westfalen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-NW-Subdivision ;
+	.
+
+lcc-3166-2-de:Rheinland-Pfalz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-RP-Subdivision ;
+	.
+
+lcc-3166-2-de:Saarland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-SL-Subdivision ;
+	.
+
+lcc-3166-2-de:Sachsen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-SN-Subdivision ;
+	.
+
+lcc-3166-2-de:Sachsen-Anhalt
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-ST-Subdivision ;
+	.
+
+lcc-3166-2-de:Schleswig-Holstein
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-SH-Subdivision ;
+	.
+
+lcc-3166-2-de:Thuringen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-de:DE-TH-Subdivision ;
+	.
+

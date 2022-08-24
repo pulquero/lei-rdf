@@ -1,0 +1,3564 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ee: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Estonia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ee" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Estonia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-EE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	.
+
+lcc-3166-2-ee:Alutaguse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-130-Subdivision ;
+	.
+
+lcc-3166-2-ee:Anija
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-141-Subdivision ;
+	.
+
+lcc-3166-2-ee:Antsla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-142-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-130
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-130-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-130-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-130" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Alutaguse in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-130-Subdivision ;
+	lcc-lr:hasTag "EE-130" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-130-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-130-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alutaguse"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Alutaguse in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Alutaguse"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-141
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-141-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-141-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-141" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Anija in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-141-Subdivision ;
+	lcc-lr:hasTag "EE-141" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-141-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-141-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anija"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Anija in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Anija"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-142
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-142-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-142-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-142" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Antsla in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-142-Subdivision ;
+	lcc-lr:hasTag "EE-142" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-142-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-142-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Antsla"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Antsla in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Antsla"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-87-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-171
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-171-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-171-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-171" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Elva in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-171-Subdivision ;
+	lcc-lr:hasTag "EE-171" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-171-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-171-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Elva"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Elva in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Elva"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-184
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-184-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-184-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-184" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Haapsalu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-184-Subdivision ;
+	lcc-lr:hasTag "EE-184" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-184-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-184-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haapsalu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Haapsalu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Haapsalu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-56-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-191
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-191-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-191-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-191" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Haljala in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-191-Subdivision ;
+	lcc-lr:hasTag "EE-191" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-191-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-191-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haljala"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Haljala in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Haljala"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-198
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-198-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-198-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-198" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Harku in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-198-Subdivision ;
+	lcc-lr:hasTag "EE-198" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-198-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-198-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Harku"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Harku in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Harku"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-205
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-205-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-205-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-205" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Hiiumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-205-Subdivision ;
+	lcc-lr:hasTag "EE-205" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-205-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-205-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hiiumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Hiiumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Hiiumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-39-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-214
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-214-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-214-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-214" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Häädemeeste in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-214-Subdivision ;
+	lcc-lr:hasTag "EE-214" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-214-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-214-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Häädemeeste"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Häädemeeste in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Häädemeeste"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-245
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-245-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-245-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-245" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Jõelähtme in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-245-Subdivision ;
+	lcc-lr:hasTag "EE-245" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-245-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-245-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jõelähtme"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Jõelähtme in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Jõelähtme"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-247
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-247-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-247-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-247" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Jõgeva in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-247-Subdivision ;
+	lcc-lr:hasTag "EE-247" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-247-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-247-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jõgeva"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Jõgeva in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Jõgeva"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-50-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-251
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-251-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-251-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-251" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Jõhvi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-251-Subdivision ;
+	lcc-lr:hasTag "EE-251" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-251-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-251-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jõhvi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Jõhvi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Jõhvi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-255
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-255-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-255-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-255" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Järva in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-255-Subdivision ;
+	lcc-lr:hasTag "EE-255" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-255-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-255-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Järva"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Järva in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Järva"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-52-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-272
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-272-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-272-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-272" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kadrina in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-272-Subdivision ;
+	lcc-lr:hasTag "EE-272" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-272-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-272-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kadrina"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kadrina in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kadrina"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-283
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-283-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-283-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-283" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kambja in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-283-Subdivision ;
+	lcc-lr:hasTag "EE-283" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-283-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-283-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kambja"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kambja in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kambja"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-284
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-284-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-284-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-284" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kanepi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-284-Subdivision ;
+	lcc-lr:hasTag "EE-284" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-284-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-284-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kanepi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kanepi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kanepi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-64-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-291
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-291-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-291-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-291" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kastre in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-291-Subdivision ;
+	lcc-lr:hasTag "EE-291" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-291-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-291-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kastre"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kastre in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kastre"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-293
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-293-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-293-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-293" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kehtna in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-293-Subdivision ;
+	lcc-lr:hasTag "EE-293" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-293-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-293-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kehtna"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kehtna in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kehtna"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-71-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-296
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-296-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-296-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-296" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Keila in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-296-Subdivision ;
+	lcc-lr:hasTag "EE-296" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-296-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-296-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Keila"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Keila in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Keila"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-303
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-303-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-303-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-303" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kihnu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-303-Subdivision ;
+	lcc-lr:hasTag "EE-303" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-303-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-303-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kihnu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kihnu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kihnu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-305
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-305-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-305-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-305" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kiili in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-305-Subdivision ;
+	lcc-lr:hasTag "EE-305" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-305-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-305-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kiili"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kiili in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kiili"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-317
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-317-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-317-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-317" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kohila in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-317-Subdivision ;
+	lcc-lr:hasTag "EE-317" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-317-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-317-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kohila"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kohila in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kohila"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-71-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-321
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-321-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-321-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-321" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Kohtla-Järve in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-321-Subdivision ;
+	lcc-lr:hasTag "EE-321" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-321-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-321-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kohtla-Järve"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Kohtla-Järve in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kohtla-Järve"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-338
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-338-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-338-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-338" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kose in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-338-Subdivision ;
+	lcc-lr:hasTag "EE-338" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-338-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-338-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kose"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kose in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kose"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-353
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-353-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-353-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-353" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Kuusalu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-353-Subdivision ;
+	lcc-lr:hasTag "EE-353" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-353-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-353-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kuusalu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Kuusalu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Kuusalu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-37
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-37-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-37-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Harjumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-37-Subdivision ;
+	lcc-lr:hasTag "EE-37" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-37-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-37-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Harjumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Harjumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Harjumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-39
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-39-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-39-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Hiiumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-39-Subdivision ;
+	lcc-lr:hasTag "EE-39" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-39-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-39-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hiiumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Hiiumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Hiiumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-407-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "maakond"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision category maakond in the country of Estonia" ;
+	.
+
+lcc-3166-2-ee:EE-424
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-424-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-424-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-424" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Loksa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-424-Subdivision ;
+	lcc-lr:hasTag "EE-424" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-424-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-424-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loksa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Loksa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Loksa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-430
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-430-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-430-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-430" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Lääneranna in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-430-Subdivision ;
+	lcc-lr:hasTag "EE-430" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-430-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-430-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lääneranna"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Lääneranna in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Lääneranna"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-431
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-431-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-431-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-431" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Lääne-Harju in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-431-Subdivision ;
+	lcc-lr:hasTag "EE-431" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-431-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-431-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lääne-Harju"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Lääne-Harju in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Lääne-Harju"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-432
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-432-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-432-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-432" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Luunja in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-432-Subdivision ;
+	lcc-lr:hasTag "EE-432" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-432-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-432-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luunja"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Luunja in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Luunja"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-441
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-441-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-441-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-441" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Lääne-Nigula in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-441-Subdivision ;
+	lcc-lr:hasTag "EE-441" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-441-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-441-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lääne-Nigula"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Lääne-Nigula in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Lääne-Nigula"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-56-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-442
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-442-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-442-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-442" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Lüganuse in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-442-Subdivision ;
+	lcc-lr:hasTag "EE-442" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-442-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-442-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lüganuse"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Lüganuse in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Lüganuse"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-446
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-446-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-446-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-446" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Maardu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-446-Subdivision ;
+	lcc-lr:hasTag "EE-446" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-446-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-446-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maardu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Maardu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Maardu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-45
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-45-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-45-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Ida-Virumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-45-Subdivision ;
+	lcc-lr:hasTag "EE-45" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-45-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-45-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ida-Virumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Ida-Virumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Ida-Virumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-478
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-478-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-478-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-478" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Muhu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-478-Subdivision ;
+	lcc-lr:hasTag "EE-478" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-478-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-478-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Muhu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Muhu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Muhu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-74-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-480
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-480-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-480-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-480" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Mulgi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-480-Subdivision ;
+	lcc-lr:hasTag "EE-480" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-480-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-480-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mulgi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Mulgi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Mulgi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-84-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-483-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "linn"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision category linn in the country of Estonia" ;
+	.
+
+lcc-3166-2-ee:EE-484-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "vald"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision category vald in the country of Estonia" ;
+	.
+
+lcc-3166-2-ee:EE-486
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-486-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-486-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-486" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Mustvee in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-486-Subdivision ;
+	lcc-lr:hasTag "EE-486" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-486-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-486-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mustvee"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Mustvee in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Mustvee"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-50-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-50
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-50-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-50-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Jõgevamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-50-Subdivision ;
+	lcc-lr:hasTag "EE-50" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-50-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-50-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jõgevamaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Jõgevamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Jõgevamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-503
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-503-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-503-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-503" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Märjamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-503-Subdivision ;
+	lcc-lr:hasTag "EE-503" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-503-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-503-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Märjamaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Märjamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Märjamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-71-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-511
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-511-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-511-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-511" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Narva in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-511-Subdivision ;
+	lcc-lr:hasTag "EE-511" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-511-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-511-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narva"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Narva in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Narva"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-514
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-514-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-514-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-514" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Narva-Jõesuu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-514-Subdivision ;
+	lcc-lr:hasTag "EE-514" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-514-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-514-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narva-Jõesuu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Narva-Jõesuu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Narva-Jõesuu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-52
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-52-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-52-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Järvamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-52-Subdivision ;
+	lcc-lr:hasTag "EE-52" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-52-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-52-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Järvamaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Järvamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Järvamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-528
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-528-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-528-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-528" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Nõo in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-528-Subdivision ;
+	lcc-lr:hasTag "EE-528" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-528-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-528-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nõo"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Nõo in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Nõo"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-557
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-557-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-557-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-557" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Otepää in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-557-Subdivision ;
+	lcc-lr:hasTag "EE-557" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-557-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-557-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Otepää"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Otepää in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Otepää"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-81-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-56
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-56-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-56-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Läänemaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-56-Subdivision ;
+	lcc-lr:hasTag "EE-56" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-56-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-56-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Läänemaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Läänemaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Läänemaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-567
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-567-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-567-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-567" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Paide in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-567-Subdivision ;
+	lcc-lr:hasTag "EE-567" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-567-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-567-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paide"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Paide in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Paide"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-52-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-586
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-586-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-586-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-586" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Peipsiääre in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-586-Subdivision ;
+	lcc-lr:hasTag "EE-586" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-586-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-586-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Peipsiääre"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Peipsiääre in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Peipsiääre"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-60
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-60-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-60-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-60" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Lääne-Virumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-60-Subdivision ;
+	lcc-lr:hasTag "EE-60" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-60-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-60-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lääne-Virumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Lääne-Virumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Lääne-Virumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-615
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-615-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-615-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-615" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Põhja-Sakala in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-615-Subdivision ;
+	lcc-lr:hasTag "EE-615" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-615-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-615-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Põhja-Sakala"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Põhja-Sakala in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Põhja-Sakala"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-84-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-618
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-618-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-618-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-618" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Põltsamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-618-Subdivision ;
+	lcc-lr:hasTag "EE-618" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-618-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-618-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Põltsamaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Põltsamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Põltsamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-50-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-622
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-622-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-622-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-622" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Põlva in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-622-Subdivision ;
+	lcc-lr:hasTag "EE-622" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-622-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-622-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Põlva"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Põlva in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Põlva"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-64-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-624
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-624-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-624-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-624" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Pärnu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-624-Subdivision ;
+	lcc-lr:hasTag "EE-624" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-624-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-624-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pärnu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Pärnu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Pärnu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-638
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-638-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-638-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-638" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Põhja-Pärnumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-638-Subdivision ;
+	lcc-lr:hasTag "EE-638" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-638-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-638-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Põhja-Pärnumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Põhja-Pärnumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Põhja-Pärnumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-64
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-64-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-64-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-64" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Põlvamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-64-Subdivision ;
+	lcc-lr:hasTag "EE-64" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-64-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-64-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Põlvamaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Põlvamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Põlvamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-651
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-651-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-651-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-651" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Raasiku in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-651-Subdivision ;
+	lcc-lr:hasTag "EE-651" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-651-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-651-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Raasiku"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Raasiku in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Raasiku"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-653
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-653-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-653-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-653" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Rae in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-653-Subdivision ;
+	lcc-lr:hasTag "EE-653" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-653-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-653-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rae"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Rae in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Rae"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-661
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-661-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-661-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-661" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Rakvere in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-661-Subdivision ;
+	lcc-lr:hasTag "EE-661" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-661-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-661-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rakvere"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Rakvere in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Rakvere"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-663
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-663-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-663-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-663" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Rakvere in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-663-Subdivision ;
+	lcc-lr:hasTag "EE-663" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-663-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-663-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rakvere"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Rakvere in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Rakvere"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-668
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-668-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-668-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-668" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Rapla in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-668-Subdivision ;
+	lcc-lr:hasTag "EE-668" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-668-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-668-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rapla"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Rapla in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Rapla"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-71-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-68
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-68-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-68-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-68" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Pärnumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-68-Subdivision ;
+	lcc-lr:hasTag "EE-68" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-68-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-68-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pärnumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Pärnumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Pärnumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-689
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-689-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-689-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-689" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Ruhnu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-689-Subdivision ;
+	lcc-lr:hasTag "EE-689" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-689-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-689-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ruhnu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Ruhnu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Ruhnu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-74-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-698
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-698-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-698-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-698" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Rõuge in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-698-Subdivision ;
+	lcc-lr:hasTag "EE-698" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-698-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-698-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rõuge"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Rõuge in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Rõuge"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-87-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-708
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-708-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-708-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-708" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Räpina in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-708-Subdivision ;
+	lcc-lr:hasTag "EE-708" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-708-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-708-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Räpina"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Räpina in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Räpina"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-64-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-71
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-71-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-71-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Raplamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-71-Subdivision ;
+	lcc-lr:hasTag "EE-71" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-71-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-71-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Raplamaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Raplamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Raplamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-712
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-712-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-712-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-712" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Saarde in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-712-Subdivision ;
+	lcc-lr:hasTag "EE-712" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-712-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-712-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saarde"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Saarde in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Saarde"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-714
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-714-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-714-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-714" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Saaremaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-714-Subdivision ;
+	lcc-lr:hasTag "EE-714" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-714-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-714-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saaremaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Saaremaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Saaremaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-74-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-719
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-719-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-719-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-719" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Saku in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-719-Subdivision ;
+	lcc-lr:hasTag "EE-719" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-719-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-719-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saku"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Saku in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Saku"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-726
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-726-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-726-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-726" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Saue in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-726-Subdivision ;
+	lcc-lr:hasTag "EE-726" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-726-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-726-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saue"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Saue in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Saue"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-732
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-732-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-732-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-732" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Setomaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-732-Subdivision ;
+	lcc-lr:hasTag "EE-732" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-732-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-732-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Setomaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Setomaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Setomaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-87-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-735
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-735-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-735-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-735" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Sillamäe in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-735-Subdivision ;
+	lcc-lr:hasTag "EE-735" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-735-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-735-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sillamäe"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Sillamäe in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Sillamäe"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-74
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-74-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-74-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-74" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Saaremaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-74-Subdivision ;
+	lcc-lr:hasTag "EE-74" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-74-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-74-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saaremaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Saaremaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Saaremaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-784
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-784-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-784-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-784" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Tallinn in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-784-Subdivision ;
+	lcc-lr:hasTag "EE-784" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-784-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-784-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tallinn"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Tallinn in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tallinn"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-79
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-79-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-79-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-79" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Tartumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-79-Subdivision ;
+	lcc-lr:hasTag "EE-79" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-79-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-79-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tartumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Tartumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tartumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-792
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-792-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-792-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-792" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Tapa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-792-Subdivision ;
+	lcc-lr:hasTag "EE-792" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-792-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-792-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tapa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Tapa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tapa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-793
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-793-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-793-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-793" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Tartu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-793-Subdivision ;
+	lcc-lr:hasTag "EE-793" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-793-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-793-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tartu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Tartu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tartu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-796
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-796-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-796-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-796" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Tartu in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-796-Subdivision ;
+	lcc-lr:hasTag "EE-796" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-796-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-796-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tartu"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Tartu in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tartu"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-803
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-803-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-803-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-803" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Toila in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-803-Subdivision ;
+	lcc-lr:hasTag "EE-803" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-803-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-803-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Toila"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Toila in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Toila"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-809
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-809-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-809-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-809" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Tori in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-809-Subdivision ;
+	lcc-lr:hasTag "EE-809" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-809-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-809-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tori"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Tori in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tori"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-81
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-81-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-81-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Valgamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-81-Subdivision ;
+	lcc-lr:hasTag "EE-81" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-81-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-81-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valgamaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Valgamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Valgamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-824
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-824-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-824-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-824" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Tõrva in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-824-Subdivision ;
+	lcc-lr:hasTag "EE-824" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-824-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-824-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tõrva"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Tõrva in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tõrva"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-81-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-834
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-834-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-834-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-834" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Türi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-834-Subdivision ;
+	lcc-lr:hasTag "EE-834" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-834-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-834-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Türi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Türi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Türi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-52-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-84
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-84-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-84-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-84" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Viljandimaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-84-Subdivision ;
+	lcc-lr:hasTag "EE-84" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-84-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-84-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viljandimaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Viljandimaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Viljandimaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-855
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-855-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-855-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-855" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Valga in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-855-Subdivision ;
+	lcc-lr:hasTag "EE-855" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-855-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-855-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valga"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Valga in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Valga"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-81-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-87
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-87-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-87-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-87" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the maakond of Võrumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-87-Subdivision ;
+	lcc-lr:hasTag "EE-87" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-87-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-87-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Võrumaa"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the maakond of Võrumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Võrumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-407-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:EE-890
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-890-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-890-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-890" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Viimsi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-890-Subdivision ;
+	lcc-lr:hasTag "EE-890" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-890-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-890-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viimsi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Viimsi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Viimsi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-897
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-897-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-897-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-897" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Viljandi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-897-Subdivision ;
+	lcc-lr:hasTag "EE-897" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-897-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-897-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viljandi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Viljandi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Viljandi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-84-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-899
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-899-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-899-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-899" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Viljandi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-899-Subdivision ;
+	lcc-lr:hasTag "EE-899" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-899-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-899-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viljandi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Viljandi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Viljandi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-84-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-901
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-901-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-901-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-901" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Vinni in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-901-Subdivision ;
+	lcc-lr:hasTag "EE-901" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-901-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-901-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vinni"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Vinni in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Vinni"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-903
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-903-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-903-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-903" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Viru-Nigula in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-903-Subdivision ;
+	lcc-lr:hasTag "EE-903" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-903-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-903-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viru-Nigula"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Viru-Nigula in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Viru-Nigula"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-907
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-907-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-907-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-907" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Vormsi in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-907-Subdivision ;
+	lcc-lr:hasTag "EE-907" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-907-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-907-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vormsi"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Vormsi in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Vormsi"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-56-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-917
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-917-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-917-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-917" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Võru in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-917-Subdivision ;
+	lcc-lr:hasTag "EE-917" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-917-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-917-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Võru"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Võru in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Võru"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-87-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-919
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-919-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-919-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-919" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the linn of Võru in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-919-Subdivision ;
+	lcc-lr:hasTag "EE-919" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-919-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-919-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Võru"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the linn of Võru in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Võru"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-483-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-87-Subdivision ;
+	.
+
+lcc-3166-2-ee:EE-928
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-928-RegionIdentifier ;
+	.
+
+lcc-3166-2-ee:EE-928-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-928" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the vald of Väike-Maarja in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:EE-928-Subdivision ;
+	lcc-lr:hasTag "EE-928" ;
+	lcc-lr:identifies lcc-3166-2-ee:EE-928-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-928-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Väike-Maarja"@et ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "the vald of Väike-Maarja in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Väike-Maarja"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:EE-484-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:Elva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-171-Subdivision ;
+	.
+
+lcc-3166-2-ee:Haademeeste
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-214-Subdivision ;
+	.
+
+lcc-3166-2-ee:Haapsalu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-184-Subdivision ;
+	.
+
+lcc-3166-2-ee:Haljala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-191-Subdivision ;
+	.
+
+lcc-3166-2-ee:Harjumaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-37-Subdivision ;
+	.
+
+lcc-3166-2-ee:Harku
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-198-Subdivision ;
+	.
+
+lcc-3166-2-ee:Hiiumaa
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-ee:EE-205-Subdivision ,
+		lcc-3166-2-ee:EE-39-Subdivision
+		;
+	.
+
+lcc-3166-2-ee:Ida-Virumaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-45-Subdivision ;
+	.
+
+lcc-3166-2-ee:Jarva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-255-Subdivision ;
+	.
+
+lcc-3166-2-ee:Jarvamaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-52-Subdivision ;
+	.
+
+lcc-3166-2-ee:Joelahtme
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-245-Subdivision ;
+	.
+
+lcc-3166-2-ee:Jogeva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-247-Subdivision ;
+	.
+
+lcc-3166-2-ee:Jogevamaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-50-Subdivision ;
+	.
+
+lcc-3166-2-ee:Johvi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-251-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kadrina
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-272-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kambja
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-283-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kanepi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-284-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kastre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-291-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kehtna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-293-Subdivision ;
+	.
+
+lcc-3166-2-ee:Keila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-296-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kihnu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-303-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kiili
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-305-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kohila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-317-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kohtla-Jarve
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-321-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kose
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-338-Subdivision ;
+	.
+
+lcc-3166-2-ee:Kuusalu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-353-Subdivision ;
+	.
+
+lcc-3166-2-ee:Laane-Harju
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-431-Subdivision ;
+	.
+
+lcc-3166-2-ee:Laane-Nigula
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-441-Subdivision ;
+	.
+
+lcc-3166-2-ee:Laane-Virumaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-60-Subdivision ;
+	.
+
+lcc-3166-2-ee:Laanemaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-56-Subdivision ;
+	.
+
+lcc-3166-2-ee:Laaneranna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-430-Subdivision ;
+	.
+
+lcc-3166-2-ee:Linn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-483-RegionKind ;
+	.
+
+lcc-3166-2-ee:Loksa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-424-Subdivision ;
+	.
+
+lcc-3166-2-ee:Luganuse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-442-Subdivision ;
+	.
+
+lcc-3166-2-ee:Luunja
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-432-Subdivision ;
+	.
+
+lcc-3166-2-ee:Maakond
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-407-RegionKind ;
+	.
+
+lcc-3166-2-ee:Maardu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-446-Subdivision ;
+	.
+
+lcc-3166-2-ee:Marjamaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-503-Subdivision ;
+	.
+
+lcc-3166-2-ee:Muhu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-478-Subdivision ;
+	.
+
+lcc-3166-2-ee:Mulgi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-480-Subdivision ;
+	.
+
+lcc-3166-2-ee:Mustvee
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-486-Subdivision ;
+	.
+
+lcc-3166-2-ee:Narva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-511-Subdivision ;
+	.
+
+lcc-3166-2-ee:Narva-Joesuu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-514-Subdivision ;
+	.
+
+lcc-3166-2-ee:Noo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-528-Subdivision ;
+	.
+
+lcc-3166-2-ee:Otepaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-557-Subdivision ;
+	.
+
+lcc-3166-2-ee:Paide
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-567-Subdivision ;
+	.
+
+lcc-3166-2-ee:Parnu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-624-Subdivision ;
+	.
+
+lcc-3166-2-ee:Parnumaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-68-Subdivision ;
+	.
+
+lcc-3166-2-ee:Peipsiaare
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-586-Subdivision ;
+	.
+
+lcc-3166-2-ee:Pohja-Parnumaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-638-Subdivision ;
+	.
+
+lcc-3166-2-ee:Pohja-Sakala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-615-Subdivision ;
+	.
+
+lcc-3166-2-ee:Poltsamaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-618-Subdivision ;
+	.
+
+lcc-3166-2-ee:Polva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-622-Subdivision ;
+	.
+
+lcc-3166-2-ee:Polvamaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-64-Subdivision ;
+	.
+
+lcc-3166-2-ee:Raasiku
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-651-Subdivision ;
+	.
+
+lcc-3166-2-ee:Rae
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-653-Subdivision ;
+	.
+
+lcc-3166-2-ee:Rakvere
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-ee:EE-661-Subdivision ,
+		lcc-3166-2-ee:EE-663-Subdivision
+		;
+	.
+
+lcc-3166-2-ee:Rapina
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-708-Subdivision ;
+	.
+
+lcc-3166-2-ee:Rapla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-668-Subdivision ;
+	.
+
+lcc-3166-2-ee:Raplamaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-71-Subdivision ;
+	.
+
+lcc-3166-2-ee:Rouge
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-698-Subdivision ;
+	.
+
+lcc-3166-2-ee:Ruhnu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-689-Subdivision ;
+	.
+
+lcc-3166-2-ee:Saarde
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-712-Subdivision ;
+	.
+
+lcc-3166-2-ee:Saaremaa
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-ee:EE-714-Subdivision ,
+		lcc-3166-2-ee:EE-74-Subdivision
+		;
+	.
+
+lcc-3166-2-ee:Saku
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-719-Subdivision ;
+	.
+
+lcc-3166-2-ee:Saue
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-726-Subdivision ;
+	.
+
+lcc-3166-2-ee:Setomaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-732-Subdivision ;
+	.
+
+lcc-3166-2-ee:Sillamae
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-735-Subdivision ;
+	.
+
+lcc-3166-2-ee:Tallinn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-784-Subdivision ;
+	.
+
+lcc-3166-2-ee:Tapa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-792-Subdivision ;
+	.
+
+lcc-3166-2-ee:Tartu
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-ee:EE-793-Subdivision ,
+		lcc-3166-2-ee:EE-796-Subdivision
+		;
+	.
+
+lcc-3166-2-ee:Tartumaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-79-Subdivision ;
+	.
+
+lcc-3166-2-ee:Toila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-803-Subdivision ;
+	.
+
+lcc-3166-2-ee:Tori
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-809-Subdivision ;
+	.
+
+lcc-3166-2-ee:Torva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-824-Subdivision ;
+	.
+
+lcc-3166-2-ee:Turi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-834-Subdivision ;
+	.
+
+lcc-3166-2-ee:Vaike-Maarja
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-928-Subdivision ;
+	.
+
+lcc-3166-2-ee:Vald
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-484-RegionKind ;
+	.
+
+lcc-3166-2-ee:Valga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-855-Subdivision ;
+	.
+
+lcc-3166-2-ee:Valgamaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-81-Subdivision ;
+	.
+
+lcc-3166-2-ee:Viimsi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-890-Subdivision ;
+	.
+
+lcc-3166-2-ee:Viljandi
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-ee:EE-897-Subdivision ,
+		lcc-3166-2-ee:EE-899-Subdivision
+		;
+	.
+
+lcc-3166-2-ee:Viljandimaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-84-Subdivision ;
+	.
+
+lcc-3166-2-ee:Vinni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-901-Subdivision ;
+	.
+
+lcc-3166-2-ee:Viru-Nigula
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-903-Subdivision ;
+	.
+
+lcc-3166-2-ee:Vormsi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-907-Subdivision ;
+	.
+
+lcc-3166-2-ee:Voru
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-ee:EE-917-Subdivision ,
+		lcc-3166-2-ee:EE-919-Subdivision
+		;
+	.
+
+lcc-3166-2-ee:Vorumaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ee:EE-87-Subdivision ;
+	.
+

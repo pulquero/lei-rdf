@@ -1,0 +1,77 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-cty: <https://www.omg.org/spec/LCC/Countries/AboutCountries/> .
+@prefix lcc-lng: <https://www.omg.org/spec/LCC/Languages/AboutLanguages/> .
+@prefix lcc-spc: <https://www.omg.org/spec/LCC/AboutLCC/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/AboutLCC/>
+	a owl:Ontology ;
+	rdfs:label "About the Languages, Countries and Codes (LCC) Specification" ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive, Inc." ,
+		"Copyright (c) 2015-2020 agnos.ai UK Ltd." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC"
+		;
+	sm:fileAbbreviation "lcc-spc" ;
+	sm:filename "AboutLCC.rdf" ;
+	sm:publicationDate "2021-11-08T18:00:00"^^xsd:dateTime ;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/AboutLCC/> ;
+	skos:changeNote "The https://www.omg.org/spec/LCC/20190201/AboutLCC/ version of this ontology was revised to incorporate the changes required by the LCC 1.2 RTF report." ;
+	.
+
+lcc-spc:LCCSpecification
+	a
+		owl:NamedIndividual ,
+		sm:Specification
+		;
+	rdfs:label "Languages, Countries and Codes (LCC) Specification" ;
+	dct:hasPart
+		lcc-cty:CountriesModule ,
+		lcc-lng:LanguagesModule
+		;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contributor
+		"Unisys" ,
+		"agnos.ai UK Ltd."
+		;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive, Inc." ,
+		"Copyright (c) 2015-2020 agnos.ai UK Ltd." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC"
+		;
+	sm:dependsOn "https://www.omg.org/techprocess/ab/SpecificationMetadata/"^^xsd:anyURI ;
+	sm:keyword
+		"ISO 3166" ,
+		"ISO 639" ,
+		"U.N. M49 code" ,
+		"country" ,
+		"country code" ,
+		"country subdivision" ,
+		"country subdivision code" ,
+		"geographic region" ,
+		"language" ,
+		"language code"
+		;
+	sm:responsibleTaskForce "https://adtf.omg.org/"^^xsd:anyURI ;
+	sm:specificationAbbreviation "LCC" ;
+	sm:specificationAbstract "The Languages, Countries and Codes (LCC) Specification provides ontologies defining concepts required for use in developing ontologies for many applications, based on ISO and other specifications that cover them. These include concepts and relationships about languages and the related language codes as specified in ISO 639, countries and related country codes as specified in ISO 3166, and regions specified in the United Nations M49 codes." ;
+	sm:specificationTitle "Languages, Countries and Codes (LCC) Specification" ;
+	sm:specificationURL "https://www.omg.org/spec/LCC/"^^xsd:anyURI ;
+	sm:submitter
+		"Adaptive, Inc." ,
+		"Thematix Partners LLC"
+		;
+	skos:definition "metadata about the Languages, Countries and Codes (LCC) specification" ;
+	.
+

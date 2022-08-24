@@ -1,0 +1,364 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sk: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Slovakia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sk" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Slovakia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SK.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	.
+
+lcc-3166-2-sk:BanskobystrickyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-BC-Subdivision ;
+	.
+
+lcc-3166-2-sk:BratislavskyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-BL-Subdivision ;
+	.
+
+lcc-3166-2-sk:KosickyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-KI-Subdivision ;
+	.
+
+lcc-3166-2-sk:Kraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-250-RegionKind ;
+	.
+
+lcc-3166-2-sk:NitrianskyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-NI-Subdivision ;
+	.
+
+lcc-3166-2-sk:PresovskyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-PV-Subdivision ;
+	.
+
+lcc-3166-2-sk:SK-250-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision category kraj in the country of Slovakia" ;
+	.
+
+lcc-3166-2-sk:SK-BC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-BC-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-BC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-BC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Banskobystrický kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-BC-Subdivision ;
+	lcc-lr:hasTag "SK-BC" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-BC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-BC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banskobystrický kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Banskobystrický kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Banskobystrický kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:SK-BL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-BL-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-BL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Bratislavský kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-BL-Subdivision ;
+	lcc-lr:hasTag "SK-BL" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-BL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-BL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bratislavský kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Bratislavský kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Bratislavský kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:SK-KI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-KI-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-KI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-KI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Košický kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-KI-Subdivision ;
+	lcc-lr:hasTag "SK-KI" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-KI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-KI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Košický kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Košický kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Košický kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:SK-NI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-NI-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-NI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Nitriansky kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-NI-Subdivision ;
+	lcc-lr:hasTag "SK-NI" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-NI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-NI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nitriansky kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Nitriansky kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Nitriansky kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:SK-PV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-PV-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-PV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-PV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Prešovský kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-PV-Subdivision ;
+	lcc-lr:hasTag "SK-PV" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-PV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-PV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prešovský kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Prešovský kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Prešovský kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:SK-TA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-TA-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-TA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Trnavský kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-TA-Subdivision ;
+	lcc-lr:hasTag "SK-TA" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-TA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-TA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trnavský kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Trnavský kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Trnavský kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:SK-TC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-TC-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-TC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-TC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Trenčiansky kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-TC-Subdivision ;
+	lcc-lr:hasTag "SK-TC" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-TC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-TC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trenčiansky kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Trenčiansky kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Trenčiansky kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:SK-ZI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-ZI-RegionIdentifier ;
+	.
+
+lcc-3166-2-sk:SK-ZI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SK-ZI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "subdivision code for the kraj of Žilinský kraj in the country of Slovakia" ;
+	lcc-lr:denotes lcc-3166-2-sk:SK-ZI-Subdivision ;
+	lcc-lr:hasTag "SK-ZI" ;
+	lcc-lr:identifies lcc-3166-2-sk:SK-ZI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sk:SK-ZI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Žilinský kraj"@sk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/> ;
+	skos:definition "the kraj of Žilinský kraj in the country of Slovakia" ;
+	lcc-cr:hasLocalShortName "Žilinský kraj"@sk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sk:SK-250-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-2-sk:TrencianskyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-TC-Subdivision ;
+	.
+
+lcc-3166-2-sk:TrnavskyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-TA-Subdivision ;
+	.
+
+lcc-3166-2-sk:ZilinskyKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sk:SK-ZI-Subdivision ;
+	.
+

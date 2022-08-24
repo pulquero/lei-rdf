@@ -1,0 +1,1319 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ie: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Ireland Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ie" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Ireland, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	.
+
+lcc-3166-2-ie:Carlow
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CW-Subdivision ;
+	.
+
+lcc-3166-2-ie:Cavan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CN-Subdivision ;
+	.
+
+lcc-3166-2-ie:Clare
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CE-Subdivision ;
+	.
+
+lcc-3166-2-ie:Connaught
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-C-Subdivision ;
+	.
+
+lcc-3166-2-ie:Cork
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CO-Subdivision ;
+	.
+
+lcc-3166-2-ie:County
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-246-RegionKind ;
+	.
+
+lcc-3166-2-ie:Donegal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-DL-Subdivision ;
+	.
+
+lcc-3166-2-ie:Dublin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-D-Subdivision ;
+	.
+
+lcc-3166-2-ie:Galway
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-G-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-246-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"contae"@ga ,
+		"county"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision category county in the country of Ireland" ;
+	.
+
+lcc-3166-2-ie:IE-417-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"cúige"@ga ,
+		"province"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision category province in the country of Ireland" ;
+	.
+
+lcc-3166-2-ie:IE-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the province of Connaught in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-C-Subdivision ;
+	lcc-lr:hasTag "IE-C" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Connacht"@ga ,
+		"Connaught"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the province of Connaught in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Connaught"@en ;
+	lcc-cr:hasLocalShortName "Connacht"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-417-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ireland ;
+	.
+
+lcc-3166-2-ie:IE-CE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-CE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Clare in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-CE-Subdivision ;
+	lcc-lr:hasTag "IE-CE" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-CE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-CE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"An Clár"@ga ,
+		"Clare"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Clare in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Clare"@en ;
+	lcc-cr:hasLocalShortName "An Clár"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-M-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-CN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-CN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-CN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Cavan in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-CN-Subdivision ;
+	lcc-lr:hasTag "IE-CN" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-CN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-CN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"An Cabhán"@ga ,
+		"Cavan"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Cavan in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Cavan"@en ;
+	lcc-cr:hasLocalShortName "An Cabhán"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-U-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-CO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-CO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Cork in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-CO-Subdivision ;
+	lcc-lr:hasTag "IE-CO" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-CO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-CO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Corcaigh"@ga ,
+		"Cork"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Cork in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Cork"@en ;
+	lcc-cr:hasLocalShortName "Corcaigh"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-M-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-CW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-CW-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-CW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-CW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Carlow in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-CW-Subdivision ;
+	lcc-lr:hasTag "IE-CW" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-CW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-CW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Carlow"@en ,
+		"Ceatharlach"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Carlow in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Carlow"@en ;
+	lcc-cr:hasLocalShortName "Ceatharlach"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-D
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-D-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-D-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Dublin in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-D-Subdivision ;
+	lcc-lr:hasTag "IE-D" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-D-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-D-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Baile Átha Cliath"@ga ,
+		"Dublin"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Dublin in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Dublin"@en ;
+	lcc-cr:hasLocalShortName "Baile Átha Cliath"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-DL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-DL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-DL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-DL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Donegal in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-DL-Subdivision ;
+	lcc-lr:hasTag "IE-DL" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-DL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-DL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Donegal"@en ,
+		"Dún na nGall"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Donegal in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Donegal"@en ;
+	lcc-cr:hasLocalShortName "Dún na nGall"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-U-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-G
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-G-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-G-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Galway in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-G-Subdivision ;
+	lcc-lr:hasTag "IE-G" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-G-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-G-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Gaillimh"@ga ,
+		"Galway"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Galway in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Galway"@en ;
+	lcc-cr:hasLocalShortName "Gaillimh"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-C-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-KE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-KE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-KE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-KE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Kildare in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-KE-Subdivision ;
+	lcc-lr:hasTag "IE-KE" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-KE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-KE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Cill Dara"@ga ,
+		"Kildare"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Kildare in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Kildare"@en ;
+	lcc-cr:hasLocalShortName "Cill Dara"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-KK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-KK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-KK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-KK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Kilkenny in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-KK-Subdivision ;
+	lcc-lr:hasTag "IE-KK" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-KK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-KK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Cill Chainnigh"@ga ,
+		"Kilkenny"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Kilkenny in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Kilkenny"@en ;
+	lcc-cr:hasLocalShortName "Cill Chainnigh"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-KY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-KY-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-KY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-KY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Kerry in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-KY-Subdivision ;
+	lcc-lr:hasTag "IE-KY" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-KY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-KY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ciarraí"@ga ,
+		"Kerry"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Kerry in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Kerry"@en ;
+	lcc-cr:hasLocalShortName "Ciarraí"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-M-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the province of Leinster in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-L-Subdivision ;
+	lcc-lr:hasTag "IE-L" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Laighin"@ga ,
+		"Leinster"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the province of Leinster in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Leinster"@en ;
+	lcc-cr:hasLocalShortName "Laighin"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-417-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ireland ;
+	.
+
+lcc-3166-2-ie:IE-LD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LD-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-LD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-LD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Longford in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-LD-Subdivision ;
+	lcc-lr:hasTag "IE-LD" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-LD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-LD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"An Longfort"@ga ,
+		"Longford"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Longford in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Longford"@en ;
+	lcc-cr:hasLocalShortName "An Longfort"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-LH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LH-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-LH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-LH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Louth in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-LH-Subdivision ;
+	lcc-lr:hasTag "IE-LH" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-LH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-LH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Louth"@en ,
+		"Lú"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Louth in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Louth"@en ;
+	lcc-cr:hasLocalShortName "Lú"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-LK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-LK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-LK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Limerick in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-LK-Subdivision ;
+	lcc-lr:hasTag "IE-LK" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-LK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-LK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Limerick"@en ,
+		"Luimneach"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Limerick in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Limerick"@en ;
+	lcc-cr:hasLocalShortName "Luimneach"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-M-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-LM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-LM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-LM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Leitrim in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-LM-Subdivision ;
+	lcc-lr:hasTag "IE-LM" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-LM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-LM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Leitrim"@en ,
+		"Liatroim"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Leitrim in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Leitrim"@en ;
+	lcc-cr:hasLocalShortName "Liatroim"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-C-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-LS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-LS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-LS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Laois in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-LS-Subdivision ;
+	lcc-lr:hasTag "IE-LS" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-LS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-LS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Laois"@en ,
+		"Laois"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Laois in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Laois"@en ;
+	lcc-cr:hasLocalShortName "Laois"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-M
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-M-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-M-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the province of Munster in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-M-Subdivision ;
+	lcc-lr:hasTag "IE-M" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-M-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-M-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"An Mhumhain"@ga ,
+		"Munster"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the province of Munster in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Munster"@en ;
+	lcc-cr:hasLocalShortName "An Mhumhain"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-417-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ireland ;
+	.
+
+lcc-3166-2-ie:IE-MH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-MH-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-MH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-MH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Meath in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-MH-Subdivision ;
+	lcc-lr:hasTag "IE-MH" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-MH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-MH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"An Mhí"@ga ,
+		"Meath"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Meath in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Meath"@en ;
+	lcc-cr:hasLocalShortName "An Mhí"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-MN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-MN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-MN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Monaghan in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-MN-Subdivision ;
+	lcc-lr:hasTag "IE-MN" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-MN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-MN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Monaghan"@en ,
+		"Muineachán"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Monaghan in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Monaghan"@en ;
+	lcc-cr:hasLocalShortName "Muineachán"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-U-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-MO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-MO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-MO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Mayo in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-MO-Subdivision ;
+	lcc-lr:hasTag "IE-MO" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-MO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-MO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Maigh Eo"@ga ,
+		"Mayo"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Mayo in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Mayo"@en ;
+	lcc-cr:hasLocalShortName "Maigh Eo"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-C-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-OY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-OY-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-OY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-OY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Offaly in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-OY-Subdivision ;
+	lcc-lr:hasTag "IE-OY" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-OY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-OY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Offaly"@en ,
+		"Uíbh Fhailí"@ga
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Offaly in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Offaly"@en ;
+	lcc-cr:hasLocalShortName "Uíbh Fhailí"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-RN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-RN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-RN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-RN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Roscommon in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-RN-Subdivision ;
+	lcc-lr:hasTag "IE-RN" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-RN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-RN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ros Comáin"@ga ,
+		"Roscommon"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Roscommon in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Roscommon"@en ;
+	lcc-cr:hasLocalShortName "Ros Comáin"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-C-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-SO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-SO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-SO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Sligo in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-SO-Subdivision ;
+	lcc-lr:hasTag "IE-SO" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-SO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-SO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Sligeach"@ga ,
+		"Sligo"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Sligo in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Sligo"@en ;
+	lcc-cr:hasLocalShortName "Sligeach"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-C-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-TA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-TA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-TA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Tipperary in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-TA-Subdivision ;
+	lcc-lr:hasTag "IE-TA" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-TA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-TA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tiobraid Árann"@ga ,
+		"Tipperary"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Tipperary in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Tipperary"@en ;
+	lcc-cr:hasLocalShortName "Tiobraid Árann"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-M-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-U
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-U-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-U-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-U" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the province of Ulster in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-U-Subdivision ;
+	lcc-lr:hasTag "IE-U" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-U-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-U-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ulaidh"@ga ,
+		"Ulster"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the province of Ulster in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Ulster"@en ;
+	lcc-cr:hasLocalShortName "Ulaidh"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-417-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ireland ;
+	.
+
+lcc-3166-2-ie:IE-WD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WD-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-WD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-WD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Waterford in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-WD-Subdivision ;
+	lcc-lr:hasTag "IE-WD" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-WD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-WD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Port Láirge"@ga ,
+		"Waterford"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Waterford in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Waterford"@en ;
+	lcc-cr:hasLocalShortName "Port Láirge"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-M-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-WH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WH-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-WH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-WH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Westmeath in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-WH-Subdivision ;
+	lcc-lr:hasTag "IE-WH" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-WH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-WH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"An Iarmhí"@ga ,
+		"Westmeath"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Westmeath in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Westmeath"@en ;
+	lcc-cr:hasLocalShortName "An Iarmhí"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-WW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WW-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-WW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-WW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Wicklow in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-WW-Subdivision ;
+	lcc-lr:hasTag "IE-WW" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-WW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-WW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Cill Mhantáin"@ga ,
+		"Wicklow"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Wicklow in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Wicklow"@en ;
+	lcc-cr:hasLocalShortName "Cill Mhantáin"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:IE-WX
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WX-RegionIdentifier ;
+	.
+
+lcc-3166-2-ie:IE-WX-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IE-WX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "subdivision code for the county of Wexford in the country of Ireland" ;
+	lcc-lr:denotes lcc-3166-2-ie:IE-WX-Subdivision ;
+	lcc-lr:hasTag "IE-WX" ;
+	lcc-lr:identifies lcc-3166-2-ie:IE-WX-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ie:IE-WX-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Loch Garman"@ga ,
+		"Wexford"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/> ;
+	skos:definition "the county of Wexford in the country of Ireland" ;
+	lcc-cr:hasEnglishShortName "Wexford"@en ;
+	lcc-cr:hasLocalShortName "Loch Garman"@ga ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ie:IE-246-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:Kerry
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-KY-Subdivision ;
+	.
+
+lcc-3166-2-ie:Kildare
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-KE-Subdivision ;
+	.
+
+lcc-3166-2-ie:Kilkenny
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-KK-Subdivision ;
+	.
+
+lcc-3166-2-ie:Laois
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LS-Subdivision ;
+	.
+
+lcc-3166-2-ie:Leinster
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-L-Subdivision ;
+	.
+
+lcc-3166-2-ie:Leitrim
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LM-Subdivision ;
+	.
+
+lcc-3166-2-ie:Limerick
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LK-Subdivision ;
+	.
+
+lcc-3166-2-ie:Longford
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LD-Subdivision ;
+	.
+
+lcc-3166-2-ie:Louth
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-LH-Subdivision ;
+	.
+
+lcc-3166-2-ie:Mayo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-MO-Subdivision ;
+	.
+
+lcc-3166-2-ie:Meath
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-MH-Subdivision ;
+	.
+
+lcc-3166-2-ie:Monaghan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-MN-Subdivision ;
+	.
+
+lcc-3166-2-ie:Munster
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-M-Subdivision ;
+	.
+
+lcc-3166-2-ie:Offaly
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-OY-Subdivision ;
+	.
+
+lcc-3166-2-ie:Province
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-417-RegionKind ;
+	.
+
+lcc-3166-2-ie:Roscommon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-RN-Subdivision ;
+	.
+
+lcc-3166-2-ie:Sligo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-SO-Subdivision ;
+	.
+
+lcc-3166-2-ie:Tipperary
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-TA-Subdivision ;
+	.
+
+lcc-3166-2-ie:Ulster
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-U-Subdivision ;
+	.
+
+lcc-3166-2-ie:Waterford
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WD-Subdivision ;
+	.
+
+lcc-3166-2-ie:Westmeath
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WH-Subdivision ;
+	.
+
+lcc-3166-2-ie:Wexford
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WX-Subdivision ;
+	.
+
+lcc-3166-2-ie:Wicklow
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ie:IE-WW-Subdivision ;
+	.
+

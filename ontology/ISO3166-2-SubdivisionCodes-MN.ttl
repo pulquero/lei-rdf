@@ -1,0 +1,897 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Mongolia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Mongolia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	.
+
+lcc-3166-2-mn:Arhangay
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-073-Subdivision ;
+	.
+
+lcc-3166-2-mn:Aymag
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-333-RegionKind ;
+	.
+
+lcc-3166-2-mn:Bayan-Olgiy
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-071-Subdivision ;
+	.
+
+lcc-3166-2-mn:Bayanhongor
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-069-Subdivision ;
+	.
+
+lcc-3166-2-mn:Bulgan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-067-Subdivision ;
+	.
+
+lcc-3166-2-mn:DarhanUul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-037-Subdivision ;
+	.
+
+lcc-3166-2-mn:Dornod
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-061-Subdivision ;
+	.
+
+lcc-3166-2-mn:Dornogovi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-063-Subdivision ;
+	.
+
+lcc-3166-2-mn:Dundgovi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-059-Subdivision ;
+	.
+
+lcc-3166-2-mn:Dzavhan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-057-Subdivision ;
+	.
+
+lcc-3166-2-mn:Govi-Altay
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-065-Subdivision ;
+	.
+
+lcc-3166-2-mn:Govi-Sumber
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-064-Subdivision ;
+	.
+
+lcc-3166-2-mn:Hentiy
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-039-Subdivision ;
+	.
+
+lcc-3166-2-mn:Hot
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-360-RegionKind ;
+	.
+
+lcc-3166-2-mn:Hovd
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-043-Subdivision ;
+	.
+
+lcc-3166-2-mn:Hovsgol
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-041-Subdivision ;
+	.
+
+lcc-3166-2-mn:MN-035
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-035-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-035-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-035" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Orhon in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-035-Subdivision ;
+	lcc-lr:hasTag "MN-035" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-035-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-035-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Orhon"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Orhon in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Orhon"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-037
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-037-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-037-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-037" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Darhan uul in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-037-Subdivision ;
+	lcc-lr:hasTag "MN-037" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-037-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-037-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Darhan uul"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Darhan uul in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Darhan uul"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-039
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-039-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-039-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-039" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Hentiy in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-039-Subdivision ;
+	lcc-lr:hasTag "MN-039" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-039-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-039-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hentiy"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Hentiy in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Hentiy"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-041
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-041-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-041-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-041" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Hövsgöl in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-041-Subdivision ;
+	lcc-lr:hasTag "MN-041" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-041-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-041-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hövsgöl"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Hövsgöl in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Hövsgöl"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-043
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-043-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-043-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-043" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Hovd in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-043-Subdivision ;
+	lcc-lr:hasTag "MN-043" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-043-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-043-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hovd"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Hovd in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Hovd"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-046
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-046-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-046-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-046" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Uvs in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-046-Subdivision ;
+	lcc-lr:hasTag "MN-046" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-046-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-046-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uvs"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Uvs in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Uvs"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-047
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-047-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-047-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-047" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Töv in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-047-Subdivision ;
+	lcc-lr:hasTag "MN-047" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-047-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-047-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Töv"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Töv in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Töv"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-049
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-049-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-049-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-049" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Selenge in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-049-Subdivision ;
+	lcc-lr:hasTag "MN-049" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-049-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-049-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Selenge"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Selenge in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Selenge"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-051
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-051-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-051-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-051" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Sühbaatar in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-051-Subdivision ;
+	lcc-lr:hasTag "MN-051" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-051-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-051-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sühbaatar"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Sühbaatar in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Sühbaatar"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-053
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-053-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-053-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-053" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Ömnögovĭ in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-053-Subdivision ;
+	lcc-lr:hasTag "MN-053" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-053-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-053-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ömnögovĭ"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Ömnögovĭ in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Ömnögovĭ"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-055
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-055-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-055-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-055" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Övörhangay in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-055-Subdivision ;
+	lcc-lr:hasTag "MN-055" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-055-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-055-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Övörhangay"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Övörhangay in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Övörhangay"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-057
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-057-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-057-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-057" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Dzavhan in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-057-Subdivision ;
+	lcc-lr:hasTag "MN-057" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-057-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-057-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dzavhan"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Dzavhan in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Dzavhan"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-059
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-059-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-059-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-059" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Dundgovĭ in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-059-Subdivision ;
+	lcc-lr:hasTag "MN-059" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-059-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-059-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dundgovĭ"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Dundgovĭ in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Dundgovĭ"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-061
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-061-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-061-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-061" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Dornod in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-061-Subdivision ;
+	lcc-lr:hasTag "MN-061" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-061-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-061-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dornod"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Dornod in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Dornod"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-063
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-063-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-063-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-063" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Dornogovĭ in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-063-Subdivision ;
+	lcc-lr:hasTag "MN-063" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-063-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-063-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dornogovĭ"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Dornogovĭ in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Dornogovĭ"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-064
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-064-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-064-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-064" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Govĭ-Sümber in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-064-Subdivision ;
+	lcc-lr:hasTag "MN-064" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-064-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-064-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Govĭ-Sümber"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Govĭ-Sümber in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Govĭ-Sümber"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-065
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-065-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-065-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-065" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Govĭ-Altay in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-065-Subdivision ;
+	lcc-lr:hasTag "MN-065" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-065-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-065-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Govĭ-Altay"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Govĭ-Altay in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Govĭ-Altay"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-067
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-067-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-067-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-067" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Bulgan in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-067-Subdivision ;
+	lcc-lr:hasTag "MN-067" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-067-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-067-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bulgan"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Bulgan in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Bulgan"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-069
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-069-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-069-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-069" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Bayanhongor in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-069-Subdivision ;
+	lcc-lr:hasTag "MN-069" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-069-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-069-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bayanhongor"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Bayanhongor in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Bayanhongor"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-071
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-071-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-071-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-071" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Bayan-Ölgiy in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-071-Subdivision ;
+	lcc-lr:hasTag "MN-071" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-071-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-071-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bayan-Ölgiy"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Bayan-Ölgiy in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Bayan-Ölgiy"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-073
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-073-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-073-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-073" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the aymag of Arhangay in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-073-Subdivision ;
+	lcc-lr:hasTag "MN-073" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-073-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-073-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arhangay"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the aymag of Arhangay in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Arhangay"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-333-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-1
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-1-RegionIdentifier ;
+	.
+
+lcc-3166-2-mn:MN-1-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MN-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision code for the hot of Ulaanbaatar in the country of Mongolia" ;
+	lcc-lr:denotes lcc-3166-2-mn:MN-1-Subdivision ;
+	lcc-lr:hasTag "MN-1" ;
+	lcc-lr:identifies lcc-3166-2-mn:MN-1-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mn:MN-1-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ulaanbaatar"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "the hot of Ulaanbaatar in the country of Mongolia" ;
+	lcc-cr:hasLocalShortName "Ulaanbaatar"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mn:MN-360-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-2-mn:MN-333-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "aymag"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision category aymag in the country of Mongolia" ;
+	.
+
+lcc-3166-2-mn:MN-360-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "hot"@mn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MN/> ;
+	skos:definition "subdivision category hot in the country of Mongolia" ;
+	.
+
+lcc-3166-2-mn:Omnogovi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-053-Subdivision ;
+	.
+
+lcc-3166-2-mn:Orhon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-035-Subdivision ;
+	.
+
+lcc-3166-2-mn:Ovorhangay
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-055-Subdivision ;
+	.
+
+lcc-3166-2-mn:Selenge
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-049-Subdivision ;
+	.
+
+lcc-3166-2-mn:Suhbaatar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-051-Subdivision ;
+	.
+
+lcc-3166-2-mn:Tov
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-047-Subdivision ;
+	.
+
+lcc-3166-2-mn:Ulaanbaatar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-1-Subdivision ;
+	.
+
+lcc-3166-2-mn:Uvs
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mn:MN-046-Subdivision ;
+	.
+

@@ -1,0 +1,712 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ni: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Nicaragua Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ni" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Nicaragua, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NI.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	.
+
+lcc-3166-2-ni:Boaco
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-BO-Subdivision ;
+	.
+
+lcc-3166-2-ni:Carazo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-CA-Subdivision ;
+	.
+
+lcc-3166-2-ni:Chinandega
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-CI-Subdivision ;
+	.
+
+lcc-3166-2-ni:Chontales
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-CO-Subdivision ;
+	.
+
+lcc-3166-2-ni:CostaCaribeNorte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-AN-Subdivision ;
+	.
+
+lcc-3166-2-ni:CostaCaribeSur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-AS-Subdivision ;
+	.
+
+lcc-3166-2-ni:Departamento
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-111-RegionKind ;
+	.
+
+lcc-3166-2-ni:Esteli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-ES-Subdivision ;
+	.
+
+lcc-3166-2-ni:Granada
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-GR-Subdivision ;
+	.
+
+lcc-3166-2-ni:Jinotega
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-JI-Subdivision ;
+	.
+
+lcc-3166-2-ni:Leon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-LE-Subdivision ;
+	.
+
+lcc-3166-2-ni:Madriz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MD-Subdivision ;
+	.
+
+lcc-3166-2-ni:Managua
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MN-Subdivision ;
+	.
+
+lcc-3166-2-ni:Masaya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MS-Subdivision ;
+	.
+
+lcc-3166-2-ni:Matagalpa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MT-Subdivision ;
+	.
+
+lcc-3166-2-ni:NI-111-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "departamento"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision category departamento in the country of Nicaragua" ;
+	.
+
+lcc-3166-2-ni:NI-310-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "región autónoma"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision category región autónoma in the country of Nicaragua" ;
+	.
+
+lcc-3166-2-ni:NI-AN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-AN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-AN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the región autónoma of Costa Caribe Norte in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-AN-Subdivision ;
+	lcc-lr:hasTag "NI-AN" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-AN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-AN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Costa Caribe Norte"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the región autónoma of Costa Caribe Norte in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Costa Caribe Norte"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-310-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-AS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-AS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-AS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-AS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the región autónoma of Costa Caribe Sur in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-AS-Subdivision ;
+	lcc-lr:hasTag "NI-AS" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-AS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-AS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Costa Caribe Sur"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the región autónoma of Costa Caribe Sur in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Costa Caribe Sur"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-310-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-BO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-BO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-BO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Boaco in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-BO-Subdivision ;
+	lcc-lr:hasTag "NI-BO" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-BO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-BO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boaco"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Boaco in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Boaco"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-CA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-CA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-CA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Carazo in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-CA-Subdivision ;
+	lcc-lr:hasTag "NI-CA" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-CA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-CA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Carazo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Carazo in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Carazo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-CI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-CI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-CI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-CI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Chinandega in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-CI-Subdivision ;
+	lcc-lr:hasTag "NI-CI" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-CI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-CI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chinandega"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Chinandega in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Chinandega"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-CO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-CO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-CO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Chontales in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-CO-Subdivision ;
+	lcc-lr:hasTag "NI-CO" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-CO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-CO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chontales"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Chontales in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Chontales"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-ES
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-ES-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-ES-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-ES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Estelí in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-ES-Subdivision ;
+	lcc-lr:hasTag "NI-ES" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-ES-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-ES-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Estelí"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Estelí in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Estelí"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-GR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-GR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-GR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Granada in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-GR-Subdivision ;
+	lcc-lr:hasTag "NI-GR" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-GR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-GR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Granada"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Granada in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Granada"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-JI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-JI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-JI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-JI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Jinotega in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-JI-Subdivision ;
+	lcc-lr:hasTag "NI-JI" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-JI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-JI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jinotega"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Jinotega in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Jinotega"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-LE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-LE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-LE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-LE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of León in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-LE-Subdivision ;
+	lcc-lr:hasTag "NI-LE" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-LE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-LE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "León"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of León in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "León"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-MD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MD-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-MD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-MD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Madriz in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-MD-Subdivision ;
+	lcc-lr:hasTag "NI-MD" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-MD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-MD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madriz"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Madriz in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Madriz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-MN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-MN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Managua in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-MN-Subdivision ;
+	lcc-lr:hasTag "NI-MN" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-MN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-MN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Managua"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Managua in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Managua"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-MS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-MS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-MS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Masaya in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-MS-Subdivision ;
+	lcc-lr:hasTag "NI-MS" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-MS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-MS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Masaya"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Masaya in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Masaya"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-MT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-MT-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-MT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-MT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Matagalpa in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-MT-Subdivision ;
+	lcc-lr:hasTag "NI-MT" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-MT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-MT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matagalpa"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Matagalpa in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Matagalpa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-NS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-NS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-NS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-NS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Nueva Segovia in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-NS-Subdivision ;
+	lcc-lr:hasTag "NI-NS" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-NS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-NS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nueva Segovia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Nueva Segovia in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Nueva Segovia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-RI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-RI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-RI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Rivas in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-RI-Subdivision ;
+	lcc-lr:hasTag "NI-RI" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-RI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-RI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rivas"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Rivas in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Rivas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NI-SJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-SJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ni:NI-SJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NI-SJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "subdivision code for the departamento of Río San Juan in the country of Nicaragua" ;
+	lcc-lr:denotes lcc-3166-2-ni:NI-SJ-Subdivision ;
+	lcc-lr:hasTag "NI-SJ" ;
+	lcc-lr:identifies lcc-3166-2-ni:NI-SJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ni:NI-SJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Río San Juan"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI/> ;
+	skos:definition "the departamento of Río San Juan in the country of Nicaragua" ;
+	lcc-cr:hasLocalShortName "Río San Juan"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ni:NI-111-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-2-ni:NuevaSegovia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-NS-Subdivision ;
+	.
+
+lcc-3166-2-ni:RegionAutonoma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-310-RegionKind ;
+	.
+
+lcc-3166-2-ni:RioSanJuan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-SJ-Subdivision ;
+	.
+
+lcc-3166-2-ni:Rivas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ni:NI-RI-Subdivision ;
+	.
+

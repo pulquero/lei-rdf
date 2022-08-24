@@ -1,0 +1,1482 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-md: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Moldova (the Republic of) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-md" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Moldova (the Republic of), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MD.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	.
+
+lcc-3166-2-md:AneniiNoi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-AN-Subdivision ;
+	.
+
+lcc-3166-2-md:Balti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BA-Subdivision ;
+	.
+
+lcc-3166-2-md:Basarabeasca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BS-Subdivision ;
+	.
+
+lcc-3166-2-md:Bender
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BD-Subdivision ;
+	.
+
+lcc-3166-2-md:Briceni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BR-Subdivision ;
+	.
+
+lcc-3166-2-md:Cahul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CA-Subdivision ;
+	.
+
+lcc-3166-2-md:Calarasi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CL-Subdivision ;
+	.
+
+lcc-3166-2-md:Cantemir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CT-Subdivision ;
+	.
+
+lcc-3166-2-md:Causeni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CS-Subdivision ;
+	.
+
+lcc-3166-2-md:Chisinau
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CU-Subdivision ;
+	.
+
+lcc-3166-2-md:Cimislia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CM-Subdivision ;
+	.
+
+lcc-3166-2-md:Criuleni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CR-Subdivision ;
+	.
+
+lcc-3166-2-md:Donduseni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-DO-Subdivision ;
+	.
+
+lcc-3166-2-md:Drochia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-DR-Subdivision ;
+	.
+
+lcc-3166-2-md:Dubasari
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-DU-Subdivision ;
+	.
+
+lcc-3166-2-md:Edinet
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-ED-Subdivision ;
+	.
+
+lcc-3166-2-md:Falesti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-FA-Subdivision ;
+	.
+
+lcc-3166-2-md:Floresti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-FL-Subdivision ;
+	.
+
+lcc-3166-2-md:Gagauzia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-GA-Subdivision ;
+	.
+
+lcc-3166-2-md:Glodeni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-GL-Subdivision ;
+	.
+
+lcc-3166-2-md:Hincesti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-HI-Subdivision ;
+	.
+
+lcc-3166-2-md:Ialoveni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-IA-Subdivision ;
+	.
+
+lcc-3166-2-md:Leova
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-LE-Subdivision ;
+	.
+
+lcc-3166-2-md:MD-120-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "raion"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision category raion in the country of Moldova (the Republic of)" ;
+	.
+
+lcc-3166-2-md:MD-148-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "unitatea teritorială autonomă"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision category unitatea teritorială autonomă in the country of Moldova (the Republic of)" ;
+	.
+
+lcc-3166-2-md:MD-222-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "unitatea teritorială"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision category unitatea teritorială in the country of Moldova (the Republic of)" ;
+	.
+
+lcc-3166-2-md:MD-234-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipiu"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision category municipiu in the country of Moldova (the Republic of)" ;
+	.
+
+lcc-3166-2-md:MD-AN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-AN-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-AN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Anenii Noi in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-AN-Subdivision ;
+	lcc-lr:hasTag "MD-AN" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-AN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-AN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anenii Noi"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Anenii Noi in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Anenii Noi"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the municipiu of Bălți in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-BA-Subdivision ;
+	lcc-lr:hasTag "MD-BA" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bălți"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the municipiu of Bălți in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Bălți"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-234-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-BD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BD-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-BD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-BD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the municipiu of Bender [Tighina] in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-BD-Subdivision ;
+	lcc-lr:hasTag "MD-BD" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-BD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-BD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bender [Tighina]"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the municipiu of Bender [Tighina] in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Bender [Tighina]"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-234-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-BR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BR-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-BR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Briceni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-BR-Subdivision ;
+	lcc-lr:hasTag "MD-BR" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-BR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-BR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Briceni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Briceni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Briceni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-BS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-BS-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-BS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-BS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Basarabeasca in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-BS-Subdivision ;
+	lcc-lr:hasTag "MD-BS" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-BS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-BS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Basarabeasca"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Basarabeasca in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Basarabeasca"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-CA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CA-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-CA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Cahul in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-CA-Subdivision ;
+	lcc-lr:hasTag "MD-CA" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-CA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-CA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cahul"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Cahul in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Cahul"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-CL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CL-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-CL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Călărași in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-CL-Subdivision ;
+	lcc-lr:hasTag "MD-CL" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-CL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-CL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Călărași"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Călărași in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Călărași"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-CM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CM-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-CM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-CM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Cimișlia in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-CM-Subdivision ;
+	lcc-lr:hasTag "MD-CM" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-CM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-CM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cimișlia"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Cimișlia in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Cimișlia"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-CR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CR-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-CR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Criuleni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-CR-Subdivision ;
+	lcc-lr:hasTag "MD-CR" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-CR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-CR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Criuleni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Criuleni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Criuleni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-CS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CS-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-CS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-CS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Căușeni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-CS-Subdivision ;
+	lcc-lr:hasTag "MD-CS" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-CS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-CS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Căușeni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Căușeni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Căușeni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-CT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CT-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-CT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Cantemir in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-CT-Subdivision ;
+	lcc-lr:hasTag "MD-CT" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-CT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-CT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cantemir"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Cantemir in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Cantemir"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-CU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-CU-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-CU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-CU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the municipiu of Chișinău in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-CU-Subdivision ;
+	lcc-lr:hasTag "MD-CU" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-CU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-CU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chișinău"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the municipiu of Chișinău in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Chișinău"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-234-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-DO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-DO-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-DO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-DO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Dondușeni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-DO-Subdivision ;
+	lcc-lr:hasTag "MD-DO" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-DO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-DO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dondușeni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Dondușeni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Dondușeni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-DR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-DR-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-DR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-DR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Drochia in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-DR-Subdivision ;
+	lcc-lr:hasTag "MD-DR" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-DR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-DR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Drochia"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Drochia in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Drochia"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-DU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-DU-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-DU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-DU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Dubăsari in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-DU-Subdivision ;
+	lcc-lr:hasTag "MD-DU" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-DU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-DU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dubăsari"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Dubăsari in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Dubăsari"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-ED
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-ED-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-ED-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-ED" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Edineț in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-ED-Subdivision ;
+	lcc-lr:hasTag "MD-ED" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-ED-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-ED-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Edineț"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Edineț in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Edineț"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-FA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-FA-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-FA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-FA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Fălești in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-FA-Subdivision ;
+	lcc-lr:hasTag "MD-FA" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-FA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-FA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fălești"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Fălești in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Fălești"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-FL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-FL-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-FL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-FL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Florești in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-FL-Subdivision ;
+	lcc-lr:hasTag "MD-FL" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-FL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-FL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Florești"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Florești in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Florești"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the unitatea teritorială autonomă of Găgăuzia, Unitatea teritorială autonomă (UTAG) in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-GA-Subdivision ;
+	lcc-lr:hasTag "MD-GA" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Găgăuzia, Unitatea teritorială autonomă (UTAG)"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the unitatea teritorială autonomă of Găgăuzia, Unitatea teritorială autonomă (UTAG) in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Găgăuzia, Unitatea teritorială autonomă (UTAG)"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-148-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-GL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-GL-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-GL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-GL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Glodeni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-GL-Subdivision ;
+	lcc-lr:hasTag "MD-GL" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-GL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-GL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Glodeni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Glodeni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Glodeni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-HI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-HI-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-HI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-HI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Hîncești in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-HI-Subdivision ;
+	lcc-lr:hasTag "MD-HI" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-HI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-HI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hîncești"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Hîncești in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Hîncești"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-IA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-IA-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-IA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-IA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Ialoveni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-IA-Subdivision ;
+	lcc-lr:hasTag "MD-IA" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-IA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-IA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ialoveni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Ialoveni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Ialoveni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-LE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-LE-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-LE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-LE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Leova in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-LE-Subdivision ;
+	lcc-lr:hasTag "MD-LE" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-LE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-LE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Leova"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Leova in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Leova"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-NI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-NI-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-NI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Nisporeni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-NI-Subdivision ;
+	lcc-lr:hasTag "MD-NI" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-NI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-NI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nisporeni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Nisporeni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Nisporeni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-OC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-OC-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-OC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-OC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Ocnița in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-OC-Subdivision ;
+	lcc-lr:hasTag "MD-OC" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-OC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-OC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ocnița"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Ocnița in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Ocnița"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-OR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-OR-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-OR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-OR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Orhei in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-OR-Subdivision ;
+	lcc-lr:hasTag "MD-OR" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-OR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-OR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Orhei"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Orhei in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Orhei"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-RE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-RE-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-RE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-RE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Rezina in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-RE-Subdivision ;
+	lcc-lr:hasTag "MD-RE" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-RE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-RE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rezina"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Rezina in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Rezina"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-RI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-RI-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-RI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Rîșcani in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-RI-Subdivision ;
+	lcc-lr:hasTag "MD-RI" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-RI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-RI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rîșcani"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Rîșcani in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Rîșcani"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-SD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SD-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-SD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Șoldănești in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-SD-Subdivision ;
+	lcc-lr:hasTag "MD-SD" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-SD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-SD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Șoldănești"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Șoldănești in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Șoldănești"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-SI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SI-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-SI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-SI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Sîngerei in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-SI-Subdivision ;
+	lcc-lr:hasTag "MD-SI" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-SI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-SI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sîngerei"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Sîngerei in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Sîngerei"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-SN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SN-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-SN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the unitatea teritorială of Stînga Nistrului, unitatea teritorială din in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-SN-Subdivision ;
+	lcc-lr:hasTag "MD-SN" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-SN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-SN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Stînga Nistrului, unitatea teritorială din"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the unitatea teritorială of Stînga Nistrului, unitatea teritorială din in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Stînga Nistrului, unitatea teritorială din"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-222-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-SO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SO-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-SO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Soroca in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-SO-Subdivision ;
+	lcc-lr:hasTag "MD-SO" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-SO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-SO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Soroca"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Soroca in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Soroca"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-ST
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-ST-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-ST-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-ST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Strășeni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-ST-Subdivision ;
+	lcc-lr:hasTag "MD-ST" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-ST-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-ST-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Strășeni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Strășeni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Strășeni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-SV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SV-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-SV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Ștefan Vodă in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-SV-Subdivision ;
+	lcc-lr:hasTag "MD-SV" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-SV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-SV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ștefan Vodă"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Ștefan Vodă in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Ștefan Vodă"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-TA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-TA-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-TA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Taraclia in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-TA-Subdivision ;
+	lcc-lr:hasTag "MD-TA" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-TA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-TA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taraclia"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Taraclia in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Taraclia"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-TE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-TE-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-TE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-TE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Telenești in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-TE-Subdivision ;
+	lcc-lr:hasTag "MD-TE" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-TE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-TE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Telenești"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Telenești in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Telenești"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:MD-UN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-UN-RegionIdentifier ;
+	.
+
+lcc-3166-2-md:MD-UN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MD-UN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "subdivision code for the raion of Ungheni in the country of Moldova (the Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-md:MD-UN-Subdivision ;
+	lcc-lr:hasTag "MD-UN" ;
+	lcc-lr:identifies lcc-3166-2-md:MD-UN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-md:MD-UN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ungheni"@ro ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/> ;
+	skos:definition "the raion of Ungheni in the country of Moldova (the Republic of)" ;
+	lcc-cr:hasLocalShortName "Ungheni"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-md:MD-120-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-2-md:Municipiu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-234-RegionKind ;
+	.
+
+lcc-3166-2-md:Nisporeni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-NI-Subdivision ;
+	.
+
+lcc-3166-2-md:Ocnita
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-OC-Subdivision ;
+	.
+
+lcc-3166-2-md:Orhei
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-OR-Subdivision ;
+	.
+
+lcc-3166-2-md:Raion
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-120-RegionKind ;
+	.
+
+lcc-3166-2-md:Rezina
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-RE-Subdivision ;
+	.
+
+lcc-3166-2-md:Riscani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-RI-Subdivision ;
+	.
+
+lcc-3166-2-md:Singerei
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SI-Subdivision ;
+	.
+
+lcc-3166-2-md:Soldanesti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SD-Subdivision ;
+	.
+
+lcc-3166-2-md:Soroca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SO-Subdivision ;
+	.
+
+lcc-3166-2-md:StefanVoda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SV-Subdivision ;
+	.
+
+lcc-3166-2-md:StingaNistrului
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-SN-Subdivision ;
+	.
+
+lcc-3166-2-md:Straseni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-ST-Subdivision ;
+	.
+
+lcc-3166-2-md:Taraclia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-TA-Subdivision ;
+	.
+
+lcc-3166-2-md:Telenesti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-TE-Subdivision ;
+	.
+
+lcc-3166-2-md:Ungheni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-UN-Subdivision ;
+	.
+
+lcc-3166-2-md:UnitateaTeritoriala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-222-RegionKind ;
+	.
+
+lcc-3166-2-md:UnitateaTeritorialaAutonoma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-md:MD-148-RegionKind ;
+	.
+

@@ -1,0 +1,586 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Senegal Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Senegal, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	.
+
+lcc-3166-2-sn:Dakar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-DK-Subdivision ;
+	.
+
+lcc-3166-2-sn:Diourbel
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-DB-Subdivision ;
+	.
+
+lcc-3166-2-sn:Fatick
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-FK-Subdivision ;
+	.
+
+lcc-3166-2-sn:Kaffrine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KA-Subdivision ;
+	.
+
+lcc-3166-2-sn:Kaolack
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KL-Subdivision ;
+	.
+
+lcc-3166-2-sn:Kedougou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KE-Subdivision ;
+	.
+
+lcc-3166-2-sn:Kolda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KD-Subdivision ;
+	.
+
+lcc-3166-2-sn:Louga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-LG-Subdivision ;
+	.
+
+lcc-3166-2-sn:Matam
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-MT-Subdivision ;
+	.
+
+lcc-3166-2-sn:Region
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-175-RegionKind ;
+	.
+
+lcc-3166-2-sn:SN-175-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "région"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision category région in the country of Senegal" ;
+	.
+
+lcc-3166-2-sn:SN-DB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-DB-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-DB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-DB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Diourbel in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-DB-Subdivision ;
+	lcc-lr:hasTag "SN-DB" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-DB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-DB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Diourbel"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Diourbel in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Diourbel"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-DK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-DK-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-DK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-DK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Dakar in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-DK-Subdivision ;
+	lcc-lr:hasTag "SN-DK" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-DK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-DK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dakar"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Dakar in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Dakar"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-FK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-FK-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-FK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-FK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Fatick in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-FK-Subdivision ;
+	lcc-lr:hasTag "SN-FK" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-FK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-FK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fatick"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Fatick in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Fatick"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-KA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KA-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-KA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Kaffrine in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-KA-Subdivision ;
+	lcc-lr:hasTag "SN-KA" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-KA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-KA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaffrine"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Kaffrine in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Kaffrine"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-KD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KD-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-KD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-KD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Kolda in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-KD-Subdivision ;
+	lcc-lr:hasTag "SN-KD" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-KD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-KD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kolda"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Kolda in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Kolda"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-KE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KE-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-KE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-KE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Kédougou in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-KE-Subdivision ;
+	lcc-lr:hasTag "SN-KE" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-KE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-KE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kédougou"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Kédougou in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Kédougou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-KL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-KL-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-KL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-KL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Kaolack in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-KL-Subdivision ;
+	lcc-lr:hasTag "SN-KL" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-KL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-KL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaolack"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Kaolack in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Kaolack"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-LG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-LG-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-LG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-LG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Louga in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-LG-Subdivision ;
+	lcc-lr:hasTag "SN-LG" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-LG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-LG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Louga"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Louga in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Louga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-MT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-MT-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-MT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-MT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Matam in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-MT-Subdivision ;
+	lcc-lr:hasTag "SN-MT" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-MT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-MT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matam"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Matam in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Matam"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-SE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-SE-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-SE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Sédhiou in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-SE-Subdivision ;
+	lcc-lr:hasTag "SN-SE" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-SE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-SE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sédhiou"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Sédhiou in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Sédhiou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-SL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-SL-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-SL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-SL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Saint-Louis in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-SL-Subdivision ;
+	lcc-lr:hasTag "SN-SL" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-SL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-SL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint-Louis"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Saint-Louis in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Saint-Louis"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-TC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-TC-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-TC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-TC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Tambacounda in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-TC-Subdivision ;
+	lcc-lr:hasTag "SN-TC" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-TC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-TC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tambacounda"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Tambacounda in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Tambacounda"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-TH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-TH-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-TH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-TH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Thiès in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-TH-Subdivision ;
+	lcc-lr:hasTag "SN-TH" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-TH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-TH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thiès"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Thiès in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Thiès"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:SN-ZG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-ZG-RegionIdentifier ;
+	.
+
+lcc-3166-2-sn:SN-ZG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SN-ZG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "subdivision code for the région of Ziguinchor in the country of Senegal" ;
+	lcc-lr:denotes lcc-3166-2-sn:SN-ZG-Subdivision ;
+	lcc-lr:hasTag "SN-ZG" ;
+	lcc-lr:identifies lcc-3166-2-sn:SN-ZG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sn:SN-ZG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ziguinchor"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SN/> ;
+	skos:definition "the région of Ziguinchor in the country of Senegal" ;
+	lcc-cr:hasFrenchShortName "Ziguinchor"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sn:SN-175-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-2-sn:Saint-Louis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-SL-Subdivision ;
+	.
+
+lcc-3166-2-sn:Sedhiou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-SE-Subdivision ;
+	.
+
+lcc-3166-2-sn:Tambacounda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-TC-Subdivision ;
+	.
+
+lcc-3166-2-sn:Thies
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-TH-Subdivision ;
+	.
+
+lcc-3166-2-sn:Ziguinchor
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sn:SN-ZG-Subdivision ;
+	.
+

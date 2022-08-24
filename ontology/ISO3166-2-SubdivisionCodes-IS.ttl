@@ -1,0 +1,3043 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-is: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Iceland Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-is" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Iceland, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IS.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	.
+
+lcc-3166-2-is:Akrahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-AKH-Subdivision ;
+	.
+
+lcc-3166-2-is:Akraneskaupstaur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-AKN-Subdivision ;
+	.
+
+lcc-3166-2-is:Akureyrarbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-AKU-Subdivision ;
+	.
+
+lcc-3166-2-is:Arneshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-ARN-Subdivision ;
+	.
+
+lcc-3166-2-is:Asahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-ASA-Subdivision ;
+	.
+
+lcc-3166-2-is:Austurland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:Blaskogabygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BLA-Subdivision ;
+	.
+
+lcc-3166-2-is:Blonduosbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BLO-Subdivision ;
+	.
+
+lcc-3166-2-is:Bolungarvikurkaupstaur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BOL-Subdivision ;
+	.
+
+lcc-3166-2-is:Borgarbygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BOG-Subdivision ;
+	.
+
+lcc-3166-2-is:Borgarfjararhreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BFJ-Subdivision ;
+	.
+
+lcc-3166-2-is:Dalabygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-DAB-Subdivision ;
+	.
+
+lcc-3166-2-is:Dalvikurbygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-DAV-Subdivision ;
+	.
+
+lcc-3166-2-is:Djupavogshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-DJU-Subdivision ;
+	.
+
+lcc-3166-2-is:Eyja-OgMiklaholtshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-EOM-Subdivision ;
+	.
+
+lcc-3166-2-is:Eyjafjararsveit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-EYF-Subdivision ;
+	.
+
+lcc-3166-2-is:Fjallabygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FJL-Subdivision ;
+	.
+
+lcc-3166-2-is:Fjarabygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FJD-Subdivision ;
+	.
+
+lcc-3166-2-is:Fljotsdalshera
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FLD-Subdivision ;
+	.
+
+lcc-3166-2-is:Fljotsdalshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FLR-Subdivision ;
+	.
+
+lcc-3166-2-is:Floahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FLA-Subdivision ;
+	.
+
+lcc-3166-2-is:Garabr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GAR-Subdivision ;
+	.
+
+lcc-3166-2-is:Grimsnes-OgGrafningshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GOG-Subdivision ;
+	.
+
+lcc-3166-2-is:Grindavikurbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GRN-Subdivision ;
+	.
+
+lcc-3166-2-is:Grundarfjararbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GRU-Subdivision ;
+	.
+
+lcc-3166-2-is:Grytubakkahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GRY-Subdivision ;
+	.
+
+lcc-3166-2-is:Hafnarfjararkaupstaur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HAF-Subdivision ;
+	.
+
+lcc-3166-2-is:Helgafellssveit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HEL-Subdivision ;
+	.
+
+lcc-3166-2-is:Hofuborgarsvi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:Horgarsveit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HRG-Subdivision ;
+	.
+
+lcc-3166-2-is:Hrunamannahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HRU-Subdivision ;
+	.
+
+lcc-3166-2-is:HunaingVestra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HUV-Subdivision ;
+	.
+
+lcc-3166-2-is:Hunavatnshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HUT-Subdivision ;
+	.
+
+lcc-3166-2-is:Hvalfjararsveit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HVA-Subdivision ;
+	.
+
+lcc-3166-2-is:Hveragerisbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HVE-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-1
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-1-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-1-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Höfuðborgarsvæði in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-1-Subdivision ;
+	lcc-lr:hasTag "IS-1" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-1-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-1-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Höfuðborgarsvæði"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Höfuðborgarsvæði in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Höfuðborgarsvæði"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-2
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-2-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-2-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Suðurnes in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-2-Subdivision ;
+	lcc-lr:hasTag "IS-2" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-2-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-2-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suðurnes"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Suðurnes in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Suðurnes"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-3
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-3-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-3-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Vesturland in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-3-Subdivision ;
+	lcc-lr:hasTag "IS-3" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-3-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-3-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vesturland"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Vesturland in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Vesturland"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-4
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-4-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-4-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Vestfirðir in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-4-Subdivision ;
+	lcc-lr:hasTag "IS-4" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-4-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-4-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vestfirðir"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Vestfirðir in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Vestfirðir"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-419-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "landsvæði"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision category landsvæði in the country of Iceland" ;
+	.
+
+lcc-3166-2-is:IS-485-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "sveitarfélagið"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision category sveitarfélagið in the country of Iceland" ;
+	.
+
+lcc-3166-2-is:IS-5
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-5-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-5-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Norðurland vestra in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-5-Subdivision ;
+	lcc-lr:hasTag "IS-5" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-5-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-5-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norðurland vestra"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Norðurland vestra in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Norðurland vestra"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-6
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-6-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-6-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Norðurland eystra in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-6-Subdivision ;
+	lcc-lr:hasTag "IS-6" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-6-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-6-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norðurland eystra"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Norðurland eystra in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Norðurland eystra"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-7
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-7-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-7-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Austurland in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-7-Subdivision ;
+	lcc-lr:hasTag "IS-7" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-7-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-7-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Austurland"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Austurland in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Austurland"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-8
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-8-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-8-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the landsvæði of Suðurland in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-8-Subdivision ;
+	lcc-lr:hasTag "IS-8" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-8-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-8-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suðurland"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the landsvæði of Suðurland in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Suðurland"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-419-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-AKH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-AKH-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-AKH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-AKH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Akrahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-AKH-Subdivision ;
+	lcc-lr:hasTag "IS-AKH" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-AKH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-AKH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Akrahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Akrahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Akrahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-AKN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-AKN-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-AKN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-AKN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Akraneskaupstaður in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-AKN-Subdivision ;
+	lcc-lr:hasTag "IS-AKN" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-AKN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-AKN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Akraneskaupstaður"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Akraneskaupstaður in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Akraneskaupstaður"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-AKU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-AKU-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-AKU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-AKU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Akureyrarbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-AKU-Subdivision ;
+	lcc-lr:hasTag "IS-AKU" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-AKU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-AKU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Akureyrarbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Akureyrarbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Akureyrarbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-ARN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-ARN-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-ARN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-ARN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Árneshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-ARN-Subdivision ;
+	lcc-lr:hasTag "IS-ARN" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-ARN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-ARN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Árneshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Árneshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Árneshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-ASA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-ASA-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-ASA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-ASA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Ásahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-ASA-Subdivision ;
+	lcc-lr:hasTag "IS-ASA" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-ASA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-ASA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ásahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Ásahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Ásahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-BFJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BFJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-BFJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-BFJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Borgarfjarðarhreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-BFJ-Subdivision ;
+	lcc-lr:hasTag "IS-BFJ" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-BFJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-BFJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Borgarfjarðarhreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Borgarfjarðarhreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Borgarfjarðarhreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-BLA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BLA-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-BLA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-BLA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Bláskógabyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-BLA-Subdivision ;
+	lcc-lr:hasTag "IS-BLA" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-BLA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-BLA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bláskógabyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Bláskógabyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Bláskógabyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-BLO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BLO-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-BLO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-BLO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Blönduósbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-BLO-Subdivision ;
+	lcc-lr:hasTag "IS-BLO" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-BLO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-BLO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Blönduósbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Blönduósbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Blönduósbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-BOG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BOG-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-BOG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-BOG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Borgarbyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-BOG-Subdivision ;
+	lcc-lr:hasTag "IS-BOG" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-BOG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-BOG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Borgarbyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Borgarbyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Borgarbyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-BOL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-BOL-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-BOL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-BOL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Bolungarvíkurkaupstaður in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-BOL-Subdivision ;
+	lcc-lr:hasTag "IS-BOL" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-BOL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-BOL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolungarvíkurkaupstaður"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Bolungarvíkurkaupstaður in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Bolungarvíkurkaupstaður"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-DAB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-DAB-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-DAB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-DAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Dalabyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-DAB-Subdivision ;
+	lcc-lr:hasTag "IS-DAB" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-DAB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-DAB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dalabyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Dalabyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Dalabyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-DAV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-DAV-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-DAV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-DAV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Dalvíkurbyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-DAV-Subdivision ;
+	lcc-lr:hasTag "IS-DAV" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-DAV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-DAV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dalvíkurbyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Dalvíkurbyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Dalvíkurbyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-DJU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-DJU-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-DJU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-DJU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Djúpavogshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-DJU-Subdivision ;
+	lcc-lr:hasTag "IS-DJU" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-DJU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-DJU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Djúpavogshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Djúpavogshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Djúpavogshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-EOM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-EOM-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-EOM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-EOM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Eyja- og Miklaholtshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-EOM-Subdivision ;
+	lcc-lr:hasTag "IS-EOM" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-EOM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-EOM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eyja- og Miklaholtshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Eyja- og Miklaholtshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Eyja- og Miklaholtshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-EYF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-EYF-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-EYF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-EYF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Eyjafjarðarsveit in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-EYF-Subdivision ;
+	lcc-lr:hasTag "IS-EYF" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-EYF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-EYF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eyjafjarðarsveit"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Eyjafjarðarsveit in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Eyjafjarðarsveit"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-FJD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FJD-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-FJD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-FJD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Fjarðabyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-FJD-Subdivision ;
+	lcc-lr:hasTag "IS-FJD" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-FJD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-FJD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fjarðabyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Fjarðabyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Fjarðabyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-FJL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FJL-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-FJL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-FJL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Fjallabyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-FJL-Subdivision ;
+	lcc-lr:hasTag "IS-FJL" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-FJL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-FJL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fjallabyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Fjallabyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Fjallabyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-FLA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FLA-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-FLA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-FLA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Flóahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-FLA-Subdivision ;
+	lcc-lr:hasTag "IS-FLA" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-FLA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-FLA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Flóahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Flóahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Flóahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-FLD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FLD-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-FLD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-FLD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Fljótsdalshérað in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-FLD-Subdivision ;
+	lcc-lr:hasTag "IS-FLD" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-FLD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-FLD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fljótsdalshérað"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Fljótsdalshérað in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Fljótsdalshérað"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-FLR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-FLR-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-FLR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-FLR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Fljótsdalshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-FLR-Subdivision ;
+	lcc-lr:hasTag "IS-FLR" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-FLR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-FLR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fljótsdalshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Fljótsdalshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Fljótsdalshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-GAR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GAR-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-GAR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-GAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Garðabær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-GAR-Subdivision ;
+	lcc-lr:hasTag "IS-GAR" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-GAR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-GAR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Garðabær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Garðabær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Garðabær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-GOG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GOG-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-GOG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-GOG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Grímsnes- og Grafningshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-GOG-Subdivision ;
+	lcc-lr:hasTag "IS-GOG" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-GOG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-GOG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grímsnes- og Grafningshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Grímsnes- og Grafningshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Grímsnes- og Grafningshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-GRN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GRN-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-GRN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-GRN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Grindavíkurbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-GRN-Subdivision ;
+	lcc-lr:hasTag "IS-GRN" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-GRN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-GRN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grindavíkurbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Grindavíkurbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Grindavíkurbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-2-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-GRU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GRU-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-GRU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-GRU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Grundarfjarðarbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-GRU-Subdivision ;
+	lcc-lr:hasTag "IS-GRU" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-GRU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-GRU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grundarfjarðarbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Grundarfjarðarbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Grundarfjarðarbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-GRY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-GRY-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-GRY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-GRY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Grýtubakkahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-GRY-Subdivision ;
+	lcc-lr:hasTag "IS-GRY" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-GRY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-GRY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grýtubakkahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Grýtubakkahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Grýtubakkahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HAF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HAF-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HAF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HAF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Hafnarfjarðarkaupstaður in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HAF-Subdivision ;
+	lcc-lr:hasTag "IS-HAF" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HAF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HAF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hafnarfjarðarkaupstaður"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Hafnarfjarðarkaupstaður in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Hafnarfjarðarkaupstaður"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HEL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HEL-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HEL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HEL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Helgafellssveit in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HEL-Subdivision ;
+	lcc-lr:hasTag "IS-HEL" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HEL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HEL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Helgafellssveit"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Helgafellssveit in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Helgafellssveit"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HRG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HRG-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HRG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HRG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Hörgársveit in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HRG-Subdivision ;
+	lcc-lr:hasTag "IS-HRG" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HRG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HRG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hörgársveit"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Hörgársveit in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Hörgársveit"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HRU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HRU-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HRU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HRU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Hrunamannahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HRU-Subdivision ;
+	lcc-lr:hasTag "IS-HRU" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HRU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HRU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hrunamannahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Hrunamannahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Hrunamannahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HUT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HUT-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HUT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HUT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Húnavatnshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HUT-Subdivision ;
+	lcc-lr:hasTag "IS-HUT" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HUT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HUT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Húnavatnshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Húnavatnshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Húnavatnshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HUV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HUV-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HUV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HUV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Húnaþing vestra in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HUV-Subdivision ;
+	lcc-lr:hasTag "IS-HUV" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HUV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HUV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Húnaþing vestra"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Húnaþing vestra in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Húnaþing vestra"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HVA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HVA-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HVA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HVA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Hvalfjarðarsveit in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HVA-Subdivision ;
+	lcc-lr:hasTag "IS-HVA" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HVA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HVA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hvalfjarðarsveit"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Hvalfjarðarsveit in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Hvalfjarðarsveit"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-HVE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-HVE-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-HVE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-HVE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Hveragerðisbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-HVE-Subdivision ;
+	lcc-lr:hasTag "IS-HVE" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-HVE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-HVE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hveragerðisbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Hveragerðisbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Hveragerðisbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-ISA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-ISA-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-ISA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-ISA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Ísafjarðarbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-ISA-Subdivision ;
+	lcc-lr:hasTag "IS-ISA" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-ISA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-ISA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ísafjarðarbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Ísafjarðarbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Ísafjarðarbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-KAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-KAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-KAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-KAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Kaldrananeshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-KAL-Subdivision ;
+	lcc-lr:hasTag "IS-KAL" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-KAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-KAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaldrananeshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Kaldrananeshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Kaldrananeshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-KJO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-KJO-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-KJO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-KJO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Kjósarhreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-KJO-Subdivision ;
+	lcc-lr:hasTag "IS-KJO" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-KJO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-KJO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kjósarhreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Kjósarhreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Kjósarhreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-KOP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-KOP-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-KOP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-KOP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Kópavogsbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-KOP-Subdivision ;
+	lcc-lr:hasTag "IS-KOP" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-KOP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-KOP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kópavogsbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Kópavogsbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Kópavogsbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-LAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-LAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-LAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-LAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Langanesbyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-LAN-Subdivision ;
+	lcc-lr:hasTag "IS-LAN" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-LAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-LAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Langanesbyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Langanesbyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Langanesbyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-MOS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-MOS-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-MOS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-MOS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Mosfellsbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-MOS-Subdivision ;
+	lcc-lr:hasTag "IS-MOS" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-MOS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-MOS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mosfellsbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Mosfellsbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Mosfellsbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-MYR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-MYR-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-MYR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-MYR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Mýrdalshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-MYR-Subdivision ;
+	lcc-lr:hasTag "IS-MYR" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-MYR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-MYR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mýrdalshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Mýrdalshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Mýrdalshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-NOR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-NOR-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-NOR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-NOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Norðurþing in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-NOR-Subdivision ;
+	lcc-lr:hasTag "IS-NOR" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-NOR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-NOR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norðurþing"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Norðurþing in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Norðurþing"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-RGE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RGE-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-RGE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-RGE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Rangárþing eystra in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-RGE-Subdivision ;
+	lcc-lr:hasTag "IS-RGE" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-RGE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-RGE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rangárþing eystra"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Rangárþing eystra in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Rangárþing eystra"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-RGY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RGY-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-RGY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-RGY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Rangárþing ytra in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-RGY-Subdivision ;
+	lcc-lr:hasTag "IS-RGY" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-RGY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-RGY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rangárþing ytra"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Rangárþing ytra in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Rangárþing ytra"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-RHH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RHH-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-RHH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-RHH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Reykhólahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-RHH-Subdivision ;
+	lcc-lr:hasTag "IS-RHH" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-RHH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-RHH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Reykhólahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Reykhólahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Reykhólahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-RKN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RKN-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-RKN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-RKN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Reykjanesbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-RKN-Subdivision ;
+	lcc-lr:hasTag "IS-RKN" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-RKN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-RKN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Reykjanesbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Reykjanesbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Reykjanesbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-2-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-RKV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RKV-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-RKV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-RKV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Reykjavíkurborg in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-RKV-Subdivision ;
+	lcc-lr:hasTag "IS-RKV" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-RKV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-RKV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Reykjavíkurborg"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Reykjavíkurborg in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Reykjavíkurborg"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SBH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SBH-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SBH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SBH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Svalbarðshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SBH-Subdivision ;
+	lcc-lr:hasTag "IS-SBH" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SBH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SBH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Svalbarðshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Svalbarðshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Svalbarðshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SBT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SBT-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SBT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SBT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Svalbarðsstrandarhreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SBT-Subdivision ;
+	lcc-lr:hasTag "IS-SBT" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SBT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SBT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Svalbarðsstrandarhreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Svalbarðsstrandarhreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Svalbarðsstrandarhreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SDN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SDN-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SDN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SDN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Suðurnesjabær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SDN-Subdivision ;
+	lcc-lr:hasTag "IS-SDN" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SDN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SDN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suðurnesjabær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Suðurnesjabær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Suðurnesjabær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-2-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SDV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SDV-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SDV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SDV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Súðavíkurhreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SDV-Subdivision ;
+	lcc-lr:hasTag "IS-SDV" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SDV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SDV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Súðavíkurhreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Súðavíkurhreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Súðavíkurhreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SEL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SEL-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SEL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SEL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Seltjarnarnesbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SEL-Subdivision ;
+	lcc-lr:hasTag "IS-SEL" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SEL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SEL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Seltjarnarnesbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Seltjarnarnesbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Seltjarnarnesbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-1-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SEY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SEY-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SEY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SEY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Seyðisfjarðarkaupstaður in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SEY-Subdivision ;
+	lcc-lr:hasTag "IS-SEY" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SEY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SEY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Seyðisfjarðarkaupstaður"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Seyðisfjarðarkaupstaður in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Seyðisfjarðarkaupstaður"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SFA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SFA-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SFA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SFA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Sveitarfélagið Árborg in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SFA-Subdivision ;
+	lcc-lr:hasTag "IS-SFA" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SFA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SFA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sveitarfélagið Árborg"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Sveitarfélagið Árborg in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Sveitarfélagið Árborg"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SHF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SHF-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SHF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SHF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Sveitarfélagið Hornafjörður in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SHF-Subdivision ;
+	lcc-lr:hasTag "IS-SHF" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SHF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SHF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sveitarfélagið Hornafjörður"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Sveitarfélagið Hornafjörður in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Sveitarfélagið Hornafjörður"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SKF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKF-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SKF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SKF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Skaftárhreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SKF-Subdivision ;
+	lcc-lr:hasTag "IS-SKF" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SKF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SKF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skaftárhreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Skaftárhreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Skaftárhreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SKG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKG-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SKG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SKG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Skagabyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SKG-Subdivision ;
+	lcc-lr:hasTag "IS-SKG" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SKG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SKG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skagabyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Skagabyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Skagabyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SKO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKO-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SKO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SKO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Skorradalshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SKO-Subdivision ;
+	lcc-lr:hasTag "IS-SKO" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SKO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SKO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skorradalshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Skorradalshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Skorradalshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SKU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKU-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SKU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SKU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Skútustaðahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SKU-Subdivision ;
+	lcc-lr:hasTag "IS-SKU" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SKU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SKU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skútustaðahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Skútustaðahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Skútustaðahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SNF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SNF-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SNF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SNF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Snæfellsbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SNF-Subdivision ;
+	lcc-lr:hasTag "IS-SNF" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SNF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SNF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Snæfellsbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Snæfellsbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Snæfellsbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SOG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SOG-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SOG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SOG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Skeiða- og Gnúpverjahreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SOG-Subdivision ;
+	lcc-lr:hasTag "IS-SOG" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SOG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SOG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skeiða- og Gnúpverjahreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Skeiða- og Gnúpverjahreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Skeiða- og Gnúpverjahreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SOL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SOL-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SOL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SOL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Sveitarfélagið Ölfus in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SOL-Subdivision ;
+	lcc-lr:hasTag "IS-SOL" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SOL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SOL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sveitarfélagið Ölfus"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Sveitarfélagið Ölfus in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Sveitarfélagið Ölfus"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SSF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SSF-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SSF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SSF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Sveitarfélagið Skagafjörður in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SSF-Subdivision ;
+	lcc-lr:hasTag "IS-SSF" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SSF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SSF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sveitarfélagið Skagafjörður"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Sveitarfélagið Skagafjörður in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Sveitarfélagið Skagafjörður"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SSS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SSS-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SSS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SSS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Sveitarfélagið Skagaströnd in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SSS-Subdivision ;
+	lcc-lr:hasTag "IS-SSS" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SSS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SSS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sveitarfélagið Skagaströnd"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Sveitarfélagið Skagaströnd in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Sveitarfélagið Skagaströnd"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-STR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-STR-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-STR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-STR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Strandabyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-STR-Subdivision ;
+	lcc-lr:hasTag "IS-STR" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-STR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-STR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Strandabyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Strandabyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Strandabyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-STY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-STY-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-STY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-STY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Stykkishólmsbær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-STY-Subdivision ;
+	lcc-lr:hasTag "IS-STY" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-STY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-STY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Stykkishólmsbær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Stykkishólmsbær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Stykkishólmsbær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-SVG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SVG-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-SVG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-SVG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Sveitarfélagið Vogar in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-SVG-Subdivision ;
+	lcc-lr:hasTag "IS-SVG" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-SVG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-SVG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sveitarfélagið Vogar"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Sveitarfélagið Vogar in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Sveitarfélagið Vogar"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-2-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-TAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-TAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-TAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-TAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Tálknafjarðarhreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-TAL-Subdivision ;
+	lcc-lr:hasTag "IS-TAL" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-TAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-TAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tálknafjarðarhreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Tálknafjarðarhreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Tálknafjarðarhreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-THG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-THG-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-THG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-THG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Þingeyjarsveit in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-THG-Subdivision ;
+	lcc-lr:hasTag "IS-THG" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-THG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-THG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Þingeyjarsveit"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Þingeyjarsveit in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Þingeyjarsveit"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-TJO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-TJO-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-TJO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-TJO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Tjörneshreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-TJO-Subdivision ;
+	lcc-lr:hasTag "IS-TJO" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-TJO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-TJO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tjörneshreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Tjörneshreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Tjörneshreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-VEM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-VEM-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-VEM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-VEM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Vestmannaeyjabær in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-VEM-Subdivision ;
+	lcc-lr:hasTag "IS-VEM" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-VEM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-VEM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vestmannaeyjabær"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Vestmannaeyjabær in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Vestmannaeyjabær"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-VER
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-VER-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-VER-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-VER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Vesturbyggð in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-VER-Subdivision ;
+	lcc-lr:hasTag "IS-VER" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-VER-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-VER-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vesturbyggð"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Vesturbyggð in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Vesturbyggð"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:IS-VOP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-VOP-RegionIdentifier ;
+	.
+
+lcc-3166-2-is:IS-VOP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-VOP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the sveitarfélagið of Vopnafjarðarhreppur in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:IS-VOP-Subdivision ;
+	lcc-lr:hasTag "IS-VOP" ;
+	lcc-lr:identifies lcc-3166-2-is:IS-VOP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-VOP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vopnafjarðarhreppur"@is ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "the sveitarfélagið of Vopnafjarðarhreppur in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Vopnafjarðarhreppur"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:IS-485-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-is:IS-7-Subdivision ;
+	.
+
+lcc-3166-2-is:Isafjararbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-ISA-Subdivision ;
+	.
+
+lcc-3166-2-is:Kaldrananeshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-KAL-Subdivision ;
+	.
+
+lcc-3166-2-is:Kjosarhreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-KJO-Subdivision ;
+	.
+
+lcc-3166-2-is:Kopavogsbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-KOP-Subdivision ;
+	.
+
+lcc-3166-2-is:Landsvi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-419-RegionKind ;
+	.
+
+lcc-3166-2-is:Langanesbygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-LAN-Subdivision ;
+	.
+
+lcc-3166-2-is:Mosfellsbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-MOS-Subdivision ;
+	.
+
+lcc-3166-2-is:Myrdalshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-MYR-Subdivision ;
+	.
+
+lcc-3166-2-is:Noruring
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-NOR-Subdivision ;
+	.
+
+lcc-3166-2-is:NorurlandEystra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-6-Subdivision ;
+	.
+
+lcc-3166-2-is:NorurlandVestra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-5-Subdivision ;
+	.
+
+lcc-3166-2-is:RangaringEystra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RGE-Subdivision ;
+	.
+
+lcc-3166-2-is:RangaringYtra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RGY-Subdivision ;
+	.
+
+lcc-3166-2-is:Reykholahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RHH-Subdivision ;
+	.
+
+lcc-3166-2-is:Reykjanesbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RKN-Subdivision ;
+	.
+
+lcc-3166-2-is:Reykjavikurborg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-RKV-Subdivision ;
+	.
+
+lcc-3166-2-is:Seltjarnarnesbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SEL-Subdivision ;
+	.
+
+lcc-3166-2-is:Seyisfjararkaupstaur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SEY-Subdivision ;
+	.
+
+lcc-3166-2-is:Skaftarhreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKF-Subdivision ;
+	.
+
+lcc-3166-2-is:Skagabygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKG-Subdivision ;
+	.
+
+lcc-3166-2-is:Skeia-OgGnupverjahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SOG-Subdivision ;
+	.
+
+lcc-3166-2-is:Skorradalshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKO-Subdivision ;
+	.
+
+lcc-3166-2-is:Skutustaahreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SKU-Subdivision ;
+	.
+
+lcc-3166-2-is:Snfellsbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SNF-Subdivision ;
+	.
+
+lcc-3166-2-is:Strandabygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-STR-Subdivision ;
+	.
+
+lcc-3166-2-is:Stykkisholmsbr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-STY-Subdivision ;
+	.
+
+lcc-3166-2-is:Suavikurhreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SDV-Subdivision ;
+	.
+
+lcc-3166-2-is:Suurland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-8-Subdivision ;
+	.
+
+lcc-3166-2-is:Suurnes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-2-Subdivision ;
+	.
+
+lcc-3166-2-is:Suurnesjabr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SDN-Subdivision ;
+	.
+
+lcc-3166-2-is:Svalbarshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SBH-Subdivision ;
+	.
+
+lcc-3166-2-is:Svalbarsstrandarhreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SBT-Subdivision ;
+	.
+
+lcc-3166-2-is:Sveitarfelagi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-485-RegionKind ;
+	.
+
+lcc-3166-2-is:SveitarfelagiArborg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SFA-Subdivision ;
+	.
+
+lcc-3166-2-is:SveitarfelagiHornafjorur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SHF-Subdivision ;
+	.
+
+lcc-3166-2-is:SveitarfelagiOlfus
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SOL-Subdivision ;
+	.
+
+lcc-3166-2-is:SveitarfelagiSkagafjorur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SSF-Subdivision ;
+	.
+
+lcc-3166-2-is:SveitarfelagiSkagastrond
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SSS-Subdivision ;
+	.
+
+lcc-3166-2-is:SveitarfelagiVogar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-SVG-Subdivision ;
+	.
+
+lcc-3166-2-is:Talknafjararhreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-TAL-Subdivision ;
+	.
+
+lcc-3166-2-is:Tjorneshreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-TJO-Subdivision ;
+	.
+
+lcc-3166-2-is:Vestfirir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-4-Subdivision ;
+	.
+
+lcc-3166-2-is:Vestmannaeyjabr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-VEM-Subdivision ;
+	.
+
+lcc-3166-2-is:Vesturbygg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-VER-Subdivision ;
+	.
+
+lcc-3166-2-is:Vesturland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-3-Subdivision ;
+	.
+
+lcc-3166-2-is:Vopnafjararhreppur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-VOP-Subdivision ;
+	.
+
+lcc-3166-2-is:ingeyjarsveit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-is:IS-THG-Subdivision ;
+	.
+

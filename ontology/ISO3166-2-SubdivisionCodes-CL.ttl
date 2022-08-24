@@ -1,0 +1,755 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cl: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Chile Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cl" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Chile, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CL.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	.
+
+lcc-3166-2-cl:AisenDelGeneralCarlosIbanezDelCampo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AI-Subdivision ;
+	.
+
+lcc-3166-2-cl:Antofagasta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AN-Subdivision ;
+	.
+
+lcc-3166-2-cl:AricaYParinacota
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AP-Subdivision ;
+	.
+
+lcc-3166-2-cl:Atacama
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AT-Subdivision ;
+	.
+
+lcc-3166-2-cl:Biobio
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-BI-Subdivision ;
+	.
+
+lcc-3166-2-cl:CL-1053-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the territory of Easter Island in the country of Chile" ;
+	lcc-cr:hasEnglishShortName "Easter Island"@en ;
+	lcc-cr:hasFrenchShortName "Île de Pâques"@fr ;
+	lcc-cr:hasNumericRegionCode "1053" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-1094-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the territory of Juan Fernández Islands in the country of Chile" ;
+	lcc-cr:hasEnglishShortName "Juan Fernández Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Juan Fernández"@fr ;
+	lcc-cr:hasNumericRegionCode "1094" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-1179-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the territory of Sala y Gómez Island in the country of Chile" ;
+	lcc-cr:hasEnglishShortName "Sala y Gómez Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Sala y Gómez"@fr ;
+	lcc-cr:hasNumericRegionCode "1179" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-1182-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the territory of San Ambrosio Island in the country of Chile" ;
+	lcc-cr:hasEnglishShortName "San Ambrosio Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île San Ambrosio"@fr ;
+	lcc-cr:hasNumericRegionCode "1182" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-1185-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the territory of San Félix Island in the country of Chile" ;
+	lcc-cr:hasEnglishShortName "San Félix Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île San Félix"@fr ;
+	lcc-cr:hasNumericRegionCode "1185" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-364-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "región"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision category región in the country of Chile" ;
+	.
+
+lcc-3166-2-cl:CL-AI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AI-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-AI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-AI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Aisén del General Carlos Ibañez del Campo in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-AI-Subdivision ;
+	lcc-lr:hasTag "CL-AI" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-AI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-AI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aisén del General Carlos Ibañez del Campo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Aisén del General Carlos Ibañez del Campo in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Aisén del General Carlos Ibañez del Campo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-AN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AN-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-AN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Antofagasta in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-AN-Subdivision ;
+	lcc-lr:hasTag "CL-AN" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-AN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-AN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Antofagasta"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Antofagasta in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Antofagasta"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-AP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AP-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-AP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-AP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Arica y Parinacota in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-AP-Subdivision ;
+	lcc-lr:hasTag "CL-AP" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-AP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-AP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arica y Parinacota"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Arica y Parinacota in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Arica y Parinacota"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-AR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AR-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-AR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of La Araucanía in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-AR-Subdivision ;
+	lcc-lr:hasTag "CL-AR" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-AR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-AR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Araucanía"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of La Araucanía in the country of Chile" ;
+	lcc-cr:hasLocalShortName "La Araucanía"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-AT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AT-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-AT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-AT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Atacama in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-AT-Subdivision ;
+	lcc-lr:hasTag "CL-AT" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-AT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-AT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Atacama"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Atacama in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Atacama"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-BI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-BI-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-BI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-BI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Biobío in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-BI-Subdivision ;
+	lcc-lr:hasTag "CL-BI" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-BI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-BI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Biobío"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Biobío in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Biobío"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-CO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-CO-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-CO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Coquimbo in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-CO-Subdivision ;
+	lcc-lr:hasTag "CL-CO" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-CO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-CO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Coquimbo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Coquimbo in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Coquimbo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-LI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-LI-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-LI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Libertador General Bernardo O'Higgins in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-LI-Subdivision ;
+	lcc-lr:hasTag "CL-LI" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-LI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-LI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Libertador General Bernardo O'Higgins"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Libertador General Bernardo O'Higgins in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Libertador General Bernardo O'Higgins"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-LL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-LL-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-LL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-LL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Los Lagos in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-LL-Subdivision ;
+	lcc-lr:hasTag "CL-LL" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-LL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-LL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Los Lagos"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Los Lagos in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Los Lagos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-LR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-LR-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-LR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-LR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Los Ríos in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-LR-Subdivision ;
+	lcc-lr:hasTag "CL-LR" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-LR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-LR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Los Ríos"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Los Ríos in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Los Ríos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-MA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-MA-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-MA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Magallanes in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-MA-Subdivision ;
+	lcc-lr:hasTag "CL-MA" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-MA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-MA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Magallanes"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Magallanes in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Magallanes"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-ML
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-ML-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-ML-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-ML" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Maule in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-ML-Subdivision ;
+	lcc-lr:hasTag "CL-ML" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-ML-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-ML-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maule"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Maule in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Maule"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-NB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-NB-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-NB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-NB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Ñuble in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-NB-Subdivision ;
+	lcc-lr:hasTag "CL-NB" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-NB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-NB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ñuble"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Ñuble in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Ñuble"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-RM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-RM-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-RM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-RM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Región Metropolitana de Santiago in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-RM-Subdivision ;
+	lcc-lr:hasTag "CL-RM" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-RM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-RM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Región Metropolitana de Santiago"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Región Metropolitana de Santiago in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Región Metropolitana de Santiago"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-TA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-TA-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-TA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Tarapacá in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-TA-Subdivision ;
+	lcc-lr:hasTag "CL-TA" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-TA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-TA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarapacá"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Tarapacá in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Tarapacá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:CL-VS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-VS-RegionIdentifier ;
+	.
+
+lcc-3166-2-cl:CL-VS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CL-VS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "subdivision code for the región of Valparaíso in the country of Chile" ;
+	lcc-lr:denotes lcc-3166-2-cl:CL-VS-Subdivision ;
+	lcc-lr:hasTag "CL-VS" ;
+	lcc-lr:identifies lcc-3166-2-cl:CL-VS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cl:CL-VS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valparaíso"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CL/> ;
+	skos:definition "the región of Valparaíso in the country of Chile" ;
+	lcc-cr:hasLocalShortName "Valparaíso"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cl:CL-364-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chile ;
+	.
+
+lcc-3166-2-cl:Coquimbo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-CO-Subdivision ;
+	.
+
+lcc-3166-2-cl:EasterIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-1053-Territory ;
+	.
+
+lcc-3166-2-cl:JuanFernandezIslands
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-1094-Territory ;
+	.
+
+lcc-3166-2-cl:LaAraucania
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-AR-Subdivision ;
+	.
+
+lcc-3166-2-cl:LibertadorGeneralBernardoOHiggins
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-LI-Subdivision ;
+	.
+
+lcc-3166-2-cl:LosLagos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-LL-Subdivision ;
+	.
+
+lcc-3166-2-cl:LosRios
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-LR-Subdivision ;
+	.
+
+lcc-3166-2-cl:Magallanes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-MA-Subdivision ;
+	.
+
+lcc-3166-2-cl:Maule
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-ML-Subdivision ;
+	.
+
+lcc-3166-2-cl:Nuble
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-NB-Subdivision ;
+	.
+
+lcc-3166-2-cl:Region
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-364-RegionKind ;
+	.
+
+lcc-3166-2-cl:RegionMetropolitanaDeSantiago
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-RM-Subdivision ;
+	.
+
+lcc-3166-2-cl:SalaYGomezIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-1179-Territory ;
+	.
+
+lcc-3166-2-cl:SanAmbrosioIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-1182-Territory ;
+	.
+
+lcc-3166-2-cl:SanFelixIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-1185-Territory ;
+	.
+
+lcc-3166-2-cl:Tarapaca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-TA-Subdivision ;
+	.
+
+lcc-3166-2-cl:Valparaiso
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cl:CL-VS-Subdivision ;
+	.
+

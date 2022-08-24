@@ -1,0 +1,475 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bb: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Barbados Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bb" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Barbados, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BB.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	.
+
+lcc-3166-2-bb:BB-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Christ Church in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-01-Subdivision ;
+	lcc-lr:hasTag "BB-01" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Christ Church"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Christ Church in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Christ Church"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint Andrew in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-02-Subdivision ;
+	lcc-lr:hasTag "BB-02" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Andrew"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint Andrew in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint Andrew"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint George in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-03-Subdivision ;
+	lcc-lr:hasTag "BB-03" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint George"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint George in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint George"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint James in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-04-Subdivision ;
+	lcc-lr:hasTag "BB-04" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint James"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint James in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint James"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint John in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-05-Subdivision ;
+	lcc-lr:hasTag "BB-05" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint John"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint John in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint John"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint Joseph in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-06-Subdivision ;
+	lcc-lr:hasTag "BB-06" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Joseph"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint Joseph in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint Joseph"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint Lucy in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-07-Subdivision ;
+	lcc-lr:hasTag "BB-07" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Lucy"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint Lucy in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint Lucy"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint Michael in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-08-Subdivision ;
+	lcc-lr:hasTag "BB-08" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Michael"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint Michael in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint Michael"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint Peter in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-09-Subdivision ;
+	lcc-lr:hasTag "BB-09" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Peter"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint Peter in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint Peter"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint Philip in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-10-Subdivision ;
+	lcc-lr:hasTag "BB-10" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Philip"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint Philip in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint Philip"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-bb:BB-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BB-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision code for the parish of Saint Thomas in the country of Barbados" ;
+	lcc-lr:denotes lcc-3166-2-bb:BB-11-Subdivision ;
+	lcc-lr:hasTag "BB-11" ;
+	lcc-lr:identifies lcc-3166-2-bb:BB-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bb:BB-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Thomas"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "the parish of Saint Thomas in the country of Barbados" ;
+	lcc-cr:hasEnglishShortName "Saint Thomas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bb:BB-430-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-2-bb:BB-430-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "parish"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB/> ;
+	skos:definition "subdivision category parish in the country of Barbados" ;
+	.
+
+lcc-3166-2-bb:ChristChurch
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-01-Subdivision ;
+	.
+
+lcc-3166-2-bb:Parish
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-430-RegionKind ;
+	.
+
+lcc-3166-2-bb:SaintAndrew
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-02-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintGeorge
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-03-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintJames
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-04-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintJohn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-05-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintJoseph
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-06-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintLucy
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-07-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintMichael
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-08-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintPeter
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-09-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintPhilip
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-10-Subdivision ;
+	.
+
+lcc-3166-2-bb:SaintThomas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bb:BB-11-Subdivision ;
+	.
+

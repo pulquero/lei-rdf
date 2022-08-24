@@ -1,0 +1,2648 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-es: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Spain Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-es" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Spain, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ES.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	.
+
+lcc-3166-2-es:ACoruna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-C-Subdivision ;
+	.
+
+lcc-3166-2-es:Alava
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-VI-Subdivision ;
+	.
+
+lcc-3166-2-es:Albacete
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AB-Subdivision ;
+	.
+
+lcc-3166-2-es:Alicante
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-A-Subdivision ;
+	.
+
+lcc-3166-2-es:Almeria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AL-Subdivision ;
+	.
+
+lcc-3166-2-es:Andalucia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:Aragon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AR-Subdivision ;
+	.
+
+lcc-3166-2-es:Asturias
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-es:ES-AS-Subdivision ,
+		lcc-3166-2-es:ES-O-Subdivision
+		;
+	.
+
+lcc-3166-2-es:Avila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AV-Subdivision ;
+	.
+
+lcc-3166-2-es:Badajoz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-BA-Subdivision ;
+	.
+
+lcc-3166-2-es:Barcelona
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-B-Subdivision ;
+	.
+
+lcc-3166-2-es:Bizkaia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-BI-Subdivision ;
+	.
+
+lcc-3166-2-es:Burgos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-BU-Subdivision ;
+	.
+
+lcc-3166-2-es:Caceres
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CC-Subdivision ;
+	.
+
+lcc-3166-2-es:Cadiz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CA-Subdivision ;
+	.
+
+lcc-3166-2-es:Canarias
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CN-Subdivision ;
+	.
+
+lcc-3166-2-es:Cantabria
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-es:ES-CB-Subdivision ,
+		lcc-3166-2-es:ES-S-Subdivision
+		;
+	.
+
+lcc-3166-2-es:Castellon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CS-Subdivision ;
+	.
+
+lcc-3166-2-es:Castilla-LaMancha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CM-Subdivision ;
+	.
+
+lcc-3166-2-es:CastillaYLeon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:Catalunya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CT-Subdivision ;
+	.
+
+lcc-3166-2-es:Ceuta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CE-Subdivision ;
+	.
+
+lcc-3166-2-es:CiudadAutonomaEnElNorteDeAfrica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-180-RegionKind ;
+	.
+
+lcc-3166-2-es:CiudadReal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CR-Subdivision ;
+	.
+
+lcc-3166-2-es:ComunidadAutonoma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-101-RegionKind ;
+	.
+
+lcc-3166-2-es:Cordoba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CO-Subdivision ;
+	.
+
+lcc-3166-2-es:Cuenca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CU-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-101-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "comunidad autónoma"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision category comunidad autónoma in the country of Spain" ;
+	.
+
+lcc-3166-2-es:ES-180-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "ciudad autónoma en el Norte de África"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision category ciudad autónoma en el Norte de África in the country of Spain" ;
+	.
+
+lcc-3166-2-es:ES-408-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "provincia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision category provincia in the country of Spain" ;
+	.
+
+lcc-3166-2-es:ES-A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-A-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Alicante in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-A-Subdivision ;
+	lcc-lr:hasTag "ES-A" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alicante"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Alicante in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Alacant*"@ca ,
+		"Alicante"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-VC-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-AB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AB-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-AB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Albacete in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-AB-Subdivision ;
+	lcc-lr:hasTag "ES-AB" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-AB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-AB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Albacete"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Albacete in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Albacete"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CM-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-AL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AL-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-AL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Almería in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-AL-Subdivision ;
+	lcc-lr:hasTag "ES-AL" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-AL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-AL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Almería"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Almería in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Almería"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-AN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AN-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-AN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Andalucía in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-AN-Subdivision ;
+	lcc-lr:hasTag "ES-AN" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-AN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-AN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Andalucía"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Andalucía in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Andalucía"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-AR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AR-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-AR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Aragón in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-AR-Subdivision ;
+	lcc-lr:hasTag "ES-AR" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-AR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-AR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aragón"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Aragón in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Aragón"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-AS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AS-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-AS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-AS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Asturias, Principado de in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-AS-Subdivision ;
+	lcc-lr:hasTag "ES-AS" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-AS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-AS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Asturias, Principado de"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Asturias, Principado de in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Asturias, Principado de"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-AV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-AV-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-AV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-AV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Ávila in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-AV-Subdivision ;
+	lcc-lr:hasTag "ES-AV" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-AV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-AV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ávila"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Ávila in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Ávila"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-B-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Barcelona [Barcelona] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-B-Subdivision ;
+	lcc-lr:hasTag "ES-B" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barcelona [Barcelona]"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Barcelona [Barcelona] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Barcelona [Barcelona]"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CT-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Badajoz in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-BA-Subdivision ;
+	lcc-lr:hasTag "ES-BA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Badajoz"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Badajoz in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Badajoz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-EX-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-BI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-BI-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-BI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-BI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Bizkaia in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-BI-Subdivision ;
+	lcc-lr:hasTag "ES-BI" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-BI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-BI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Bizkaia in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Bizkaia"@eu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-PV-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-BU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-BU-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-BU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Burgos in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-BU-Subdivision ;
+	lcc-lr:hasTag "ES-BU" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-BU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-BU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Burgos"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Burgos in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Burgos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of A Coruña [La Coruña] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-C-Subdivision ;
+	lcc-lr:hasTag "ES-C" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of A Coruña [La Coruña] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "A Coruña [La Coruña]"@gl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-GA-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-CA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Cádiz in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CA-Subdivision ;
+	lcc-lr:hasTag "ES-CA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cádiz"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Cádiz in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Cádiz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-CB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CB-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Cantabria in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CB-Subdivision ;
+	lcc-lr:hasTag "ES-CB" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cantabria"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Cantabria in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Cantabria"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-CC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CC-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Cáceres in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CC-Subdivision ;
+	lcc-lr:hasTag "ES-CC" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cáceres"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Cáceres in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Cáceres"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-EX-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-CE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CE-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the ciudad autónoma en el Norte de África of Ceuta in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CE-Subdivision ;
+	lcc-lr:hasTag "ES-CE" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ceuta"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the ciudad autónoma en el Norte de África of Ceuta in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Ceuta"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-180-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-CL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CL-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Castilla y León in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CL-Subdivision ;
+	lcc-lr:hasTag "ES-CL" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Castilla y León"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Castilla y León in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Castilla y León"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-CM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CM-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Castilla-La Mancha in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CM-Subdivision ;
+	lcc-lr:hasTag "ES-CM" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Castilla-La Mancha"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Castilla-La Mancha in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Castilla-La Mancha"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-CN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CN-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Canarias in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CN-Subdivision ;
+	lcc-lr:hasTag "ES-CN" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Canarias"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Canarias in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Canarias"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-CO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CO-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Córdoba in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CO-Subdivision ;
+	lcc-lr:hasTag "ES-CO" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Córdoba"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Córdoba in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Córdoba"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-CR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CR-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Ciudad Real in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CR-Subdivision ;
+	lcc-lr:hasTag "ES-CR" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ciudad Real"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Ciudad Real in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Ciudad Real"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CM-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-CS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CS-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Castellón in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CS-Subdivision ;
+	lcc-lr:hasTag "ES-CS" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Castellón"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Castellón in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Castelló*"@ca ,
+		"Castellón"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-VC-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-CT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CT-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Catalunya [Cataluña] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CT-Subdivision ;
+	lcc-lr:hasTag "ES-CT" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Catalunya [Cataluña] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Catalunya [Cataluña]"@ca ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-CU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-CU-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-CU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-CU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Cuenca in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-CU-Subdivision ;
+	lcc-lr:hasTag "ES-CU" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-CU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-CU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuenca"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Cuenca in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Cuenca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CM-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-EX
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-EX-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-EX-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-EX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Extremadura in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-EX-Subdivision ;
+	lcc-lr:hasTag "ES-EX" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-EX-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-EX-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Extremadura"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Extremadura in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Extremadura"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Galicia [Galicia] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-GA-Subdivision ;
+	lcc-lr:hasTag "ES-GA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Galicia [Galicia] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Galicia [Galicia]"@gl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-GC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GC-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-GC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-GC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Las Palmas in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-GC-Subdivision ;
+	lcc-lr:hasTag "ES-GC" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-GC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-GC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Las Palmas"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Las Palmas in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Las Palmas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-GI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GI-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-GI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-GI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Girona [Gerona] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-GI-Subdivision ;
+	lcc-lr:hasTag "ES-GI" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-GI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-GI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Girona [Gerona] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Girona [Gerona]"@ca ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CT-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-GR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GR-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-GR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Granada in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-GR-Subdivision ;
+	lcc-lr:hasTag "ES-GR" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-GR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-GR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Granada"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Granada in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Granada"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-GU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GU-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-GU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-GU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Guadalajara in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-GU-Subdivision ;
+	lcc-lr:hasTag "ES-GU" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-GU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-GU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guadalajara"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Guadalajara in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Guadalajara"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CM-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-H
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-H-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-H-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Huelva in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-H-Subdivision ;
+	lcc-lr:hasTag "ES-H" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-H-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-H-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Huelva"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Huelva in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Huelva"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-HU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-HU-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-HU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-HU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Huesca in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-HU-Subdivision ;
+	lcc-lr:hasTag "ES-HU" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-HU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-HU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Huesca"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Huesca in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Huesca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AR-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-IB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-IB-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-IB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-IB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Illes Balears [Islas Baleares] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-IB-Subdivision ;
+	lcc-lr:hasTag "ES-IB" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-IB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-IB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Illes Balears [Islas Baleares] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Illes Balears [Islas Baleares]"@ca ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-J
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-J-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-J-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-J" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Jaén in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-J-Subdivision ;
+	lcc-lr:hasTag "ES-J" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-J-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-J-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jaén"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Jaén in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Jaén"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Lleida [Lérida] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-L-Subdivision ;
+	lcc-lr:hasTag "ES-L" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Lleida [Lérida] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Lleida [Lérida]"@ca ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CT-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-LE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-LE-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-LE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-LE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of León in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-LE-Subdivision ;
+	lcc-lr:hasTag "ES-LE" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-LE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-LE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "León"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of León in the country of Spain" ;
+	lcc-cr:hasLocalShortName "León"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-LO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-LO-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-LO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of La Rioja in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-LO-Subdivision ;
+	lcc-lr:hasTag "ES-LO" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-LO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-LO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Rioja"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of La Rioja in the country of Spain" ;
+	lcc-cr:hasLocalShortName "La Rioja"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-RI-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-LU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-LU-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-LU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-LU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Lugo [Lugo] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-LU-Subdivision ;
+	lcc-lr:hasTag "ES-LU" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-LU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-LU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Lugo [Lugo] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Lugo [Lugo]"@gl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-GA-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-M
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-M-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-M-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Madrid in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-M-Subdivision ;
+	lcc-lr:hasTag "ES-M" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-M-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-M-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madrid"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Madrid in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Madrid"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-MD-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-MA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-MA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-MA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Málaga in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-MA-Subdivision ;
+	lcc-lr:hasTag "ES-MA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-MA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-MA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Málaga"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Málaga in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Málaga"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-MC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-MC-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-MC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Murcia, Región de in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-MC-Subdivision ;
+	lcc-lr:hasTag "ES-MC" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-MC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-MC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Murcia, Región de"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Murcia, Región de in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Murcia, Región de"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-MD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-MD-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-MD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-MD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Madrid, Comunidad de in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-MD-Subdivision ;
+	lcc-lr:hasTag "ES-MD" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-MD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-MD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madrid, Comunidad de"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Madrid, Comunidad de in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Madrid, Comunidad de"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-ML
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-ML-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-ML-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-ML" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the ciudad autónoma en el Norte de África of Melilla in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-ML-Subdivision ;
+	lcc-lr:hasTag "ES-ML" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-ML-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-ML-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Melilla"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the ciudad autónoma en el Norte de África of Melilla in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Melilla"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-180-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-MU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-MU-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-MU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Murcia in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-MU-Subdivision ;
+	lcc-lr:hasTag "ES-MU" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-MU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-MU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Murcia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Murcia in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Murcia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-MC-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-NA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-NA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-NA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Navarra in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-NA-Subdivision ;
+	lcc-lr:hasTag "ES-NA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-NA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-NA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Navarra"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Navarra in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Nafarroa*"@eu ,
+		"Navarra"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-NC-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-NC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-NC-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-NC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-NC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Navarra, Comunidad Foral de in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-NC-Subdivision ;
+	lcc-lr:hasTag "ES-NC" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-NC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-NC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Navarra, Comunidad Foral de"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Navarra, Comunidad Foral de in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Nafarroako Foru Komunitatea*"@eu ,
+		"Navarra, Comunidad Foral de"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-O
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-O-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-O-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-O" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Asturias in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-O-Subdivision ;
+	lcc-lr:hasTag "ES-O" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-O-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-O-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Asturias"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Asturias in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Asturias"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AS-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-OR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-OR-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-OR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-OR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Ourense [Orense] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-OR-Subdivision ;
+	lcc-lr:hasTag "ES-OR" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-OR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-OR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Ourense [Orense] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Ourense [Orense]"@gl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-GA-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-P
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-P-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-P-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Palencia in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-P-Subdivision ;
+	lcc-lr:hasTag "ES-P" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-P-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-P-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Palencia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Palencia in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Palencia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-PM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-PM-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-PM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-PM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Illes Balears [Islas Baleares] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-PM-Subdivision ;
+	lcc-lr:hasTag "ES-PM" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-PM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-PM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Illes Balears [Islas Baleares] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Illes Balears [Islas Baleares]"@ca ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-IB-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-PO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-PO-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-PO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-PO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Pontevedra [Pontevedra] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-PO-Subdivision ;
+	lcc-lr:hasTag "ES-PO" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-PO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-PO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Pontevedra [Pontevedra] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Pontevedra [Pontevedra]"@gl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-GA-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-PV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-PV-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-PV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-PV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of País Vasco in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-PV-Subdivision ;
+	lcc-lr:hasTag "ES-PV" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-PV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-PV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "País Vasco"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of País Vasco in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Euskal Herria"@eu ,
+		"País Vasco"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-RI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-RI-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-RI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of La Rioja in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-RI-Subdivision ;
+	lcc-lr:hasTag "ES-RI" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-RI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-RI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Rioja"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of La Rioja in the country of Spain" ;
+	lcc-cr:hasLocalShortName "La Rioja"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-S
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-S-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-S-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Cantabria in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-S-Subdivision ;
+	lcc-lr:hasTag "ES-S" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-S-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-S-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cantabria"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Cantabria in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Cantabria"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CB-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Salamanca in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-SA-Subdivision ;
+	lcc-lr:hasTag "ES-SA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salamanca"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Salamanca in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Salamanca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-SE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SE-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-SE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Sevilla in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-SE-Subdivision ;
+	lcc-lr:hasTag "ES-SE" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-SE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-SE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sevilla"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Sevilla in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Sevilla"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-SG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SG-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-SG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-SG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Segovia in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-SG-Subdivision ;
+	lcc-lr:hasTag "ES-SG" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-SG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-SG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Segovia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Segovia in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Segovia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-SO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SO-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-SO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Soria in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-SO-Subdivision ;
+	lcc-lr:hasTag "ES-SO" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-SO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-SO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Soria"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Soria in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Soria"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-SS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SS-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-SS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Gipuzkoa in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-SS-Subdivision ;
+	lcc-lr:hasTag "ES-SS" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-SS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-SS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Gipuzkoa in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Gipuzkoa"@eu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-PV-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-T
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-T-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-T-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Tarragona [Tarragona] in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-T-Subdivision ;
+	lcc-lr:hasTag "ES-T" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-T-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-T-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Tarragona [Tarragona] in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Tarragona [Tarragona]"@ca ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CT-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-TE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-TE-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-TE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-TE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Teruel in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-TE-Subdivision ;
+	lcc-lr:hasTag "ES-TE" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-TE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-TE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Teruel"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Teruel in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Teruel"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AR-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-TF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-TF-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-TF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-TF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Santa Cruz de Tenerife in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-TF-Subdivision ;
+	lcc-lr:hasTag "ES-TF" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-TF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-TF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Cruz de Tenerife"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Santa Cruz de Tenerife in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Santa Cruz de Tenerife"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CN-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-TO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-TO-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-TO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Toledo in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-TO-Subdivision ;
+	lcc-lr:hasTag "ES-TO" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-TO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-TO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Toledo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Toledo in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Toledo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CM-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-V
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-V-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-V-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-V" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Valencia in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-V-Subdivision ;
+	lcc-lr:hasTag "ES-V" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-V-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-V-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valencia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Valencia in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Valencia"@es ,
+		"València*"@ca
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-VC-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-VA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-VA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-VA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-VA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Valladolid in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-VA-Subdivision ;
+	lcc-lr:hasTag "ES-VA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-VA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-VA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valladolid"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Valladolid in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Valladolid"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-VC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-VC-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-VC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-VC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the comunidad autónoma of Valenciana, Comunidad in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-VC-Subdivision ;
+	lcc-lr:hasTag "ES-VC" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-VC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-VC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valenciana, Comunidad"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the comunidad autónoma of Valenciana, Comunidad in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Valenciana, Comunidad"@es ,
+		"Valenciana, Comunitat*"@ca
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-101-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Spain ;
+	.
+
+lcc-3166-2-es:ES-VI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-VI-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-VI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-VI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Álava in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-VI-Subdivision ;
+	lcc-lr:hasTag "ES-VI" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-VI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-VI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Álava"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Álava in the country of Spain" ;
+	lcc-cr:hasLocalShortName
+		"Araba*"@eu ,
+		"Álava"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-PV-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-Z
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-Z-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-Z-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-Z" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Zaragoza in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-Z-Subdivision ;
+	lcc-lr:hasTag "ES-Z" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-Z-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-Z-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zaragoza"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Zaragoza in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Zaragoza"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-AR-Subdivision ;
+	.
+
+lcc-3166-2-es:ES-ZA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-ZA-RegionIdentifier ;
+	.
+
+lcc-3166-2-es:ES-ZA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ES-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "subdivision code for the provincia of Zamora in the country of Spain" ;
+	lcc-lr:denotes lcc-3166-2-es:ES-ZA-Subdivision ;
+	lcc-lr:hasTag "ES-ZA" ;
+	lcc-lr:identifies lcc-3166-2-es:ES-ZA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-es:ES-ZA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zamora"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/> ;
+	skos:definition "the provincia of Zamora in the country of Spain" ;
+	lcc-cr:hasLocalShortName "Zamora"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-es:ES-408-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-es:ES-CL-Subdivision ;
+	.
+
+lcc-3166-2-es:Extremadura
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-EX-Subdivision ;
+	.
+
+lcc-3166-2-es:Galicia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GA-Subdivision ;
+	.
+
+lcc-3166-2-es:Gipuzkoa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SS-Subdivision ;
+	.
+
+lcc-3166-2-es:Girona
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GI-Subdivision ;
+	.
+
+lcc-3166-2-es:Granada
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GR-Subdivision ;
+	.
+
+lcc-3166-2-es:Guadalajara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GU-Subdivision ;
+	.
+
+lcc-3166-2-es:Huelva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-H-Subdivision ;
+	.
+
+lcc-3166-2-es:Huesca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-HU-Subdivision ;
+	.
+
+lcc-3166-2-es:IllesBalears
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-es:ES-IB-Subdivision ,
+		lcc-3166-2-es:ES-PM-Subdivision
+		;
+	.
+
+lcc-3166-2-es:Jaen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-J-Subdivision ;
+	.
+
+lcc-3166-2-es:LaRioja
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-es:ES-LO-Subdivision ,
+		lcc-3166-2-es:ES-RI-Subdivision
+		;
+	.
+
+lcc-3166-2-es:LasPalmas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-GC-Subdivision ;
+	.
+
+lcc-3166-2-es:Leon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-LE-Subdivision ;
+	.
+
+lcc-3166-2-es:Lleida
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-L-Subdivision ;
+	.
+
+lcc-3166-2-es:Lugo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-LU-Subdivision ;
+	.
+
+lcc-3166-2-es:Madrid
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-es:ES-M-Subdivision ,
+		lcc-3166-2-es:ES-MD-Subdivision
+		;
+	.
+
+lcc-3166-2-es:Malaga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-MA-Subdivision ;
+	.
+
+lcc-3166-2-es:Melilla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-ML-Subdivision ;
+	.
+
+lcc-3166-2-es:Murcia
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-es:ES-MC-Subdivision ,
+		lcc-3166-2-es:ES-MU-Subdivision
+		;
+	.
+
+lcc-3166-2-es:Navarra
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-es:ES-NA-Subdivision ,
+		lcc-3166-2-es:ES-NC-Subdivision
+		;
+	.
+
+lcc-3166-2-es:Ourense
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-OR-Subdivision ;
+	.
+
+lcc-3166-2-es:PaisVasco
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-PV-Subdivision ;
+	.
+
+lcc-3166-2-es:Palencia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-P-Subdivision ;
+	.
+
+lcc-3166-2-es:Pontevedra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-PO-Subdivision ;
+	.
+
+lcc-3166-2-es:Provincia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-408-RegionKind ;
+	.
+
+lcc-3166-2-es:Salamanca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SA-Subdivision ;
+	.
+
+lcc-3166-2-es:SantaCruzDeTenerife
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-TF-Subdivision ;
+	.
+
+lcc-3166-2-es:Segovia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SG-Subdivision ;
+	.
+
+lcc-3166-2-es:Sevilla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SE-Subdivision ;
+	.
+
+lcc-3166-2-es:Soria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-SO-Subdivision ;
+	.
+
+lcc-3166-2-es:Tarragona
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-T-Subdivision ;
+	.
+
+lcc-3166-2-es:Teruel
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-TE-Subdivision ;
+	.
+
+lcc-3166-2-es:Toledo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-TO-Subdivision ;
+	.
+
+lcc-3166-2-es:Valencia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-V-Subdivision ;
+	.
+
+lcc-3166-2-es:Valenciana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-VC-Subdivision ;
+	.
+
+lcc-3166-2-es:Valladolid
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-VA-Subdivision ;
+	.
+
+lcc-3166-2-es:Zamora
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-ZA-Subdivision ;
+	.
+
+lcc-3166-2-es:Zaragoza
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-es:ES-Z-Subdivision ;
+	.
+

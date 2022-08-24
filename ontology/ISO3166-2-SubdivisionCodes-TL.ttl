@@ -1,0 +1,622 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tl: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Timor-Leste Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tl" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Timor-Leste, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TL.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	.
+
+lcc-3166-2-tl:Aileu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-AL-Subdivision ;
+	.
+
+lcc-3166-2-tl:Ainaro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-AN-Subdivision ;
+	.
+
+lcc-3166-2-tl:Baucau
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-BA-Subdivision ;
+	.
+
+lcc-3166-2-tl:Bobonaro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-BO-Subdivision ;
+	.
+
+lcc-3166-2-tl:CovaLima
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-CO-Subdivision ;
+	.
+
+lcc-3166-2-tl:Dili
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-DI-Subdivision ;
+	.
+
+lcc-3166-2-tl:Ermera
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-ER-Subdivision ;
+	.
+
+lcc-3166-2-tl:Lautem
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-LA-Subdivision ;
+	.
+
+lcc-3166-2-tl:Liquica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-LI-Subdivision ;
+	.
+
+lcc-3166-2-tl:Manatuto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-MT-Subdivision ;
+	.
+
+lcc-3166-2-tl:Manufahi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-MF-Subdivision ;
+	.
+
+lcc-3166-2-tl:Municipio
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-253-RegionKind ;
+	.
+
+lcc-3166-2-tl:Oe-CusseAmbeno
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-OE-Subdivision ;
+	.
+
+lcc-3166-2-tl:RegiaoAdministrativaEspecial
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-478-RegionKind ;
+	.
+
+lcc-3166-2-tl:TL-1143-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the territory of the exclave of Oecussi in the country of Timor-Leste" ;
+	lcc-cr:hasEnglishShortName "the exclave of Oecussi"@en ;
+	lcc-cr:hasFrenchShortName "l'exclave d'Oecussi"@fr ;
+	lcc-cr:hasNumericRegionCode "1143" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-253-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "município"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision category município in the country of Timor-Leste" ;
+	.
+
+lcc-3166-2-tl:TL-478-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "região administrativa especial"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision category região administrativa especial in the country of Timor-Leste" ;
+	.
+
+lcc-3166-2-tl:TL-AL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-AL-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-AL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Aileu in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-AL-Subdivision ;
+	lcc-lr:hasTag "TL-AL" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-AL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-AL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aileu"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Aileu in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Aileu"@pt ,
+		"Aileu"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-AN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-AN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-AN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Ainaro in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-AN-Subdivision ;
+	lcc-lr:hasTag "TL-AN" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-AN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-AN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ainaro"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Ainaro in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Ainaro"@pt ,
+		"Ainaru"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Baucau in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-BA-Subdivision ;
+	lcc-lr:hasTag "TL-BA" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baucau"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Baucau in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Baucau"@pt ,
+		"Baukau"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-BO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-BO-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-BO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Bobonaro in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-BO-Subdivision ;
+	lcc-lr:hasTag "TL-BO" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-BO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-BO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bobonaro"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Bobonaro in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Bobonaro"@pt ,
+		"Bobonaru"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-CO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-CO-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-CO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Cova Lima in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-CO-Subdivision ;
+	lcc-lr:hasTag "TL-CO" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-CO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-CO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cova Lima"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Cova Lima in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Cova Lima"@pt ,
+		"Kovalima"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-DI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-DI-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-DI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-DI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Díli in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-DI-Subdivision ;
+	lcc-lr:hasTag "TL-DI" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-DI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-DI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Díli"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Díli in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Díli"@pt ,
+		"Díli"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-ER
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-ER-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-ER-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-ER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Ermera in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-ER-Subdivision ;
+	lcc-lr:hasTag "TL-ER" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-ER-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-ER-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ermera"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Ermera in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Ermera"@pt ,
+		"Ermera"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-LA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-LA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-LA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Lautém in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-LA-Subdivision ;
+	lcc-lr:hasTag "TL-LA" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-LA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-LA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lautém"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Lautém in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Lautein" ,
+		"Lautém"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-LI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-LI-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-LI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Liquiça in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-LI-Subdivision ;
+	lcc-lr:hasTag "TL-LI" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-LI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-LI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Liquiça"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Liquiça in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Likisá" ,
+		"Liquiça"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-MF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-MF-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-MF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-MF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Manufahi in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-MF-Subdivision ;
+	lcc-lr:hasTag "TL-MF" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-MF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-MF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manufahi"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Manufahi in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Manufahi"@pt ,
+		"Manufahi"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-MT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-MT-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-MT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-MT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Manatuto in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-MT-Subdivision ;
+	lcc-lr:hasTag "TL-MT" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-MT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-MT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manatuto"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Manatuto in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Manatuto"@pt ,
+		"Manatutu"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-OE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-OE-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-OE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-OE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the região administrativa especial of Oé-Cusse Ambeno in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-OE-Subdivision ;
+	lcc-lr:hasTag "TL-OE" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-OE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-OE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oé-Cusse Ambeno"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the região administrativa especial of Oé-Cusse Ambeno in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Oekusi-Ambenu" ,
+		"Oé-Cusse Ambeno"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-478-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TL-VI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-VI-RegionIdentifier ;
+	.
+
+lcc-3166-2-tl:TL-VI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TL-VI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "subdivision code for the município of Viqueque in the country of Timor-Leste" ;
+	lcc-lr:denotes lcc-3166-2-tl:TL-VI-Subdivision ;
+	lcc-lr:hasTag "TL-VI" ;
+	lcc-lr:identifies lcc-3166-2-tl:TL-VI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tl:TL-VI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viqueque"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TL/> ;
+	skos:definition "the município of Viqueque in the country of Timor-Leste" ;
+	lcc-cr:hasLocalShortName
+		"Vikeke" ,
+		"Viqueque"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-tl:TL-253-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-2-tl:TheExclaveOfOecussi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-1143-Territory ;
+	.
+
+lcc-3166-2-tl:Viqueque
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tl:TL-VI-Subdivision ;
+	.
+

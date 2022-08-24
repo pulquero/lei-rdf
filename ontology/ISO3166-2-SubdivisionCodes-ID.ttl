@@ -1,0 +1,1625 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-id: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Indonesia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-id" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Indonesia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ID.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	.
+
+lcc-3166-2-id:Aceh
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-AC-Subdivision ;
+	.
+
+lcc-3166-2-id:Bali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BA-Subdivision ;
+	.
+
+lcc-3166-2-id:Banten
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BT-Subdivision ;
+	.
+
+lcc-3166-2-id:Bengkulu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BE-Subdivision ;
+	.
+
+lcc-3166-2-id:DaerahIstimewa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-269-RegionKind ;
+	.
+
+lcc-3166-2-id:DaerahKhususIbukota
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-358-RegionKind ;
+	.
+
+lcc-3166-2-id:GeographicalUnit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-159-RegionKind ;
+	.
+
+lcc-3166-2-id:Gorontalo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-GO-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-159-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision category geographical unit in the country of Indonesia" ;
+	.
+
+lcc-3166-2-id:ID-205-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "provinsi"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision category provinsi in the country of Indonesia" ;
+	.
+
+lcc-3166-2-id:ID-269-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "daerah istimewa"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision category daerah istimewa in the country of Indonesia" ;
+	.
+
+lcc-3166-2-id:ID-358-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "daerah khusus ibukota"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision category daerah khusus ibukota in the country of Indonesia" ;
+	.
+
+lcc-3166-2-id:ID-AC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-AC-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-AC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-AC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Aceh in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-AC-Subdivision ;
+	lcc-lr:hasTag "ID-AC" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-AC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-AC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aceh"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Aceh in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Aceh"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Bali in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-BA-Subdivision ;
+	lcc-lr:hasTag "ID-BA" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bali"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Bali in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Bali"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-NU-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-BB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BB-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-BB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-BB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Kepulauan Bangka Belitung in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-BB-Subdivision ;
+	lcc-lr:hasTag "ID-BB" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-BB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-BB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kepulauan Bangka Belitung"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Kepulauan Bangka Belitung in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kepulauan Bangka Belitung"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-BE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BE-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-BE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Bengkulu in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-BE-Subdivision ;
+	lcc-lr:hasTag "ID-BE" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-BE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-BE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bengkulu"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Bengkulu in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Bengkulu"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-BT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BT-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-BT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-BT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Banten in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-BT-Subdivision ;
+	lcc-lr:hasTag "ID-BT" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-BT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-BT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banten"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Banten in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Banten"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-JW-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-GO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-GO-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-GO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-GO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Gorontalo in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-GO-Subdivision ;
+	lcc-lr:hasTag "ID-GO" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-GO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-GO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gorontalo"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Gorontalo in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Gorontalo"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SL-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-JA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JA-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-JA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Jambi in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-JA-Subdivision ;
+	lcc-lr:hasTag "ID-JA" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-JA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-JA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jambi"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Jambi in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Jambi"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-JB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JB-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-JB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-JB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Jawa Barat in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-JB-Subdivision ;
+	lcc-lr:hasTag "ID-JB" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-JB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-JB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jawa Barat"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Jawa Barat in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Jawa Barat"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-JW-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-JI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JI-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-JI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-JI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Jawa Timur in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-JI-Subdivision ;
+	lcc-lr:hasTag "ID-JI" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-JI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-JI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jawa Timur"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Jawa Timur in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Jawa Timur"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-JW-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-JK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JK-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-JK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-JK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the daerah khusus ibukota of Jakarta Raya in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-JK-Subdivision ;
+	lcc-lr:hasTag "ID-JK" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-JK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-JK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jakarta Raya"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the daerah khusus ibukota of Jakarta Raya in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Jakarta Raya"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-358-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-JW-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-JT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JT-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-JT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-JT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Jawa Tengah in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-JT-Subdivision ;
+	lcc-lr:hasTag "ID-JT" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-JT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-JT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jawa Tengah"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Jawa Tengah in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Jawa Tengah"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-JW-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-JW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JW-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-JW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-JW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the geographical unit of Jawa in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-JW-Subdivision ;
+	lcc-lr:hasTag "ID-JW" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-JW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-JW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jawa"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the geographical unit of Jawa in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Jawa"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-159-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-2-id:ID-KA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KA-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-KA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the geographical unit of Kalimantan in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-KA-Subdivision ;
+	lcc-lr:hasTag "ID-KA" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-KA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-KA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalimantan"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the geographical unit of Kalimantan in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kalimantan"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-159-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-2-id:ID-KB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KB-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-KB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-KB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Kalimantan Barat in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-KB-Subdivision ;
+	lcc-lr:hasTag "ID-KB" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-KB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-KB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalimantan Barat"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Kalimantan Barat in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kalimantan Barat"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-KA-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-KI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KI-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-KI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-KI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Kalimantan Timur in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-KI-Subdivision ;
+	lcc-lr:hasTag "ID-KI" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-KI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-KI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalimantan Timur"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Kalimantan Timur in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kalimantan Timur"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-KA-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-KR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KR-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-KR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-KR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Kepulauan Riau in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-KR-Subdivision ;
+	lcc-lr:hasTag "ID-KR" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-KR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-KR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kepulauan Riau"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Kepulauan Riau in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kepulauan Riau"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-KS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KS-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-KS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-KS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Kalimantan Selatan in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-KS-Subdivision ;
+	lcc-lr:hasTag "ID-KS" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-KS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-KS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalimantan Selatan"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Kalimantan Selatan in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kalimantan Selatan"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-KA-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-KT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KT-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-KT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-KT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Kalimantan Tengah in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-KT-Subdivision ;
+	lcc-lr:hasTag "ID-KT" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-KT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-KT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalimantan Tengah"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Kalimantan Tengah in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kalimantan Tengah"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-KA-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-KU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KU-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-KU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-KU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Kalimantan Utara in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-KU-Subdivision ;
+	lcc-lr:hasTag "ID-KU" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-KU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-KU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalimantan Utara"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Kalimantan Utara in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Kalimantan Utara"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-KA-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-LA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-LA-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-LA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Lampung in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-LA-Subdivision ;
+	lcc-lr:hasTag "ID-LA" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-LA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-LA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lampung"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Lampung in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Lampung"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-MA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-MA-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-MA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Maluku in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-MA-Subdivision ;
+	lcc-lr:hasTag "ID-MA" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-MA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-MA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maluku"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Maluku in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Maluku"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-ML-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-ML
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-ML-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-ML-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-ML" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the geographical unit of Maluku in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-ML-Subdivision ;
+	lcc-lr:hasTag "ID-ML" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-ML-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-ML-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maluku"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the geographical unit of Maluku in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Maluku"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-159-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-2-id:ID-MU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-MU-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-MU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Maluku Utara in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-MU-Subdivision ;
+	lcc-lr:hasTag "ID-MU" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-MU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-MU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maluku Utara"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Maluku Utara in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Maluku Utara"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-ML-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-NB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-NB-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-NB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-NB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Nusa Tenggara Barat in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-NB-Subdivision ;
+	lcc-lr:hasTag "ID-NB" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-NB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-NB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nusa Tenggara Barat"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Nusa Tenggara Barat in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Nusa Tenggara Barat"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-NU-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-NT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-NT-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-NT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-NT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Nusa Tenggara Timur in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-NT-Subdivision ;
+	lcc-lr:hasTag "ID-NT" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-NT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-NT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nusa Tenggara Timur"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Nusa Tenggara Timur in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Nusa Tenggara Timur"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-NU-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-NU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-NU-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-NU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-NU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the geographical unit of Nusa Tenggara in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-NU-Subdivision ;
+	lcc-lr:hasTag "ID-NU" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-NU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-NU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nusa Tenggara"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the geographical unit of Nusa Tenggara in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Nusa Tenggara"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-159-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-2-id:ID-PA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-PA-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-PA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Papua in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-PA-Subdivision ;
+	lcc-lr:hasTag "ID-PA" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-PA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-PA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Papua"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Papua in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Papua"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-PP-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-PB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-PB-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-PB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-PB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Papua Barat in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-PB-Subdivision ;
+	lcc-lr:hasTag "ID-PB" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-PB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-PB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Papua Barat"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Papua Barat in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Papua Barat"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-PP-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-PP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-PP-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-PP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-PP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the geographical unit of Papua in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-PP-Subdivision ;
+	lcc-lr:hasTag "ID-PP" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-PP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-PP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Papua"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the geographical unit of Papua in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Papua"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-159-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-2-id:ID-RI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-RI-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-RI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Riau in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-RI-Subdivision ;
+	lcc-lr:hasTag "ID-RI" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-RI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-RI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Riau"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Riau in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Riau"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sulawesi Utara in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SA-Subdivision ;
+	lcc-lr:hasTag "ID-SA" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sulawesi Utara"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sulawesi Utara in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sulawesi Utara"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SL-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-SB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SB-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sumatera Barat in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SB-Subdivision ;
+	lcc-lr:hasTag "ID-SB" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sumatera Barat"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sumatera Barat in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sumatera Barat"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-SG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SG-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sulawesi Tenggara in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SG-Subdivision ;
+	lcc-lr:hasTag "ID-SG" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sulawesi Tenggara"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sulawesi Tenggara in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sulawesi Tenggara"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SL-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-SL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SL-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the geographical unit of Sulawesi in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SL-Subdivision ;
+	lcc-lr:hasTag "ID-SL" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sulawesi"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the geographical unit of Sulawesi in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sulawesi"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-159-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-2-id:ID-SM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SM-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the geographical unit of Sumatera in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SM-Subdivision ;
+	lcc-lr:hasTag "ID-SM" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sumatera"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the geographical unit of Sumatera in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sumatera"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-159-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-2-id:ID-SN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SN-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sulawesi Selatan in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SN-Subdivision ;
+	lcc-lr:hasTag "ID-SN" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sulawesi Selatan"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sulawesi Selatan in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sulawesi Selatan"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SL-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-SR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SR-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sulawesi Barat in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SR-Subdivision ;
+	lcc-lr:hasTag "ID-SR" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sulawesi Barat"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sulawesi Barat in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sulawesi Barat"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SL-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-SS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SS-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sumatera Selatan in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SS-Subdivision ;
+	lcc-lr:hasTag "ID-SS" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sumatera Selatan"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sumatera Selatan in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sumatera Selatan"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-ST
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-ST-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-ST-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-ST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sulawesi Tengah in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-ST-Subdivision ;
+	lcc-lr:hasTag "ID-ST" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-ST-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-ST-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sulawesi Tengah"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sulawesi Tengah in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sulawesi Tengah"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SL-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-SU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SU-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-SU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the provinsi of Sumatera Utara in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-SU-Subdivision ;
+	lcc-lr:hasTag "ID-SU" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-SU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-SU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sumatera Utara"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the provinsi of Sumatera Utara in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Sumatera Utara"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-205-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:ID-YO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-YO-RegionIdentifier ;
+	.
+
+lcc-3166-2-id:ID-YO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ID-YO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "subdivision code for the daerah istimewa of Yogyakarta in the country of Indonesia" ;
+	lcc-lr:denotes lcc-3166-2-id:ID-YO-Subdivision ;
+	lcc-lr:hasTag "ID-YO" ;
+	lcc-lr:identifies lcc-3166-2-id:ID-YO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-id:ID-YO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yogyakarta"@id ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ID/> ;
+	skos:definition "the daerah istimewa of Yogyakarta in the country of Indonesia" ;
+	lcc-cr:hasLocalShortName "Yogyakarta"@id ;
+	lcc-cr:isClassifiedBy lcc-3166-2-id:ID-269-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-id:ID-JW-Subdivision ;
+	.
+
+lcc-3166-2-id:JakartaRaya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JK-Subdivision ;
+	.
+
+lcc-3166-2-id:Jambi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JA-Subdivision ;
+	.
+
+lcc-3166-2-id:Jawa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JW-Subdivision ;
+	.
+
+lcc-3166-2-id:JawaBarat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JB-Subdivision ;
+	.
+
+lcc-3166-2-id:JawaTengah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JT-Subdivision ;
+	.
+
+lcc-3166-2-id:JawaTimur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-JI-Subdivision ;
+	.
+
+lcc-3166-2-id:Kalimantan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KA-Subdivision ;
+	.
+
+lcc-3166-2-id:KalimantanBarat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KB-Subdivision ;
+	.
+
+lcc-3166-2-id:KalimantanSelatan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KS-Subdivision ;
+	.
+
+lcc-3166-2-id:KalimantanTengah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KT-Subdivision ;
+	.
+
+lcc-3166-2-id:KalimantanTimur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KI-Subdivision ;
+	.
+
+lcc-3166-2-id:KalimantanUtara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KU-Subdivision ;
+	.
+
+lcc-3166-2-id:KepulauanBangkaBelitung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-BB-Subdivision ;
+	.
+
+lcc-3166-2-id:KepulauanRiau
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-KR-Subdivision ;
+	.
+
+lcc-3166-2-id:Lampung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-LA-Subdivision ;
+	.
+
+lcc-3166-2-id:Maluku
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-id:ID-MA-Subdivision ,
+		lcc-3166-2-id:ID-ML-Subdivision
+		;
+	.
+
+lcc-3166-2-id:MalukuUtara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-MU-Subdivision ;
+	.
+
+lcc-3166-2-id:NusaTenggara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-NU-Subdivision ;
+	.
+
+lcc-3166-2-id:NusaTenggaraBarat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-NB-Subdivision ;
+	.
+
+lcc-3166-2-id:NusaTenggaraTimur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-NT-Subdivision ;
+	.
+
+lcc-3166-2-id:Papua
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-id:ID-PA-Subdivision ,
+		lcc-3166-2-id:ID-PP-Subdivision
+		;
+	.
+
+lcc-3166-2-id:PapuaBarat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-PB-Subdivision ;
+	.
+
+lcc-3166-2-id:Provinsi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-205-RegionKind ;
+	.
+
+lcc-3166-2-id:Riau
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-RI-Subdivision ;
+	.
+
+lcc-3166-2-id:Sulawesi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SL-Subdivision ;
+	.
+
+lcc-3166-2-id:SulawesiBarat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SR-Subdivision ;
+	.
+
+lcc-3166-2-id:SulawesiSelatan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SN-Subdivision ;
+	.
+
+lcc-3166-2-id:SulawesiTengah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-ST-Subdivision ;
+	.
+
+lcc-3166-2-id:SulawesiTenggara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SG-Subdivision ;
+	.
+
+lcc-3166-2-id:SulawesiUtara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SA-Subdivision ;
+	.
+
+lcc-3166-2-id:Sumatera
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SM-Subdivision ;
+	.
+
+lcc-3166-2-id:SumateraBarat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SB-Subdivision ;
+	.
+
+lcc-3166-2-id:SumateraSelatan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SS-Subdivision ;
+	.
+
+lcc-3166-2-id:SumateraUtara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-SU-Subdivision ;
+	.
+
+lcc-3166-2-id:Yogyakarta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-id:ID-YO-Subdivision ;
+	.
+

@@ -1,0 +1,1157 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-kh: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Cambodia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-kh" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Cambodia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KH.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	.
+
+lcc-3166-2-kh:AutonomousMunicipality
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-206-RegionKind ;
+	.
+
+lcc-3166-2-kh:BaatDambang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-2-Subdivision ;
+	.
+
+lcc-3166-2-kh:BanteayMeanChoay
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-1-Subdivision ;
+	.
+
+lcc-3166-2-kh:KH-1
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-1-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-1-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Banteay Mean Choăy in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-1-Subdivision ;
+	lcc-lr:hasTag "KH-1" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-1-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-1-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Banteay Mean Choăy"@km ,
+		"Bântéay Méanchey"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Banteay Mean Choăy in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Banteay Mean Choăy"@km ,
+		"Bântéay Méanchey"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Krâchéh in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-10-Subdivision ;
+	lcc-lr:hasTag "KH-10" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kracheh"@km ,
+		"Krâchéh"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Krâchéh in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kracheh"@km ,
+		"Krâchéh"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Môndól Kiri in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-11-Subdivision ;
+	lcc-lr:hasTag "KH-11" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mondol Kiri"@km ,
+		"Môndól Kiri"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Môndól Kiri in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Mondol Kiri"@km ,
+		"Môndól Kiri"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the autonomous municipality of Phnum Pénh in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-12-Subdivision ;
+	lcc-lr:hasTag "KH-12" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Phnom Penh"@km ,
+		"Phnum Pénh"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the autonomous municipality of Phnum Pénh in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Phnom Penh"@km ,
+		"Phnum Pénh"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-206-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Preăh Vihéar in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-13-Subdivision ;
+	lcc-lr:hasTag "KH-13" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Preah Vihear"@km ,
+		"Preăh Vihéar"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Preăh Vihéar in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Preah Vihear"@km ,
+		"Preăh Vihéar"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Prey Vêng in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-14-Subdivision ;
+	lcc-lr:hasTag "KH-14" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Prey Veaeng"@km ,
+		"Prey Vêng"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Prey Vêng in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Prey Veaeng"@km ,
+		"Prey Vêng"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Poŭthĭsăt in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-15-Subdivision ;
+	lcc-lr:hasTag "KH-15" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Pousaat"@km ,
+		"Poŭthĭsăt"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Poŭthĭsăt in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Pousaat"@km ,
+		"Poŭthĭsăt"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Rotanak Kiri in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-16-Subdivision ;
+	lcc-lr:hasTag "KH-16" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Rotanak Kiri"@km ,
+		"Rôtânôkiri"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Rotanak Kiri in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Rotanak Kiri"@km ,
+		"Rôtânôkiri"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Siem Reab in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-17-Subdivision ;
+	lcc-lr:hasTag "KH-17" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Siem Reab"@km ,
+		"Siĕmréab"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Siem Reab in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Siem Reab"@km ,
+		"Siĕmréab"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Preăh Seihânŭ in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-18-Subdivision ;
+	lcc-lr:hasTag "KH-18" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Preah Sihanouk"@km ,
+		"Preăh Seihânŭ"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Preăh Seihânŭ in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Preah Sihanouk"@km ,
+		"Preăh Seihânŭ"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Stoĕng Trêng in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-19-Subdivision ;
+	lcc-lr:hasTag "KH-19" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Stoĕng Trêng"@km ,
+		"Stueng Traeng"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Stoĕng Trêng in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Stoĕng Trêng"@km ,
+		"Stueng Traeng"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-2
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-2-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-2-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Baat Dambang in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-2-Subdivision ;
+	lcc-lr:hasTag "KH-2" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-2-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-2-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Baat Dambang"@km ,
+		"Bătdâmbâng"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Baat Dambang in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Baat Dambang"@km ,
+		"Bătdâmbâng"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Svay Riĕng in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-20-Subdivision ;
+	lcc-lr:hasTag "KH-20" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Svaay Rieng"@km ,
+		"Svay Riĕng"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Svay Riĕng in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Svaay Rieng"@km ,
+		"Svay Riĕng"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-206-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision category autonomous municipality in the country of Cambodia" ;
+	.
+
+lcc-3166-2-kh:KH-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Taakaev in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-21-Subdivision ;
+	lcc-lr:hasTag "KH-21" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Taakaev"@km ,
+		"Takêv"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Taakaev in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Taakaev"@km ,
+		"Takêv"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Ŏtdâr Méan Choăy in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-22-Subdivision ;
+	lcc-lr:hasTag "KH-22" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Otdar Mean Chey"@km ,
+		"Ŏtdâr Méan Choăy"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Ŏtdâr Méan Choăy in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Otdar Mean Chey"@km ,
+		"Ŏtdâr Méan Choăy"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kaeb in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-23-Subdivision ;
+	lcc-lr:hasTag "KH-23" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kaeb"@km ,
+		"Kêb"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kaeb in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kaeb"@km ,
+		"Kêb"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Pailĭn in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-24-Subdivision ;
+	lcc-lr:hasTag "KH-24" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Pailin"@km ,
+		"Pailĭn"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Pailĭn in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Pailin"@km ,
+		"Pailĭn"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Tbong Khmum in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-25-Subdivision ;
+	lcc-lr:hasTag "KH-25" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tbong Khmum"@km ,
+		"Tbong Khmŭm"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Tbong Khmum in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Tbong Khmum"@km ,
+		"Tbong Khmŭm"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-3
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-3-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-3-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kampong Chaam in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-3-Subdivision ;
+	lcc-lr:hasTag "KH-3" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-3-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-3-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kampong Chaam"@km ,
+		"Kâmpóng Cham"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kampong Chaam in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kampong Chaam"@km ,
+		"Kâmpóng Cham"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-342-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "khet"@km ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision category khet in the country of Cambodia" ;
+	.
+
+lcc-3166-2-kh:KH-4
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-4-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-4-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kampong Chhnang in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-4-Subdivision ;
+	lcc-lr:hasTag "KH-4" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-4-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-4-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kampong Chhnang"@km ,
+		"Kâmpóng Chhnăng"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kampong Chhnang in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kampong Chhnang"@km ,
+		"Kâmpóng Chhnăng"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-5
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-5-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-5-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kampong Spueu in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-5-Subdivision ;
+	lcc-lr:hasTag "KH-5" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-5-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-5-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kampong Spueu"@km ,
+		"Kâmpóng Spœ"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kampong Spueu in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kampong Spueu"@km ,
+		"Kâmpóng Spœ"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-6
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-6-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-6-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kâmpóng Thum in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-6-Subdivision ;
+	lcc-lr:hasTag "KH-6" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-6-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-6-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kampong Thum"@km ,
+		"Kâmpóng Thum"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kâmpóng Thum in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kampong Thum"@km ,
+		"Kâmpóng Thum"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-7
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-7-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-7-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kampot in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-7-Subdivision ;
+	lcc-lr:hasTag "KH-7" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-7-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-7-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kampot"@km ,
+		"Kâmpôt"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kampot in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kampot"@km ,
+		"Kâmpôt"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-8
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-8-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-8-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kandaal in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-8-Subdivision ;
+	lcc-lr:hasTag "KH-8" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-8-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-8-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kandaal"@km ,
+		"Kândal"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kandaal in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kandaal"@km ,
+		"Kândal"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:KH-9
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-9-RegionIdentifier ;
+	.
+
+lcc-3166-2-kh:KH-9-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KH-9" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "subdivision code for the khet of Kaoh Kong in the country of Cambodia" ;
+	lcc-lr:denotes lcc-3166-2-kh:KH-9-Subdivision ;
+	lcc-lr:hasTag "KH-9" ;
+	lcc-lr:identifies lcc-3166-2-kh:KH-9-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kh:KH-9-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kaoh Kong"@km ,
+		"Kaôh Kŏng"@km
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KH/> ;
+	skos:definition "the khet of Kaoh Kong in the country of Cambodia" ;
+	lcc-cr:hasLocalShortName
+		"Kaoh Kong"@km ,
+		"Kaôh Kŏng"@km
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kh:KH-342-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-2-kh:Kaeb
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-23-Subdivision ;
+	.
+
+lcc-3166-2-kh:KampongChaam
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-3-Subdivision ;
+	.
+
+lcc-3166-2-kh:KampongChhnang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-4-Subdivision ;
+	.
+
+lcc-3166-2-kh:KampongSpueu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-5-Subdivision ;
+	.
+
+lcc-3166-2-kh:KampongThum
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-6-Subdivision ;
+	.
+
+lcc-3166-2-kh:Kampot
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-7-Subdivision ;
+	.
+
+lcc-3166-2-kh:Kandaal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-8-Subdivision ;
+	.
+
+lcc-3166-2-kh:KaohKong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-9-Subdivision ;
+	.
+
+lcc-3166-2-kh:Khet
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-342-RegionKind ;
+	.
+
+lcc-3166-2-kh:Kracheh
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-10-Subdivision ;
+	.
+
+lcc-3166-2-kh:MondolKiri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-11-Subdivision ;
+	.
+
+lcc-3166-2-kh:OtdarMeanChoay
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-22-Subdivision ;
+	.
+
+lcc-3166-2-kh:Pailin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-24-Subdivision ;
+	.
+
+lcc-3166-2-kh:PhnumPenh
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-12-Subdivision ;
+	.
+
+lcc-3166-2-kh:Pouthisat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-15-Subdivision ;
+	.
+
+lcc-3166-2-kh:PreahSeihanu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-18-Subdivision ;
+	.
+
+lcc-3166-2-kh:PreahVihear
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-13-Subdivision ;
+	.
+
+lcc-3166-2-kh:PreyVeng
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-14-Subdivision ;
+	.
+
+lcc-3166-2-kh:RotanakKiri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-16-Subdivision ;
+	.
+
+lcc-3166-2-kh:SiemReab
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-17-Subdivision ;
+	.
+
+lcc-3166-2-kh:StoengTreng
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-19-Subdivision ;
+	.
+
+lcc-3166-2-kh:SvayRieng
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-20-Subdivision ;
+	.
+
+lcc-3166-2-kh:Taakaev
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-21-Subdivision ;
+	.
+
+lcc-3166-2-kh:TbongKhmum
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kh:KH-25-Subdivision ;
+	.
+

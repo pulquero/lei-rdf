@@ -1,0 +1,490 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mz: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Mozambique Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mz" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Mozambique, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MZ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	.
+
+lcc-3166-2-mz:CaboDelgado
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-P-Subdivision ;
+	.
+
+lcc-3166-2-mz:Cidade
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-131-RegionKind ;
+	.
+
+lcc-3166-2-mz:Gaza
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-G-Subdivision ;
+	.
+
+lcc-3166-2-mz:Inhambane
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-I-Subdivision ;
+	.
+
+lcc-3166-2-mz:MZ-131-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "cidade"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision category cidade in the country of Mozambique" ;
+	.
+
+lcc-3166-2-mz:MZ-281-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "província"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision category província in the country of Mozambique" ;
+	.
+
+lcc-3166-2-mz:MZ-A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-A-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Niassa in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-A-Subdivision ;
+	lcc-lr:hasTag "MZ-A" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niassa"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Niassa in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Niassa"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-B-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Manica in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-B-Subdivision ;
+	lcc-lr:hasTag "MZ-B" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manica"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Manica in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Manica"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-G
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-G-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-G-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Gaza in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-G-Subdivision ;
+	lcc-lr:hasTag "MZ-G" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-G-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-G-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gaza"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Gaza in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Gaza"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-I
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-I-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-I-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-I" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Inhambane in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-I-Subdivision ;
+	lcc-lr:hasTag "MZ-I" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-I-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-I-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Inhambane"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Inhambane in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Inhambane"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Maputo in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-L-Subdivision ;
+	lcc-lr:hasTag "MZ-L" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maputo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Maputo in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Maputo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-MPM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-MPM-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-MPM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-MPM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the cidade of Maputo in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-MPM-Subdivision ;
+	lcc-lr:hasTag "MZ-MPM" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-MPM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-MPM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maputo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the cidade of Maputo in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Maputo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-131-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-N
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-N-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-N-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Nampula in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-N-Subdivision ;
+	lcc-lr:hasTag "MZ-N" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-N-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-N-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nampula"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Nampula in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Nampula"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-P
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-P-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-P-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Cabo Delgado in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-P-Subdivision ;
+	lcc-lr:hasTag "MZ-P" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-P-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-P-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cabo Delgado"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Cabo Delgado in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Cabo Delgado"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-Q
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-Q-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-Q-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-Q" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Zambézia in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-Q-Subdivision ;
+	lcc-lr:hasTag "MZ-Q" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-Q-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-Q-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zambézia"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Zambézia in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Zambézia"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-S
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-S-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-S-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Sofala in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-S-Subdivision ;
+	lcc-lr:hasTag "MZ-S" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-S-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-S-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sofala"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Sofala in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Sofala"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:MZ-T
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-T-RegionIdentifier ;
+	.
+
+lcc-3166-2-mz:MZ-T-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MZ-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "subdivision code for the província of Tete in the country of Mozambique" ;
+	lcc-lr:denotes lcc-3166-2-mz:MZ-T-Subdivision ;
+	lcc-lr:hasTag "MZ-T" ;
+	lcc-lr:identifies lcc-3166-2-mz:MZ-T-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mz:MZ-T-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tete"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MZ/> ;
+	skos:definition "the província of Tete in the country of Mozambique" ;
+	lcc-cr:hasLocalShortName "Tete"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mz:MZ-281-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-2-mz:Manica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-B-Subdivision ;
+	.
+
+lcc-3166-2-mz:Maputo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-L-Subdivision ;
+	.
+
+lcc-3166-2-mz:Maputo-City
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-MPM-Subdivision ;
+	.
+
+lcc-3166-2-mz:Nampula
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-N-Subdivision ;
+	.
+
+lcc-3166-2-mz:Niassa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-A-Subdivision ;
+	.
+
+lcc-3166-2-mz:Provincia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-281-RegionKind ;
+	.
+
+lcc-3166-2-mz:Sofala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-S-Subdivision ;
+	.
+
+lcc-3166-2-mz:Tete
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-T-Subdivision ;
+	.
+
+lcc-3166-2-mz:Zambezia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mz:MZ-Q-Subdivision ;
+	.
+

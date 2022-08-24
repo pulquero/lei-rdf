@@ -1,0 +1,257 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bq: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Bonaire, Sint Eustatius and Saba Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bq" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Bonaire, Sint Eustatius and Saba, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BQ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	.
+
+lcc-3166-2-bq:BQ-1026-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Bonaire"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "the territory of Bonaire in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-cr:hasEnglishShortName "Bonaire"@en ;
+	lcc-cr:hasFrenchShortName "Bonaire"@fr ;
+	lcc-cr:hasNumericRegionCode "1026" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bonaire ;
+	.
+
+lcc-3166-2-bq:BQ-1161-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Saba"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "the territory of Saba in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-cr:hasEnglishShortName "Saba"@en ;
+	lcc-cr:hasFrenchShortName "Saba"@fr ;
+	lcc-cr:hasNumericRegionCode "1161" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bonaire ;
+	.
+
+lcc-3166-2-bq:BQ-1167-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Sint Eustatius "@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "the territory of Sint Eustatius  in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-cr:hasEnglishShortName "Sint Eustatius"@en ;
+	lcc-cr:hasFrenchShortName "Saint-Eustache"@fr ;
+	lcc-cr:hasNumericRegionCode "1167" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bonaire ;
+	.
+
+lcc-3166-2-bq:BQ-272-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"bijzondere gemeente"@nl ,
+		"special municipality"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "subdivision category special municipality in the country of Bonaire, Sint Eustatius and Saba" ;
+	.
+
+lcc-3166-2-bq:BQ-BO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bq:BQ-BO-RegionIdentifier ;
+	.
+
+lcc-3166-2-bq:BQ-BO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BQ-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "subdivision code for the special municipality of Bonaire in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-lr:denotes lcc-3166-2-bq:BQ-BO-Subdivision ;
+	lcc-lr:hasTag "BQ-BO" ;
+	lcc-lr:identifies lcc-3166-2-bq:BQ-BO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bq:BQ-BO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bonaire"@en ,
+		"Bonaire"@nl
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "the special municipality of Bonaire in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-cr:hasEnglishShortName "Bonaire"@en ;
+	lcc-cr:hasLocalShortName
+		"Bonaire"@nl ,
+		"Boneiru"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-bq:BQ-272-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bonaire ;
+	.
+
+lcc-3166-2-bq:BQ-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bq:BQ-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-bq:BQ-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BQ-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "subdivision code for the special municipality of Saba in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-lr:denotes lcc-3166-2-bq:BQ-SA-Subdivision ;
+	lcc-lr:hasTag "BQ-SA" ;
+	lcc-lr:identifies lcc-3166-2-bq:BQ-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bq:BQ-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Saba"@en ,
+		"Saba"@nl
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "the special municipality of Saba in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-cr:hasEnglishShortName "Saba"@en ;
+	lcc-cr:hasLocalShortName
+		"Saba"@nl ,
+		"Saba"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-bq:BQ-272-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bonaire ;
+	.
+
+lcc-3166-2-bq:BQ-SE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bq:BQ-SE-RegionIdentifier ;
+	.
+
+lcc-3166-2-bq:BQ-SE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BQ-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "subdivision code for the special municipality of Sint Eustatius in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-lr:denotes lcc-3166-2-bq:BQ-SE-Subdivision ;
+	lcc-lr:hasTag "BQ-SE" ;
+	lcc-lr:identifies lcc-3166-2-bq:BQ-SE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bq:BQ-SE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Sint Eustatius"@en ,
+		"Sint Eustatius"@nl
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ/> ;
+	skos:definition "the special municipality of Sint Eustatius in the country of Bonaire, Sint Eustatius and Saba" ;
+	lcc-cr:hasEnglishShortName "Sint Eustatius"@en ;
+	lcc-cr:hasLocalShortName
+		"Sint Eustatius"@nl ,
+		"Sint Eustatius"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-bq:BQ-272-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bonaire ;
+	.
+
+lcc-3166-2-bq:Bonaire
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bq:BQ-1026-Territory ,
+		lcc-3166-2-bq:BQ-BO-Subdivision
+		;
+	.
+
+lcc-3166-2-bq:Saba
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bq:BQ-1161-Territory ,
+		lcc-3166-2-bq:BQ-SA-Subdivision
+		;
+	.
+
+lcc-3166-2-bq:SintEustatius
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bq:BQ-1167-Territory ,
+		lcc-3166-2-bq:BQ-SE-Subdivision
+		;
+	.
+
+lcc-3166-2-bq:SpecialMunicipality
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bq:BQ-272-RegionKind ;
+	.
+

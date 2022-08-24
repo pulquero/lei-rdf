@@ -1,0 +1,62 @@
+# imports: https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-lng: <https://www.omg.org/spec/LCC/Languages/AboutLanguages/> .
+@prefix lcc-spc: <https://www.omg.org/spec/LCC/AboutLCC/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Languages/AboutLanguages/>
+	a owl:Ontology ;
+	rdfs:label "About the Languages, Countries and Codes (LCC) Languages Module" ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive, Inc." ,
+		"Copyright (c) 2015-2020 agnos.ai UK Ltd." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC"
+		;
+	sm:fileAbbreviation "lcc-lng" ;
+	sm:filename "AboutLanguages.rdf" ;
+	sm:publicationDate "2021-11-08T18:00:00"^^xsd:dateTime ;
+	rdfs:seeAlso <https://www.omg.org/spec/LCC/AboutLCC/> ;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Languages/AboutLanguages/> ;
+	skos:changeNote
+		"The http://www.omg.org/spec/LCC/20151101/Languages/AboutLanguages.rdf version of this ontology was revised to reflect the issues addressed by the LCC 1.0 FTF report." ,
+		"The http://www.omg.org/spec/LCC/20190201/Languages/AboutLanguages.rdf version of this ontology reflects the issues addressed by the LCC 1.1 RTF report." ,
+		"The http://www.omg.org/spec/LCC/20211101/Languages/AboutLanguages.rdf version of this ontology reflects the issues addressed by the LCC 1.2 RTF report."
+		;
+	.
+
+lcc-lng:LanguagesModule
+	a
+		owl:NamedIndividual ,
+		sm:Module
+		;
+	rdfs:label "LCC Languages Module" ;
+	dct:hasPart
+		<https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	sm:moduleAbbreviation "LCC-LNG" ;
+	sm:moduleAbstract "This module contains ontologies representing languages commonly used in business, including human and machine-interpretable languages.  The main body of the module is based on ISO 639 as well as the language element of the Language Tag specified in BCP 47 (RFC 4646, RFC 4647), to provide a systematic description of the vocabulary used for language representation, including natural and artificial languages." ;
+	sm:moduleName "Languages" ;
+	sm:moduleVersion "1.2" ;
+	rdfs:seeAlso <https://www.omg.org/spec/LCC/AboutLCC/> ;
+	skos:definition "metadata about the LCC Languages module" ;
+	.
+

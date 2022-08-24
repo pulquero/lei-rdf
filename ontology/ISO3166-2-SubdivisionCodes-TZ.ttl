@@ -1,0 +1,1246 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tz: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Tanzania, the United Republic of Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tz" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Tanzania, the United Republic of, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TZ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	.
+
+lcc-3166-2-tz:Arusha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-01-Subdivision ;
+	.
+
+lcc-3166-2-tz:Coast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-19-Subdivision ;
+	.
+
+lcc-3166-2-tz:DarEsSalaam
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-02-Subdivision ;
+	.
+
+lcc-3166-2-tz:Dodoma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-03-Subdivision ;
+	.
+
+lcc-3166-2-tz:Geita
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-27-Subdivision ;
+	.
+
+lcc-3166-2-tz:Iringa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-04-Subdivision ;
+	.
+
+lcc-3166-2-tz:Kagera
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-05-Subdivision ;
+	.
+
+lcc-3166-2-tz:Katavi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-28-Subdivision ;
+	.
+
+lcc-3166-2-tz:Kigoma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-08-Subdivision ;
+	.
+
+lcc-3166-2-tz:Kilimanjaro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-09-Subdivision ;
+	.
+
+lcc-3166-2-tz:Lindi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-12-Subdivision ;
+	.
+
+lcc-3166-2-tz:Manyara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-26-Subdivision ;
+	.
+
+lcc-3166-2-tz:Mara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-13-Subdivision ;
+	.
+
+lcc-3166-2-tz:Mbeya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-14-Subdivision ;
+	.
+
+lcc-3166-2-tz:Morogoro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-16-Subdivision ;
+	.
+
+lcc-3166-2-tz:Mtwara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-17-Subdivision ;
+	.
+
+lcc-3166-2-tz:Mwanza
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-18-Subdivision ;
+	.
+
+lcc-3166-2-tz:Njombe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-29-Subdivision ;
+	.
+
+lcc-3166-2-tz:PembaNorth
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-06-Subdivision ;
+	.
+
+lcc-3166-2-tz:PembaSouth
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-10-Subdivision ;
+	.
+
+lcc-3166-2-tz:Region
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-427-RegionKind ;
+	.
+
+lcc-3166-2-tz:Rukwa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-20-Subdivision ;
+	.
+
+lcc-3166-2-tz:Ruvuma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-21-Subdivision ;
+	.
+
+lcc-3166-2-tz:Shinyanga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-22-Subdivision ;
+	.
+
+lcc-3166-2-tz:Simiyu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-30-Subdivision ;
+	.
+
+lcc-3166-2-tz:Singida
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-23-Subdivision ;
+	.
+
+lcc-3166-2-tz:Songwe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-31-Subdivision ;
+	.
+
+lcc-3166-2-tz:TZ-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Arusha in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-01-Subdivision ;
+	lcc-lr:hasTag "TZ-01" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arusha"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Arusha in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Arusha"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Dar es Salaam in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-02-Subdivision ;
+	lcc-lr:hasTag "TZ-02" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dar es Salaam"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Dar es Salaam in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Dar es Salaam"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Dodoma in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-03-Subdivision ;
+	lcc-lr:hasTag "TZ-03" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dodoma"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Dodoma in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Dodoma"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Iringa in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-04-Subdivision ;
+	lcc-lr:hasTag "TZ-04" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iringa"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Iringa in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Iringa"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Kagera in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-05-Subdivision ;
+	lcc-lr:hasTag "TZ-05" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kagera"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Kagera in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Kagera"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Pemba North in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-06-Subdivision ;
+	lcc-lr:hasTag "TZ-06" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kaskazini Pemba"@sw ,
+		"Pemba North"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Pemba North in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasEnglishShortName "Pemba North"@en ;
+	lcc-cr:hasLocalShortName "Kaskazini Pemba"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Zanzibar North in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-07-Subdivision ;
+	lcc-lr:hasTag "TZ-07" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kaskazini Unguja"@sw ,
+		"Zanzibar North"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Zanzibar North in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasEnglishShortName "Zanzibar North"@en ;
+	lcc-cr:hasLocalShortName "Kaskazini Unguja"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Kigoma in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-08-Subdivision ;
+	lcc-lr:hasTag "TZ-08" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kigoma"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Kigoma in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Kigoma"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Kilimanjaro in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-09-Subdivision ;
+	lcc-lr:hasTag "TZ-09" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kilimanjaro"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Kilimanjaro in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Kilimanjaro"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Pemba South in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-10-Subdivision ;
+	lcc-lr:hasTag "TZ-10" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kusini Pemba"@sw ,
+		"Pemba South"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Pemba South in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasEnglishShortName "Pemba South"@en ;
+	lcc-cr:hasLocalShortName "Kusini Pemba"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Zanzibar South in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-11-Subdivision ;
+	lcc-lr:hasTag "TZ-11" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kusini Unguja"@sw ,
+		"Zanzibar South"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Zanzibar South in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasEnglishShortName "Zanzibar South"@en ;
+	lcc-cr:hasLocalShortName "Kusini Unguja"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Lindi in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-12-Subdivision ;
+	lcc-lr:hasTag "TZ-12" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lindi"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Lindi in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Lindi"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Mara in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-13-Subdivision ;
+	lcc-lr:hasTag "TZ-13" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mara"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Mara in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Mara"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Mbeya in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-14-Subdivision ;
+	lcc-lr:hasTag "TZ-14" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mbeya"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Mbeya in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Mbeya"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Zanzibar West in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-15-Subdivision ;
+	lcc-lr:hasTag "TZ-15" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mjini Magharibi"@sw ,
+		"Zanzibar West"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Zanzibar West in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasEnglishShortName "Zanzibar West"@en ;
+	lcc-cr:hasLocalShortName "Mjini Magharibi"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Morogoro in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-16-Subdivision ;
+	lcc-lr:hasTag "TZ-16" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Morogoro"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Morogoro in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Morogoro"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Mtwara in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-17-Subdivision ;
+	lcc-lr:hasTag "TZ-17" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mtwara"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Mtwara in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Mtwara"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Mwanza in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-18-Subdivision ;
+	lcc-lr:hasTag "TZ-18" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mwanza"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Mwanza in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Mwanza"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Coast in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-19-Subdivision ;
+	lcc-lr:hasTag "TZ-19" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Coast"@en ,
+		"Pwani"@sw
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Coast in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasEnglishShortName "Coast"@en ;
+	lcc-cr:hasLocalShortName "Pwani"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Rukwa in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-20-Subdivision ;
+	lcc-lr:hasTag "TZ-20" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rukwa"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Rukwa in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Rukwa"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Ruvuma in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-21-Subdivision ;
+	lcc-lr:hasTag "TZ-21" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ruvuma"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Ruvuma in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Ruvuma"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Shinyanga in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-22-Subdivision ;
+	lcc-lr:hasTag "TZ-22" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shinyanga"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Shinyanga in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Shinyanga"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Singida in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-23-Subdivision ;
+	lcc-lr:hasTag "TZ-23" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Singida"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Singida in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Singida"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Tabora in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-24-Subdivision ;
+	lcc-lr:hasTag "TZ-24" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tabora"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Tabora in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Tabora"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Tanga in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-25-Subdivision ;
+	lcc-lr:hasTag "TZ-25" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tanga"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Tanga in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Tanga"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Manyara in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-26-Subdivision ;
+	lcc-lr:hasTag "TZ-26" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manyara"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Manyara in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Manyara"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Geita in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-27-Subdivision ;
+	lcc-lr:hasTag "TZ-27" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Geita"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Geita in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Geita"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-28
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-28-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-28-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Katavi in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-28-Subdivision ;
+	lcc-lr:hasTag "TZ-28" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-28-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-28-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Katavi"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Katavi in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Katavi"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-29
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-29-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-29-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Njombe in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-29-Subdivision ;
+	lcc-lr:hasTag "TZ-29" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-29-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-29-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Njombe"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Njombe in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Njombe"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Simiyu in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-30-Subdivision ;
+	lcc-lr:hasTag "TZ-30" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Simiyu"@sw ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Simiyu in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasLocalShortName "Simiyu"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-tz:TZ-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TZ-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision code for the region of Songwe in the country of Tanzania, the United Republic of" ;
+	lcc-lr:denotes lcc-3166-2-tz:TZ-31-Subdivision ;
+	lcc-lr:hasTag "TZ-31" ;
+	lcc-lr:identifies lcc-3166-2-tz:TZ-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tz:TZ-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Songwe"@en ,
+		"Songwe"@sw
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "the region of Songwe in the country of Tanzania, the United Republic of" ;
+	lcc-cr:hasEnglishShortName "Songwe"@en ;
+	lcc-cr:hasLocalShortName "Songwe"@sw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tz:TZ-427-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-2-tz:TZ-427-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"mkoa"@sw ,
+		"region"@en
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TZ/> ;
+	skos:definition "subdivision category region in the country of Tanzania, the United Republic of" ;
+	.
+
+lcc-3166-2-tz:Tabora
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-24-Subdivision ;
+	.
+
+lcc-3166-2-tz:Tanga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-25-Subdivision ;
+	.
+
+lcc-3166-2-tz:ZanzibarNorth
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-07-Subdivision ;
+	.
+
+lcc-3166-2-tz:ZanzibarSouth
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-11-Subdivision ;
+	.
+
+lcc-3166-2-tz:ZanzibarWest
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tz:TZ-15-Subdivision ;
+	.
+

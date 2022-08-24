@@ -1,0 +1,581 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mu: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Mauritius Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mu" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Mauritius, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MU.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	.
+
+lcc-3166-2-mu:AgalegaIslands
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-mu:MU-1001-Territory ,
+		lcc-3166-2-mu:MU-AG-Subdivision
+		;
+	.
+
+lcc-3166-2-mu:BlackRiver
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-BL-Subdivision ;
+	.
+
+lcc-3166-2-mu:CargadosCarajosShoals
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-mu:MU-1034-Territory ,
+		lcc-3166-2-mu:MU-CC-Subdivision
+		;
+	.
+
+lcc-3166-2-mu:Dependency
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-340-RegionKind ;
+	.
+
+lcc-3166-2-mu:District
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-238-RegionKind ;
+	.
+
+lcc-3166-2-mu:Flacq
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-FL-Subdivision ;
+	.
+
+lcc-3166-2-mu:GrandPort
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-GP-Subdivision ;
+	.
+
+lcc-3166-2-mu:MU-1001-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Agalega Islands"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the territory of Agalega Islands in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Agalega Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Agalega"@fr ;
+	lcc-cr:hasNumericRegionCode "1001" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-1034-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Cargados Carajos Shoals"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the territory of Cargados Carajos Shoals in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Cargados Carajos Shoals"@en ;
+	lcc-cr:hasFrenchShortName "Cargados Carajos Shoals"@fr ;
+	lcc-cr:hasNumericRegionCode "1034" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-1159-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Rodrigues Island"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the territory of Rodrigues Island in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Rodrigues Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Rodrigues"@fr ;
+	lcc-cr:hasNumericRegionCode "1159" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-238-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision category district in the country of Mauritius" ;
+	.
+
+lcc-3166-2-mu:MU-340-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "dependency"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision category dependency in the country of Mauritius" ;
+	.
+
+lcc-3166-2-mu:MU-AG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-AG-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-AG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-AG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the dependency of Agalega Islands in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-AG-Subdivision ;
+	lcc-lr:hasTag "MU-AG" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-AG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-AG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Agalega Islands"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the dependency of Agalega Islands in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Agalega Islands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-340-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-BL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-BL-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-BL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Black River in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-BL-Subdivision ;
+	lcc-lr:hasTag "MU-BL" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-BL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-BL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Black River"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Black River in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Black River"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-CC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-CC-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-CC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-CC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the dependency of Cargados Carajos Shoals in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-CC-Subdivision ;
+	lcc-lr:hasTag "MU-CC" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-CC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-CC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cargados Carajos Shoals"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the dependency of Cargados Carajos Shoals in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Cargados Carajos Shoals"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-340-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-FL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-FL-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-FL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-FL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Flacq in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-FL-Subdivision ;
+	lcc-lr:hasTag "MU-FL" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-FL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-FL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Flacq"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Flacq in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Flacq"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-GP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-GP-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-GP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-GP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Grand Port in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-GP-Subdivision ;
+	lcc-lr:hasTag "MU-GP" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-GP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-GP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Port"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Grand Port in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Grand Port"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-MO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-MO-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-MO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Moka in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-MO-Subdivision ;
+	lcc-lr:hasTag "MU-MO" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-MO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-MO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moka"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Moka in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Moka"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-PA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-PA-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-PA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Pamplemousses in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-PA-Subdivision ;
+	lcc-lr:hasTag "MU-PA" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-PA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-PA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pamplemousses"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Pamplemousses in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Pamplemousses"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-PL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-PL-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-PL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-PL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Port Louis in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-PL-Subdivision ;
+	lcc-lr:hasTag "MU-PL" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-PL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-PL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Port Louis"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Port Louis in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Port Louis"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-PW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-PW-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-PW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-PW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Plaines Wilhems in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-PW-Subdivision ;
+	lcc-lr:hasTag "MU-PW" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-PW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-PW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plaines Wilhems"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Plaines Wilhems in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Plaines Wilhems"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-RO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-RO-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-RO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-RO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the dependency of Rodrigues Island in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-RO-Subdivision ;
+	lcc-lr:hasTag "MU-RO" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-RO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-RO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rodrigues Island"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the dependency of Rodrigues Island in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Rodrigues Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-340-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-RR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-RR-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-RR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-RR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Rivière du Rempart in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-RR-Subdivision ;
+	lcc-lr:hasTag "MU-RR" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-RR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-RR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rivière du Rempart"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Rivière du Rempart in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Rivière du Rempart"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:MU-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-mu:MU-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MU-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "subdivision code for the district of Savanne in the country of Mauritius" ;
+	lcc-lr:denotes lcc-3166-2-mu:MU-SA-Subdivision ;
+	lcc-lr:hasTag "MU-SA" ;
+	lcc-lr:identifies lcc-3166-2-mu:MU-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mu:MU-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Savanne"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MU/> ;
+	skos:definition "the district of Savanne in the country of Mauritius" ;
+	lcc-cr:hasEnglishShortName "Savanne"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mu:MU-238-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-2-mu:Moka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-MO-Subdivision ;
+	.
+
+lcc-3166-2-mu:Pamplemousses
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-PA-Subdivision ;
+	.
+
+lcc-3166-2-mu:PlainesWilhems
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-PW-Subdivision ;
+	.
+
+lcc-3166-2-mu:PortLouis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-PL-Subdivision ;
+	.
+
+lcc-3166-2-mu:RiviereDuRempart
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-RR-Subdivision ;
+	.
+
+lcc-3166-2-mu:RodriguesIsland
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-mu:MU-1159-Territory ,
+		lcc-3166-2-mu:MU-RO-Subdivision
+		;
+	.
+
+lcc-3166-2-mu:Savanne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mu:MU-SA-Subdivision ;
+	.
+

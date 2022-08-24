@@ -1,0 +1,269 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-km: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Comoros (the) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-km" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Comoros (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	.
+
+lcc-3166-2-km:Anjazijah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-G-Subdivision ;
+	.
+
+lcc-3166-2-km:Anjouan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-1005-Territory ;
+	.
+
+lcc-3166-2-km:Anjwan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-A-Subdivision ;
+	.
+
+lcc-3166-2-km:Jazirah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-174-RegionKind ;
+	.
+
+lcc-3166-2-km:KM-1005-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Anjouan"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "the territory of Anjouan in the country of Comoros (the)" ;
+	lcc-cr:hasEnglishShortName "Anjouan"@en ;
+	lcc-cr:hasFrenchShortName "Anjouan"@fr ;
+	lcc-cr:hasNumericRegionCode "1005" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Comoros ;
+	.
+
+lcc-3166-2-km:KM-1073-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "la Grande Comore"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "the territory of la Grande Comore in the country of Comoros (the)" ;
+	lcc-cr:hasEnglishShortName "Grande Comore"@en ;
+	lcc-cr:hasFrenchShortName "la Grande Comore"@fr ;
+	lcc-cr:hasNumericRegionCode "1073" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Comoros ;
+	.
+
+lcc-3166-2-km:KM-1130-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Mohéli"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "the territory of Mohéli in the country of Comoros (the)" ;
+	lcc-cr:hasEnglishShortName "Mohéli"@en ;
+	lcc-cr:hasFrenchShortName "Mohéli"@fr ;
+	lcc-cr:hasNumericRegionCode "1130" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Comoros ;
+	.
+
+lcc-3166-2-km:KM-174-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"jazīrah"@ar ,
+		"île"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "subdivision category jazīrah in the country of Comoros (the)" ;
+	.
+
+lcc-3166-2-km:KM-A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-A-RegionIdentifier ;
+	.
+
+lcc-3166-2-km:KM-A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KM-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "subdivision code for the jazīrah of Anjwān in the country of Comoros (the)" ;
+	lcc-lr:denotes lcc-3166-2-km:KM-A-Subdivision ;
+	lcc-lr:hasTag "KM-A" ;
+	lcc-lr:identifies lcc-3166-2-km:KM-A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-km:KM-A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Andjouân"@ar ,
+		"Anjouan"@fr ,
+		"Anjwān"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "the jazīrah of Anjwān in the country of Comoros (the)" ;
+	lcc-cr:hasFrenchShortName "Anjouan"@fr ;
+	lcc-cr:hasLocalShortName
+		"Andjouân"@ar ,
+		"Anjwān"@ar ,
+		"Ndzuwani"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-km:KM-174-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Comoros ;
+	.
+
+lcc-3166-2-km:KM-G
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-G-RegionIdentifier ;
+	.
+
+lcc-3166-2-km:KM-G-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KM-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "subdivision code for the jazīrah of Anjazījah in the country of Comoros (the)" ;
+	lcc-lr:denotes lcc-3166-2-km:KM-G-Subdivision ;
+	lcc-lr:hasTag "KM-G" ;
+	lcc-lr:identifies lcc-3166-2-km:KM-G-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-km:KM-G-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Andjazîdja"@ar ,
+		"Anjazījah"@ar ,
+		"Grande Comore"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "the jazīrah of Anjazījah in the country of Comoros (the)" ;
+	lcc-cr:hasFrenchShortName "Grande Comore"@fr ;
+	lcc-cr:hasLocalShortName
+		"Andjazîdja"@ar ,
+		"Anjazījah"@ar ,
+		"Ngazidja"
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-km:KM-174-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Comoros ;
+	.
+
+lcc-3166-2-km:KM-M
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-M-RegionIdentifier ;
+	.
+
+lcc-3166-2-km:KM-M-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KM-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "subdivision code for the jazīrah of Mūhīlī in the country of Comoros (the)" ;
+	lcc-lr:denotes lcc-3166-2-km:KM-M-Subdivision ;
+	lcc-lr:hasTag "KM-M" ;
+	lcc-lr:identifies lcc-3166-2-km:KM-M-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-km:KM-M-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mohéli"@fr ,
+		"Moûhîlî"@ar ,
+		"Mūhīlī"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KM/> ;
+	skos:definition "the jazīrah of Mūhīlī in the country of Comoros (the)" ;
+	lcc-cr:hasFrenchShortName "Mohéli"@fr ;
+	lcc-cr:hasLocalShortName
+		"Moûhîlî"@ar ,
+		"Mwali" ,
+		"Mūhīlī"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-km:KM-174-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Comoros ;
+	.
+
+lcc-3166-2-km:LaGrandeComore
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-1073-Territory ;
+	.
+
+lcc-3166-2-km:Moheli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-1130-Territory ;
+	.
+
+lcc-3166-2-km:Muhili
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-km:KM-M-Subdivision ;
+	.
+

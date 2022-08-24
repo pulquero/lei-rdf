@@ -1,0 +1,75 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-cty: <https://www.omg.org/spec/LCC/Countries/AboutCountries/> .
+@prefix lcc-reg: <https://www.omg.org/spec/LCC/Countries/Regions/AboutRegions/> .
+@prefix lcc-spc: <https://www.omg.org/spec/LCC/AboutLCC/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+	a owl:Ontology ;
+	rdfs:label "About the Languages, Countries and Codes (LCC) Countries Module" ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive, Inc." ,
+		"Copyright (c) 2015-2020 agnos.ai UK Ltd." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC"
+		;
+	sm:fileAbbreviation "lcc-cty" ;
+	sm:filename "AboutCountries.rdf" ;
+	sm:publicationDate "2021-11-08T18:00:00"^^xsd:dateTime ;
+	rdfs:seeAlso <https://www.omg.org/spec/LCC/AboutLCC/> ;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/AboutCountries/> ;
+	skos:changeNote
+		"The http://www.omg.org/spec/LCC/20151101/Countries/AboutCountries.rdf version of this ontology was revised to reflect the issues addressed by the LCC 1.0 FTF report." ,
+		"The http://www.omg.org/spec/LCC/20190201/Countries/AboutCountries.rdf version of this ontology reflects the issues addressed by the LCC 1.1 RTF report." ,
+		"The http://www.omg.org/spec/LCC/20211101/Countries/AboutCountries.rdf version of this ontology reflects the issues addressed by the LCC 1.2 RTF report."
+		;
+	.
+
+lcc-cty:CountriesModule
+	a
+		owl:NamedIndividual ,
+		sm:Module
+		;
+	rdfs:label "LCC Countries Module" ;
+	dct:hasPart
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/Regions/RegionsModule/> ,
+		<https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/>
+		;
+	sm:moduleAbbreviation "LCC-CTY" ;
+	sm:moduleAbstract "This module contains ontologies representing countries, territories, subdivisions, and other geopolitical entities commonly used in business, scientific, and government systems and applications.  The main body of the module is designed to support ISO 3166 and the U.N. M49 region codes as normative a-box extensions, as well as the country element of the Language Tag specified in BCP 47 (RFC 4646, RFC 4647).  It is intended to provide a systematic description of the vocabulary used for country representation in applications requiring geophysical and geopolitical concepts derived from, or in compliance with ISO 3166 and M49, including but not limited to web-based applications.  It is also compatible with the GeoNames ontology, but represents only a subset of the content provided in GeoNames." ;
+	sm:moduleName "Countries" ;
+	sm:moduleVersion "1.2" ;
+	rdfs:seeAlso <https://www.omg.org/spec/LCC/AboutLCC/> ;
+	skos:definition "metadata about the LCC countries module" ;
+	.
+

@@ -1,0 +1,1066 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-np: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Nepal Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-np" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Nepal, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NP.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	.
+
+lcc-3166-2-np:Anchal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-258-RegionKind ;
+	.
+
+lcc-3166-2-np:Bagmati
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-np:NP-BA-Subdivision ,
+		lcc-3166-2-np:NP-P3-Subdivision
+		;
+	.
+
+lcc-3166-2-np:Bheri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-BH-Subdivision ;
+	.
+
+lcc-3166-2-np:Dhawalagiri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-DH-Subdivision ;
+	.
+
+lcc-3166-2-np:Gandaki
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-np:NP-GA-Subdivision ,
+		lcc-3166-2-np:NP-P4-Subdivision
+		;
+	.
+
+lcc-3166-2-np:Janakpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-JA-Subdivision ;
+	.
+
+lcc-3166-2-np:Karnali
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-np:NP-KA-Subdivision ,
+		lcc-3166-2-np:NP-P6-Subdivision
+		;
+	.
+
+lcc-3166-2-np:Kosi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-KO-Subdivision ;
+	.
+
+lcc-3166-2-np:Lumbini
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-LU-Subdivision ;
+	.
+
+lcc-3166-2-np:MadhyaPashchimanchal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-2-Subdivision ;
+	.
+
+lcc-3166-2-np:Madhyamanchal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-1-Subdivision ;
+	.
+
+lcc-3166-2-np:Mahakali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-MA-Subdivision ;
+	.
+
+lcc-3166-2-np:Mechi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-ME-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-1
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-1-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-1-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the vikas kshetra of Madhyamanchal in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-1-Subdivision ;
+	lcc-lr:hasTag "NP-1" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-1-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-1-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madhyamanchal"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the vikas kshetra of Madhyamanchal in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Central"@en ;
+	lcc-cr:hasLocalShortName "Madhyamanchal"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-178-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-178-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "vikas kshetra"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision category vikas kshetra in the country of Nepal" ;
+	.
+
+lcc-3166-2-np:NP-2
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-2-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-2-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the vikas kshetra of Madhya Pashchimanchal in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-2-Subdivision ;
+	lcc-lr:hasTag "NP-2" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-2-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-2-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madhya Pashchimanchal"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the vikas kshetra of Madhya Pashchimanchal in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Mid Western"@en ;
+	lcc-cr:hasLocalShortName "Madhya Pashchimanchal"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-178-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-258-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "anchal"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision category anchal in the country of Nepal" ;
+	.
+
+lcc-3166-2-np:NP-3
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-3-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-3-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the vikas kshetra of Pashchimanchal in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-3-Subdivision ;
+	lcc-lr:hasTag "NP-3" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-3-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-3-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pashchimanchal"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the vikas kshetra of Pashchimanchal in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Western"@en ;
+	lcc-cr:hasLocalShortName "Pashchimanchal"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-178-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-4
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-4-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-4-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the vikas kshetra of Purwanchal in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-4-Subdivision ;
+	lcc-lr:hasTag "NP-4" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-4-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-4-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Purwanchal"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the vikas kshetra of Purwanchal in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Eastern"@en ;
+	lcc-cr:hasLocalShortName "Purwanchal"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-178-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-477-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "pradesh"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision category pradesh in the country of Nepal" ;
+	.
+
+lcc-3166-2-np:NP-5
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-5-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-5-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the vikas kshetra of Sudur Pashchimanchal in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-5-Subdivision ;
+	lcc-lr:hasTag "NP-5" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-5-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-5-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sudur Pashchimanchal"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the vikas kshetra of Sudur Pashchimanchal in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Far Western"@en ;
+	lcc-cr:hasLocalShortName "Sudur Pashchimanchal"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-178-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Bagmati in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-BA-Subdivision ;
+	lcc-lr:hasTag "NP-BA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bagmati"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Bagmati in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Bagmati"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-1-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-BH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-BH-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-BH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-BH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Bheri in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-BH-Subdivision ;
+	lcc-lr:hasTag "NP-BH" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-BH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-BH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bheri"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Bheri in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Bheri"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-2-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-DH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-DH-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-DH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-DH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Dhawalagiri in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-DH-Subdivision ;
+	lcc-lr:hasTag "NP-DH" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-DH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-DH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dhawalagiri"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Dhawalagiri in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Dhawalagiri"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-3-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Gandaki in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-GA-Subdivision ;
+	lcc-lr:hasTag "NP-GA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gandaki"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Gandaki in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Gandaki"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-3-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-JA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-JA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-JA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Janakpur in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-JA-Subdivision ;
+	lcc-lr:hasTag "NP-JA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-JA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-JA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Janakpur"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Janakpur in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Janakpur"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-1-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-KA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-KA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-KA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Karnali in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-KA-Subdivision ;
+	lcc-lr:hasTag "NP-KA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-KA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-KA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karnali"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Karnali in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Karnali"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-2-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-KO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-KO-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-KO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-KO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Kosi in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-KO-Subdivision ;
+	lcc-lr:hasTag "NP-KO" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-KO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-KO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kosi"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Kosi in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Kosi"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-4-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-LU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-LU-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-LU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-LU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Lumbini in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-LU-Subdivision ;
+	lcc-lr:hasTag "NP-LU" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-LU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-LU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lumbini"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Lumbini in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Lumbini"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-3-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-MA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-MA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-MA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Mahakali in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-MA-Subdivision ;
+	lcc-lr:hasTag "NP-MA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-MA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-MA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mahakali"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Mahakali in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Mahakali"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-5-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-ME
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-ME-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-ME-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-ME" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Mechi in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-ME-Subdivision ;
+	lcc-lr:hasTag "NP-ME" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-ME-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-ME-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mechi"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Mechi in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Mechi"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-4-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-NA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-NA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-NA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Narayani in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-NA-Subdivision ;
+	lcc-lr:hasTag "NP-NA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-NA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-NA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narayani"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Narayani in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Narayani"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-1-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-P1
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P1-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-P1-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-P1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the pradesh of Pradesh 1 in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-P1-Subdivision ;
+	lcc-lr:hasTag "NP-P1" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-P1-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-P1-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pradesh 1"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the pradesh of Pradesh 1 in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Province 1"@en ;
+	lcc-cr:hasLocalShortName "Pradesh 1"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-477-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-P2
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P2-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-P2-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-P2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the pradesh of Pradesh 2 in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-P2-Subdivision ;
+	lcc-lr:hasTag "NP-P2" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-P2-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-P2-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pradesh 2"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the pradesh of Pradesh 2 in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Province 2"@en ;
+	lcc-cr:hasLocalShortName "Pradesh 2"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-477-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-P3
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P3-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-P3-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-P3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the pradesh of Bāgmatī in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-P3-Subdivision ;
+	lcc-lr:hasTag "NP-P3" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-P3-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-P3-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bāgmatī"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the pradesh of Bāgmatī in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Bāgmatī"@en ;
+	lcc-cr:hasLocalShortName "Bāgmatī"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-477-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-P4
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P4-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-P4-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-P4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the pradesh of Gandaki in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-P4-Subdivision ;
+	lcc-lr:hasTag "NP-P4" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-P4-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-P4-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gandaki"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the pradesh of Gandaki in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Gandaki"@en ;
+	lcc-cr:hasLocalShortName "Gandaki"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-477-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-P5
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P5-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-P5-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-P5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the pradesh of Pradesh 5 in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-P5-Subdivision ;
+	lcc-lr:hasTag "NP-P5" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-P5-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-P5-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pradesh 5"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the pradesh of Pradesh 5 in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Province 5"@en ;
+	lcc-cr:hasLocalShortName "Pradesh 5"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-477-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-P6
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P6-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-P6-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-P6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the pradesh of Karnali in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-P6-Subdivision ;
+	lcc-lr:hasTag "NP-P6" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-P6-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-P6-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karnali"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the pradesh of Karnali in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Karnali"@en ;
+	lcc-cr:hasLocalShortName "Karnali"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-477-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-P7
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P7-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-P7-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-P7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the pradesh of Sudūr Pashchim in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-P7-Subdivision ;
+	lcc-lr:hasTag "NP-P7" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-P7-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-P7-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sudūr Pashchim"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the pradesh of Sudūr Pashchim in the country of Nepal" ;
+	lcc-cr:hasEnglishShortName "Sudūr Pashchim"@en ;
+	lcc-cr:hasLocalShortName "Sudūr Pashchim"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-477-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-2-np:NP-RA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-RA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-RA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-RA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Rapti in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-RA-Subdivision ;
+	lcc-lr:hasTag "NP-RA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-RA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-RA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rapti"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Rapti in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Rapti"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-2-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Sagarmatha in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-SA-Subdivision ;
+	lcc-lr:hasTag "NP-SA" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sagarmatha"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Sagarmatha in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Sagarmatha"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-4-Subdivision ;
+	.
+
+lcc-3166-2-np:NP-SE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-SE-RegionIdentifier ;
+	.
+
+lcc-3166-2-np:NP-SE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NP-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "subdivision code for the anchal of Seti in the country of Nepal" ;
+	lcc-lr:denotes lcc-3166-2-np:NP-SE-Subdivision ;
+	lcc-lr:hasTag "NP-SE" ;
+	lcc-lr:identifies lcc-3166-2-np:NP-SE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-np:NP-SE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Seti"@ne ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NP/> ;
+	skos:definition "the anchal of Seti in the country of Nepal" ;
+	lcc-cr:hasLocalShortName "Seti"@ne ;
+	lcc-cr:isClassifiedBy lcc-3166-2-np:NP-258-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-np:NP-5-Subdivision ;
+	.
+
+lcc-3166-2-np:Narayani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-NA-Subdivision ;
+	.
+
+lcc-3166-2-np:Pashchimanchal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-3-Subdivision ;
+	.
+
+lcc-3166-2-np:Pradesh
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-477-RegionKind ;
+	.
+
+lcc-3166-2-np:Pradesh1
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P1-Subdivision ;
+	.
+
+lcc-3166-2-np:Pradesh2
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P2-Subdivision ;
+	.
+
+lcc-3166-2-np:Pradesh5
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P5-Subdivision ;
+	.
+
+lcc-3166-2-np:Purwanchal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-4-Subdivision ;
+	.
+
+lcc-3166-2-np:Rapti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-RA-Subdivision ;
+	.
+
+lcc-3166-2-np:Sagarmatha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-SA-Subdivision ;
+	.
+
+lcc-3166-2-np:Seti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-SE-Subdivision ;
+	.
+
+lcc-3166-2-np:SudurPashchim
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-P7-Subdivision ;
+	.
+
+lcc-3166-2-np:SudurPashchimanchal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-5-Subdivision ;
+	.
+
+lcc-3166-2-np:VikasKshetra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-np:NP-178-RegionKind ;
+	.
+

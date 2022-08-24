@@ -1,0 +1,647 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-za: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for South Africa Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-za" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for South Africa, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ZA.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	.
+
+lcc-3166-2-za:Gauteng
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-GP-Subdivision ;
+	.
+
+lcc-3166-2-za:KwaZulu-Natal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-KZN-Subdivision ;
+	.
+
+lcc-3166-2-za:Limpopo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-LP-Subdivision ;
+	.
+
+lcc-3166-2-za:MarionIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-1120-Territory ;
+	.
+
+lcc-3166-2-za:Mpumalanga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-MP-Subdivision ;
+	.
+
+lcc-3166-2-za:Noord-Kaap
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-NC-Subdivision ;
+	.
+
+lcc-3166-2-za:Noordwes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-NW-Subdivision ;
+	.
+
+lcc-3166-2-za:Oos-Kaap
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-EC-Subdivision ;
+	.
+
+lcc-3166-2-za:PrinceEdwardIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-1152-Territory ;
+	.
+
+lcc-3166-2-za:Provinsie
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-428-RegionKind ;
+	.
+
+lcc-3166-2-za:Vrystaat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-FS-Subdivision ;
+	.
+
+lcc-3166-2-za:Wes-Kaap
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-WC-Subdivision ;
+	.
+
+lcc-3166-2-za:ZA-1120-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Marion Island"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the territory of Marion Island in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Marion Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Marion"@fr ;
+	lcc-cr:hasNumericRegionCode "1120" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-1152-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Prince Edward Island "@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the territory of Prince Edward Island  in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Prince Edward Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île du Prince-Édouard"@fr ;
+	lcc-cr:hasNumericRegionCode "1152" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-428-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"fundazwe"@zu ,
+		"fundzankulu"@ts ,
+		"fundzeni"@ss ,
+		"iProvinsi"@nr ,
+		"phondo"@xh ,
+		"porofense"@tn ,
+		"provense"@st ,
+		"province"@en ,
+		"provinsie"@af ,
+		"vundu"@ve
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision category provinsie in the country of South Africa" ;
+	.
+
+lcc-3166-2-za:ZA-EC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-EC-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-EC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-EC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Oos-Kaap in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-EC-Subdivision ;
+	lcc-lr:hasTag "ZA-EC" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-EC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-EC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Eastern Cape"@en ,
+		"Kapa Botjhabela"@st ,
+		"Kapa Botlhaba"@tn ,
+		"Kapa Vhubvaḓuvha"@ve ,
+		"Kapa-Vuxa"@ts ,
+		"Mpuma-Koloni"@xh ,
+		"Mpumalanga-Kapa"@zu ,
+		"Oos-Kaap"@af ,
+		"iPumalanga-Kapa"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Oos-Kaap in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Eastern Cape"@en ;
+	lcc-cr:hasLocalShortName
+		"Kapa Bohlabela" ,
+		"Kapa Botjhabela"@st ,
+		"Kapa Botlhaba"@tn ,
+		"Kapa Vhubvaḓuvha"@ve ,
+		"Kapa-Vuxa"@ts ,
+		"Mpuma-Koloni"@xh ,
+		"Mpumalanga-Kapa"@zu ,
+		"Oos-Kaap"@af ,
+		"iPumalanga-Kapa"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-FS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-FS-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-FS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-FS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Vrystaat in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-FS-Subdivision ;
+	lcc-lr:hasTag "ZA-FS" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-FS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-FS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Foreisetata"@tn ,
+		"Free State"@en ,
+		"Free State"@ts ,
+		"Freistata"@st ,
+		"Freyistata"@xh ,
+		"Fuleyisitata"@zu ,
+		"Fureisitata"@ve ,
+		"Vrystaat"@af ,
+		"iFreyistata"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Vrystaat in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Free State"@en ;
+	lcc-cr:hasLocalShortName
+		"Foreisetata"@tn ,
+		"Free State"@ts ,
+		"Freistata"@st ,
+		"Freistata" ,
+		"Freyistata"@xh ,
+		"Fuleyisitata"@zu ,
+		"Fureisitata"@ve ,
+		"Vrystaat"@af ,
+		"iFreyistata"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-GP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-GP-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-GP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-GP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Gauteng in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-GP-Subdivision ;
+	lcc-lr:hasTag "ZA-GP" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-GP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-GP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Gauteng"@af ,
+		"Gauteng"@en ,
+		"Gauteng"@ss ,
+		"Gauteng"@tn ,
+		"Gauteng"@ts ,
+		"Gauteng"@ve ,
+		"Gauteng"@zu ,
+		"Kgauteng"@st ,
+		"Rhawuti"@xh ,
+		"iGauteng"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Gauteng in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Gauteng"@en ;
+	lcc-cr:hasLocalShortName
+		"Gauteng"@af ,
+		"Gauteng"@ss ,
+		"Gauteng"@tn ,
+		"Gauteng"@ts ,
+		"Gauteng"@ve ,
+		"Gauteng"@zu ,
+		"Gauteng" ,
+		"Kgauteng"@st ,
+		"Rhawuti"@xh ,
+		"iGauteng"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-KZN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-KZN-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-KZN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-KZN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of KwaZulu-Natal in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-KZN-Subdivision ;
+	lcc-lr:hasTag "ZA-KZN" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-KZN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-KZN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"HaZulu-Natal"@ve ,
+		"Hazolo-Natala"@st ,
+		"KwaZulu-Natal"@af ,
+		"KwaZulu-Natal"@tn ,
+		"KwaZulu-Natala"@xh ,
+		"KwaZulu-Natali"@ss ,
+		"KwaZulu-Natali"@zu ,
+		"Kwazulu-Natal"@en ,
+		"Kwazulu-Natal"@ts ,
+		"iKwaZulu-Natal"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of KwaZulu-Natal in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Kwazulu-Natal"@en ;
+	lcc-cr:hasLocalShortName
+		"GaZulu-Natala" ,
+		"HaZulu-Natal"@ve ,
+		"Hazolo-Natala"@st ,
+		"KwaZulu-Natal"@af ,
+		"KwaZulu-Natal"@tn ,
+		"KwaZulu-Natala"@xh ,
+		"KwaZulu-Natali"@ss ,
+		"KwaZulu-Natali"@zu ,
+		"Kwazulu-Natal"@ts ,
+		"iKwaZulu-Natal"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-LP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-LP-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-LP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-LP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Limpopo in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-LP-Subdivision ;
+	lcc-lr:hasTag "ZA-LP" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-LP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-LP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Limpopo"@af ,
+		"Limpopo"@en ,
+		"Limpopo"@nr ,
+		"Limpopo"@ss ,
+		"Limpopo"@st ,
+		"Limpopo"@tn ,
+		"Limpopo"@ts ,
+		"Limpopo"@xh ,
+		"Limpopo"@zu ,
+		"Vhembe"@ve
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Limpopo in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Limpopo"@en ;
+	lcc-cr:hasLocalShortName
+		"Limpopo"@af ,
+		"Limpopo"@nr ,
+		"Limpopo"@ss ,
+		"Limpopo"@st ,
+		"Limpopo"@tn ,
+		"Limpopo"@ts ,
+		"Limpopo"@xh ,
+		"Limpopo"@zu ,
+		"Limpopo" ,
+		"Vhembe"@ve
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-MP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-MP-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-MP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-MP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Mpumalanga in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-MP-Subdivision ;
+	lcc-lr:hasTag "ZA-MP" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-MP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-MP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mpumalanga"@af ,
+		"Mpumalanga"@en ,
+		"Mpumalanga"@ss ,
+		"Mpumalanga"@st ,
+		"Mpumalanga"@tn ,
+		"Mpumalanga"@ts ,
+		"Mpumalanga"@ve ,
+		"Mpumalanga"@xh ,
+		"Mpumalanga"@zu ,
+		"iMpumalanga"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Mpumalanga in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Mpumalanga"@en ;
+	lcc-cr:hasLocalShortName
+		"Mpumalanga"@af ,
+		"Mpumalanga"@ss ,
+		"Mpumalanga"@st ,
+		"Mpumalanga"@tn ,
+		"Mpumalanga"@ts ,
+		"Mpumalanga"@ve ,
+		"Mpumalanga"@xh ,
+		"Mpumalanga"@zu ,
+		"Mpumalanga" ,
+		"iMpumalanga"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-NC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-NC-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-NC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-NC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Noord-Kaap in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-NC-Subdivision ;
+	lcc-lr:hasTag "ZA-NC" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-NC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-NC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kapa Bokone"@tn ,
+		"Kapa Devhula"@ve ,
+		"Kapa Leboya"@st ,
+		"Kapa-N'walungu"@ts ,
+		"Mntla-Koloni"@xh ,
+		"Noord-Kaap"@af ,
+		"Northern Cape"@en ,
+		"Nyakatho-Kapa"@zu ,
+		"iTlhagwini-Kapa"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Noord-Kaap in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Northern Cape"@en ;
+	lcc-cr:hasLocalShortName
+		"Kapa Bokone"@tn ,
+		"Kapa Devhula"@ve ,
+		"Kapa Leboya"@st ,
+		"Kapa Leboya" ,
+		"Kapa-N'walungu"@ts ,
+		"Mntla-Koloni"@xh ,
+		"Noord-Kaap"@af ,
+		"Nyakatho-Kapa"@zu ,
+		"iTlhagwini-Kapa"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-NW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-NW-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-NW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-NW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Noordwes in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-NW-Subdivision ;
+	lcc-lr:hasTag "ZA-NW" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-NW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-NW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bokone Bophirima"@tn ,
+		"Leboya (le) Bophirima"@st ,
+		"Mntla-Ntshona"@xh ,
+		"N'walungu-Vupeladyambu"@ts ,
+		"Noordwes"@af ,
+		"North-West"@en ,
+		"Nyakatho-Ntshonalanga"@zu ,
+		"iTlhagwini-Tjhingalanga"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Noordwes in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "North-West"@en ;
+	lcc-cr:hasLocalShortName
+		"Bokone Bophirima"@tn ,
+		"Lebowa Bodikela" ,
+		"Leboya (le) Bophirima"@st ,
+		"Mntla-Ntshona"@xh ,
+		"N'walungu-Vupeladyambu"@ts ,
+		"Noordwes"@af ,
+		"Nyakatho-Ntshonalanga"@zu ,
+		"iTlhagwini-Tjhingalanga"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-2-za:ZA-WC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-za:ZA-WC-RegionIdentifier ;
+	.
+
+lcc-3166-2-za:ZA-WC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZA-WC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "subdivision code for the provinsie of Wes-Kaap in the country of South Africa" ;
+	lcc-lr:denotes lcc-3166-2-za:ZA-WC-Subdivision ;
+	lcc-lr:hasTag "ZA-WC" ;
+	lcc-lr:identifies lcc-3166-2-za:ZA-WC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-za:ZA-WC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kapa Bophirima"@tn ,
+		"Kapa Bophirimela"@st ,
+		"Kapa Vhukovhela"@ve ,
+		"Kapa-Vupeladyambu"@ts ,
+		"Ntshona-Koloni"@xh ,
+		"Ntshonalanga-Kapa"@zu ,
+		"Wes-Kaap"@af ,
+		"Western Cape"@en ,
+		"iTjhingalanga-Kapa"@nr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZA/> ;
+	skos:definition "the provinsie of Wes-Kaap in the country of South Africa" ;
+	lcc-cr:hasEnglishShortName "Western Cape"@en ;
+	lcc-cr:hasLocalShortName
+		"Kapa Bodikela" ,
+		"Kapa Bophirima"@tn ,
+		"Kapa Bophirimela"@st ,
+		"Kapa Vhukovhela"@ve ,
+		"Kapa-Vupeladyambu"@ts ,
+		"Ntshona-Koloni"@xh ,
+		"Ntshonalanga-Kapa"@zu ,
+		"Wes-Kaap"@af ,
+		"iTjhingalanga-Kapa"@nr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-za:ZA-428-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthAfrica ;
+	.
+

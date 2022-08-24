@@ -1,0 +1,1137 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-br: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Brazil Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-br" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Brazil, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	.
+
+lcc-3166-2-br:Acre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AC-Subdivision ;
+	.
+
+lcc-3166-2-br:Alagoas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AL-Subdivision ;
+	.
+
+lcc-3166-2-br:Amapa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AP-Subdivision ;
+	.
+
+lcc-3166-2-br:Amazonas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AM-Subdivision ;
+	.
+
+lcc-3166-2-br:BR-1060-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the territory of Fernando de Noronha Island in the country of Brazil" ;
+	lcc-cr:hasEnglishShortName "Fernando de Noronha Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Fernando de Noronha"@fr ;
+	lcc-cr:hasNumericRegionCode "1060" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-1123-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the territory of Martim Vaz Islands in the country of Brazil" ;
+	lcc-cr:hasEnglishShortName "Martim Vaz Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Martim Vaz"@fr ;
+	lcc-cr:hasNumericRegionCode "1123" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-1212-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the territory of Trindade Island in the country of Brazil" ;
+	lcc-cr:hasEnglishShortName "Trindade Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île de Trindade"@fr ;
+	lcc-cr:hasNumericRegionCode "1212" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-193-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "estado"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision category estado in the country of Brazil" ;
+	.
+
+lcc-3166-2-br:BR-403-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "distrito federal"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision category distrito federal in the country of Brazil" ;
+	.
+
+lcc-3166-2-br:BR-AC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AC-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-AC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-AC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Acre in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-AC-Subdivision ;
+	lcc-lr:hasTag "BR-AC" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-AC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-AC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Acre"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Acre in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Acre"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-AL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AL-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-AL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Alagoas in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-AL-Subdivision ;
+	lcc-lr:hasTag "BR-AL" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-AL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-AL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alagoas"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Alagoas in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Alagoas"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-AM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AM-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-AM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-AM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Amazonas in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-AM-Subdivision ;
+	lcc-lr:hasTag "BR-AM" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-AM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-AM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amazonas"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Amazonas in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Amazonas"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-AP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-AP-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-AP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-AP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Amapá in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-AP-Subdivision ;
+	lcc-lr:hasTag "BR-AP" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-AP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-AP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amapá"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Amapá in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Amapá"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Bahia in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-BA-Subdivision ;
+	lcc-lr:hasTag "BR-BA" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bahia"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Bahia in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Bahia"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-CE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-CE-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-CE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Ceará in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-CE-Subdivision ;
+	lcc-lr:hasTag "BR-CE" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-CE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-CE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ceará"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Ceará in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Ceará"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-DF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-DF-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-DF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-DF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the distrito federal of Distrito Federal in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-DF-Subdivision ;
+	lcc-lr:hasTag "BR-DF" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-DF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-DF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Distrito Federal"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the distrito federal of Distrito Federal in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Distrito Federal"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-403-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-ES
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-ES-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-ES-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-ES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Espírito Santo in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-ES-Subdivision ;
+	lcc-lr:hasTag "BR-ES" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-ES-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-ES-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Espírito Santo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Espírito Santo in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Espírito Santo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-GO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-GO-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-GO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-GO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Goiás in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-GO-Subdivision ;
+	lcc-lr:hasTag "BR-GO" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-GO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-GO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Goiás"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Goiás in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Goiás"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-MA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MA-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-MA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Maranhão in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-MA-Subdivision ;
+	lcc-lr:hasTag "BR-MA" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-MA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-MA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maranhão"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Maranhão in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Maranhão"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-MG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MG-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-MG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-MG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Minas Gerais in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-MG-Subdivision ;
+	lcc-lr:hasTag "BR-MG" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-MG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-MG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Minas Gerais"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Minas Gerais in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Minas Gerais"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-MS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MS-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-MS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-MS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Mato Grosso do Sul in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-MS-Subdivision ;
+	lcc-lr:hasTag "BR-MS" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-MS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-MS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mato Grosso do Sul"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Mato Grosso do Sul in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Mato Grosso do Sul"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-MT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MT-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-MT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-MT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Mato Grosso in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-MT-Subdivision ;
+	lcc-lr:hasTag "BR-MT" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-MT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-MT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mato Grosso"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Mato Grosso in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Mato Grosso"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-PA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PA-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-PA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Pará in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-PA-Subdivision ;
+	lcc-lr:hasTag "BR-PA" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-PA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-PA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pará"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Pará in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Pará"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-PB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PB-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-PB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-PB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Paraíba in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-PB-Subdivision ;
+	lcc-lr:hasTag "BR-PB" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-PB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-PB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paraíba"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Paraíba in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Paraíba"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-PE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PE-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-PE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-PE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Pernambuco in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-PE-Subdivision ;
+	lcc-lr:hasTag "BR-PE" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-PE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-PE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pernambuco"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Pernambuco in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Pernambuco"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-PI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PI-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-PI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-PI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Piauí in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-PI-Subdivision ;
+	lcc-lr:hasTag "BR-PI" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-PI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-PI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Piauí"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Piauí in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Piauí"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-PR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PR-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-PR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-PR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Paraná in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-PR-Subdivision ;
+	lcc-lr:hasTag "BR-PR" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-PR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-PR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paraná"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Paraná in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Paraná"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-RJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-RJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-RJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Rio de Janeiro in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-RJ-Subdivision ;
+	lcc-lr:hasTag "BR-RJ" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-RJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-RJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rio de Janeiro"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Rio de Janeiro in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Rio de Janeiro"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-RN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RN-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-RN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-RN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Rio Grande do Norte in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-RN-Subdivision ;
+	lcc-lr:hasTag "BR-RN" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-RN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-RN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rio Grande do Norte"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Rio Grande do Norte in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Rio Grande do Norte"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-RO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RO-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-RO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-RO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Rondônia in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-RO-Subdivision ;
+	lcc-lr:hasTag "BR-RO" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-RO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-RO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rondônia"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Rondônia in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Rondônia"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-RR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RR-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-RR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-RR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Roraima in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-RR-Subdivision ;
+	lcc-lr:hasTag "BR-RR" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-RR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-RR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Roraima"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Roraima in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Roraima"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-RS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RS-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-RS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-RS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Rio Grande do Sul in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-RS-Subdivision ;
+	lcc-lr:hasTag "BR-RS" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-RS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-RS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rio Grande do Sul"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Rio Grande do Sul in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Rio Grande do Sul"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-SC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-SC-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-SC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-SC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Santa Catarina in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-SC-Subdivision ;
+	lcc-lr:hasTag "BR-SC" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-SC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-SC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Catarina"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Santa Catarina in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Santa Catarina"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-SE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-SE-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-SE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Sergipe in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-SE-Subdivision ;
+	lcc-lr:hasTag "BR-SE" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-SE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-SE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sergipe"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Sergipe in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Sergipe"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-SP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-SP-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-SP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-SP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of São Paulo in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-SP-Subdivision ;
+	lcc-lr:hasTag "BR-SP" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-SP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-SP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "São Paulo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of São Paulo in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "São Paulo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:BR-TO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-TO-RegionIdentifier ;
+	.
+
+lcc-3166-2-br:BR-TO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BR-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "subdivision code for the estado of Tocantins in the country of Brazil" ;
+	lcc-lr:denotes lcc-3166-2-br:BR-TO-Subdivision ;
+	lcc-lr:hasTag "BR-TO" ;
+	lcc-lr:identifies lcc-3166-2-br:BR-TO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-br:BR-TO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tocantins"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BR/> ;
+	skos:definition "the estado of Tocantins in the country of Brazil" ;
+	lcc-cr:hasLocalShortName "Tocantins"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-br:BR-193-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-2-br:Bahia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-BA-Subdivision ;
+	.
+
+lcc-3166-2-br:Ceara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-CE-Subdivision ;
+	.
+
+lcc-3166-2-br:DistritoFederal
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-br:BR-403-RegionKind ,
+		lcc-3166-2-br:BR-DF-Subdivision
+		;
+	.
+
+lcc-3166-2-br:EspiritoSanto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-ES-Subdivision ;
+	.
+
+lcc-3166-2-br:Estado
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-193-RegionKind ;
+	.
+
+lcc-3166-2-br:FernandoDeNoronhaIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-1060-Territory ;
+	.
+
+lcc-3166-2-br:Goias
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-GO-Subdivision ;
+	.
+
+lcc-3166-2-br:Maranhao
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MA-Subdivision ;
+	.
+
+lcc-3166-2-br:MartimVazIslands
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-1123-Territory ;
+	.
+
+lcc-3166-2-br:MatoGrosso
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MT-Subdivision ;
+	.
+
+lcc-3166-2-br:MatoGrossoDoSul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MS-Subdivision ;
+	.
+
+lcc-3166-2-br:MinasGerais
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-MG-Subdivision ;
+	.
+
+lcc-3166-2-br:Para
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PA-Subdivision ;
+	.
+
+lcc-3166-2-br:Paraiba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PB-Subdivision ;
+	.
+
+lcc-3166-2-br:Parana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PR-Subdivision ;
+	.
+
+lcc-3166-2-br:Pernambuco
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PE-Subdivision ;
+	.
+
+lcc-3166-2-br:Piaui
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-PI-Subdivision ;
+	.
+
+lcc-3166-2-br:RioDeJaneiro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RJ-Subdivision ;
+	.
+
+lcc-3166-2-br:RioGrandeDoNorte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RN-Subdivision ;
+	.
+
+lcc-3166-2-br:RioGrandeDoSul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RS-Subdivision ;
+	.
+
+lcc-3166-2-br:Rondonia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RO-Subdivision ;
+	.
+
+lcc-3166-2-br:Roraima
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-RR-Subdivision ;
+	.
+
+lcc-3166-2-br:SantaCatarina
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-SC-Subdivision ;
+	.
+
+lcc-3166-2-br:SaoPaulo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-SP-Subdivision ;
+	.
+
+lcc-3166-2-br:Sergipe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-SE-Subdivision ;
+	.
+
+lcc-3166-2-br:Tocantins
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-TO-Subdivision ;
+	.
+
+lcc-3166-2-br:TrindadeIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-br:BR-1212-Territory ;
+	.
+

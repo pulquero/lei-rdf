@@ -1,0 +1,611 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-lu: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Luxembourg Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-lu" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Luxembourg, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LU.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	.
+
+lcc-3166-2-lu:Capellen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-CA-Subdivision ;
+	.
+
+lcc-3166-2-lu:Clerf
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-CL-Subdivision ;
+	.
+
+lcc-3166-2-lu:Diekirch
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-DI-Subdivision ;
+	.
+
+lcc-3166-2-lu:Echternach
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-EC-Subdivision ;
+	.
+
+lcc-3166-2-lu:EschAnDerAlzette
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-ES-Subdivision ;
+	.
+
+lcc-3166-2-lu:Grevenmacher
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-GR-Subdivision ;
+	.
+
+lcc-3166-2-lu:Kanton
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-462-RegionKind ;
+	.
+
+lcc-3166-2-lu:LU-462-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"Kanton"@de ,
+		"canton"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision category Kanton in the country of Luxembourg" ;
+	.
+
+lcc-3166-2-lu:LU-CA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-CA-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-CA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Capellen in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-CA-Subdivision ;
+	lcc-lr:hasTag "LU-CA" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-CA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-CA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Capellen"@de ,
+		"Capellen"@fr ,
+		"Kapellen"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Capellen in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Capellen"@fr ;
+	lcc-cr:hasLocalShortName
+		"Capellen"@de ,
+		"Kapellen"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-CL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-CL-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-CL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Clerf in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-CL-Subdivision ;
+	lcc-lr:hasTag "LU-CL" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-CL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-CL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Clerf"@de ,
+		"Clervaux"@fr ,
+		"Klierf"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Clerf in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Clervaux"@fr ;
+	lcc-cr:hasLocalShortName
+		"Clerf"@de ,
+		"Klierf"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-DI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-DI-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-DI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-DI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Diekirch in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-DI-Subdivision ;
+	lcc-lr:hasTag "LU-DI" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-DI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-DI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Diekirch"@de ,
+		"Diekirch"@fr ,
+		"Diekrech"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Diekirch in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Diekirch"@fr ;
+	lcc-cr:hasLocalShortName
+		"Diekirch"@de ,
+		"Diekrech"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-EC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-EC-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-EC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-EC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Echternach in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-EC-Subdivision ;
+	lcc-lr:hasTag "LU-EC" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-EC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-EC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Echternach"@de ,
+		"Echternach"@fr ,
+		"Iechternach"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Echternach in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Echternach"@fr ;
+	lcc-cr:hasLocalShortName
+		"Echternach"@de ,
+		"Iechternach"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-ES
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-ES-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-ES-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-ES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Esch an der Alzette in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-ES-Subdivision ;
+	lcc-lr:hasTag "LU-ES" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-ES-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-ES-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Esch an der Alzette"@de ,
+		"Esch-Uelzecht"@lb ,
+		"Esch-sur-Alzette"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Esch an der Alzette in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Esch-sur-Alzette"@fr ;
+	lcc-cr:hasLocalShortName
+		"Esch an der Alzette"@de ,
+		"Esch-Uelzecht"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-GR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-GR-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-GR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Grevenmacher in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-GR-Subdivision ;
+	lcc-lr:hasTag "LU-GR" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-GR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-GR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Grevenmacher"@de ,
+		"Grevenmacher"@fr ,
+		"Gréivemaacher"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Grevenmacher in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Grevenmacher"@fr ;
+	lcc-cr:hasLocalShortName
+		"Grevenmacher"@de ,
+		"Gréivemaacher"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-LU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-LU-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-LU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-LU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Luxemburg in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-LU-Subdivision ;
+	lcc-lr:hasTag "LU-LU" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-LU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-LU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Luxembourg"@fr ,
+		"Luxemburg"@de ,
+		"Lëtzebuerg"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Luxemburg in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Luxembourg"@fr ;
+	lcc-cr:hasLocalShortName
+		"Luxemburg"@de ,
+		"Lëtzebuerg"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-ME
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-ME-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-ME-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-ME" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Mersch in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-ME-Subdivision ;
+	lcc-lr:hasTag "LU-ME" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-ME-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-ME-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mersch"@de ,
+		"Mersch"@fr ,
+		"Miersch"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Mersch in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Mersch"@fr ;
+	lcc-cr:hasLocalShortName
+		"Mersch"@de ,
+		"Miersch"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-RD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-RD-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-RD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-RD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Redingen in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-RD-Subdivision ;
+	lcc-lr:hasTag "LU-RD" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-RD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-RD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Redange"@fr ,
+		"Redingen"@de ,
+		"Réiden-Atert"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Redingen in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Redange"@fr ;
+	lcc-cr:hasLocalShortName
+		"Redingen"@de ,
+		"Réiden-Atert"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-RM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-RM-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-RM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-RM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Remich in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-RM-Subdivision ;
+	lcc-lr:hasTag "LU-RM" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-RM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-RM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Remich"@de ,
+		"Remich"@fr ,
+		"Réimech"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Remich in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Remich"@fr ;
+	lcc-cr:hasLocalShortName
+		"Remich"@de ,
+		"Réimech"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-VD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-VD-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-VD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-VD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Vianden in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-VD-Subdivision ;
+	lcc-lr:hasTag "LU-VD" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-VD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-VD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Veianen"@lb ,
+		"Vianden"@de ,
+		"Vianden"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Vianden in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Vianden"@fr ;
+	lcc-cr:hasLocalShortName
+		"Veianen"@lb ,
+		"Vianden"@de
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:LU-WI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-WI-RegionIdentifier ;
+	.
+
+lcc-3166-2-lu:LU-WI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LU-WI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "subdivision code for the Kanton of Wiltz in the country of Luxembourg" ;
+	lcc-lr:denotes lcc-3166-2-lu:LU-WI-Subdivision ;
+	lcc-lr:hasTag "LU-WI" ;
+	lcc-lr:identifies lcc-3166-2-lu:LU-WI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lu:LU-WI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Wiltz"@de ,
+		"Wiltz"@fr ,
+		"Wolz"@lb
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/> ;
+	skos:definition "the Kanton of Wiltz in the country of Luxembourg" ;
+	lcc-cr:hasFrenchShortName "Wiltz"@fr ;
+	lcc-cr:hasLocalShortName
+		"Wiltz"@de ,
+		"Wolz"@lb
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lu:LU-462-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-2-lu:Luxemburg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-LU-Subdivision ;
+	.
+
+lcc-3166-2-lu:Mersch
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-ME-Subdivision ;
+	.
+
+lcc-3166-2-lu:Redingen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-RD-Subdivision ;
+	.
+
+lcc-3166-2-lu:Remich
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-RM-Subdivision ;
+	.
+
+lcc-3166-2-lu:Vianden
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-VD-Subdivision ;
+	.
+
+lcc-3166-2-lu:Wiltz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lu:LU-WI-Subdivision ;
+	.
+

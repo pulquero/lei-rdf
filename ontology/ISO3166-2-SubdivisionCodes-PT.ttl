@@ -1,0 +1,823 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-pt: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Portugal Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-pt" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Portugal, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	.
+
+lcc-3166-2-pt:Aveiro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-01-Subdivision ;
+	.
+
+lcc-3166-2-pt:Beja
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-02-Subdivision ;
+	.
+
+lcc-3166-2-pt:Braga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-03-Subdivision ;
+	.
+
+lcc-3166-2-pt:Braganca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-04-Subdivision ;
+	.
+
+lcc-3166-2-pt:CasteloBranco
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-05-Subdivision ;
+	.
+
+lcc-3166-2-pt:Coimbra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-06-Subdivision ;
+	.
+
+lcc-3166-2-pt:Distrito
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-304-RegionKind ;
+	.
+
+lcc-3166-2-pt:Evora
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-07-Subdivision ;
+	.
+
+lcc-3166-2-pt:Faro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-08-Subdivision ;
+	.
+
+lcc-3166-2-pt:Guarda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-09-Subdivision ;
+	.
+
+lcc-3166-2-pt:Leiria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-10-Subdivision ;
+	.
+
+lcc-3166-2-pt:Lisboa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-11-Subdivision ;
+	.
+
+lcc-3166-2-pt:PT-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Aveiro in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-01-Subdivision ;
+	lcc-lr:hasTag "PT-01" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aveiro"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Aveiro in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Aveiro"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Beja in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-02-Subdivision ;
+	lcc-lr:hasTag "PT-02" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Beja"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Beja in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Beja"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Braga in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-03-Subdivision ;
+	lcc-lr:hasTag "PT-03" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Braga"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Braga in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Braga"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Bragança in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-04-Subdivision ;
+	lcc-lr:hasTag "PT-04" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bragança"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Bragança in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Bragança"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Castelo Branco in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-05-Subdivision ;
+	lcc-lr:hasTag "PT-05" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Castelo Branco"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Castelo Branco in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Castelo Branco"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Coimbra in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-06-Subdivision ;
+	lcc-lr:hasTag "PT-06" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Coimbra"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Coimbra in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Coimbra"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Évora in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-07-Subdivision ;
+	lcc-lr:hasTag "PT-07" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Évora"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Évora in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Évora"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Faro in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-08-Subdivision ;
+	lcc-lr:hasTag "PT-08" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Faro"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Faro in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Faro"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Guarda in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-09-Subdivision ;
+	lcc-lr:hasTag "PT-09" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guarda"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Guarda in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Guarda"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Leiria in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-10-Subdivision ;
+	lcc-lr:hasTag "PT-10" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Leiria"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Leiria in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Leiria"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Lisboa in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-11-Subdivision ;
+	lcc-lr:hasTag "PT-11" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lisboa"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Lisboa in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Lisboa"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Portalegre in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-12-Subdivision ;
+	lcc-lr:hasTag "PT-12" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Portalegre"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Portalegre in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Portalegre"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Porto in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-13-Subdivision ;
+	lcc-lr:hasTag "PT-13" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Porto"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Porto in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Porto"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Santarém in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-14-Subdivision ;
+	lcc-lr:hasTag "PT-14" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santarém"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Santarém in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Santarém"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Setúbal in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-15-Subdivision ;
+	lcc-lr:hasTag "PT-15" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Setúbal"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Setúbal in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Setúbal"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Viana do Castelo in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-16-Subdivision ;
+	lcc-lr:hasTag "PT-16" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viana do Castelo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Viana do Castelo in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Viana do Castelo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Vila Real in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-17-Subdivision ;
+	lcc-lr:hasTag "PT-17" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vila Real"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Vila Real in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Vila Real"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the distrito of Viseu in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-18-Subdivision ;
+	lcc-lr:hasTag "PT-18" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viseu"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the distrito of Viseu in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Viseu"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-304-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the região autónoma of Região Autónoma dos Açores in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-20-Subdivision ;
+	lcc-lr:hasTag "PT-20" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Região Autónoma dos Açores"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the região autónoma of Região Autónoma dos Açores in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Região Autónoma dos Açores"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-270-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-270-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "região autónoma"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision category região autónoma in the country of Portugal" ;
+	.
+
+lcc-3166-2-pt:PT-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-pt:PT-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PT-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision code for the região autónoma of Região Autónoma da Madeira in the country of Portugal" ;
+	lcc-lr:denotes lcc-3166-2-pt:PT-30-Subdivision ;
+	lcc-lr:hasTag "PT-30" ;
+	lcc-lr:identifies lcc-3166-2-pt:PT-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pt:PT-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Região Autónoma da Madeira"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "the região autónoma of Região Autónoma da Madeira in the country of Portugal" ;
+	lcc-cr:hasLocalShortName "Região Autónoma da Madeira"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pt:PT-270-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-2-pt:PT-304-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "distrito"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/> ;
+	skos:definition "subdivision category distrito in the country of Portugal" ;
+	.
+
+lcc-3166-2-pt:Portalegre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-12-Subdivision ;
+	.
+
+lcc-3166-2-pt:Porto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-13-Subdivision ;
+	.
+
+lcc-3166-2-pt:RegiaoAutonoma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-270-RegionKind ;
+	.
+
+lcc-3166-2-pt:RegiaoAutonomaDaMadeira
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-30-Subdivision ;
+	.
+
+lcc-3166-2-pt:RegiaoAutonomaDosAcores
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-20-Subdivision ;
+	.
+
+lcc-3166-2-pt:Santarem
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-14-Subdivision ;
+	.
+
+lcc-3166-2-pt:Setubal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-15-Subdivision ;
+	.
+
+lcc-3166-2-pt:VianaDoCastelo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-16-Subdivision ;
+	.
+
+lcc-3166-2-pt:VilaReal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-17-Subdivision ;
+	.
+
+lcc-3166-2-pt:Viseu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pt:PT-18-Subdivision ;
+	.
+

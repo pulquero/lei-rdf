@@ -1,0 +1,1261 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-pe: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Peru Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-pe" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Peru, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	.
+
+lcc-3166-2-pe:Amasunu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-AMA-Subdivision ;
+	.
+
+lcc-3166-2-pe:Ankashu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-ANC-Subdivision ;
+	.
+
+lcc-3166-2-pe:Apurimaq
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-APU-Subdivision ;
+	.
+
+lcc-3166-2-pe:Arikipa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-ARE-Subdivision ;
+	.
+
+lcc-3166-2-pe:Ayaquchu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-AYA-Subdivision ;
+	.
+
+lcc-3166-2-pe:HatunLlaqta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-190-RegionKind ;
+	.
+
+lcc-3166-2-pe:Ika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-ICA-Subdivision ;
+	.
+
+lcc-3166-2-pe:JachaSuyu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-127-RegionKind ;
+	.
+
+lcc-3166-2-pe:Junin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-JUN-Subdivision ;
+	.
+
+lcc-3166-2-pe:Kallao
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-CAL-Subdivision ;
+	.
+
+lcc-3166-2-pe:Kusku
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-CUS-Subdivision ;
+	.
+
+lcc-3166-2-pe:LaLibertad
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LAL-Subdivision ;
+	.
+
+lcc-3166-2-pe:Lambayeque
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LAM-Subdivision ;
+	.
+
+lcc-3166-2-pe:Lima
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LIM-Subdivision ;
+	.
+
+lcc-3166-2-pe:LimaHatunLlaqta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LMA-Subdivision ;
+	.
+
+lcc-3166-2-pe:Luritu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LOR-Subdivision ;
+	.
+
+lcc-3166-2-pe:MadreDeDios
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-MDD-Subdivision ;
+	.
+
+lcc-3166-2-pe:Moqwegwa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-MOQ-Subdivision ;
+	.
+
+lcc-3166-2-pe:PE-127-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"jach'a suyu"@ay ,
+		"región"@es ,
+		"suyu"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision category jach'a suyu in the country of Peru" ;
+	.
+
+lcc-3166-2-pe:PE-190-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"hatun llaqta"@ay ,
+		"llaqta suyu"@qu ,
+		"municipalidad"@es
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision category hatun llaqta in the country of Peru" ;
+	.
+
+lcc-3166-2-pe:PE-AMA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-AMA-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-AMA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-AMA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Amasunu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-AMA-Subdivision ;
+	lcc-lr:hasTag "PE-AMA" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-AMA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-AMA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Amarumayu"@qu ,
+		"Amasunu"@ay ,
+		"Amazonas"@es
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Amasunu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Amarumayu"@qu ,
+		"Amasunu"@ay ,
+		"Amazonas"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-ANC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-ANC-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-ANC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-ANC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Ankashu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-ANC-Subdivision ;
+	lcc-lr:hasTag "PE-ANC" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-ANC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-ANC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ancash"@es ,
+		"Ankashu"@ay ,
+		"Anqash"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Ankashu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ancash"@es ,
+		"Ankashu"@ay ,
+		"Anqash"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-APU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-APU-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-APU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-APU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Apurimaq in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-APU-Subdivision ;
+	lcc-lr:hasTag "PE-APU" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-APU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-APU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Apurimaq"@ay ,
+		"Apurimaq"@qu ,
+		"Apurímac"@es
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Apurimaq in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Apurimaq"@ay ,
+		"Apurimaq"@qu ,
+		"Apurímac"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-ARE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-ARE-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-ARE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-ARE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Arikipa in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-ARE-Subdivision ;
+	lcc-lr:hasTag "PE-ARE" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-ARE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-ARE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Arequipa"@es ,
+		"Arikipa"@ay ,
+		"Ariqipa"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Arikipa in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Arequipa"@es ,
+		"Arikipa"@ay ,
+		"Ariqipa"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-AYA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-AYA-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-AYA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-AYA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Ayaquchu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-AYA-Subdivision ;
+	lcc-lr:hasTag "PE-AYA" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-AYA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-AYA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ayacucho"@es ,
+		"Ayakuchu"@qu ,
+		"Ayaquchu"@ay
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Ayaquchu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ayacucho"@es ,
+		"Ayakuchu"@qu ,
+		"Ayaquchu"@ay
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-CAJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-CAJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-CAJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-CAJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Qajamarka in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-CAJ-Subdivision ;
+	lcc-lr:hasTag "PE-CAJ" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-CAJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-CAJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Cajamarca"@es ,
+		"Kashamarka"@qu ,
+		"Qajamarka"@ay
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Qajamarka in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Cajamarca"@es ,
+		"Kashamarka"@qu ,
+		"Qajamarka"@ay
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-CAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-CAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-CAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-CAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Kallao in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-CAL-Subdivision ;
+	lcc-lr:hasTag "PE-CAL" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-CAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-CAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"El Callao"@es ,
+		"Kallao"@ay ,
+		"Qallaw"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Kallao in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"El Callao"@es ,
+		"Kallao"@ay ,
+		"Qallaw"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-CUS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-CUS-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-CUS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-CUS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Kusku in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-CUS-Subdivision ;
+	lcc-lr:hasTag "PE-CUS" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-CUS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-CUS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Cusco"@es ,
+		"Kusku"@ay ,
+		"Qusqu"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Kusku in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Cusco"@es ,
+		"Kusku"@ay ,
+		"Qusqu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-HUC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-HUC-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-HUC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-HUC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Wanuku in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-HUC-Subdivision ;
+	lcc-lr:hasTag "PE-HUC" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-HUC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-HUC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Huánuco"@es ,
+		"Wanuku"@ay ,
+		"Wanuku"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Wanuku in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Huánuco"@es ,
+		"Wanuku"@ay ,
+		"Wanuku"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-HUV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-HUV-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-HUV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-HUV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Wankawelika in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-HUV-Subdivision ;
+	lcc-lr:hasTag "PE-HUV" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-HUV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-HUV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Huancavelica"@es ,
+		"Wankawelika"@ay ,
+		"Wankawillka"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Wankawelika in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Huancavelica"@es ,
+		"Wankawelika"@ay ,
+		"Wankawillka"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-ICA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-ICA-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-ICA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-ICA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Ika in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-ICA-Subdivision ;
+	lcc-lr:hasTag "PE-ICA" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-ICA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-ICA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ica"@es ,
+		"Ika"@ay ,
+		"Ika"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Ika in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ica"@es ,
+		"Ika"@ay ,
+		"Ika"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-JUN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-JUN-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-JUN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-JUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Junin in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-JUN-Subdivision ;
+	lcc-lr:hasTag "PE-JUN" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-JUN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-JUN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Hunin"@qu ,
+		"Junin"@ay ,
+		"Junín"@es
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Junin in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Hunin"@qu ,
+		"Junin"@ay ,
+		"Junín"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-LAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-LAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of La Libertad in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-LAL-Subdivision ;
+	lcc-lr:hasTag "PE-LAL" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-LAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"La Libertad"@ay ,
+		"La Libertad"@es ,
+		"Qispi kay"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of La Libertad in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"La Libertad"@ay ,
+		"La Libertad"@es ,
+		"Qispi kay"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-LAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-LAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Lambayeque in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-LAM-Subdivision ;
+	lcc-lr:hasTag "PE-LAM" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-LAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lambayeque"@ay ,
+		"Lambayeque"@es ,
+		"Lampalliqi"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Lambayeque in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Lambayeque"@ay ,
+		"Lambayeque"@es ,
+		"Lampalliqi"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-LIM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LIM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-LIM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LIM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Lima in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-LIM-Subdivision ;
+	lcc-lr:hasTag "PE-LIM" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-LIM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LIM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lima"@ay ,
+		"Lima"@es ,
+		"Lima"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Lima in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Lima"@ay ,
+		"Lima"@es ,
+		"Lima"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-LMA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LMA-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-LMA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LMA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the hatun llaqta of Lima hatun llaqta in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-LMA-Subdivision ;
+	lcc-lr:hasTag "PE-LMA" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-LMA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LMA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lima hatun llaqta"@ay ,
+		"Lima llaqta suyu"@qu ,
+		"Municipalidad Metropolitana de Lima"@es
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the hatun llaqta of Lima hatun llaqta in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Lima hatun llaqta"@ay ,
+		"Lima llaqta suyu"@qu ,
+		"Municipalidad Metropolitana de Lima"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-190-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-LOR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-LOR-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-LOR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Luritu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-LOR-Subdivision ;
+	lcc-lr:hasTag "PE-LOR" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-LOR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LOR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Loreto"@es ,
+		"Luritu"@ay ,
+		"Luritu"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Luritu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Loreto"@es ,
+		"Luritu"@ay ,
+		"Luritu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-MDD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-MDD-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-MDD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-MDD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Madre de Dios in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-MDD-Subdivision ;
+	lcc-lr:hasTag "PE-MDD" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-MDD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-MDD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Madre de Dios"@ay ,
+		"Madre de Dios"@es ,
+		"Mayutata"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Madre de Dios in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Madre de Dios"@ay ,
+		"Madre de Dios"@es ,
+		"Mayutata"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-MOQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-MOQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-MOQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-MOQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Moqwegwa in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-MOQ-Subdivision ;
+	lcc-lr:hasTag "PE-MOQ" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-MOQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-MOQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Moquegua"@es ,
+		"Moqwegwa"@ay ,
+		"Muqiwa"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Moqwegwa in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Moquegua"@es ,
+		"Moqwegwa"@ay ,
+		"Muqiwa"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-PAS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-PAS-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-PAS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-PAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Pasqu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-PAS-Subdivision ;
+	lcc-lr:hasTag "PE-PAS" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-PAS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-PAS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Pasco"@es ,
+		"Pasqu"@ay ,
+		"Pasqu"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Pasqu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Pasco"@es ,
+		"Pasqu"@ay ,
+		"Pasqu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-PIU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-PIU-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-PIU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-PIU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Piura in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-PIU-Subdivision ;
+	lcc-lr:hasTag "PE-PIU" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-PIU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-PIU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Piura"@ay ,
+		"Piura"@es ,
+		"Piwra"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Piura in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Piura"@ay ,
+		"Piura"@es ,
+		"Piwra"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-PUN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-PUN-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-PUN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-PUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Puno in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-PUN-Subdivision ;
+	lcc-lr:hasTag "PE-PUN" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-PUN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-PUN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Puno"@ay ,
+		"Puno"@es ,
+		"Punu"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Puno in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Puno"@ay ,
+		"Puno"@es ,
+		"Punu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-SAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-SAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-SAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-SAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of San Martín in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-SAM-Subdivision ;
+	lcc-lr:hasTag "PE-SAM" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-SAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-SAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"San Martin"@qu ,
+		"San Martín"@ay ,
+		"San Martín"@es
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of San Martín in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"San Martin"@qu ,
+		"San Martín"@ay ,
+		"San Martín"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-TAC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-TAC-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-TAC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-TAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Takna in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-TAC-Subdivision ;
+	lcc-lr:hasTag "PE-TAC" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-TAC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-TAC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tacna"@es ,
+		"Takna"@ay ,
+		"Taqna"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Takna in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Tacna"@es ,
+		"Takna"@ay ,
+		"Taqna"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-TUM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-TUM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-TUM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-TUM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Tumbes in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-TUM-Subdivision ;
+	lcc-lr:hasTag "PE-TUM" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-TUM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-TUM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tumbes"@ay ,
+		"Tumbes"@es ,
+		"Tumpis"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Tumbes in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Tumbes"@ay ,
+		"Tumbes"@es ,
+		"Tumpis"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:PE-UCA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-UCA-RegionIdentifier ;
+	.
+
+lcc-3166-2-pe:PE-UCA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-UCA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the jach'a suyu of Ukayali in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:PE-UCA-Subdivision ;
+	lcc-lr:hasTag "PE-UCA" ;
+	lcc-lr:identifies lcc-3166-2-pe:PE-UCA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-UCA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ucayali"@es ,
+		"Ukayali"@ay ,
+		"Ukayali"@qu
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "the jach'a suyu of Ukayali in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ucayali"@es ,
+		"Ukayali"@ay ,
+		"Ukayali"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:PE-127-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Pasqu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-PAS-Subdivision ;
+	.
+
+lcc-3166-2-pe:Piura
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-PIU-Subdivision ;
+	.
+
+lcc-3166-2-pe:Puno
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-PUN-Subdivision ;
+	.
+
+lcc-3166-2-pe:Qajamarka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-CAJ-Subdivision ;
+	.
+
+lcc-3166-2-pe:SanMartin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-SAM-Subdivision ;
+	.
+
+lcc-3166-2-pe:Takna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-TAC-Subdivision ;
+	.
+
+lcc-3166-2-pe:Tumbes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-TUM-Subdivision ;
+	.
+
+lcc-3166-2-pe:Ukayali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-UCA-Subdivision ;
+	.
+
+lcc-3166-2-pe:Wankawelika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-HUV-Subdivision ;
+	.
+
+lcc-3166-2-pe:Wanuku
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pe:PE-HUC-Subdivision ;
+	.
+

@@ -1,0 +1,257 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-wf: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Wallis and Futuna Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-wf" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Wallis and Futuna, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-WF.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	.
+
+lcc-3166-2-wf:Alo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-AL-Subdivision ;
+	.
+
+lcc-3166-2-wf:Circonscription
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-464-RegionKind ;
+	.
+
+lcc-3166-2-wf:Futuna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-1064-Territory ;
+	.
+
+lcc-3166-2-wf:IlesDeHoorn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-1084-Territory ;
+	.
+
+lcc-3166-2-wf:LesIlesWallis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-1223-Territory ;
+	.
+
+lcc-3166-2-wf:Sigave
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-SG-Subdivision ;
+	.
+
+lcc-3166-2-wf:Uvea
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-wf:WF-1218-Territory ,
+		lcc-3166-2-wf:WF-UV-Subdivision
+		;
+	.
+
+lcc-3166-2-wf:WF-1064-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Futuna"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "the territory of Futuna in the country of Wallis and Futuna" ;
+	lcc-cr:hasEnglishShortName "Futuna"@en ;
+	lcc-cr:hasFrenchShortName "Futuna"@fr ;
+	lcc-cr:hasNumericRegionCode "1064" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:WallisAndFutuna ;
+	.
+
+lcc-3166-2-wf:WF-1084-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label " Îles de Hoorn"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "the territory of  Îles de Hoorn in the country of Wallis and Futuna" ;
+	lcc-cr:hasEnglishShortName "Hoorn Islands"@en ;
+	lcc-cr:hasFrenchShortName "Îles de Hoorn"@fr ;
+	lcc-cr:hasNumericRegionCode "1084" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:WallisAndFutuna ;
+	.
+
+lcc-3166-2-wf:WF-1218-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Uvea"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "the territory of Uvea in the country of Wallis and Futuna" ;
+	lcc-cr:hasEnglishShortName "Uvea"@en ;
+	lcc-cr:hasFrenchShortName "Uvea"@fr ;
+	lcc-cr:hasNumericRegionCode "1218" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:WallisAndFutuna ;
+	.
+
+lcc-3166-2-wf:WF-1223-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "les Îles Wallis"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "the territory of les Îles Wallis in the country of Wallis and Futuna" ;
+	lcc-cr:hasEnglishShortName "Wallis Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Wallis"@fr ;
+	lcc-cr:hasNumericRegionCode "1223" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:WallisAndFutuna ;
+	.
+
+lcc-3166-2-wf:WF-464-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "circonscription"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "subdivision category circonscription in the country of Wallis and Futuna" ;
+	.
+
+lcc-3166-2-wf:WF-AL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-AL-RegionIdentifier ;
+	.
+
+lcc-3166-2-wf:WF-AL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WF-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "subdivision code for the circonscription of Alo in the country of Wallis and Futuna" ;
+	lcc-lr:denotes lcc-3166-2-wf:WF-AL-Subdivision ;
+	lcc-lr:hasTag "WF-AL" ;
+	lcc-lr:identifies lcc-3166-2-wf:WF-AL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-wf:WF-AL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alo"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "the circonscription of Alo in the country of Wallis and Futuna" ;
+	lcc-cr:hasFrenchShortName "Alo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-wf:WF-464-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:WallisAndFutuna ;
+	.
+
+lcc-3166-2-wf:WF-SG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-SG-RegionIdentifier ;
+	.
+
+lcc-3166-2-wf:WF-SG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WF-SG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "subdivision code for the circonscription of Sigave in the country of Wallis and Futuna" ;
+	lcc-lr:denotes lcc-3166-2-wf:WF-SG-Subdivision ;
+	lcc-lr:hasTag "WF-SG" ;
+	lcc-lr:identifies lcc-3166-2-wf:WF-SG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-wf:WF-SG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sigave"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "the circonscription of Sigave in the country of Wallis and Futuna" ;
+	lcc-cr:hasFrenchShortName "Sigave"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-wf:WF-464-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:WallisAndFutuna ;
+	.
+
+lcc-3166-2-wf:WF-UV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-wf:WF-UV-RegionIdentifier ;
+	.
+
+lcc-3166-2-wf:WF-UV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WF-UV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "subdivision code for the circonscription of Uvea in the country of Wallis and Futuna" ;
+	lcc-lr:denotes lcc-3166-2-wf:WF-UV-Subdivision ;
+	lcc-lr:hasTag "WF-UV" ;
+	lcc-lr:identifies lcc-3166-2-wf:WF-UV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-wf:WF-UV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uvea"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WF/> ;
+	skos:definition "the circonscription of Uvea in the country of Wallis and Futuna" ;
+	lcc-cr:hasFrenchShortName "Uvea"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-wf:WF-464-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:WallisAndFutuna ;
+	.
+

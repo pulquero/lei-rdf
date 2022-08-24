@@ -1,0 +1,481 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ls: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Lesotho Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ls" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Lesotho, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LS.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	.
+
+lcc-3166-2-ls:Berea
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-D-Subdivision ;
+	.
+
+lcc-3166-2-ls:Botha-Bothe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-B-Subdivision ;
+	.
+
+lcc-3166-2-ls:District
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-209-RegionKind ;
+	.
+
+lcc-3166-2-ls:LS-209-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"district"@en ,
+		"setereke"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision category district in the country of Lesotho" ;
+	.
+
+lcc-3166-2-ls:LS-A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-A-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Maseru in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-A-Subdivision ;
+	lcc-lr:hasTag "LS-A" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Maseru"@en ,
+		"Maseru"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Maseru in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Maseru"@en ;
+	lcc-cr:hasLocalShortName "Maseru"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-B-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Botha-Bothe in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-B-Subdivision ;
+	lcc-lr:hasTag "LS-B" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Botha-Bothe"@en ,
+		"Botha-Bothe"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Botha-Bothe in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Botha-Bothe"@en ;
+	lcc-cr:hasLocalShortName "Botha-Bothe"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Leribe in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-C-Subdivision ;
+	lcc-lr:hasTag "LS-C" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Leribe"@en ,
+		"Leribe"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Leribe in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Leribe"@en ;
+	lcc-cr:hasLocalShortName "Leribe"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-D
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-D-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-D-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Berea in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-D-Subdivision ;
+	lcc-lr:hasTag "LS-D" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-D-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-D-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Berea"@en ,
+		"Berea"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Berea in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Berea"@en ;
+	lcc-cr:hasLocalShortName "Berea"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-E
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-E-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-E-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Mafeteng in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-E-Subdivision ;
+	lcc-lr:hasTag "LS-E" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-E-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-E-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mafeteng"@en ,
+		"Mafeteng"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Mafeteng in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Mafeteng"@en ;
+	lcc-cr:hasLocalShortName "Mafeteng"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-F
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-F-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-F-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Mohale's Hoek in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-F-Subdivision ;
+	lcc-lr:hasTag "LS-F" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-F-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-F-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mohale's Hoek"@en ,
+		"Mohale's Hoek"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Mohale's Hoek in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Mohale's Hoek"@en ;
+	lcc-cr:hasLocalShortName "Mohale's Hoek"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-G
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-G-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-G-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Quthing in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-G-Subdivision ;
+	lcc-lr:hasTag "LS-G" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-G-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-G-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Quthing"@en ,
+		"Quthing"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Quthing in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Quthing"@en ;
+	lcc-cr:hasLocalShortName "Quthing"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-H
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-H-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-H-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Qacha's Nek in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-H-Subdivision ;
+	lcc-lr:hasTag "LS-H" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-H-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-H-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Qacha's Nek"@en ,
+		"Qacha's Nek"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Qacha's Nek in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Qacha's Nek"@en ;
+	lcc-cr:hasLocalShortName "Qacha's Nek"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-J
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-J-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-J-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-J" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Mokhotlong in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-J-Subdivision ;
+	lcc-lr:hasTag "LS-J" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-J-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-J-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mokhotlong"@en ,
+		"Mokhotlong"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Mokhotlong in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Mokhotlong"@en ;
+	lcc-cr:hasLocalShortName "Mokhotlong"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:LS-K
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-K-RegionIdentifier ;
+	.
+
+lcc-3166-2-ls:LS-K-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LS-K" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "subdivision code for the district of Thaba-Tseka in the country of Lesotho" ;
+	lcc-lr:denotes lcc-3166-2-ls:LS-K-Subdivision ;
+	lcc-lr:hasTag "LS-K" ;
+	lcc-lr:identifies lcc-3166-2-ls:LS-K-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ls:LS-K-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Thaba-Tseka"@en ,
+		"Thaba-Tseka"@st
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LS/> ;
+	skos:definition "the district of Thaba-Tseka in the country of Lesotho" ;
+	lcc-cr:hasEnglishShortName "Thaba-Tseka"@en ;
+	lcc-cr:hasLocalShortName "Thaba-Tseka"@st ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ls:LS-209-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-2-ls:Leribe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-C-Subdivision ;
+	.
+
+lcc-3166-2-ls:Mafeteng
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-E-Subdivision ;
+	.
+
+lcc-3166-2-ls:Maseru
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-A-Subdivision ;
+	.
+
+lcc-3166-2-ls:MohalesHoek
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-F-Subdivision ;
+	.
+
+lcc-3166-2-ls:Mokhotlong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-J-Subdivision ;
+	.
+
+lcc-3166-2-ls:QachasNek
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-H-Subdivision ;
+	.
+
+lcc-3166-2-ls:Quthing
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-G-Subdivision ;
+	.
+
+lcc-3166-2-ls:Thaba-Tseka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ls:LS-K-Subdivision ;
+	.
+

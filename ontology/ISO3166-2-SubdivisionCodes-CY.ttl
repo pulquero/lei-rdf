@@ -1,0 +1,329 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cy: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Cyprus Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cy" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Cyprus, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	.
+
+lcc-3166-2-cy:Ammochostos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-04-Subdivision ;
+	.
+
+lcc-3166-2-cy:CY-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-cy:CY-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CY-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "subdivision code for the eparchia of Lefkosia in the country of Cyprus" ;
+	lcc-lr:denotes lcc-3166-2-cy:CY-01-Subdivision ;
+	lcc-lr:hasTag "CY-01" ;
+	lcc-lr:identifies lcc-3166-2-cy:CY-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cy:CY-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lefkosia"@el ,
+		"Lefkoşa"@tr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "the eparchia of Lefkosia in the country of Cyprus" ;
+	lcc-cr:hasLocalShortName
+		"Lefkosia"@el ,
+		"Lefkoşa"@tr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-cy:CY-266-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cyprus ;
+	.
+
+lcc-3166-2-cy:CY-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-cy:CY-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CY-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "subdivision code for the eparchia of Lemesos in the country of Cyprus" ;
+	lcc-lr:denotes lcc-3166-2-cy:CY-02-Subdivision ;
+	lcc-lr:hasTag "CY-02" ;
+	lcc-lr:identifies lcc-3166-2-cy:CY-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cy:CY-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lemesos"@el ,
+		"Leymasun"@tr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "the eparchia of Lemesos in the country of Cyprus" ;
+	lcc-cr:hasLocalShortName
+		"Lemesos"@el ,
+		"Leymasun"@tr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-cy:CY-266-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cyprus ;
+	.
+
+lcc-3166-2-cy:CY-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-cy:CY-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CY-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "subdivision code for the eparchia of Larnaka in the country of Cyprus" ;
+	lcc-lr:denotes lcc-3166-2-cy:CY-03-Subdivision ;
+	lcc-lr:hasTag "CY-03" ;
+	lcc-lr:identifies lcc-3166-2-cy:CY-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cy:CY-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Larnaka"@el ,
+		"Larnaka"@tr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "the eparchia of Larnaka in the country of Cyprus" ;
+	lcc-cr:hasLocalShortName
+		"Larnaka"@el ,
+		"Larnaka"@tr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-cy:CY-266-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cyprus ;
+	.
+
+lcc-3166-2-cy:CY-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-cy:CY-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CY-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "subdivision code for the eparchia of Ammochostos in the country of Cyprus" ;
+	lcc-lr:denotes lcc-3166-2-cy:CY-04-Subdivision ;
+	lcc-lr:hasTag "CY-04" ;
+	lcc-lr:identifies lcc-3166-2-cy:CY-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cy:CY-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ammochostos"@el ,
+		"Mağusa"@tr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "the eparchia of Ammochostos in the country of Cyprus" ;
+	lcc-cr:hasLocalShortName
+		"Ammochostos"@el ,
+		"Mağusa"@tr
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-cy:CY-266-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cyprus ;
+	.
+
+lcc-3166-2-cy:CY-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-cy:CY-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CY-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "subdivision code for the eparchia of Pafos in the country of Cyprus" ;
+	lcc-lr:denotes lcc-3166-2-cy:CY-05-Subdivision ;
+	lcc-lr:hasTag "CY-05" ;
+	lcc-lr:identifies lcc-3166-2-cy:CY-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cy:CY-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Baf"@tr ,
+		"Pafos"@el
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "the eparchia of Pafos in the country of Cyprus" ;
+	lcc-cr:hasLocalShortName
+		"Baf"@tr ,
+		"Pafos"@el
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-cy:CY-266-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cyprus ;
+	.
+
+lcc-3166-2-cy:CY-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-cy:CY-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CY-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "subdivision code for the eparchia of Keryneia in the country of Cyprus" ;
+	lcc-lr:denotes lcc-3166-2-cy:CY-06-Subdivision ;
+	lcc-lr:hasTag "CY-06" ;
+	lcc-lr:identifies lcc-3166-2-cy:CY-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cy:CY-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Girne"@tr ,
+		"Keryneia"@el
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "the eparchia of Keryneia in the country of Cyprus" ;
+	lcc-cr:hasLocalShortName
+		"Girne"@tr ,
+		"Keryneia"@el
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-cy:CY-266-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cyprus ;
+	.
+
+lcc-3166-2-cy:CY-266-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"eparchia"@el ,
+		"kaza"@tr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CY/> ;
+	skos:definition "subdivision category eparchia in the country of Cyprus" ;
+	.
+
+lcc-3166-2-cy:Eparchia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-266-RegionKind ;
+	.
+
+lcc-3166-2-cy:Keryneia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-06-Subdivision ;
+	.
+
+lcc-3166-2-cy:Larnaka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-03-Subdivision ;
+	.
+
+lcc-3166-2-cy:Lefkosia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-01-Subdivision ;
+	.
+
+lcc-3166-2-cy:Lemesos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-02-Subdivision ;
+	.
+
+lcc-3166-2-cy:Pafos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cy:CY-05-Subdivision ;
+	.
+

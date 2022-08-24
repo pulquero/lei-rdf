@@ -1,0 +1,253 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tf: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for French Southern Territories (the) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tf" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for French Southern Territories (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TF.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	.
+
+lcc-3166-2-tf:BassasDaIndia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1020-Territory ;
+	.
+
+lcc-3166-2-tf:LArchipelCrozet
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1048-Territory ;
+	.
+
+lcc-3166-2-tf:LIleAmsterdam
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1228-Territory ;
+	.
+
+lcc-3166-2-tf:LIleEuropa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1058-Territory ;
+	.
+
+lcc-3166-2-tf:LIleJuanDeNova
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1093-Territory ;
+	.
+
+lcc-3166-2-tf:LIleSaint-Paul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1174-Territory ;
+	.
+
+lcc-3166-2-tf:LIleTromelin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1214-Territory ;
+	.
+
+lcc-3166-2-tf:LesIlesEparsesDeLOceanIndien
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1057-Territory ;
+	.
+
+lcc-3166-2-tf:LesIlesGlorieuses
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1068-Territory ;
+	.
+
+lcc-3166-2-tf:LesIlesKerguelen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tf:TF-1096-Territory ;
+	.
+
+lcc-3166-2-tf:TF-1020-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Bassas da India"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of Bassas da India in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Bassas da India"@en ;
+	lcc-cr:hasFrenchShortName "Bassas da India"@fr ;
+	lcc-cr:hasNumericRegionCode "1020" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1048-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "l'Archipel Crozet"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of l'Archipel Crozet in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Crozet Archipelago"@en ;
+	lcc-cr:hasFrenchShortName "l'Archipel Crozet"@fr ;
+	lcc-cr:hasNumericRegionCode "1048" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1057-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "les Îles Éparses de l'Océan Indien"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of les Îles Éparses de l'Océan Indien in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "French scattered Indian Ocean Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Éparses de l'Océan Indien"@fr ;
+	lcc-cr:hasNumericRegionCode "1057" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1058-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "l'Île Europa"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of l'Île Europa in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Europa Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Europa"@fr ;
+	lcc-cr:hasNumericRegionCode "1058" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1068-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "les Îles Glorieuses"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of les Îles Glorieuses in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Glorioso Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Glorieuses"@fr ;
+	lcc-cr:hasNumericRegionCode "1068" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1093-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "l'Île Juan de Nova"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of l'Île Juan de Nova in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Juan de Nova Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Juan de Nova"@fr ;
+	lcc-cr:hasNumericRegionCode "1093" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1096-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label " les Îles Kerguelen"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of  les Îles Kerguelen in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Kerguelen Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Kerguelen"@fr ;
+	lcc-cr:hasNumericRegionCode "1096" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1174-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "l'Île Saint-Paul"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of l'Île Saint-Paul in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Saint-Paul Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Saint-Paul"@fr ;
+	lcc-cr:hasNumericRegionCode "1174" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1214-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "l'Île Tromelin"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of l'Île Tromelin in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Tromelin Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Tromelin"@fr ;
+	lcc-cr:hasNumericRegionCode "1214" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-2-tf:TF-1228-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "l'Île Amsterdam"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TF/> ;
+	skos:definition "the territory of l'Île Amsterdam in the country of French Southern Territories (the)" ;
+	lcc-cr:hasEnglishShortName "Amsterdam Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Amsterdam"@fr ;
+	lcc-cr:hasNumericRegionCode "1228" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchSouthernTerritories ;
+	.
+

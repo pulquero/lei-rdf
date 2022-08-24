@@ -1,0 +1,559 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ws: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Samoa Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ws" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Samoa, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-WS.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	.
+
+lcc-3166-2-ws:Aana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-AA-Subdivision ;
+	.
+
+lcc-3166-2-ws:Aiga-i-le-Tai
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-AL-Subdivision ;
+	.
+
+lcc-3166-2-ws:Atua
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-AT-Subdivision ;
+	.
+
+lcc-3166-2-ws:District
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-171-RegionKind ;
+	.
+
+lcc-3166-2-ws:Faasaleleaga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-FA-Subdivision ;
+	.
+
+lcc-3166-2-ws:Gagaemauga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-GE-Subdivision ;
+	.
+
+lcc-3166-2-ws:Gagaifomauga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-GI-Subdivision ;
+	.
+
+lcc-3166-2-ws:Palauli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-PA-Subdivision ;
+	.
+
+lcc-3166-2-ws:Satupaitea
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-SA-Subdivision ;
+	.
+
+lcc-3166-2-ws:Savaii
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-1192-Territory ;
+	.
+
+lcc-3166-2-ws:Tuamasaga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-TU-Subdivision ;
+	.
+
+lcc-3166-2-ws:Upolu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-1217-Territory ;
+	.
+
+lcc-3166-2-ws:Vaa-o-Fonoti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-VF-Subdivision ;
+	.
+
+lcc-3166-2-ws:Vaisigano
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-VS-Subdivision ;
+	.
+
+lcc-3166-2-ws:WS-1192-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Savai'i"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the territory of Savai'i in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Savai'i"@en ;
+	lcc-cr:hasFrenchShortName "Savai'i"@fr ;
+	lcc-cr:hasNumericRegionCode "1192" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-1217-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Upolu"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the territory of Upolu in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Upolu"@en ;
+	lcc-cr:hasFrenchShortName "Upolu"@fr ;
+	lcc-cr:hasNumericRegionCode "1217" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-171-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision category district in the country of Samoa" ;
+	.
+
+lcc-3166-2-ws:WS-AA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-AA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-AA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-AA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of A'ana in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-AA-Subdivision ;
+	lcc-lr:hasTag "WS-AA" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-AA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-AA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"A'ana"@en ,
+		"A'ana"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of A'ana in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "A'ana"@en ;
+	lcc-cr:hasLocalShortName "A'ana"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-AL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-AL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-AL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Aiga-i-le-Tai in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-AL-Subdivision ;
+	lcc-lr:hasTag "WS-AL" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-AL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-AL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Aiga-i-le-Tai"@en ,
+		"Aiga-i-le-Tai"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Aiga-i-le-Tai in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Aiga-i-le-Tai"@en ;
+	lcc-cr:hasLocalShortName "Aiga-i-le-Tai"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-AT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-AT-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-AT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-AT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Atua in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-AT-Subdivision ;
+	lcc-lr:hasTag "WS-AT" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-AT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-AT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Atua"@en ,
+		"Atua"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Atua in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Atua"@en ;
+	lcc-cr:hasLocalShortName "Atua"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-FA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-FA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-FA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-FA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Fa'asaleleaga in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-FA-Subdivision ;
+	lcc-lr:hasTag "WS-FA" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-FA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-FA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Fa'asaleleaga"@en ,
+		"Fa'asaleleaga"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Fa'asaleleaga in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Fa'asaleleaga"@en ;
+	lcc-cr:hasLocalShortName "Fa'asaleleaga"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-GE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-GE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-GE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-GE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Gaga'emauga in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-GE-Subdivision ;
+	lcc-lr:hasTag "WS-GE" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-GE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-GE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Gaga'emauga"@en ,
+		"Gaga'emauga"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Gaga'emauga in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Gaga'emauga"@en ;
+	lcc-cr:hasLocalShortName "Gaga'emauga"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-GI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-GI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-GI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-GI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Gagaifomauga in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-GI-Subdivision ;
+	lcc-lr:hasTag "WS-GI" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-GI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-GI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Gagaifomauga"@en ,
+		"Gagaifomauga"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Gagaifomauga in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Gagaifomauga"@en ;
+	lcc-cr:hasLocalShortName "Gagaifomauga"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-PA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-PA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-PA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Palauli in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-PA-Subdivision ;
+	lcc-lr:hasTag "WS-PA" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-PA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-PA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Palauli"@en ,
+		"Palauli"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Palauli in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Palauli"@en ;
+	lcc-cr:hasLocalShortName "Palauli"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Satupa'itea in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-SA-Subdivision ;
+	lcc-lr:hasTag "WS-SA" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Satupa'itea"@en ,
+		"Satupa'itea"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Satupa'itea in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Satupa'itea"@en ;
+	lcc-cr:hasLocalShortName "Satupa'itea"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-TU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-TU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-TU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-TU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Tuamasaga in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-TU-Subdivision ;
+	lcc-lr:hasTag "WS-TU" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-TU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-TU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tuamasaga"@en ,
+		"Tuamasaga"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Tuamasaga in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Tuamasaga"@en ;
+	lcc-cr:hasLocalShortName "Tuamasaga"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-VF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-VF-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-VF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-VF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Va'a-o-Fonoti in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-VF-Subdivision ;
+	lcc-lr:hasTag "WS-VF" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-VF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-VF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Va'a-o-Fonoti"@en ,
+		"Va'a-o-Fonoti"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Va'a-o-Fonoti in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Va'a-o-Fonoti"@en ;
+	lcc-cr:hasLocalShortName "Va'a-o-Fonoti"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-2-ws:WS-VS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ws:WS-VS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ws:WS-VS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "WS-VS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "subdivision code for the district of Vaisigano in the country of Samoa" ;
+	lcc-lr:denotes lcc-3166-2-ws:WS-VS-Subdivision ;
+	lcc-lr:hasTag "WS-VS" ;
+	lcc-lr:identifies lcc-3166-2-ws:WS-VS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ws:WS-VS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Vaisigano"@en ,
+		"Vaisigano"@sm
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-WS/> ;
+	skos:definition "the district of Vaisigano in the country of Samoa" ;
+	lcc-cr:hasEnglishShortName "Vaisigano"@en ;
+	lcc-cr:hasLocalShortName "Vaisigano"@sm ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ws:WS-171-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Samoa ;
+	.
+

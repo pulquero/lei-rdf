@@ -1,0 +1,412 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-lb: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Lebanon Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-lb" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Lebanon, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LB.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	.
+
+lcc-3166-2-lb:Akkar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-AK-Subdivision ;
+	.
+
+lcc-3166-2-lb:AlJanub
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-JA-Subdivision ;
+	.
+
+lcc-3166-2-lb:AshShimal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-AS-Subdivision ;
+	.
+
+lcc-3166-2-lb:Balabak-AlHirmil
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-BH-Subdivision ;
+	.
+
+lcc-3166-2-lb:Bayrut
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-BA-Subdivision ;
+	.
+
+lcc-3166-2-lb:Beqaa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-BI-Subdivision ;
+	.
+
+lcc-3166-2-lb:LB-208-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "mouhâfazah, muḩāfaz̧ah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision category mouhâfazah, muḩāfaz̧ah in the country of Lebanon" ;
+	.
+
+lcc-3166-2-lb:LB-AK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-AK-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-AK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-AK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of ‘Akkār in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-AK-Subdivision ;
+	lcc-lr:hasTag "LB-AK" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-AK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-AK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Aakkâr"@ar ,
+		"‘Akkār"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of ‘Akkār in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"Aakkâr"@ar ,
+		"‘Akkār"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:LB-AS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-AS-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-AS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-AS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of Ash Shimāl in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-AS-Subdivision ;
+	lcc-lr:hasTag "LB-AS" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-AS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-AS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ash Shimāl"@ar ,
+		"Liban-Nord"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of Ash Shimāl in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"Ash Shimāl"@ar ,
+		"Liban-Nord"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:LB-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of Bayrūt in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-BA-Subdivision ;
+	lcc-lr:hasTag "LB-BA" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bayrūt"@ar ,
+		"Beyrouth"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of Bayrūt in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"Bayrūt"@ar ,
+		"Beyrouth"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:LB-BH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-BH-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-BH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-BH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of B‘alabak-Al Hirmil in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-BH-Subdivision ;
+	lcc-lr:hasTag "LB-BH" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-BH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-BH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Baalbek-Hermel"@ar ,
+		"B‘alabak-Al Hirmil"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of B‘alabak-Al Hirmil in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"Baalbek-Hermel"@ar ,
+		"B‘alabak-Al Hirmil"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:LB-BI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-BI-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-BI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-BI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of Béqaa in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-BI-Subdivision ;
+	lcc-lr:hasTag "LB-BI" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-BI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-BI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Al Biqā‘"@ar ,
+		"Béqaa"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of Béqaa in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"Al Biqā‘"@ar ,
+		"Béqaa"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:LB-JA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-JA-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-JA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of Al Janūb in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-JA-Subdivision ;
+	lcc-lr:hasTag "LB-JA" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-JA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-JA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Al Janūb"@ar ,
+		"Liban-Sud"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of Al Janūb in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"Al Janūb"@ar ,
+		"Liban-Sud"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:LB-JL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-JL-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-JL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-JL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of Mont-Liban in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-JL-Subdivision ;
+	lcc-lr:hasTag "LB-JL" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-JL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-JL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Jabal Lubnān"@ar ,
+		"Mont-Liban"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of Mont-Liban in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"Jabal Lubnān"@ar ,
+		"Mont-Liban"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:LB-NA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-NA-RegionIdentifier ;
+	.
+
+lcc-3166-2-lb:LB-NA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LB-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "subdivision code for the mouhâfazah, muḩāfaz̧ah of Nabatîyé in the country of Lebanon" ;
+	lcc-lr:denotes lcc-3166-2-lb:LB-NA-Subdivision ;
+	lcc-lr:hasTag "LB-NA" ;
+	lcc-lr:identifies lcc-3166-2-lb:LB-NA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lb:LB-NA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"An Nabaţīyah"@ar ,
+		"Nabatîyé"@ar
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LB/> ;
+	skos:definition "the mouhâfazah, muḩāfaz̧ah of Nabatîyé in the country of Lebanon" ;
+	lcc-cr:hasLocalShortName
+		"An Nabaţīyah"@ar ,
+		"Nabatîyé"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lb:LB-208-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-2-lb:Mont-Liban
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-JL-Subdivision ;
+	.
+
+lcc-3166-2-lb:Mouhafazah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-208-RegionKind ;
+	.
+
+lcc-3166-2-lb:Nabatiye
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-lb:LB-NA-Subdivision ;
+	.
+

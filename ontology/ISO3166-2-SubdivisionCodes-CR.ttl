@@ -1,0 +1,346 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Costa Rica Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Costa Rica, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	.
+
+lcc-3166-2-cr:Alajuela
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-A-Subdivision ;
+	.
+
+lcc-3166-2-cr:CR-1044-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the territory of Coco Island in the country of Costa Rica" ;
+	lcc-cr:hasEnglishShortName "Coco Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île du Coco"@fr ;
+	lcc-cr:hasNumericRegionCode "1044" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:CR-318-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "provincia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision category provincia in the country of Costa Rica" ;
+	.
+
+lcc-3166-2-cr:CR-A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-A-RegionIdentifier ;
+	.
+
+lcc-3166-2-cr:CR-A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CR-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision code for the provincia of Alajuela in the country of Costa Rica" ;
+	lcc-lr:denotes lcc-3166-2-cr:CR-A-Subdivision ;
+	lcc-lr:hasTag "CR-A" ;
+	lcc-lr:identifies lcc-3166-2-cr:CR-A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cr:CR-A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alajuela"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the provincia of Alajuela in the country of Costa Rica" ;
+	lcc-cr:hasLocalShortName "Alajuela"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cr:CR-318-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:CR-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-cr:CR-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CR-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision code for the provincia of Cartago in the country of Costa Rica" ;
+	lcc-lr:denotes lcc-3166-2-cr:CR-C-Subdivision ;
+	lcc-lr:hasTag "CR-C" ;
+	lcc-lr:identifies lcc-3166-2-cr:CR-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cr:CR-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cartago"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the provincia of Cartago in the country of Costa Rica" ;
+	lcc-cr:hasLocalShortName "Cartago"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cr:CR-318-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:CR-G
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-G-RegionIdentifier ;
+	.
+
+lcc-3166-2-cr:CR-G-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CR-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision code for the provincia of Guanacaste in the country of Costa Rica" ;
+	lcc-lr:denotes lcc-3166-2-cr:CR-G-Subdivision ;
+	lcc-lr:hasTag "CR-G" ;
+	lcc-lr:identifies lcc-3166-2-cr:CR-G-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cr:CR-G-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guanacaste"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the provincia of Guanacaste in the country of Costa Rica" ;
+	lcc-cr:hasLocalShortName "Guanacaste"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cr:CR-318-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:CR-H
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-H-RegionIdentifier ;
+	.
+
+lcc-3166-2-cr:CR-H-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CR-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision code for the provincia of Heredia in the country of Costa Rica" ;
+	lcc-lr:denotes lcc-3166-2-cr:CR-H-Subdivision ;
+	lcc-lr:hasTag "CR-H" ;
+	lcc-lr:identifies lcc-3166-2-cr:CR-H-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cr:CR-H-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Heredia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the provincia of Heredia in the country of Costa Rica" ;
+	lcc-cr:hasLocalShortName "Heredia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cr:CR-318-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:CR-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-cr:CR-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CR-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision code for the provincia of Limón in the country of Costa Rica" ;
+	lcc-lr:denotes lcc-3166-2-cr:CR-L-Subdivision ;
+	lcc-lr:hasTag "CR-L" ;
+	lcc-lr:identifies lcc-3166-2-cr:CR-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cr:CR-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Limón"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the provincia of Limón in the country of Costa Rica" ;
+	lcc-cr:hasLocalShortName "Limón"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cr:CR-318-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:CR-P
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-P-RegionIdentifier ;
+	.
+
+lcc-3166-2-cr:CR-P-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CR-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision code for the provincia of Puntarenas in the country of Costa Rica" ;
+	lcc-lr:denotes lcc-3166-2-cr:CR-P-Subdivision ;
+	lcc-lr:hasTag "CR-P" ;
+	lcc-lr:identifies lcc-3166-2-cr:CR-P-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cr:CR-P-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Puntarenas"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the provincia of Puntarenas in the country of Costa Rica" ;
+	lcc-cr:hasLocalShortName "Puntarenas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cr:CR-318-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:CR-SJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-SJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-cr:CR-SJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CR-SJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "subdivision code for the provincia of San José in the country of Costa Rica" ;
+	lcc-lr:denotes lcc-3166-2-cr:CR-SJ-Subdivision ;
+	lcc-lr:hasTag "CR-SJ" ;
+	lcc-lr:identifies lcc-3166-2-cr:CR-SJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cr:CR-SJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San José"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR/> ;
+	skos:definition "the provincia of San José in the country of Costa Rica" ;
+	lcc-cr:hasLocalShortName "San José"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cr:CR-318-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-2-cr:Cartago
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-C-Subdivision ;
+	.
+
+lcc-3166-2-cr:CocoIsland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-1044-Territory ;
+	.
+
+lcc-3166-2-cr:Guanacaste
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-G-Subdivision ;
+	.
+
+lcc-3166-2-cr:Heredia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-H-Subdivision ;
+	.
+
+lcc-3166-2-cr:Limon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-L-Subdivision ;
+	.
+
+lcc-3166-2-cr:Provincia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-318-RegionKind ;
+	.
+
+lcc-3166-2-cr:Puntarenas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-P-Subdivision ;
+	.
+
+lcc-3166-2-cr:SanJose
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-cr:CR-SJ-Subdivision ;
+	.
+

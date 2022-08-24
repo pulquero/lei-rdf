@@ -1,0 +1,501 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-et: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Ethiopia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-et" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Ethiopia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ET.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	.
+
+lcc-3166-2-et:AdisAbeba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-AA-Subdivision ;
+	.
+
+lcc-3166-2-et:Afar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-AF-Subdivision ;
+	.
+
+lcc-3166-2-et:Amara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-AM-Subdivision ;
+	.
+
+lcc-3166-2-et:Astedader
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-409-RegionKind ;
+	.
+
+lcc-3166-2-et:BinshangulGumuz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-BE-Subdivision ;
+	.
+
+lcc-3166-2-et:DireDawa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-DD-Subdivision ;
+	.
+
+lcc-3166-2-et:ET-363-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "kilil"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision category kilil in the country of Ethiopia" ;
+	.
+
+lcc-3166-2-et:ET-409-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "āstedader"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision category āstedader in the country of Ethiopia" ;
+	.
+
+lcc-3166-2-et:ET-AA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-AA-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-AA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-AA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the āstedader of Ādīs Ābeba in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-AA-Subdivision ;
+	lcc-lr:hasTag "ET-AA" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-AA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-AA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ādīs Ābeba"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the āstedader of Ādīs Ābeba in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Addis Ababa"@en ;
+	lcc-cr:hasLocalShortName "Ādīs Ābeba"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-409-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-AF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-AF-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-AF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-AF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Āfar in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-AF-Subdivision ;
+	lcc-lr:hasTag "ET-AF" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-AF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-AF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Āfar"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Āfar in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Afar"@en ;
+	lcc-cr:hasLocalShortName "Āfar"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-AM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-AM-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-AM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-AM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Āmara in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-AM-Subdivision ;
+	lcc-lr:hasTag "ET-AM" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-AM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-AM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Āmara"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Āmara in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Amara"@en ;
+	lcc-cr:hasLocalShortName "Āmara"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-BE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-BE-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-BE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Bīnshangul Gumuz in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-BE-Subdivision ;
+	lcc-lr:hasTag "ET-BE" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-BE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-BE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bīnshangul Gumuz"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Bīnshangul Gumuz in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Benshangul-Gumaz"@en ;
+	lcc-cr:hasLocalShortName "Bīnshangul Gumuz"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-DD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-DD-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-DD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-DD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the āstedader of Dirē Dawa in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-DD-Subdivision ;
+	lcc-lr:hasTag "ET-DD" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-DD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-DD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dirē Dawa"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the āstedader of Dirē Dawa in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Dire Dawa"@en ;
+	lcc-cr:hasLocalShortName "Dirē Dawa"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-409-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Gambēla Hizboch in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-GA-Subdivision ;
+	lcc-lr:hasTag "ET-GA" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gambēla Hizboch"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Gambēla Hizboch in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Gambela Peoples"@en ;
+	lcc-cr:hasLocalShortName "Gambēla Hizboch"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-HA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-HA-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-HA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Hārerī Hizb in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-HA-Subdivision ;
+	lcc-lr:hasTag "ET-HA" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-HA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-HA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hārerī Hizb"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Hārerī Hizb in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Harari People"@en ;
+	lcc-cr:hasLocalShortName "Hārerī Hizb"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-OR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-OR-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-OR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-OR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Oromīya in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-OR-Subdivision ;
+	lcc-lr:hasTag "ET-OR" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-OR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-OR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oromīya"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Oromīya in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Oromia"@en ;
+	lcc-cr:hasLocalShortName "Oromīya"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-SN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-SN-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-SN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of YeDebub Bihēroch Bihēreseboch na Hizboch in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-SN-Subdivision ;
+	lcc-lr:hasTag "ET-SN" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-SN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-SN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "YeDebub Bihēroch Bihēreseboch na Hizboch"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of YeDebub Bihēroch Bihēreseboch na Hizboch in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Southern Nations, Nationalities and Peoples"@en ;
+	lcc-cr:hasLocalShortName "YeDebub Bihēroch Bihēreseboch na Hizboch"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-SO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-SO-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-SO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Sumalē in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-SO-Subdivision ;
+	lcc-lr:hasTag "ET-SO" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-SO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-SO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sumalē"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Sumalē in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Somali"@en ;
+	lcc-cr:hasLocalShortName "Sumalē"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-TI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-TI-RegionIdentifier ;
+	.
+
+lcc-3166-2-et:ET-TI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-TI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the kilil of Tigray in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:ET-TI-Subdivision ;
+	lcc-lr:hasTag "ET-TI" ;
+	lcc-lr:identifies lcc-3166-2-et:ET-TI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-TI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tigray"@am ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "the kilil of Tigray in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Tigrai"@en ;
+	lcc-cr:hasLocalShortName "Tigray"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:ET-363-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:GambelaHizboch
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-GA-Subdivision ;
+	.
+
+lcc-3166-2-et:HareriHizb
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-HA-Subdivision ;
+	.
+
+lcc-3166-2-et:Kilil
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-363-RegionKind ;
+	.
+
+lcc-3166-2-et:Oromiya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-OR-Subdivision ;
+	.
+
+lcc-3166-2-et:Sumale
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-SO-Subdivision ;
+	.
+
+lcc-3166-2-et:Tigray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-TI-Subdivision ;
+	.
+
+lcc-3166-2-et:YeDebubBiherochBiheresebochNaHizboch
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-et:ET-SN-Subdivision ;
+	.
+

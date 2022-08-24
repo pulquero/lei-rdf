@@ -1,0 +1,4915 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-fr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for France Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-fr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for France, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-FR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	.
+
+lcc-3166-2-fr:Ain
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-01-Subdivision ;
+	.
+
+lcc-3166-2-fr:Aisne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-02-Subdivision ;
+	.
+
+lcc-3166-2-fr:Allier
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-03-Subdivision ;
+	.
+
+lcc-3166-2-fr:Alpes-Maritimes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-06-Subdivision ;
+	.
+
+lcc-3166-2-fr:Alpes-de-Haute-Provence
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-04-Subdivision ;
+	.
+
+lcc-3166-2-fr:Ardeche
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-07-Subdivision ;
+	.
+
+lcc-3166-2-fr:Ardennes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-08-Subdivision ;
+	.
+
+lcc-3166-2-fr:Ariege
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-09-Subdivision ;
+	.
+
+lcc-3166-2-fr:Aube
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-10-Subdivision ;
+	.
+
+lcc-3166-2-fr:Aude
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-11-Subdivision ;
+	.
+
+lcc-3166-2-fr:Auvergne-Rhone-Alpes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:Aveyron
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-12-Subdivision ;
+	.
+
+lcc-3166-2-fr:Bas-Rhin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-67-Subdivision ;
+	.
+
+lcc-3166-2-fr:Bouches-du-Rhone
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-13-Subdivision ;
+	.
+
+lcc-3166-2-fr:Bourgogne-Franche-Comte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:Bretagne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-BRE-Subdivision ;
+	.
+
+lcc-3166-2-fr:Calvados
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-14-Subdivision ;
+	.
+
+lcc-3166-2-fr:Cantal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-15-Subdivision ;
+	.
+
+lcc-3166-2-fr:Centre-ValDeLoire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-CVL-Subdivision ;
+	.
+
+lcc-3166-2-fr:Charente
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-16-Subdivision ;
+	.
+
+lcc-3166-2-fr:Charente-Maritime
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-17-Subdivision ;
+	.
+
+lcc-3166-2-fr:Cher
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-18-Subdivision ;
+	.
+
+lcc-3166-2-fr:Clipperton
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-CP-Subdivision ;
+	.
+
+lcc-3166-2-fr:CollectiviteDoutre-mer
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-368-RegionKind ;
+	.
+
+lcc-3166-2-fr:CollectiviteDoutre-merAStatutParticulier
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-489-RegionKind ;
+	.
+
+lcc-3166-2-fr:CollectiviteMetropolitaineAStatutParticulier
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-475-RegionKind ;
+	.
+
+lcc-3166-2-fr:Correze
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-19-Subdivision ;
+	.
+
+lcc-3166-2-fr:Corse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-20R-Subdivision ;
+	.
+
+lcc-3166-2-fr:Corse-du-Sud
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-2A-Subdivision ;
+	.
+
+lcc-3166-2-fr:Cote-dOr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-21-Subdivision ;
+	.
+
+lcc-3166-2-fr:Cotes-dArmor
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-22-Subdivision ;
+	.
+
+lcc-3166-2-fr:Creuse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-23-Subdivision ;
+	.
+
+lcc-3166-2-fr:DepartementDoutre-mer
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-158-RegionKind ;
+	.
+
+lcc-3166-2-fr:DepartementMetropolitain
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-151-RegionKind ;
+	.
+
+lcc-3166-2-fr:Dependance
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-305-RegionKind ;
+	.
+
+lcc-3166-2-fr:Deux-Sevres
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-79-Subdivision ;
+	.
+
+lcc-3166-2-fr:Dordogne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-24-Subdivision ;
+	.
+
+lcc-3166-2-fr:Doubs
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-25-Subdivision ;
+	.
+
+lcc-3166-2-fr:Drome
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-26-Subdivision ;
+	.
+
+lcc-3166-2-fr:Essonne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-91-Subdivision ;
+	.
+
+lcc-3166-2-fr:Eure
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-27-Subdivision ;
+	.
+
+lcc-3166-2-fr:Eure-et-Loir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-28-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Ain in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-01-Subdivision ;
+	lcc-lr:hasTag "FR-01" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ain"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Ain in the country of France" ;
+	lcc-cr:hasFrenchShortName "Ain"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Aisne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-02-Subdivision ;
+	lcc-lr:hasTag "FR-02" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aisne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Aisne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Aisne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-HDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Allier in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-03-Subdivision ;
+	lcc-lr:hasTag "FR-03" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Allier"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Allier in the country of France" ;
+	lcc-cr:hasFrenchShortName "Allier"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Alpes-de-Haute-Provence in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-04-Subdivision ;
+	lcc-lr:hasTag "FR-04" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alpes-de-Haute-Provence"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Alpes-de-Haute-Provence in the country of France" ;
+	lcc-cr:hasFrenchShortName "Alpes-de-Haute-Provence"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PAC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Hautes-Alpes in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-05-Subdivision ;
+	lcc-lr:hasTag "FR-05" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hautes-Alpes"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Hautes-Alpes in the country of France" ;
+	lcc-cr:hasFrenchShortName "Hautes-Alpes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PAC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Alpes-Maritimes in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-06-Subdivision ;
+	lcc-lr:hasTag "FR-06" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alpes-Maritimes"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Alpes-Maritimes in the country of France" ;
+	lcc-cr:hasFrenchShortName "Alpes-Maritimes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PAC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Ardèche in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-07-Subdivision ;
+	lcc-lr:hasTag "FR-07" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ardèche"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Ardèche in the country of France" ;
+	lcc-cr:hasFrenchShortName "Ardèche"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Ardennes in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-08-Subdivision ;
+	lcc-lr:hasTag "FR-08" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ardennes"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Ardennes in the country of France" ;
+	lcc-cr:hasFrenchShortName "Ardennes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Ariège in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-09-Subdivision ;
+	lcc-lr:hasTag "FR-09" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ariège"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Ariège in the country of France" ;
+	lcc-cr:hasFrenchShortName "Ariège"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Aube in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-10-Subdivision ;
+	lcc-lr:hasTag "FR-10" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aube"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Aube in the country of France" ;
+	lcc-cr:hasFrenchShortName "Aube"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-1043-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "l'Île Clipperton"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the territory of l'Île Clipperton in the country of France" ;
+	lcc-cr:hasFrenchShortName "l'Île Clipperton"@fr ;
+	lcc-cr:hasNumericRegionCode "1043" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-1061-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "France métropolitaine "@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the territory of France métropolitaine  in the country of France" ;
+	lcc-cr:hasFrenchShortName "France métropolitaine"@fr ;
+	lcc-cr:hasNumericRegionCode "1061" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Aude in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-11-Subdivision ;
+	lcc-lr:hasTag "FR-11" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aude"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Aude in the country of France" ;
+	lcc-cr:hasFrenchShortName "Aude"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Aveyron in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-12-Subdivision ;
+	lcc-lr:hasTag "FR-12" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aveyron"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Aveyron in the country of France" ;
+	lcc-cr:hasFrenchShortName "Aveyron"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Bouches-du-Rhône in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-13-Subdivision ;
+	lcc-lr:hasTag "FR-13" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bouches-du-Rhône"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Bouches-du-Rhône in the country of France" ;
+	lcc-cr:hasFrenchShortName "Bouches-du-Rhône"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PAC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Calvados in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-14-Subdivision ;
+	lcc-lr:hasTag "FR-14" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Calvados"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Calvados in the country of France" ;
+	lcc-cr:hasFrenchShortName "Calvados"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NOR-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Cantal in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-15-Subdivision ;
+	lcc-lr:hasTag "FR-15" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cantal"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Cantal in the country of France" ;
+	lcc-cr:hasFrenchShortName "Cantal"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-151-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "département métropolitain"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category département métropolitain in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-158-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "département d'outre-mer"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category département d'outre-mer in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Charente in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-16-Subdivision ;
+	lcc-lr:hasTag "FR-16" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Charente"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Charente in the country of France" ;
+	lcc-cr:hasFrenchShortName "Charente"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Charente-Maritime in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-17-Subdivision ;
+	lcc-lr:hasTag "FR-17" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Charente-Maritime"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Charente-Maritime in the country of France" ;
+	lcc-cr:hasFrenchShortName "Charente-Maritime"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Cher in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-18-Subdivision ;
+	lcc-lr:hasTag "FR-18" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cher"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Cher in the country of France" ;
+	lcc-cr:hasFrenchShortName "Cher"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-CVL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Corrèze in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-19-Subdivision ;
+	lcc-lr:hasTag "FR-19" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Corrèze"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Corrèze in the country of France" ;
+	lcc-cr:hasFrenchShortName "Corrèze"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-20R
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-20R-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-20R-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-20R" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the collectivité métropolitaine à statut particulier of Corse in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-20R-Subdivision ;
+	lcc-lr:hasTag "FR-20R" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-20R-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-20R-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Corse"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the collectivité métropolitaine à statut particulier of Corse in the country of France" ;
+	lcc-cr:hasFrenchShortName "Corse"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-475-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Côte-d'Or in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-21-Subdivision ;
+	lcc-lr:hasTag "FR-21" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Côte-d'Or"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Côte-d'Or in the country of France" ;
+	lcc-cr:hasFrenchShortName "Côte-d'Or"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Côtes-d'Armor in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-22-Subdivision ;
+	lcc-lr:hasTag "FR-22" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Côtes-d'Armor"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Côtes-d'Armor in the country of France" ;
+	lcc-cr:hasFrenchShortName "Côtes-d'Armor"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BRE-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Creuse in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-23-Subdivision ;
+	lcc-lr:hasTag "FR-23" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Creuse"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Creuse in the country of France" ;
+	lcc-cr:hasFrenchShortName "Creuse"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Dordogne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-24-Subdivision ;
+	lcc-lr:hasTag "FR-24" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dordogne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Dordogne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Dordogne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-240-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "région métropolitaine"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category région métropolitaine in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Doubs in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-25-Subdivision ;
+	lcc-lr:hasTag "FR-25" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Doubs"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Doubs in the country of France" ;
+	lcc-cr:hasFrenchShortName "Doubs"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Drôme in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-26-Subdivision ;
+	lcc-lr:hasTag "FR-26" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Drôme"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Drôme in the country of France" ;
+	lcc-cr:hasFrenchShortName "Drôme"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Eure in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-27-Subdivision ;
+	lcc-lr:hasTag "FR-27" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eure"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Eure in the country of France" ;
+	lcc-cr:hasFrenchShortName "Eure"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NOR-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-28
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-28-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-28-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Eure-et-Loir in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-28-Subdivision ;
+	lcc-lr:hasTag "FR-28" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-28-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-28-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eure-et-Loir"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Eure-et-Loir in the country of France" ;
+	lcc-cr:hasFrenchShortName "Eure-et-Loir"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-CVL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-29
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-29-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-29-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Finistère in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-29-Subdivision ;
+	lcc-lr:hasTag "FR-29" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-29-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-29-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Finistère"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Finistère in the country of France" ;
+	lcc-cr:hasFrenchShortName "Finistère"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BRE-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-2A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-2A-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-2A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-2A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Corse-du-Sud in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-2A-Subdivision ;
+	lcc-lr:hasTag "FR-2A" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-2A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-2A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Corse-du-Sud"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Corse-du-Sud in the country of France" ;
+	lcc-cr:hasFrenchShortName "Corse-du-Sud"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-20R-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-2B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-2B-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-2B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-2B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haute-Corse in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-2B-Subdivision ;
+	lcc-lr:hasTag "FR-2B" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-2B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-2B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haute-Corse"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haute-Corse in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haute-Corse"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-20R-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Gard in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-30-Subdivision ;
+	lcc-lr:hasTag "FR-30" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gard"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Gard in the country of France" ;
+	lcc-cr:hasFrenchShortName "Gard"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-305-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "dépendance"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category dépendance in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haute-Garonne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-31-Subdivision ;
+	lcc-lr:hasTag "FR-31" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haute-Garonne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haute-Garonne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haute-Garonne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Gers in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-32-Subdivision ;
+	lcc-lr:hasTag "FR-32" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gers"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Gers in the country of France" ;
+	lcc-cr:hasFrenchShortName "Gers"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Gironde in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-33-Subdivision ;
+	lcc-lr:hasTag "FR-33" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gironde"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Gironde in the country of France" ;
+	lcc-cr:hasFrenchShortName "Gironde"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Hérault in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-34-Subdivision ;
+	lcc-lr:hasTag "FR-34" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hérault"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Hérault in the country of France" ;
+	lcc-cr:hasFrenchShortName "Hérault"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-35
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-35-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-35-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Ille-et-Vilaine in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-35-Subdivision ;
+	lcc-lr:hasTag "FR-35" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-35-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-35-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ille-et-Vilaine"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Ille-et-Vilaine in the country of France" ;
+	lcc-cr:hasFrenchShortName "Ille-et-Vilaine"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BRE-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-36
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-36-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-36-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Indre in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-36-Subdivision ;
+	lcc-lr:hasTag "FR-36" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-36-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-36-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Indre"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Indre in the country of France" ;
+	lcc-cr:hasFrenchShortName "Indre"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-CVL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-368-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "collectivité d'outre-mer"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category collectivité d'outre-mer in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-37
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-37-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-37-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Indre-et-Loire in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-37-Subdivision ;
+	lcc-lr:hasTag "FR-37" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-37-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-37-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Indre-et-Loire"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Indre-et-Loire in the country of France" ;
+	lcc-cr:hasFrenchShortName "Indre-et-Loire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-CVL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-38
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-38-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-38-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Isère in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-38-Subdivision ;
+	lcc-lr:hasTag "FR-38" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-38-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-38-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isère"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Isère in the country of France" ;
+	lcc-cr:hasFrenchShortName "Isère"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-39
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-39-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-39-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Jura in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-39-Subdivision ;
+	lcc-lr:hasTag "FR-39" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-39-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-39-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jura"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Jura in the country of France" ;
+	lcc-cr:hasFrenchShortName "Jura"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-40
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-40-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-40-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Landes in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-40-Subdivision ;
+	lcc-lr:hasTag "FR-40" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-40-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-40-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Landes"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Landes in the country of France" ;
+	lcc-cr:hasFrenchShortName "Landes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Loir-et-Cher in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-41-Subdivision ;
+	lcc-lr:hasTag "FR-41" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loir-et-Cher"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Loir-et-Cher in the country of France" ;
+	lcc-cr:hasFrenchShortName "Loir-et-Cher"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-CVL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Loire in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-42-Subdivision ;
+	lcc-lr:hasTag "FR-42" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loire"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Loire in the country of France" ;
+	lcc-cr:hasFrenchShortName "Loire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-43
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-43-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-43-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haute-Loire in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-43-Subdivision ;
+	lcc-lr:hasTag "FR-43" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-43-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-43-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haute-Loire"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haute-Loire in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haute-Loire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-44
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-44-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-44-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Loire-Atlantique in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-44-Subdivision ;
+	lcc-lr:hasTag "FR-44" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-44-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-44-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loire-Atlantique"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Loire-Atlantique in the country of France" ;
+	lcc-cr:hasFrenchShortName "Loire-Atlantique"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PDL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-45
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-45-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-45-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Loiret in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-45-Subdivision ;
+	lcc-lr:hasTag "FR-45" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-45-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-45-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loiret"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Loiret in the country of France" ;
+	lcc-cr:hasFrenchShortName "Loiret"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-CVL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-46
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-46-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-46-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Lot in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-46-Subdivision ;
+	lcc-lr:hasTag "FR-46" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-46-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-46-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lot"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Lot in the country of France" ;
+	lcc-cr:hasFrenchShortName "Lot"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-466-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "région d'outre-mer"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category région d'outre-mer in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-47
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-47-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-47-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Lot-et-Garonne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-47-Subdivision ;
+	lcc-lr:hasTag "FR-47" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-47-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-47-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lot-et-Garonne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Lot-et-Garonne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Lot-et-Garonne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-475-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "collectivité métropolitaine à statut particulier"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category collectivité métropolitaine à statut particulier in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-48
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-48-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-48-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Lozère in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-48-Subdivision ;
+	lcc-lr:hasTag "FR-48" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-48-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-48-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lozère"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Lozère in the country of France" ;
+	lcc-cr:hasFrenchShortName "Lozère"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-489-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "collectivité d’outre-mer à statut particulier"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category collectivité d’outre-mer à statut particulier in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-49
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-49-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-49-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Maine-et-Loire in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-49-Subdivision ;
+	lcc-lr:hasTag "FR-49" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-49-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-49-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maine-et-Loire"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Maine-et-Loire in the country of France" ;
+	lcc-cr:hasFrenchShortName "Maine-et-Loire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PDL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-490-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "territoire d'outre-mer"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision category territoire d'outre-mer in the country of France" ;
+	.
+
+lcc-3166-2-fr:FR-50
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-50-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-50-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Manche in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-50-Subdivision ;
+	lcc-lr:hasTag "FR-50" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-50-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-50-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manche"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Manche in the country of France" ;
+	lcc-cr:hasFrenchShortName "Manche"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NOR-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-51
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-51-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-51-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Marne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-51-Subdivision ;
+	lcc-lr:hasTag "FR-51" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-51-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-51-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Marne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Marne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-52
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-52-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-52-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haute-Marne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-52-Subdivision ;
+	lcc-lr:hasTag "FR-52" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-52-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-52-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haute-Marne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haute-Marne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haute-Marne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-53
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-53-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-53-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Mayenne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-53-Subdivision ;
+	lcc-lr:hasTag "FR-53" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-53-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-53-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mayenne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Mayenne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Mayenne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PDL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-54
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-54-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-54-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-54" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Meurthe-et-Moselle in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-54-Subdivision ;
+	lcc-lr:hasTag "FR-54" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-54-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-54-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Meurthe-et-Moselle"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Meurthe-et-Moselle in the country of France" ;
+	lcc-cr:hasFrenchShortName "Meurthe-et-Moselle"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-55
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-55-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-55-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Meuse in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-55-Subdivision ;
+	lcc-lr:hasTag "FR-55" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-55-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-55-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Meuse"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Meuse in the country of France" ;
+	lcc-cr:hasFrenchShortName "Meuse"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-56
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-56-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-56-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Morbihan in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-56-Subdivision ;
+	lcc-lr:hasTag "FR-56" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-56-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-56-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Morbihan"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Morbihan in the country of France" ;
+	lcc-cr:hasFrenchShortName "Morbihan"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BRE-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-57
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-57-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-57-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Moselle in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-57-Subdivision ;
+	lcc-lr:hasTag "FR-57" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-57-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-57-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moselle"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Moselle in the country of France" ;
+	lcc-cr:hasFrenchShortName "Moselle"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-58
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-58-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-58-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-58" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Nièvre in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-58-Subdivision ;
+	lcc-lr:hasTag "FR-58" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-58-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-58-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nièvre"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Nièvre in the country of France" ;
+	lcc-cr:hasFrenchShortName "Nièvre"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-59
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-59-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-59-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Nord in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-59-Subdivision ;
+	lcc-lr:hasTag "FR-59" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-59-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-59-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nord"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Nord in the country of France" ;
+	lcc-cr:hasFrenchShortName "Nord"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-HDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-60
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-60-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-60-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-60" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Oise in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-60-Subdivision ;
+	lcc-lr:hasTag "FR-60" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-60-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-60-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oise"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Oise in the country of France" ;
+	lcc-cr:hasFrenchShortName "Oise"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-HDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-61
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-61-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-61-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Orne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-61-Subdivision ;
+	lcc-lr:hasTag "FR-61" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-61-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-61-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Orne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Orne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Orne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NOR-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-62
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-62-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-62-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-62" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Pas-de-Calais in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-62-Subdivision ;
+	lcc-lr:hasTag "FR-62" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-62-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-62-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pas-de-Calais"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Pas-de-Calais in the country of France" ;
+	lcc-cr:hasFrenchShortName "Pas-de-Calais"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-HDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-63
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-63-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-63-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Puy-de-Dôme in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-63-Subdivision ;
+	lcc-lr:hasTag "FR-63" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-63-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-63-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Puy-de-Dôme"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Puy-de-Dôme in the country of France" ;
+	lcc-cr:hasFrenchShortName "Puy-de-Dôme"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-64
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-64-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-64-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-64" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Pyrénées-Atlantiques in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-64-Subdivision ;
+	lcc-lr:hasTag "FR-64" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-64-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-64-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pyrénées-Atlantiques"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Pyrénées-Atlantiques in the country of France" ;
+	lcc-cr:hasFrenchShortName "Pyrénées-Atlantiques"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-65
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-65-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-65-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-65" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Hautes-Pyrénées in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-65-Subdivision ;
+	lcc-lr:hasTag "FR-65" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-65-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-65-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hautes-Pyrénées"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Hautes-Pyrénées in the country of France" ;
+	lcc-cr:hasFrenchShortName "Hautes-Pyrénées"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-66
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-66-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-66-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-66" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Pyrénées-Orientales in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-66-Subdivision ;
+	lcc-lr:hasTag "FR-66" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-66-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-66-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pyrénées-Orientales"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Pyrénées-Orientales in the country of France" ;
+	lcc-cr:hasFrenchShortName "Pyrénées-Orientales"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-67
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-67-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-67-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Bas-Rhin in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-67-Subdivision ;
+	lcc-lr:hasTag "FR-67" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-67-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-67-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bas-Rhin"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Bas-Rhin in the country of France" ;
+	lcc-cr:hasFrenchShortName "Bas-Rhin"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-68
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-68-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-68-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-68" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haut-Rhin in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-68-Subdivision ;
+	lcc-lr:hasTag "FR-68" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-68-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-68-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haut-Rhin"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haut-Rhin in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haut-Rhin"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-69
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-69-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-69-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-69" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Rhône in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-69-Subdivision ;
+	lcc-lr:hasTag "FR-69" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-69-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-69-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rhône"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Rhône in the country of France" ;
+	lcc-cr:hasFrenchShortName "Rhône"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-70
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-70-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-70-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-70" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haute-Saône in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-70-Subdivision ;
+	lcc-lr:hasTag "FR-70" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-70-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-70-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haute-Saône"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haute-Saône in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haute-Saône"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-71
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-71-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-71-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Saône-et-Loire in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-71-Subdivision ;
+	lcc-lr:hasTag "FR-71" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-71-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-71-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saône-et-Loire"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Saône-et-Loire in the country of France" ;
+	lcc-cr:hasFrenchShortName "Saône-et-Loire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-72
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-72-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-72-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Sarthe in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-72-Subdivision ;
+	lcc-lr:hasTag "FR-72" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-72-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-72-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sarthe"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Sarthe in the country of France" ;
+	lcc-cr:hasFrenchShortName "Sarthe"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PDL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-73
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-73-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-73-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-73" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Savoie in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-73-Subdivision ;
+	lcc-lr:hasTag "FR-73" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-73-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-73-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Savoie"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Savoie in the country of France" ;
+	lcc-cr:hasFrenchShortName "Savoie"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-74
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-74-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-74-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-74" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haute-Savoie in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-74-Subdivision ;
+	lcc-lr:hasTag "FR-74" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-74-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-74-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haute-Savoie"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haute-Savoie in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haute-Savoie"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-ARA-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-75
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-75-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-75-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-75" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Paris in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-75-Subdivision ;
+	lcc-lr:hasTag "FR-75" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-75-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-75-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paris"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Paris in the country of France" ;
+	lcc-cr:hasFrenchShortName "Paris"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-76
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-76-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-76-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-76" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Seine-Maritime in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-76-Subdivision ;
+	lcc-lr:hasTag "FR-76" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-76-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-76-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Seine-Maritime"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Seine-Maritime in the country of France" ;
+	lcc-cr:hasFrenchShortName "Seine-Maritime"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NOR-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-77
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-77-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-77-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-77" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Seine-et-Marne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-77-Subdivision ;
+	lcc-lr:hasTag "FR-77" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-77-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-77-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Seine-et-Marne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Seine-et-Marne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Seine-et-Marne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-78
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-78-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-78-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-78" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Yvelines in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-78-Subdivision ;
+	lcc-lr:hasTag "FR-78" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-78-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-78-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yvelines"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Yvelines in the country of France" ;
+	lcc-cr:hasFrenchShortName "Yvelines"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-79
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-79-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-79-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-79" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Deux-Sèvres in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-79-Subdivision ;
+	lcc-lr:hasTag "FR-79" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-79-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-79-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Deux-Sèvres"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Deux-Sèvres in the country of France" ;
+	lcc-cr:hasFrenchShortName "Deux-Sèvres"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-80
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-80-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-80-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-80" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Somme in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-80-Subdivision ;
+	lcc-lr:hasTag "FR-80" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-80-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-80-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Somme"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Somme in the country of France" ;
+	lcc-cr:hasFrenchShortName "Somme"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-HDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-81
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-81-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-81-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Tarn in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-81-Subdivision ;
+	lcc-lr:hasTag "FR-81" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-81-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-81-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarn"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Tarn in the country of France" ;
+	lcc-cr:hasFrenchShortName "Tarn"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-82
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-82-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-82-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-82" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Tarn-et-Garonne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-82-Subdivision ;
+	lcc-lr:hasTag "FR-82" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-82-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-82-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarn-et-Garonne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Tarn-et-Garonne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Tarn-et-Garonne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-83
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-83-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-83-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-83" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Var in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-83-Subdivision ;
+	lcc-lr:hasTag "FR-83" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-83-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-83-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Var"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Var in the country of France" ;
+	lcc-cr:hasFrenchShortName "Var"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PAC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-84
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-84-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-84-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-84" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Vaucluse in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-84-Subdivision ;
+	lcc-lr:hasTag "FR-84" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-84-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-84-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vaucluse"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Vaucluse in the country of France" ;
+	lcc-cr:hasFrenchShortName "Vaucluse"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PAC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-85
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-85-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-85-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-85" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Vendée in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-85-Subdivision ;
+	lcc-lr:hasTag "FR-85" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-85-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-85-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vendée"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Vendée in the country of France" ;
+	lcc-cr:hasFrenchShortName "Vendée"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-PDL-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-86
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-86-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-86-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-86" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Vienne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-86-Subdivision ;
+	lcc-lr:hasTag "FR-86" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-86-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-86-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vienne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Vienne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Vienne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-87
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-87-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-87-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-87" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Haute-Vienne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-87-Subdivision ;
+	lcc-lr:hasTag "FR-87" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-87-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-87-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haute-Vienne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Haute-Vienne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Haute-Vienne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-88
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-88-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-88-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-88" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Vosges in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-88-Subdivision ;
+	lcc-lr:hasTag "FR-88" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-88-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-88-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vosges"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Vosges in the country of France" ;
+	lcc-cr:hasFrenchShortName "Vosges"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-89
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-89-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-89-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-89" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Yonne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-89-Subdivision ;
+	lcc-lr:hasTag "FR-89" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-89-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-89-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yonne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Yonne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Yonne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-90
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-90-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-90-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-90" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Territoire de Belfort in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-90-Subdivision ;
+	lcc-lr:hasTag "FR-90" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-90-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-90-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Territoire de Belfort"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Territoire de Belfort in the country of France" ;
+	lcc-cr:hasFrenchShortName "Territoire de Belfort"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-BFC-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-91
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-91-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-91-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-91" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Essonne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-91-Subdivision ;
+	lcc-lr:hasTag "FR-91" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-91-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-91-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Essonne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Essonne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Essonne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-92
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-92-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-92-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-92" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Hauts-de-Seine in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-92-Subdivision ;
+	lcc-lr:hasTag "FR-92" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-92-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-92-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hauts-de-Seine"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Hauts-de-Seine in the country of France" ;
+	lcc-cr:hasFrenchShortName "Hauts-de-Seine"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-93
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-93-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-93-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-93" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Seine-Saint-Denis in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-93-Subdivision ;
+	lcc-lr:hasTag "FR-93" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-93-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-93-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Seine-Saint-Denis"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Seine-Saint-Denis in the country of France" ;
+	lcc-cr:hasFrenchShortName "Seine-Saint-Denis"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-94
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-94-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-94-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-94" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Val-de-Marne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-94-Subdivision ;
+	lcc-lr:hasTag "FR-94" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-94-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-94-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Val-de-Marne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Val-de-Marne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Val-de-Marne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-95
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-95-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-95-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-95" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département métropolitain of Val-d'Oise in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-95-Subdivision ;
+	lcc-lr:hasTag "FR-95" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-95-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-95-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Val-d'Oise"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département métropolitain of Val-d'Oise in the country of France" ;
+	lcc-cr:hasFrenchShortName "Val-d'Oise"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-151-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-971
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-971-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-971-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-971" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département d'outre-mer of Guadeloupe in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-971-Subdivision ;
+	lcc-lr:hasTag "FR-971" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-971-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-971-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guadeloupe"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département d'outre-mer of Guadeloupe in the country of France" ;
+	lcc-cr:hasFrenchShortName "Guadeloupe"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-158-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GP-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-972
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-972-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-972-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-972" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département d'outre-mer of Martinique in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-972-Subdivision ;
+	lcc-lr:hasTag "FR-972" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-972-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-972-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Martinique"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département d'outre-mer of Martinique in the country of France" ;
+	lcc-cr:hasFrenchShortName "Martinique"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-158-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-MQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-973
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-973-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-973-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-973" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département d'outre-mer of Guyane (française) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-973-Subdivision ;
+	lcc-lr:hasTag "FR-973" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-973-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-973-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guyane (française)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département d'outre-mer of Guyane (française) in the country of France" ;
+	lcc-cr:hasFrenchShortName "Guyane (française)"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-158-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-GF-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-974
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-974-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-974-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-974" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département d'outre-mer of La Réunion in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-974-Subdivision ;
+	lcc-lr:hasTag "FR-974" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-974-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-974-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Réunion"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département d'outre-mer of La Réunion in the country of France" ;
+	lcc-cr:hasFrenchShortName "La Réunion"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-158-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-RE-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-976
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-976-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-976-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-976" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the département d'outre-mer of Mayotte in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-976-Subdivision ;
+	lcc-lr:hasTag "FR-976" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-976-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-976-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mayotte"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the département d'outre-mer of Mayotte in the country of France" ;
+	lcc-cr:hasFrenchShortName "Mayotte"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-158-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-fr:FR-YT-Subdivision ;
+	.
+
+lcc-3166-2-fr:FR-ARA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-ARA-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-ARA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-ARA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Auvergne-Rhône-Alpes in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-ARA-Subdivision ;
+	lcc-lr:hasTag "FR-ARA" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-ARA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-ARA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Auvergne-Rhône-Alpes"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Auvergne-Rhône-Alpes in the country of France" ;
+	lcc-cr:hasFrenchShortName "Auvergne-Rhône-Alpes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-BFC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-BFC-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-BFC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-BFC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Bourgogne-Franche-Comté in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-BFC-Subdivision ;
+	lcc-lr:hasTag "FR-BFC" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-BFC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-BFC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bourgogne-Franche-Comté"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Bourgogne-Franche-Comté in the country of France" ;
+	lcc-cr:hasFrenchShortName "Bourgogne-Franche-Comté"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-BL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-BL-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-BL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the collectivité d'outre-mer of Saint-Barthélemy (see also separate country code entry under BL) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-BL-Subdivision ;
+	lcc-lr:hasTag "FR-BL" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-BL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-BL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:SaintBarthelemy ;
+	rdfs:label "Saint-Barthélemy (see also separate country code entry under BL)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the collectivité d'outre-mer of Saint-Barthélemy (see also separate country code entry under BL) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-368-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-BRE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-BRE-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-BRE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-BRE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Bretagne in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-BRE-Subdivision ;
+	lcc-lr:hasTag "FR-BRE" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-BRE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-BRE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bretagne"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Bretagne in the country of France" ;
+	lcc-cr:hasFrenchShortName "Bretagne"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-CP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-CP-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-CP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-CP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the dépendance of Clipperton in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-CP-Subdivision ;
+	lcc-lr:hasTag "FR-CP" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-CP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-CP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Clipperton"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the dépendance of Clipperton in the country of France" ;
+	lcc-cr:hasFrenchShortName "Clipperton"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-305-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-CVL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-CVL-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-CVL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-CVL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Centre-Val de Loire in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-CVL-Subdivision ;
+	lcc-lr:hasTag "FR-CVL" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-CVL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-CVL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centre-Val de Loire"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Centre-Val de Loire in the country of France" ;
+	lcc-cr:hasFrenchShortName "Centre-Val de Loire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-GES
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-GES-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-GES-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-GES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Grand-Est in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-GES-Subdivision ;
+	lcc-lr:hasTag "FR-GES" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-GES-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-GES-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand-Est"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Grand-Est in the country of France" ;
+	lcc-cr:hasFrenchShortName "Grand-Est"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-GF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-GF-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-GF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-GF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région d'outre-mer of Guyane (française) (see also separate country code entry under GF) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-GF-Subdivision ;
+	lcc-lr:hasTag "FR-GF" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-GF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-GF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:FrenchGuiana ;
+	rdfs:label "Guyane (française) (see also separate country code entry under GF)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région d'outre-mer of Guyane (française) (see also separate country code entry under GF) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-466-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-GP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-GP-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-GP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-GP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région d'outre-mer of Guadeloupe (see also separate country code entry under GP) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-GP-Subdivision ;
+	lcc-lr:hasTag "FR-GP" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-GP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-GP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Guadeloupe ;
+	rdfs:label "Guadeloupe (see also separate country code entry under GP)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région d'outre-mer of Guadeloupe (see also separate country code entry under GP) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-466-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-HDF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-HDF-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-HDF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-HDF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Hauts-de-France in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-HDF-Subdivision ;
+	lcc-lr:hasTag "FR-HDF" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-HDF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-HDF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hauts-de-France"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Hauts-de-France in the country of France" ;
+	lcc-cr:hasFrenchShortName "Hauts-de-France"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-IDF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-IDF-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-IDF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-IDF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Île-de-France in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-IDF-Subdivision ;
+	lcc-lr:hasTag "FR-IDF" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-IDF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-IDF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Île-de-France"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Île-de-France in the country of France" ;
+	lcc-cr:hasFrenchShortName "Île-de-France"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-MF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-MF-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-MF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-MF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the collectivité d'outre-mer of Saint-Martin (see also separate country code entry under MF) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-MF-Subdivision ;
+	lcc-lr:hasTag "FR-MF" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-MF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-MF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:SaintMartin ;
+	rdfs:label "Saint-Martin (see also separate country code entry under MF)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the collectivité d'outre-mer of Saint-Martin (see also separate country code entry under MF) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-368-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-MQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-MQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-MQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-MQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région d'outre-mer of Martinique (see also separate country code entry under MQ) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-MQ-Subdivision ;
+	lcc-lr:hasTag "FR-MQ" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-MQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-MQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Martinique ;
+	rdfs:label "Martinique (see also separate country code entry under MQ)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région d'outre-mer of Martinique (see also separate country code entry under MQ) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-466-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-NAQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-NAQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-NAQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-NAQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Nouvelle-Aquitaine in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	lcc-lr:hasTag "FR-NAQ" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-NAQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nouvelle-Aquitaine"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Nouvelle-Aquitaine in the country of France" ;
+	lcc-cr:hasFrenchShortName "Nouvelle-Aquitaine"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-NC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-NC-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-NC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-NC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the collectivité d’outre-mer à statut particulier of Nouvelle-Calédonie (see also separate country code entry under NC) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-NC-Subdivision ;
+	lcc-lr:hasTag "FR-NC" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-NC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-NC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:NewCaledonia ;
+	rdfs:label "Nouvelle-Calédonie (see also separate country code entry under NC)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the collectivité d’outre-mer à statut particulier of Nouvelle-Calédonie (see also separate country code entry under NC) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-489-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-NOR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-NOR-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-NOR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-NOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Normandie in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-NOR-Subdivision ;
+	lcc-lr:hasTag "FR-NOR" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-NOR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-NOR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Normandie"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Normandie in the country of France" ;
+	lcc-cr:hasFrenchShortName "Normandie"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-OCC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-OCC-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-OCC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-OCC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Occitanie in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-OCC-Subdivision ;
+	lcc-lr:hasTag "FR-OCC" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-OCC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-OCC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Occitanie"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Occitanie in the country of France" ;
+	lcc-cr:hasFrenchShortName "Occitanie"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-PAC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PAC-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-PAC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-PAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Provence-Alpes-Côte-d’Azur in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-PAC-Subdivision ;
+	lcc-lr:hasTag "FR-PAC" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-PAC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-PAC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Provence-Alpes-Côte-d’Azur"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Provence-Alpes-Côte-d’Azur in the country of France" ;
+	lcc-cr:hasFrenchShortName "Provence-Alpes-Côte-d’Azur"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-PDL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PDL-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-PDL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-PDL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région métropolitaine of Pays-de-la-Loire in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-PDL-Subdivision ;
+	lcc-lr:hasTag "FR-PDL" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-PDL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-PDL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pays-de-la-Loire"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région métropolitaine of Pays-de-la-Loire in the country of France" ;
+	lcc-cr:hasFrenchShortName "Pays-de-la-Loire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-240-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-PF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PF-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-PF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-PF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the collectivité d'outre-mer of Polynésie française (see also separate country code entry under PF) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-PF-Subdivision ;
+	lcc-lr:hasTag "FR-PF" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-PF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-PF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:FrenchPolynesia ;
+	rdfs:label "Polynésie française (see also separate country code entry under PF)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the collectivité d'outre-mer of Polynésie française (see also separate country code entry under PF) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-368-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-PM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PM-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-PM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-PM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the collectivité d'outre-mer of Saint-Pierre-et-Miquelon (see also separate country code entry under PM) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-PM-Subdivision ;
+	lcc-lr:hasTag "FR-PM" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-PM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-PM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:SaintPierreAndMiquelon ;
+	rdfs:label "Saint-Pierre-et-Miquelon (see also separate country code entry under PM)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the collectivité d'outre-mer of Saint-Pierre-et-Miquelon (see also separate country code entry under PM) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-368-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-RE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-RE-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-RE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-RE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région d'outre-mer of La Réunion (see also separate country code entry under RE) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-RE-Subdivision ;
+	lcc-lr:hasTag "FR-RE" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-RE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-RE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Reunion ;
+	rdfs:label "La Réunion (see also separate country code entry under RE)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région d'outre-mer of La Réunion (see also separate country code entry under RE) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-466-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-TF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-TF-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-TF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-TF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the territoire d'outre-mer of Terres australes françaises (see also separate country code entry under TF) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-TF-Subdivision ;
+	lcc-lr:hasTag "FR-TF" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-TF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-TF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:FrenchSouthernTerritories ;
+	rdfs:label "Terres australes françaises (see also separate country code entry under TF)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the territoire d'outre-mer of Terres australes françaises (see also separate country code entry under TF) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-490-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-WF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-WF-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-WF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-WF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the collectivité d'outre-mer of Wallis-et-Futuna (see also separate country code entry under WF) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-WF-Subdivision ;
+	lcc-lr:hasTag "FR-WF" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-WF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-WF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:WallisAndFutuna ;
+	rdfs:label "Wallis-et-Futuna (see also separate country code entry under WF)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the collectivité d'outre-mer of Wallis-et-Futuna (see also separate country code entry under WF) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-368-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:FR-YT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-YT-RegionIdentifier ;
+	.
+
+lcc-3166-2-fr:FR-YT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FR-YT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "subdivision code for the région d'outre-mer of Mayotte (see also separate country code entry under YT) in the country of France" ;
+	lcc-lr:denotes lcc-3166-2-fr:FR-YT-Subdivision ;
+	lcc-lr:hasTag "FR-YT" ;
+	lcc-lr:identifies lcc-3166-2-fr:FR-YT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fr:FR-YT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Mayotte ;
+	rdfs:label "Mayotte (see also separate country code entry under YT)"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/> ;
+	skos:definition "the région d'outre-mer of Mayotte (see also separate country code entry under YT) in the country of France" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-fr:FR-466-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:France ;
+	.
+
+lcc-3166-2-fr:Finistere
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-29-Subdivision ;
+	.
+
+lcc-3166-2-fr:FranceMetropolitaine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-1061-Territory ;
+	.
+
+lcc-3166-2-fr:Gard
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-30-Subdivision ;
+	.
+
+lcc-3166-2-fr:Gers
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-32-Subdivision ;
+	.
+
+lcc-3166-2-fr:Gironde
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-33-Subdivision ;
+	.
+
+lcc-3166-2-fr:Grand-Est
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-GES-Subdivision ;
+	.
+
+lcc-3166-2-fr:Guadeloupe
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-fr:FR-971-Subdivision ,
+		lcc-3166-2-fr:FR-GP-Subdivision
+		;
+	.
+
+lcc-3166-2-fr:Guyane
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-fr:FR-973-Subdivision ,
+		lcc-3166-2-fr:FR-GF-Subdivision
+		;
+	.
+
+lcc-3166-2-fr:Haut-Rhin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-68-Subdivision ;
+	.
+
+lcc-3166-2-fr:Haute-Corse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-2B-Subdivision ;
+	.
+
+lcc-3166-2-fr:Haute-Garonne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-31-Subdivision ;
+	.
+
+lcc-3166-2-fr:Haute-Loire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-43-Subdivision ;
+	.
+
+lcc-3166-2-fr:Haute-Marne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-52-Subdivision ;
+	.
+
+lcc-3166-2-fr:Haute-Saone
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-70-Subdivision ;
+	.
+
+lcc-3166-2-fr:Haute-Savoie
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-74-Subdivision ;
+	.
+
+lcc-3166-2-fr:Haute-Vienne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-87-Subdivision ;
+	.
+
+lcc-3166-2-fr:Hautes-Alpes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-05-Subdivision ;
+	.
+
+lcc-3166-2-fr:Hautes-Pyrenees
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-65-Subdivision ;
+	.
+
+lcc-3166-2-fr:Hauts-de-France
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-HDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:Hauts-de-Seine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-92-Subdivision ;
+	.
+
+lcc-3166-2-fr:Herault
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-34-Subdivision ;
+	.
+
+lcc-3166-2-fr:Ile-de-France
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-IDF-Subdivision ;
+	.
+
+lcc-3166-2-fr:Ille-et-Vilaine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-35-Subdivision ;
+	.
+
+lcc-3166-2-fr:Indre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-36-Subdivision ;
+	.
+
+lcc-3166-2-fr:Indre-et-Loire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-37-Subdivision ;
+	.
+
+lcc-3166-2-fr:Isere
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-38-Subdivision ;
+	.
+
+lcc-3166-2-fr:Jura
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-39-Subdivision ;
+	.
+
+lcc-3166-2-fr:LIleClipperton
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-1043-Territory ;
+	.
+
+lcc-3166-2-fr:LaReunion
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-fr:FR-974-Subdivision ,
+		lcc-3166-2-fr:FR-RE-Subdivision
+		;
+	.
+
+lcc-3166-2-fr:Landes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-40-Subdivision ;
+	.
+
+lcc-3166-2-fr:Loir-et-Cher
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-41-Subdivision ;
+	.
+
+lcc-3166-2-fr:Loire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-42-Subdivision ;
+	.
+
+lcc-3166-2-fr:Loire-Atlantique
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-44-Subdivision ;
+	.
+
+lcc-3166-2-fr:Loiret
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-45-Subdivision ;
+	.
+
+lcc-3166-2-fr:Lot
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-46-Subdivision ;
+	.
+
+lcc-3166-2-fr:Lot-et-Garonne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-47-Subdivision ;
+	.
+
+lcc-3166-2-fr:Lozere
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-48-Subdivision ;
+	.
+
+lcc-3166-2-fr:Maine-et-Loire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-49-Subdivision ;
+	.
+
+lcc-3166-2-fr:Manche
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-50-Subdivision ;
+	.
+
+lcc-3166-2-fr:Marne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-51-Subdivision ;
+	.
+
+lcc-3166-2-fr:Martinique
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-fr:FR-972-Subdivision ,
+		lcc-3166-2-fr:FR-MQ-Subdivision
+		;
+	.
+
+lcc-3166-2-fr:Mayenne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-53-Subdivision ;
+	.
+
+lcc-3166-2-fr:Mayotte
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-fr:FR-976-Subdivision ,
+		lcc-3166-2-fr:FR-YT-Subdivision
+		;
+	.
+
+lcc-3166-2-fr:Meurthe-et-Moselle
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-54-Subdivision ;
+	.
+
+lcc-3166-2-fr:Meuse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-55-Subdivision ;
+	.
+
+lcc-3166-2-fr:Morbihan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-56-Subdivision ;
+	.
+
+lcc-3166-2-fr:Moselle
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-57-Subdivision ;
+	.
+
+lcc-3166-2-fr:Nievre
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-58-Subdivision ;
+	.
+
+lcc-3166-2-fr:Nord
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-59-Subdivision ;
+	.
+
+lcc-3166-2-fr:Normandie
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-NOR-Subdivision ;
+	.
+
+lcc-3166-2-fr:Nouvelle-Aquitaine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-NAQ-Subdivision ;
+	.
+
+lcc-3166-2-fr:Nouvelle-Caledonie
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-NC-Subdivision ;
+	.
+
+lcc-3166-2-fr:Occitanie
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-OCC-Subdivision ;
+	.
+
+lcc-3166-2-fr:Oise
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-60-Subdivision ;
+	.
+
+lcc-3166-2-fr:Orne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-61-Subdivision ;
+	.
+
+lcc-3166-2-fr:Paris
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-75-Subdivision ;
+	.
+
+lcc-3166-2-fr:Pas-de-Calais
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-62-Subdivision ;
+	.
+
+lcc-3166-2-fr:Pays-de-la-Loire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PDL-Subdivision ;
+	.
+
+lcc-3166-2-fr:PolynesieFrancaise
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PF-Subdivision ;
+	.
+
+lcc-3166-2-fr:Provence-Alpes-Cote-dAzur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PAC-Subdivision ;
+	.
+
+lcc-3166-2-fr:Puy-de-Dome
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-63-Subdivision ;
+	.
+
+lcc-3166-2-fr:Pyrenees-Atlantiques
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-64-Subdivision ;
+	.
+
+lcc-3166-2-fr:Pyrenees-Orientales
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-66-Subdivision ;
+	.
+
+lcc-3166-2-fr:RegionDoutre-mer
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-466-RegionKind ;
+	.
+
+lcc-3166-2-fr:RegionMetropolitaine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-240-RegionKind ;
+	.
+
+lcc-3166-2-fr:Rhone
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-69-Subdivision ;
+	.
+
+lcc-3166-2-fr:Saint-Barthelemy
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-BL-Subdivision ;
+	.
+
+lcc-3166-2-fr:Saint-Martin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-MF-Subdivision ;
+	.
+
+lcc-3166-2-fr:Saint-Pierre-et-Miquelon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-PM-Subdivision ;
+	.
+
+lcc-3166-2-fr:Saone-et-Loire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-71-Subdivision ;
+	.
+
+lcc-3166-2-fr:Sarthe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-72-Subdivision ;
+	.
+
+lcc-3166-2-fr:Savoie
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-73-Subdivision ;
+	.
+
+lcc-3166-2-fr:Seine-Maritime
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-76-Subdivision ;
+	.
+
+lcc-3166-2-fr:Seine-Saint-Denis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-93-Subdivision ;
+	.
+
+lcc-3166-2-fr:Seine-et-Marne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-77-Subdivision ;
+	.
+
+lcc-3166-2-fr:Somme
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-80-Subdivision ;
+	.
+
+lcc-3166-2-fr:Tarn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-81-Subdivision ;
+	.
+
+lcc-3166-2-fr:Tarn-et-Garonne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-82-Subdivision ;
+	.
+
+lcc-3166-2-fr:TerresAustralesFrancaises
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-TF-Subdivision ;
+	.
+
+lcc-3166-2-fr:TerritoireDeBelfort
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-90-Subdivision ;
+	.
+
+lcc-3166-2-fr:TerritoireDoutre-mer
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-490-RegionKind ;
+	.
+
+lcc-3166-2-fr:Val-dOise
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-95-Subdivision ;
+	.
+
+lcc-3166-2-fr:Val-de-Marne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-94-Subdivision ;
+	.
+
+lcc-3166-2-fr:Var
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-83-Subdivision ;
+	.
+
+lcc-3166-2-fr:Vaucluse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-84-Subdivision ;
+	.
+
+lcc-3166-2-fr:Vendee
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-85-Subdivision ;
+	.
+
+lcc-3166-2-fr:Vienne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-86-Subdivision ;
+	.
+
+lcc-3166-2-fr:Vosges
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-88-Subdivision ;
+	.
+
+lcc-3166-2-fr:Wallis-et-Futuna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-WF-Subdivision ;
+	.
+
+lcc-3166-2-fr:Yonne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-89-Subdivision ;
+	.
+
+lcc-3166-2-fr:Yvelines
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-fr:FR-78-Subdivision ;
+	.
+

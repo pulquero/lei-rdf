@@ -1,0 +1,512 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-al: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Albania Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-al" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Albania, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AL.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	.
+
+lcc-3166-2-al:AL-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Berat in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-01-Subdivision ;
+	lcc-lr:hasTag "AL-01" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Berat"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Berat in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Berat"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Durrës in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-02-Subdivision ;
+	lcc-lr:hasTag "AL-02" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Durrës"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Durrës in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Durrës"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Elbasan in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-03-Subdivision ;
+	lcc-lr:hasTag "AL-03" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Elbasan"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Elbasan in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Elbasan"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Fier in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-04-Subdivision ;
+	lcc-lr:hasTag "AL-04" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fier"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Fier in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Fier"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Gjirokastër in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-05-Subdivision ;
+	lcc-lr:hasTag "AL-05" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gjirokastër"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Gjirokastër in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Gjirokastër"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Korçë in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-06-Subdivision ;
+	lcc-lr:hasTag "AL-06" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Korçë"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Korçë in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Korçë"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Kukës in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-07-Subdivision ;
+	lcc-lr:hasTag "AL-07" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kukës"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Kukës in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Kukës"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Lezhë in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-08-Subdivision ;
+	lcc-lr:hasTag "AL-08" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lezhë"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Lezhë in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Lezhë"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Dibër in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-09-Subdivision ;
+	lcc-lr:hasTag "AL-09" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dibër"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Dibër in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Dibër"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Shkodër in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-10-Subdivision ;
+	lcc-lr:hasTag "AL-10" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shkodër"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Shkodër in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Shkodër"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Tiranë in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-11-Subdivision ;
+	lcc-lr:hasTag "AL-11" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tiranë"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Tiranë in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Tiranë"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-al:AL-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AL-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision code for the qark of Vlorë in the country of Albania" ;
+	lcc-lr:denotes lcc-3166-2-al:AL-12-Subdivision ;
+	lcc-lr:hasTag "AL-12" ;
+	lcc-lr:identifies lcc-3166-2-al:AL-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-al:AL-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vlorë"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "the qark of Vlorë in the country of Albania" ;
+	lcc-cr:hasLocalShortName "Vlorë"@sq ;
+	lcc-cr:isClassifiedBy lcc-3166-2-al:AL-322-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Albania ;
+	.
+
+lcc-3166-2-al:AL-322-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "qark"@sq ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/> ;
+	skos:definition "subdivision category qark in the country of Albania" ;
+	.
+
+lcc-3166-2-al:Berat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-01-Subdivision ;
+	.
+
+lcc-3166-2-al:Diber
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-09-Subdivision ;
+	.
+
+lcc-3166-2-al:Durres
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-02-Subdivision ;
+	.
+
+lcc-3166-2-al:Elbasan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-03-Subdivision ;
+	.
+
+lcc-3166-2-al:Fier
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-04-Subdivision ;
+	.
+
+lcc-3166-2-al:Gjirokaster
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-05-Subdivision ;
+	.
+
+lcc-3166-2-al:Korce
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-06-Subdivision ;
+	.
+
+lcc-3166-2-al:Kukes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-07-Subdivision ;
+	.
+
+lcc-3166-2-al:Lezhe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-08-Subdivision ;
+	.
+
+lcc-3166-2-al:Qark
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-322-RegionKind ;
+	.
+
+lcc-3166-2-al:Shkoder
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-10-Subdivision ;
+	.
+
+lcc-3166-2-al:Tirane
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-11-Subdivision ;
+	.
+
+lcc-3166-2-al:Vlore
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-al:AL-12-Subdivision ;
+	.
+

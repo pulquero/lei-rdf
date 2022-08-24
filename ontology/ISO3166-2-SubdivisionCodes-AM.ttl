@@ -1,0 +1,490 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-am: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Armenia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-am" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Armenia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	.
+
+lcc-3166-2-am:AM-106-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "marz"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision category marz in the country of Armenia" ;
+	.
+
+lcc-3166-2-am:AM-189-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "k'aġak'"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision category k'aġak' in the country of Armenia" ;
+	.
+
+lcc-3166-2-am:AM-AG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-AG-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-AG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-AG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Aragac̣otn in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-AG-Subdivision ;
+	lcc-lr:hasTag "AM-AG" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-AG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-AG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aragac̣otn"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Aragac̣otn in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Aragac̣otn"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-AR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-AR-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-AR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Ararat in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-AR-Subdivision ;
+	lcc-lr:hasTag "AM-AR" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-AR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-AR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ararat"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Ararat in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Ararat"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-AV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-AV-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-AV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-AV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Armavir in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-AV-Subdivision ;
+	lcc-lr:hasTag "AM-AV" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-AV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-AV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Armavir"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Armavir in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Armavir"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-ER
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-ER-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-ER-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-ER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the k'aġak' of Erevan in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-ER-Subdivision ;
+	lcc-lr:hasTag "AM-ER" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-ER-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-ER-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Erevan"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the k'aġak' of Erevan in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Erevan"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-189-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-GR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-GR-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-GR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Geġark'unik' in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-GR-Subdivision ;
+	lcc-lr:hasTag "AM-GR" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-GR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-GR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Geġark'unik'"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Geġark'unik' in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Geġark'unik'"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-KT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-KT-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-KT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-KT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Kotayk' in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-KT-Subdivision ;
+	lcc-lr:hasTag "AM-KT" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-KT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-KT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kotayk'"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Kotayk' in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Kotayk'"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-LO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-LO-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-LO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Loṙi in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-LO-Subdivision ;
+	lcc-lr:hasTag "AM-LO" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-LO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-LO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loṙi"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Loṙi in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Loṙi"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-SH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-SH-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-SH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Širak in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-SH-Subdivision ;
+	lcc-lr:hasTag "AM-SH" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-SH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-SH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Širak"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Širak in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Širak"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-SU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-SU-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-SU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Syunik' in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-SU-Subdivision ;
+	lcc-lr:hasTag "AM-SU" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-SU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-SU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Syunik'"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Syunik' in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Syunik'"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-TV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-TV-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-TV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-TV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Tavuš in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-TV-Subdivision ;
+	lcc-lr:hasTag "AM-TV" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-TV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-TV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tavuš"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Tavuš in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Tavuš"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:AM-VD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-VD-RegionIdentifier ;
+	.
+
+lcc-3166-2-am:AM-VD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AM-VD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "subdivision code for the marz of Vayoć Jor in the country of Armenia" ;
+	lcc-lr:denotes lcc-3166-2-am:AM-VD-Subdivision ;
+	lcc-lr:hasTag "AM-VD" ;
+	lcc-lr:identifies lcc-3166-2-am:AM-VD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-am:AM-VD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vayoć Jor"@hy ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AM/> ;
+	skos:definition "the marz of Vayoć Jor in the country of Armenia" ;
+	lcc-cr:hasLocalShortName "Vayoć Jor"@hy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-am:AM-106-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-2-am:Aragacotn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-AG-Subdivision ;
+	.
+
+lcc-3166-2-am:Ararat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-AR-Subdivision ;
+	.
+
+lcc-3166-2-am:Armavir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-AV-Subdivision ;
+	.
+
+lcc-3166-2-am:Erevan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-ER-Subdivision ;
+	.
+
+lcc-3166-2-am:Gegarkunik
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-GR-Subdivision ;
+	.
+
+lcc-3166-2-am:Kagak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-189-RegionKind ;
+	.
+
+lcc-3166-2-am:Kotayk
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-KT-Subdivision ;
+	.
+
+lcc-3166-2-am:Lori
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-LO-Subdivision ;
+	.
+
+lcc-3166-2-am:Marz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-106-RegionKind ;
+	.
+
+lcc-3166-2-am:Sirak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-SH-Subdivision ;
+	.
+
+lcc-3166-2-am:Syunik
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-SU-Subdivision ;
+	.
+
+lcc-3166-2-am:Tavus
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-TV-Subdivision ;
+	.
+
+lcc-3166-2-am:VayocJor
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-am:AM-VD-Subdivision ;
+	.
+

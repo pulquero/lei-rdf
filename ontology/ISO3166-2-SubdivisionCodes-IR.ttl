@@ -1,0 +1,1215 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ir: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Iran (Islamic Republic of) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ir" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Iran (Islamic Republic of), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	.
+
+lcc-3166-2-ir:Alborz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-30-Subdivision ;
+	.
+
+lcc-3166-2-ir:Ardabil
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-24-Subdivision ;
+	.
+
+lcc-3166-2-ir:Azarbayjan-eGharbi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-04-Subdivision ;
+	.
+
+lcc-3166-2-ir:Azarbayjan-eSharqi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-03-Subdivision ;
+	.
+
+lcc-3166-2-ir:Bushehr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-18-Subdivision ;
+	.
+
+lcc-3166-2-ir:ChaharMahalVaBakhtiari
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-14-Subdivision ;
+	.
+
+lcc-3166-2-ir:Esfahan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-10-Subdivision ;
+	.
+
+lcc-3166-2-ir:Fars
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-07-Subdivision ;
+	.
+
+lcc-3166-2-ir:Gilan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-01-Subdivision ;
+	.
+
+lcc-3166-2-ir:Golestan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-27-Subdivision ;
+	.
+
+lcc-3166-2-ir:Hamadan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-13-Subdivision ;
+	.
+
+lcc-3166-2-ir:Hormozgan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-22-Subdivision ;
+	.
+
+lcc-3166-2-ir:IR-00
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-00-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-00-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-00" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Markazī in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-00-Subdivision ;
+	lcc-lr:hasTag "IR-00" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-00-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-00-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Markazī"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Markazī in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Markazī"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Gīlān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-01-Subdivision ;
+	lcc-lr:hasTag "IR-01" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gīlān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Gīlān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Gīlān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Māzandarān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-02-Subdivision ;
+	lcc-lr:hasTag "IR-02" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Māzandarān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Māzandarān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Māzandarān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Āz̄ārbāyjān-e Shārqī in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-03-Subdivision ;
+	lcc-lr:hasTag "IR-03" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Āz̄ārbāyjān-e Shārqī"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Āz̄ārbāyjān-e Shārqī in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Āz̄ārbāyjān-e Shārqī"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Āz̄ārbāyjān-e Ghārbī in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-04-Subdivision ;
+	lcc-lr:hasTag "IR-04" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Āz̄ārbāyjān-e Ghārbī"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Āz̄ārbāyjān-e Ghārbī in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Āz̄ārbāyjān-e Ghārbī"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Kermānshāh in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-05-Subdivision ;
+	lcc-lr:hasTag "IR-05" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kermānshāh"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Kermānshāh in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Kermānshāh"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Khūzestān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-06-Subdivision ;
+	lcc-lr:hasTag "IR-06" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khūzestān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Khūzestān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Khūzestān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Fārs in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-07-Subdivision ;
+	lcc-lr:hasTag "IR-07" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fārs"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Fārs in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Fārs"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Kermān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-08-Subdivision ;
+	lcc-lr:hasTag "IR-08" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kermān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Kermān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Kermān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Khorāsān-e Raẕavī in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-09-Subdivision ;
+	lcc-lr:hasTag "IR-09" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khorāsān-e Raẕavī"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Khorāsān-e Raẕavī in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Khorāsān-e Raẕavī"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Eşfahān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-10-Subdivision ;
+	lcc-lr:hasTag "IR-10" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eşfahān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Eşfahān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Eşfahān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Sīstān va Balūchestān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-11-Subdivision ;
+	lcc-lr:hasTag "IR-11" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sīstān va Balūchestān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Sīstān va Balūchestān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Sīstān va Balūchestān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Kordestān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-12-Subdivision ;
+	lcc-lr:hasTag "IR-12" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kordestān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Kordestān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Kordestān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Hamadān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-13-Subdivision ;
+	lcc-lr:hasTag "IR-13" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hamadān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Hamadān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Hamadān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Chahār Maḩāl va Bakhtīārī in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-14-Subdivision ;
+	lcc-lr:hasTag "IR-14" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chahār Maḩāl va Bakhtīārī"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Chahār Maḩāl va Bakhtīārī in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Chahār Maḩāl va Bakhtīārī"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Lorestān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-15-Subdivision ;
+	lcc-lr:hasTag "IR-15" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lorestān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Lorestān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Lorestān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Īlām in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-16-Subdivision ;
+	lcc-lr:hasTag "IR-16" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Īlām"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Īlām in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Īlām"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Kohgīlūyeh va Bowyer Aḩmad in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-17-Subdivision ;
+	lcc-lr:hasTag "IR-17" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kohgīlūyeh va Bowyer Aḩmad"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Kohgīlūyeh va Bowyer Aḩmad in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Kohgīlūyeh va Bowyer Aḩmad"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Būshehr in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-18-Subdivision ;
+	lcc-lr:hasTag "IR-18" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Būshehr"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Būshehr in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Būshehr"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Zanjān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-19-Subdivision ;
+	lcc-lr:hasTag "IR-19" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zanjān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Zanjān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Zanjān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Semnān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-20-Subdivision ;
+	lcc-lr:hasTag "IR-20" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Semnān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Semnān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Semnān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Yazd in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-21-Subdivision ;
+	lcc-lr:hasTag "IR-21" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yazd"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Yazd in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Yazd"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Hormozgān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-22-Subdivision ;
+	lcc-lr:hasTag "IR-22" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hormozgān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Hormozgān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Hormozgān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Tehrān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-23-Subdivision ;
+	lcc-lr:hasTag "IR-23" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tehrān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Tehrān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Tehrān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Ardabīl in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-24-Subdivision ;
+	lcc-lr:hasTag "IR-24" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ardabīl"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Ardabīl in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Ardabīl"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Qom in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-25-Subdivision ;
+	lcc-lr:hasTag "IR-25" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qom"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Qom in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Qom"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Qazvīn in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-26-Subdivision ;
+	lcc-lr:hasTag "IR-26" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qazvīn"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Qazvīn in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Qazvīn"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Golestān in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-27-Subdivision ;
+	lcc-lr:hasTag "IR-27" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Golestān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Golestān in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Golestān"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-28
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-28-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-28-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Khorāsān-e Shomālī in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-28-Subdivision ;
+	lcc-lr:hasTag "IR-28" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-28-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-28-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khorāsān-e Shomālī"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Khorāsān-e Shomālī in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Khorāsān-e Shomālī"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-29
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-29-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-29-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Khorāsān-e Jonūbī in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-29-Subdivision ;
+	lcc-lr:hasTag "IR-29" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-29-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-29-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khorāsān-e Jonūbī"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Khorāsān-e Jonūbī in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Khorāsān-e Jonūbī"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-ir:IR-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IR-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision code for the ostān of Alborz in the country of Iran (Islamic Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ir:IR-30-Subdivision ;
+	lcc-lr:hasTag "IR-30" ;
+	lcc-lr:identifies lcc-3166-2-ir:IR-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ir:IR-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alborz"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "the ostān of Alborz in the country of Iran (Islamic Republic of)" ;
+	lcc-cr:hasLocalShortName "Alborz"@fa ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ir:IR-418-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iran ;
+	.
+
+lcc-3166-2-ir:IR-418-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "ostān"@fa ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IR/> ;
+	skos:definition "subdivision category ostān in the country of Iran (Islamic Republic of)" ;
+	.
+
+lcc-3166-2-ir:Ilam
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-16-Subdivision ;
+	.
+
+lcc-3166-2-ir:Kerman
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-08-Subdivision ;
+	.
+
+lcc-3166-2-ir:Kermanshah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-05-Subdivision ;
+	.
+
+lcc-3166-2-ir:Khorasan-eJonubi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-29-Subdivision ;
+	.
+
+lcc-3166-2-ir:Khorasan-eRazavi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-09-Subdivision ;
+	.
+
+lcc-3166-2-ir:Khorasan-eShomali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-28-Subdivision ;
+	.
+
+lcc-3166-2-ir:Khuzestan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-06-Subdivision ;
+	.
+
+lcc-3166-2-ir:KohgiluyehVaBowyerAhmad
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-17-Subdivision ;
+	.
+
+lcc-3166-2-ir:Kordestan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-12-Subdivision ;
+	.
+
+lcc-3166-2-ir:Lorestan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-15-Subdivision ;
+	.
+
+lcc-3166-2-ir:Markazi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-00-Subdivision ;
+	.
+
+lcc-3166-2-ir:Mazandaran
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-02-Subdivision ;
+	.
+
+lcc-3166-2-ir:Ostan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-418-RegionKind ;
+	.
+
+lcc-3166-2-ir:Qazvin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-26-Subdivision ;
+	.
+
+lcc-3166-2-ir:Qom
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-25-Subdivision ;
+	.
+
+lcc-3166-2-ir:Semnan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-20-Subdivision ;
+	.
+
+lcc-3166-2-ir:SistanVaBaluchestan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-11-Subdivision ;
+	.
+
+lcc-3166-2-ir:Tehran
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-23-Subdivision ;
+	.
+
+lcc-3166-2-ir:Yazd
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-21-Subdivision ;
+	.
+
+lcc-3166-2-ir:Zanjan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ir:IR-19-Subdivision ;
+	.
+

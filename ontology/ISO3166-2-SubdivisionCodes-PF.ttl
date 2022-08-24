@@ -1,0 +1,173 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-pf: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for French Polynesia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-pf" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for French Polynesia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PF.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> ;
+	.
+
+lcc-3166-2-pf:ArchipelDeLaSociete
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pf:PF-1196-Territory ;
+	.
+
+lcc-3166-2-pf:LesIlesAustrales
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pf:PF-1013-Territory ;
+	.
+
+lcc-3166-2-pf:LesIlesGambier
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pf:PF-1066-Territory ;
+	.
+
+lcc-3166-2-pf:LesIlesMarquises
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pf:PF-1121-Territory ;
+	.
+
+lcc-3166-2-pf:LesIlesTuamotu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pf:PF-1215-Territory ;
+	.
+
+lcc-3166-2-pf:PF-1013-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "les Îles Australes"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> ;
+	skos:definition "the territory of les Îles Australes in the country of French Polynesia" ;
+	lcc-cr:hasEnglishShortName "Austral Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Australes"@fr ;
+	lcc-cr:hasNumericRegionCode "1013" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchPolynesia ;
+	.
+
+lcc-3166-2-pf:PF-1066-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "les Îles Gambier"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> ;
+	skos:definition "the territory of les Îles Gambier in the country of French Polynesia" ;
+	lcc-cr:hasEnglishShortName "Gambier Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Gambier"@fr ;
+	lcc-cr:hasNumericRegionCode "1066" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchPolynesia ;
+	.
+
+lcc-3166-2-pf:PF-1121-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "les Îles Marquises"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> ;
+	skos:definition "the territory of les Îles Marquises in the country of French Polynesia" ;
+	lcc-cr:hasEnglishShortName "Marquesas Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Marquises"@fr ;
+	lcc-cr:hasNumericRegionCode "1121" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchPolynesia ;
+	.
+
+lcc-3166-2-pf:PF-1196-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Archipel de la Société"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> ;
+	skos:definition "the territory of Archipel de la Société in the country of French Polynesia" ;
+	lcc-cr:hasEnglishShortName "Society Archipelago"@en ;
+	lcc-cr:hasFrenchShortName "Archipel de la Société"@fr ;
+	lcc-cr:hasNumericRegionCode "1196" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchPolynesia ;
+	.
+
+lcc-3166-2-pf:PF-1207-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Tahiti"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> ;
+	skos:definition "the territory of Tahiti in the country of French Polynesia" ;
+	lcc-cr:hasEnglishShortName "Tahiti"@en ;
+	lcc-cr:hasFrenchShortName "Tahiti"@fr ;
+	lcc-cr:hasNumericRegionCode "1207" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchPolynesia ;
+	.
+
+lcc-3166-2-pf:PF-1215-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "les Îles Tuamotu"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PF/> ;
+	skos:definition "the territory of les Îles Tuamotu in the country of French Polynesia" ;
+	lcc-cr:hasEnglishShortName "Tuamotu Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Tuamotu"@fr ;
+	lcc-cr:hasNumericRegionCode "1215" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:FrenchPolynesia ;
+	.
+
+lcc-3166-2-pf:Tahiti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pf:PF-1207-Territory ;
+	.
+

@@ -1,0 +1,956 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Tunisia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Tunisia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	.
+
+lcc-3166-2-tn:Beja
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-31-Subdivision ;
+	.
+
+lcc-3166-2-tn:BenArous
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-13-Subdivision ;
+	.
+
+lcc-3166-2-tn:Bizerte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-23-Subdivision ;
+	.
+
+lcc-3166-2-tn:Gabes
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-81-Subdivision ;
+	.
+
+lcc-3166-2-tn:Gafsa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-71-Subdivision ;
+	.
+
+lcc-3166-2-tn:Jendouba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-32-Subdivision ;
+	.
+
+lcc-3166-2-tn:Kairouan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-41-Subdivision ;
+	.
+
+lcc-3166-2-tn:Kasserine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-42-Subdivision ;
+	.
+
+lcc-3166-2-tn:Kebili
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-73-Subdivision ;
+	.
+
+lcc-3166-2-tn:LAriana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-12-Subdivision ;
+	.
+
+lcc-3166-2-tn:LaManouba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-14-Subdivision ;
+	.
+
+lcc-3166-2-tn:LeKef
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-33-Subdivision ;
+	.
+
+lcc-3166-2-tn:Mahdia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-53-Subdivision ;
+	.
+
+lcc-3166-2-tn:Medenine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-82-Subdivision ;
+	.
+
+lcc-3166-2-tn:Monastir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-52-Subdivision ;
+	.
+
+lcc-3166-2-tn:Nabeul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-21-Subdivision ;
+	.
+
+lcc-3166-2-tn:Sfax
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-61-Subdivision ;
+	.
+
+lcc-3166-2-tn:SidiBouzid
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-43-Subdivision ;
+	.
+
+lcc-3166-2-tn:Siliana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-34-Subdivision ;
+	.
+
+lcc-3166-2-tn:Sousse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-51-Subdivision ;
+	.
+
+lcc-3166-2-tn:TN-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Tunis in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-11-Subdivision ;
+	lcc-lr:hasTag "TN-11" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tunis"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Tunis in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Tunis"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of L'Ariana in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-12-Subdivision ;
+	lcc-lr:hasTag "TN-12" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "L'Ariana"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of L'Ariana in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "L'Ariana"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-124-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "wilaya"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision category wilaya in the country of Tunisia" ;
+	.
+
+lcc-3166-2-tn:TN-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Ben Arous in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-13-Subdivision ;
+	lcc-lr:hasTag "TN-13" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ben Arous"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Ben Arous in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Ben Arous"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of La Manouba in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-14-Subdivision ;
+	lcc-lr:hasTag "TN-14" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Manouba"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of La Manouba in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "La Manouba"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Nabeul in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-21-Subdivision ;
+	lcc-lr:hasTag "TN-21" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nabeul"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Nabeul in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Nabeul"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Zaghouan in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-22-Subdivision ;
+	lcc-lr:hasTag "TN-22" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zaghouan"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Zaghouan in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Zaghouan"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Bizerte in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-23-Subdivision ;
+	lcc-lr:hasTag "TN-23" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bizerte"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Bizerte in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Bizerte"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Béja in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-31-Subdivision ;
+	lcc-lr:hasTag "TN-31" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Béja"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Béja in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Béja"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Jendouba in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-32-Subdivision ;
+	lcc-lr:hasTag "TN-32" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jendouba"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Jendouba in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Jendouba"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Le Kef in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-33-Subdivision ;
+	lcc-lr:hasTag "TN-33" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Le Kef"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Le Kef in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Le Kef"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Siliana in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-34-Subdivision ;
+	lcc-lr:hasTag "TN-34" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siliana"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Siliana in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Siliana"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Kairouan in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-41-Subdivision ;
+	lcc-lr:hasTag "TN-41" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kairouan"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Kairouan in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Kairouan"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Kasserine in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-42-Subdivision ;
+	lcc-lr:hasTag "TN-42" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kasserine"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Kasserine in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Kasserine"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-43
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-43-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-43-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Sidi Bouzid in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-43-Subdivision ;
+	lcc-lr:hasTag "TN-43" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-43-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-43-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sidi Bouzid"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Sidi Bouzid in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Sidi Bouzid"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-51
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-51-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-51-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Sousse in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-51-Subdivision ;
+	lcc-lr:hasTag "TN-51" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-51-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-51-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sousse"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Sousse in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Sousse"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-52
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-52-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-52-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Monastir in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-52-Subdivision ;
+	lcc-lr:hasTag "TN-52" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-52-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-52-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monastir"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Monastir in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Monastir"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-53
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-53-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-53-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Mahdia in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-53-Subdivision ;
+	lcc-lr:hasTag "TN-53" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-53-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-53-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mahdia"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Mahdia in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Mahdia"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-61
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-61-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-61-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Sfax in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-61-Subdivision ;
+	lcc-lr:hasTag "TN-61" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-61-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-61-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sfax"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Sfax in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Sfax"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-71
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-71-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-71-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Gafsa in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-71-Subdivision ;
+	lcc-lr:hasTag "TN-71" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-71-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-71-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gafsa"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Gafsa in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Gafsa"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-72
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-72-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-72-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Tozeur in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-72-Subdivision ;
+	lcc-lr:hasTag "TN-72" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-72-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-72-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tozeur"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Tozeur in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Tozeur"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-73
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-73-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-73-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-73" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Kébili in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-73-Subdivision ;
+	lcc-lr:hasTag "TN-73" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-73-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-73-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kébili"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Kébili in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Kébili"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-81
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-81-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-81-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Gabès in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-81-Subdivision ;
+	lcc-lr:hasTag "TN-81" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-81-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-81-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gabès"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Gabès in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Gabès"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-82
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-82-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-82-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-82" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Médenine in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-82-Subdivision ;
+	lcc-lr:hasTag "TN-82" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-82-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-82-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Médenine"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Médenine in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Médenine"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:TN-83
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-83-RegionIdentifier ;
+	.
+
+lcc-3166-2-tn:TN-83-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TN-83" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "subdivision code for the wilaya of Tataouine in the country of Tunisia" ;
+	lcc-lr:denotes lcc-3166-2-tn:TN-83-Subdivision ;
+	lcc-lr:hasTag "TN-83" ;
+	lcc-lr:identifies lcc-3166-2-tn:TN-83-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tn:TN-83-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tataouine"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TN/> ;
+	skos:definition "the wilaya of Tataouine in the country of Tunisia" ;
+	lcc-cr:hasLocalShortName "Tataouine"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tn:TN-124-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-2-tn:Tataouine
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-83-Subdivision ;
+	.
+
+lcc-3166-2-tn:Tozeur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-72-Subdivision ;
+	.
+
+lcc-3166-2-tn:Tunis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-11-Subdivision ;
+	.
+
+lcc-3166-2-tn:Wilaya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-124-RegionKind ;
+	.
+
+lcc-3166-2-tn:Zaghouan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tn:TN-22-Subdivision ;
+	.
+

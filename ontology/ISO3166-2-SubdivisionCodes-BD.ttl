@@ -1,0 +1,2731 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bd: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Bangladesh Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bd" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Bangladesh, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BD.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	.
+
+lcc-3166-2-bd:BD-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Bandarban in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-01-Subdivision ;
+	lcc-lr:hasTag "BD-01" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bandarban"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Bandarban in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Bandarban"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Barguna in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-02-Subdivision ;
+	lcc-lr:hasTag "BD-02" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barguna"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Barguna in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Barguna"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-A-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Bogura in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-03-Subdivision ;
+	lcc-lr:hasTag "BD-03" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bogura"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Bogura in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Bogura"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Brahmanbaria in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-04-Subdivision ;
+	lcc-lr:hasTag "BD-04" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brahmanbaria"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Brahmanbaria in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Brahmanbaria"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Bagerhat in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-05-Subdivision ;
+	lcc-lr:hasTag "BD-05" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bagerhat"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Bagerhat in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Bagerhat"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Barishal in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-06-Subdivision ;
+	lcc-lr:hasTag "BD-06" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barishal"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Barishal in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Barishal"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-A-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Bhola in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-07-Subdivision ;
+	lcc-lr:hasTag "BD-07" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bhola"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Bhola in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Bhola"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-A-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Cumilla in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-08-Subdivision ;
+	lcc-lr:hasTag "BD-08" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cumilla"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Cumilla in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Cumilla"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Chandpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-09-Subdivision ;
+	lcc-lr:hasTag "BD-09" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chandpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Chandpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Chandpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Chattogram in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-10-Subdivision ;
+	lcc-lr:hasTag "BD-10" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chattogram"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Chattogram in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Chattogram"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Cox's Bazar in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-11-Subdivision ;
+	lcc-lr:hasTag "BD-11" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cox's Bazar"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Cox's Bazar in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Cox's Bazar"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Chuadanga in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-12-Subdivision ;
+	lcc-lr:hasTag "BD-12" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chuadanga"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Chuadanga in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Chuadanga"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Dhaka in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-13-Subdivision ;
+	lcc-lr:hasTag "BD-13" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dhaka"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Dhaka in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Dhaka"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Dinajpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-14-Subdivision ;
+	lcc-lr:hasTag "BD-14" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dinajpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Dinajpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Dinajpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-149-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "zila"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision category zila in the country of Bangladesh" ;
+	.
+
+lcc-3166-2-bd:BD-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Faridpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-15-Subdivision ;
+	lcc-lr:hasTag "BD-15" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Faridpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Faridpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Faridpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Feni in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-16-Subdivision ;
+	lcc-lr:hasTag "BD-16" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Feni"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Feni in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Feni"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Gopalganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-17-Subdivision ;
+	lcc-lr:hasTag "BD-17" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gopalganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Gopalganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Gopalganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Gazipur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-18-Subdivision ;
+	lcc-lr:hasTag "BD-18" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gazipur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Gazipur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Gazipur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Gaibandha in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-19-Subdivision ;
+	lcc-lr:hasTag "BD-19" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gaibandha"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Gaibandha in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Gaibandha"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Habiganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-20-Subdivision ;
+	lcc-lr:hasTag "BD-20" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Habiganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Habiganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Habiganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-G-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Jamalpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-21-Subdivision ;
+	lcc-lr:hasTag "BD-21" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jamalpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Jamalpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Jamalpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-H-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Jashore in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-22-Subdivision ;
+	lcc-lr:hasTag "BD-22" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jashore"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Jashore in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Jashore"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Jhenaidah in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-23-Subdivision ;
+	lcc-lr:hasTag "BD-23" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jhenaidah"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Jhenaidah in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Jhenaidah"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Joypurhat in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-24-Subdivision ;
+	lcc-lr:hasTag "BD-24" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Joypurhat"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Joypurhat in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Joypurhat"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Jhalakathi in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-25-Subdivision ;
+	lcc-lr:hasTag "BD-25" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jhalakathi"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Jhalakathi in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Jhalakathi"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-A-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Kishoreganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-26-Subdivision ;
+	lcc-lr:hasTag "BD-26" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kishoreganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Kishoreganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Kishoreganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Khulna in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-27-Subdivision ;
+	lcc-lr:hasTag "BD-27" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khulna"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Khulna in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Khulna"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-274-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "bibhag"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision category bibhag in the country of Bangladesh" ;
+	.
+
+lcc-3166-2-bd:BD-28
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-28-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-28-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Kurigram in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-28-Subdivision ;
+	lcc-lr:hasTag "BD-28" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-28-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-28-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kurigram"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Kurigram in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Kurigram"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-29
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-29-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-29-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Khagrachhari in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-29-Subdivision ;
+	lcc-lr:hasTag "BD-29" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-29-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-29-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khagrachhari"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Khagrachhari in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Khagrachhari"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Kushtia in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-30-Subdivision ;
+	lcc-lr:hasTag "BD-30" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kushtia"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Kushtia in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Kushtia"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Lakshmipur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-31-Subdivision ;
+	lcc-lr:hasTag "BD-31" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lakshmipur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Lakshmipur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Lakshmipur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Lalmonirhat in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-32-Subdivision ;
+	lcc-lr:hasTag "BD-32" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lalmonirhat"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Lalmonirhat in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Lalmonirhat"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Manikganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-33-Subdivision ;
+	lcc-lr:hasTag "BD-33" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manikganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Manikganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Manikganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Mymensingh in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-34-Subdivision ;
+	lcc-lr:hasTag "BD-34" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mymensingh"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Mymensingh in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Mymensingh"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-H-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-35
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-35-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-35-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Munshiganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-35-Subdivision ;
+	lcc-lr:hasTag "BD-35" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-35-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-35-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Munshiganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Munshiganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Munshiganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-36
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-36-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-36-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Madaripur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-36-Subdivision ;
+	lcc-lr:hasTag "BD-36" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-36-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-36-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madaripur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Madaripur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Madaripur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-37
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-37-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-37-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Magura in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-37-Subdivision ;
+	lcc-lr:hasTag "BD-37" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-37-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-37-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Magura"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Magura in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Magura"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-38
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-38-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-38-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Moulvibazar in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-38-Subdivision ;
+	lcc-lr:hasTag "BD-38" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-38-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-38-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moulvibazar"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Moulvibazar in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Moulvibazar"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-G-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-39
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-39-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-39-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Meherpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-39-Subdivision ;
+	lcc-lr:hasTag "BD-39" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-39-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-39-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Meherpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Meherpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Meherpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-40
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-40-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-40-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Narayanganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-40-Subdivision ;
+	lcc-lr:hasTag "BD-40" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-40-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-40-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narayanganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Narayanganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Narayanganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Netrakona in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-41-Subdivision ;
+	lcc-lr:hasTag "BD-41" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Netrakona"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Netrakona in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Netrakona"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-H-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Narsingdi in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-42-Subdivision ;
+	lcc-lr:hasTag "BD-42" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narsingdi"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Narsingdi in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Narsingdi"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-43
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-43-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-43-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Narail in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-43-Subdivision ;
+	lcc-lr:hasTag "BD-43" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-43-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-43-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narail"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Narail in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Narail"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-44
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-44-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-44-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Natore in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-44-Subdivision ;
+	lcc-lr:hasTag "BD-44" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-44-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-44-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Natore"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Natore in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Natore"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-45
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-45-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-45-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Chapai Nawabganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-45-Subdivision ;
+	lcc-lr:hasTag "BD-45" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-45-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-45-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chapai Nawabganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Chapai Nawabganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Chapai Nawabganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-46
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-46-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-46-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Nilphamari in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-46-Subdivision ;
+	lcc-lr:hasTag "BD-46" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-46-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-46-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nilphamari"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Nilphamari in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Nilphamari"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-47
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-47-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-47-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Noakhali in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-47-Subdivision ;
+	lcc-lr:hasTag "BD-47" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-47-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-47-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Noakhali"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Noakhali in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Noakhali"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-48
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-48-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-48-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Naogaon in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-48-Subdivision ;
+	lcc-lr:hasTag "BD-48" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-48-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-48-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Naogaon"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Naogaon in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Naogaon"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-49
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-49-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-49-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Pabna in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-49-Subdivision ;
+	lcc-lr:hasTag "BD-49" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-49-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-49-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pabna"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Pabna in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Pabna"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-50
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-50-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-50-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Pirojpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-50-Subdivision ;
+	lcc-lr:hasTag "BD-50" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-50-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-50-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pirojpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Pirojpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Pirojpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-A-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-51
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-51-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-51-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Patuakhali in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-51-Subdivision ;
+	lcc-lr:hasTag "BD-51" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-51-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-51-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Patuakhali"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Patuakhali in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Patuakhali"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-A-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-52
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-52-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-52-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Panchagarh in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-52-Subdivision ;
+	lcc-lr:hasTag "BD-52" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-52-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-52-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Panchagarh"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Panchagarh in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Panchagarh"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-53
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-53-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-53-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Rajbari in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-53-Subdivision ;
+	lcc-lr:hasTag "BD-53" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-53-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-53-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rajbari"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Rajbari in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Rajbari"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-54
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-54-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-54-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-54" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Rajshahi in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-54-Subdivision ;
+	lcc-lr:hasTag "BD-54" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-54-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-54-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rajshahi"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Rajshahi in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Rajshahi"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-55
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-55-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-55-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Rangpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-55-Subdivision ;
+	lcc-lr:hasTag "BD-55" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-55-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-55-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rangpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Rangpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Rangpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-56
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-56-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-56-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Rangamati in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-56-Subdivision ;
+	lcc-lr:hasTag "BD-56" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-56-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-56-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rangamati"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Rangamati in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Rangamati"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-B-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-57
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-57-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-57-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Sherpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-57-Subdivision ;
+	lcc-lr:hasTag "BD-57" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-57-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-57-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sherpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Sherpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Sherpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-H-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-58
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-58-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-58-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-58" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Satkhira in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-58-Subdivision ;
+	lcc-lr:hasTag "BD-58" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-58-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-58-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Satkhira"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Satkhira in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Satkhira"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-D-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-59
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-59-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-59-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Sirajganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-59-Subdivision ;
+	lcc-lr:hasTag "BD-59" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-59-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-59-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sirajganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Sirajganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Sirajganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-E-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-60
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-60-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-60-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-60" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Sylhet in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-60-Subdivision ;
+	lcc-lr:hasTag "BD-60" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-60-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-60-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sylhet"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Sylhet in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Sylhet"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-G-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-61
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-61-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-61-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Sunamganj in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-61-Subdivision ;
+	lcc-lr:hasTag "BD-61" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-61-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-61-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sunamganj"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Sunamganj in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Sunamganj"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-G-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-62
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-62-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-62-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-62" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Shariatpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-62-Subdivision ;
+	lcc-lr:hasTag "BD-62" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-62-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-62-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shariatpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Shariatpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Shariatpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-63
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-63-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-63-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Tangail in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-63-Subdivision ;
+	lcc-lr:hasTag "BD-63" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-63-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-63-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tangail"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Tangail in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Tangail"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-C-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-64
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-64-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-64-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-64" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the zila of Thakurgaon in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-64-Subdivision ;
+	lcc-lr:hasTag "BD-64" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-64-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-64-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thakurgaon"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the zila of Thakurgaon in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Thakurgaon"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-149-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-bd:BD-F-Subdivision ;
+	.
+
+lcc-3166-2-bd:BD-A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-A-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Barishal in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-A-Subdivision ;
+	lcc-lr:hasTag "BD-A" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barishal"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Barishal in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Barishal"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:BD-B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-B-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Chattogram in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-B-Subdivision ;
+	lcc-lr:hasTag "BD-B" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chattogram"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Chattogram in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Chattogram"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:BD-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Dhaka in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-C-Subdivision ;
+	lcc-lr:hasTag "BD-C" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dhaka"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Dhaka in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Dhaka"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:BD-D
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-D-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-D-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Khulna in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-D-Subdivision ;
+	lcc-lr:hasTag "BD-D" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-D-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-D-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khulna"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Khulna in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Khulna"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:BD-E
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-E-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-E-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Rajshahi in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-E-Subdivision ;
+	lcc-lr:hasTag "BD-E" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-E-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-E-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rajshahi"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Rajshahi in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Rajshahi"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:BD-F
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-F-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-F-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Rangpur in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-F-Subdivision ;
+	lcc-lr:hasTag "BD-F" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-F-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-F-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rangpur"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Rangpur in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Rangpur"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:BD-G
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-G-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-G-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Sylhet in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-G-Subdivision ;
+	lcc-lr:hasTag "BD-G" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-G-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-G-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sylhet"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Sylhet in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Sylhet"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:BD-H
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-H-RegionIdentifier ;
+	.
+
+lcc-3166-2-bd:BD-H-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BD-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "subdivision code for the bibhag of Mymensingh in the country of Bangladesh" ;
+	lcc-lr:denotes lcc-3166-2-bd:BD-H-Subdivision ;
+	lcc-lr:hasTag "BD-H" ;
+	lcc-lr:identifies lcc-3166-2-bd:BD-H-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bd:BD-H-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mymensingh"@bn ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BD/> ;
+	skos:definition "the bibhag of Mymensingh in the country of Bangladesh" ;
+	lcc-cr:hasLocalShortName "Mymensingh"@bn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bd:BD-274-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-2-bd:Bagerhat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-05-Subdivision ;
+	.
+
+lcc-3166-2-bd:Bandarban
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-01-Subdivision ;
+	.
+
+lcc-3166-2-bd:Barguna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-02-Subdivision ;
+	.
+
+lcc-3166-2-bd:Barishal
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-06-Subdivision ,
+		lcc-3166-2-bd:BD-A-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Bhola
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-07-Subdivision ;
+	.
+
+lcc-3166-2-bd:Bibhag
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-274-RegionKind ;
+	.
+
+lcc-3166-2-bd:Bogura
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-03-Subdivision ;
+	.
+
+lcc-3166-2-bd:Brahmanbaria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-04-Subdivision ;
+	.
+
+lcc-3166-2-bd:Chandpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-09-Subdivision ;
+	.
+
+lcc-3166-2-bd:ChapaiNawabganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-45-Subdivision ;
+	.
+
+lcc-3166-2-bd:Chattogram
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-10-Subdivision ,
+		lcc-3166-2-bd:BD-B-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Chuadanga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-12-Subdivision ;
+	.
+
+lcc-3166-2-bd:CoxsBazar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-11-Subdivision ;
+	.
+
+lcc-3166-2-bd:Cumilla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-08-Subdivision ;
+	.
+
+lcc-3166-2-bd:Dhaka
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-13-Subdivision ,
+		lcc-3166-2-bd:BD-C-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Dinajpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-14-Subdivision ;
+	.
+
+lcc-3166-2-bd:Faridpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-15-Subdivision ;
+	.
+
+lcc-3166-2-bd:Feni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-16-Subdivision ;
+	.
+
+lcc-3166-2-bd:Gaibandha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-19-Subdivision ;
+	.
+
+lcc-3166-2-bd:Gazipur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-18-Subdivision ;
+	.
+
+lcc-3166-2-bd:Gopalganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-17-Subdivision ;
+	.
+
+lcc-3166-2-bd:Habiganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-20-Subdivision ;
+	.
+
+lcc-3166-2-bd:Jamalpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-21-Subdivision ;
+	.
+
+lcc-3166-2-bd:Jashore
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-22-Subdivision ;
+	.
+
+lcc-3166-2-bd:Jhalakathi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-25-Subdivision ;
+	.
+
+lcc-3166-2-bd:Jhenaidah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-23-Subdivision ;
+	.
+
+lcc-3166-2-bd:Joypurhat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-24-Subdivision ;
+	.
+
+lcc-3166-2-bd:Khagrachhari
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-29-Subdivision ;
+	.
+
+lcc-3166-2-bd:Khulna
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-27-Subdivision ,
+		lcc-3166-2-bd:BD-D-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Kishoreganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-26-Subdivision ;
+	.
+
+lcc-3166-2-bd:Kurigram
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-28-Subdivision ;
+	.
+
+lcc-3166-2-bd:Kushtia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-30-Subdivision ;
+	.
+
+lcc-3166-2-bd:Lakshmipur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-31-Subdivision ;
+	.
+
+lcc-3166-2-bd:Lalmonirhat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-32-Subdivision ;
+	.
+
+lcc-3166-2-bd:Madaripur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-36-Subdivision ;
+	.
+
+lcc-3166-2-bd:Magura
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-37-Subdivision ;
+	.
+
+lcc-3166-2-bd:Manikganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-33-Subdivision ;
+	.
+
+lcc-3166-2-bd:Meherpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-39-Subdivision ;
+	.
+
+lcc-3166-2-bd:Moulvibazar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-38-Subdivision ;
+	.
+
+lcc-3166-2-bd:Munshiganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-35-Subdivision ;
+	.
+
+lcc-3166-2-bd:Mymensingh
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-34-Subdivision ,
+		lcc-3166-2-bd:BD-H-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Naogaon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-48-Subdivision ;
+	.
+
+lcc-3166-2-bd:Narail
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-43-Subdivision ;
+	.
+
+lcc-3166-2-bd:Narayanganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-40-Subdivision ;
+	.
+
+lcc-3166-2-bd:Narsingdi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-42-Subdivision ;
+	.
+
+lcc-3166-2-bd:Natore
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-44-Subdivision ;
+	.
+
+lcc-3166-2-bd:Netrakona
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-41-Subdivision ;
+	.
+
+lcc-3166-2-bd:Nilphamari
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-46-Subdivision ;
+	.
+
+lcc-3166-2-bd:Noakhali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-47-Subdivision ;
+	.
+
+lcc-3166-2-bd:Pabna
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-49-Subdivision ;
+	.
+
+lcc-3166-2-bd:Panchagarh
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-52-Subdivision ;
+	.
+
+lcc-3166-2-bd:Patuakhali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-51-Subdivision ;
+	.
+
+lcc-3166-2-bd:Pirojpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-50-Subdivision ;
+	.
+
+lcc-3166-2-bd:Rajbari
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-53-Subdivision ;
+	.
+
+lcc-3166-2-bd:Rajshahi
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-54-Subdivision ,
+		lcc-3166-2-bd:BD-E-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Rangamati
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-56-Subdivision ;
+	.
+
+lcc-3166-2-bd:Rangpur
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-55-Subdivision ,
+		lcc-3166-2-bd:BD-F-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Satkhira
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-58-Subdivision ;
+	.
+
+lcc-3166-2-bd:Shariatpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-62-Subdivision ;
+	.
+
+lcc-3166-2-bd:Sherpur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-57-Subdivision ;
+	.
+
+lcc-3166-2-bd:Sirajganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-59-Subdivision ;
+	.
+
+lcc-3166-2-bd:Sunamganj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-61-Subdivision ;
+	.
+
+lcc-3166-2-bd:Sylhet
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-bd:BD-60-Subdivision ,
+		lcc-3166-2-bd:BD-G-Subdivision
+		;
+	.
+
+lcc-3166-2-bd:Tangail
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-63-Subdivision ;
+	.
+
+lcc-3166-2-bd:Thakurgaon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-64-Subdivision ;
+	.
+
+lcc-3166-2-bd:Zila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-bd:BD-149-RegionKind ;
+	.
+

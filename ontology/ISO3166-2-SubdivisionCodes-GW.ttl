@@ -1,0 +1,542 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Guinea-Bissau Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Guinea-Bissau, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	.
+
+lcc-3166-2-gw:Bafata
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BA-Subdivision ;
+	.
+
+lcc-3166-2-gw:Biombo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BM-Subdivision ;
+	.
+
+lcc-3166-2-gw:Bissau
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BS-Subdivision ;
+	.
+
+lcc-3166-2-gw:BolamaBijagos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BL-Subdivision ;
+	.
+
+lcc-3166-2-gw:Cacheu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-CA-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-139-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "sector autónomo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision category sector autónomo in the country of Guinea-Bissau" ;
+	.
+
+lcc-3166-2-gw:GW-301-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "província"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision category província in the country of Guinea-Bissau" ;
+	.
+
+lcc-3166-2-gw:GW-416-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "região"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision category região in the country of Guinea-Bissau" ;
+	.
+
+lcc-3166-2-gw:GW-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Bafatá in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-BA-Subdivision ;
+	lcc-lr:hasTag "GW-BA" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bafatá"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Bafatá in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Bafatá"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-L-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-BL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BL-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-BL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Bolama / Bijagós in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-BL-Subdivision ;
+	lcc-lr:hasTag "GW-BL" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-BL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-BL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolama / Bijagós"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Bolama / Bijagós in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Bolama / Bijagós"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-S-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-BM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BM-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-BM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-BM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Biombo in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-BM-Subdivision ;
+	lcc-lr:hasTag "GW-BM" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-BM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-BM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Biombo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Biombo in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Biombo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-N-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-BS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-BS-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-BS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-BS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the sector autónomo of Bissau in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-BS-Subdivision ;
+	lcc-lr:hasTag "GW-BS" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-BS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-BS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bissau"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the sector autónomo of Bissau in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Bissau"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-139-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea-Bissau ;
+	.
+
+lcc-3166-2-gw:GW-CA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-CA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-CA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Cacheu in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-CA-Subdivision ;
+	lcc-lr:hasTag "GW-CA" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-CA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-CA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cacheu"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Cacheu in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Cacheu"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-N-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-GA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-GA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-GA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Gabú in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-GA-Subdivision ;
+	lcc-lr:hasTag "GW-GA" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-GA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-GA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gabú"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Gabú in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Gabú"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-L-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the província of Leste in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-L-Subdivision ;
+	lcc-lr:hasTag "GW-L" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Leste"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the província of Leste in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Leste"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-301-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea-Bissau ;
+	.
+
+lcc-3166-2-gw:GW-N
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-N-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-N-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the província of Norte in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-N-Subdivision ;
+	lcc-lr:hasTag "GW-N" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-N-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-N-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norte"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the província of Norte in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Norte"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-301-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea-Bissau ;
+	.
+
+lcc-3166-2-gw:GW-OI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-OI-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-OI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-OI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Oio in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-OI-Subdivision ;
+	lcc-lr:hasTag "GW-OI" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-OI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-OI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oio"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Oio in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Oio"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-N-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-QU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-QU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-QU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-QU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Quinara in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-QU-Subdivision ;
+	lcc-lr:hasTag "GW-QU" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-QU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-QU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quinara"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Quinara in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Quinara"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-S-Subdivision ;
+	.
+
+lcc-3166-2-gw:GW-S
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-S-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-S-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the província of Sul in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-S-Subdivision ;
+	lcc-lr:hasTag "GW-S" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-S-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-S-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sul"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the província of Sul in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Sul"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-301-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Guinea-Bissau ;
+	.
+
+lcc-3166-2-gw:GW-TO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-TO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gw:GW-TO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GW-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "subdivision code for the região of Tombali in the country of Guinea-Bissau" ;
+	lcc-lr:denotes lcc-3166-2-gw:GW-TO-Subdivision ;
+	lcc-lr:hasTag "GW-TO" ;
+	lcc-lr:identifies lcc-3166-2-gw:GW-TO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gw:GW-TO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tombali"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GW/> ;
+	skos:definition "the região of Tombali in the country of Guinea-Bissau" ;
+	lcc-cr:hasLocalShortName "Tombali"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gw:GW-416-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-gw:GW-S-Subdivision ;
+	.
+
+lcc-3166-2-gw:Gabu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-GA-Subdivision ;
+	.
+
+lcc-3166-2-gw:Leste
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-L-Subdivision ;
+	.
+
+lcc-3166-2-gw:Norte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-N-Subdivision ;
+	.
+
+lcc-3166-2-gw:Oio
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-OI-Subdivision ;
+	.
+
+lcc-3166-2-gw:Provincia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-301-RegionKind ;
+	.
+
+lcc-3166-2-gw:Quinara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-QU-Subdivision ;
+	.
+
+lcc-3166-2-gw:Regiao
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-416-RegionKind ;
+	.
+
+lcc-3166-2-gw:SectorAutonomo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-139-RegionKind ;
+	.
+
+lcc-3166-2-gw:Sul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-S-Subdivision ;
+	.
+
+lcc-3166-2-gw:Tombali
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gw:GW-TO-Subdivision ;
+	.
+

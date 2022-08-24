@@ -1,0 +1,1652 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-do: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Dominican Republic (the) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-do" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Dominican Republic (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-DO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	.
+
+lcc-3166-2-do:Azua
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-02-Subdivision ;
+	.
+
+lcc-3166-2-do:Baoruco
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-03-Subdivision ;
+	.
+
+lcc-3166-2-do:Barahona
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-04-Subdivision ;
+	.
+
+lcc-3166-2-do:CibaoNordeste
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-33-Subdivision ;
+	.
+
+lcc-3166-2-do:CibaoNoroeste
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-34-Subdivision ;
+	.
+
+lcc-3166-2-do:CibaoNorte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-35-Subdivision ;
+	.
+
+lcc-3166-2-do:CibaoSur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-36-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the distrito of Distrito Nacional (Santo Domingo) in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-01-Subdivision ;
+	lcc-lr:hasTag "DO-01" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Distrito Nacional (Santo Domingo)"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the distrito of Distrito Nacional (Santo Domingo) in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Distrito Nacional (Santo Domingo)"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-183-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-40-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Azua in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-02-Subdivision ;
+	lcc-lr:hasTag "DO-02" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Azua"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Azua in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Azua"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-41-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Baoruco in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-03-Subdivision ;
+	lcc-lr:hasTag "DO-03" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baoruco"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Baoruco in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Baoruco"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-38-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Barahona in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-04-Subdivision ;
+	lcc-lr:hasTag "DO-04" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barahona"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Barahona in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Barahona"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-38-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Dajabón in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-05-Subdivision ;
+	lcc-lr:hasTag "DO-05" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dajabón"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Dajabón in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Dajabón"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-34-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Duarte in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-06-Subdivision ;
+	lcc-lr:hasTag "DO-06" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Duarte"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Duarte in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Duarte"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-33-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Elías Piña in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-07-Subdivision ;
+	lcc-lr:hasTag "DO-07" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Elías Piña"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Elías Piña in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Elías Piña"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-37-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of El Seibo in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-08-Subdivision ;
+	lcc-lr:hasTag "DO-08" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Seibo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of El Seibo in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "El Seibo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-42-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Espaillat in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-09-Subdivision ;
+	lcc-lr:hasTag "DO-09" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Espaillat"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Espaillat in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Espaillat"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-35-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Independencia in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-10-Subdivision ;
+	lcc-lr:hasTag "DO-10" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Independencia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Independencia in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Independencia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-38-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-105-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "provincia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision category provincia in the country of Dominican Republic (the)" ;
+	.
+
+lcc-3166-2-do:DO-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of La Altagracia in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-11-Subdivision ;
+	lcc-lr:hasTag "DO-11" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Altagracia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of La Altagracia in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "La Altagracia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-42-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of La Romana in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-12-Subdivision ;
+	lcc-lr:hasTag "DO-12" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Romana"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of La Romana in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "La Romana"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-42-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of La Vega in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-13-Subdivision ;
+	lcc-lr:hasTag "DO-13" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Vega"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of La Vega in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "La Vega"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-36-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of María Trinidad Sánchez in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-14-Subdivision ;
+	lcc-lr:hasTag "DO-14" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "María Trinidad Sánchez"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of María Trinidad Sánchez in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "María Trinidad Sánchez"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-33-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Monte Cristi in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-15-Subdivision ;
+	lcc-lr:hasTag "DO-15" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monte Cristi"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Monte Cristi in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Monte Cristi"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-34-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Pedernales in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-16-Subdivision ;
+	lcc-lr:hasTag "DO-16" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pedernales"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Pedernales in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Pedernales"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-38-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Peravia in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-17-Subdivision ;
+	lcc-lr:hasTag "DO-17" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Peravia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Peravia in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Peravia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-41-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Puerto Plata in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-18-Subdivision ;
+	lcc-lr:hasTag "DO-18" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Puerto Plata"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Puerto Plata in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Puerto Plata"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-35-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-183-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "distrito"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision category distrito in the country of Dominican Republic (the)" ;
+	.
+
+lcc-3166-2-do:DO-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Hermanas Mirabal in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-19-Subdivision ;
+	lcc-lr:hasTag "DO-19" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hermanas Mirabal"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Hermanas Mirabal in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Hermanas Mirabal"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-33-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Samaná in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-20-Subdivision ;
+	lcc-lr:hasTag "DO-20" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samaná"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Samaná in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Samaná"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-33-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of San Cristóbal in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-21-Subdivision ;
+	lcc-lr:hasTag "DO-21" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Cristóbal"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of San Cristóbal in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "San Cristóbal"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-41-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of San Juan in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-22-Subdivision ;
+	lcc-lr:hasTag "DO-22" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Juan"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of San Juan in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "San Juan"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-37-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of San Pedro de Macorís in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-23-Subdivision ;
+	lcc-lr:hasTag "DO-23" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Pedro de Macorís"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of San Pedro de Macorís in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "San Pedro de Macorís"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-39-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Sánchez Ramírez in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-24-Subdivision ;
+	lcc-lr:hasTag "DO-24" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sánchez Ramírez"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Sánchez Ramírez in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Sánchez Ramírez"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-36-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Santiago in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-25-Subdivision ;
+	lcc-lr:hasTag "DO-25" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santiago"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Santiago in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Santiago"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-35-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Santiago Rodríguez in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-26-Subdivision ;
+	lcc-lr:hasTag "DO-26" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santiago Rodríguez"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Santiago Rodríguez in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Santiago Rodríguez"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-34-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Valverde in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-27-Subdivision ;
+	lcc-lr:hasTag "DO-27" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valverde"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Valverde in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Valverde"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-34-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-28
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-28-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-28-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Monseñor Nouel in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-28-Subdivision ;
+	lcc-lr:hasTag "DO-28" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-28-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-28-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monseñor Nouel"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Monseñor Nouel in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Monseñor Nouel"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-36-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-29
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-29-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-29-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Monte Plata in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-29-Subdivision ;
+	lcc-lr:hasTag "DO-29" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-29-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-29-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monte Plata"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Monte Plata in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Monte Plata"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-39-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Hato Mayor in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-30-Subdivision ;
+	lcc-lr:hasTag "DO-30" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hato Mayor"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Hato Mayor in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Hato Mayor"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-39-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of San José de Ocoa in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-31-Subdivision ;
+	lcc-lr:hasTag "DO-31" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San José de Ocoa"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of San José de Ocoa in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "San José de Ocoa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-41-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the provincia of Santo Domingo in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-32-Subdivision ;
+	lcc-lr:hasTag "DO-32" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santo Domingo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the provincia of Santo Domingo in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Santo Domingo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-105-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-do:DO-40-Subdivision ;
+	.
+
+lcc-3166-2-do:DO-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Cibao Nordeste in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-33-Subdivision ;
+	lcc-lr:hasTag "DO-33" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cibao Nordeste"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Cibao Nordeste in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Cibao Nordeste"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Cibao Noroeste in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-34-Subdivision ;
+	lcc-lr:hasTag "DO-34" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cibao Noroeste"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Cibao Noroeste in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Cibao Noroeste"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-35
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-35-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-35-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Cibao Norte in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-35-Subdivision ;
+	lcc-lr:hasTag "DO-35" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-35-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-35-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cibao Norte"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Cibao Norte in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Cibao Norte"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-36
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-36-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-36-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Cibao Sur in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-36-Subdivision ;
+	lcc-lr:hasTag "DO-36" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-36-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-36-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cibao Sur"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Cibao Sur in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Cibao Sur"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-37
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-37-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-37-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of El Valle in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-37-Subdivision ;
+	lcc-lr:hasTag "DO-37" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-37-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-37-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Valle"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of El Valle in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "El Valle"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-38
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-38-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-38-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Enriquillo in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-38-Subdivision ;
+	lcc-lr:hasTag "DO-38" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-38-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-38-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Enriquillo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Enriquillo in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Enriquillo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-39
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-39-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-39-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Higuamo in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-39-Subdivision ;
+	lcc-lr:hasTag "DO-39" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-39-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-39-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Higuamo"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Higuamo in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Higuamo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-40
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-40-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-40-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Ozama in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-40-Subdivision ;
+	lcc-lr:hasTag "DO-40" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-40-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-40-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ozama"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Ozama in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Ozama"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Valdesia in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-41-Subdivision ;
+	lcc-lr:hasTag "DO-41" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valdesia"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Valdesia in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Valdesia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-do:DO-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DO-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision code for the región of Yuma in the country of Dominican Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-do:DO-42-Subdivision ;
+	lcc-lr:hasTag "DO-42" ;
+	lcc-lr:identifies lcc-3166-2-do:DO-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-do:DO-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yuma"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "the región of Yuma in the country of Dominican Republic (the)" ;
+	lcc-cr:hasLocalShortName "Yuma"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-do:DO-449-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-2-do:DO-449-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "región"@es ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO/> ;
+	skos:definition "subdivision category región in the country of Dominican Republic (the)" ;
+	.
+
+lcc-3166-2-do:Dajabon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-05-Subdivision ;
+	.
+
+lcc-3166-2-do:Distrito
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-183-RegionKind ;
+	.
+
+lcc-3166-2-do:DistritoNacional
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-01-Subdivision ;
+	.
+
+lcc-3166-2-do:Duarte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-06-Subdivision ;
+	.
+
+lcc-3166-2-do:ElSeibo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-08-Subdivision ;
+	.
+
+lcc-3166-2-do:ElValle
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-37-Subdivision ;
+	.
+
+lcc-3166-2-do:EliasPina
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-07-Subdivision ;
+	.
+
+lcc-3166-2-do:Enriquillo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-38-Subdivision ;
+	.
+
+lcc-3166-2-do:Espaillat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-09-Subdivision ;
+	.
+
+lcc-3166-2-do:HatoMayor
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-30-Subdivision ;
+	.
+
+lcc-3166-2-do:HermanasMirabal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-19-Subdivision ;
+	.
+
+lcc-3166-2-do:Higuamo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-39-Subdivision ;
+	.
+
+lcc-3166-2-do:Independencia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-10-Subdivision ;
+	.
+
+lcc-3166-2-do:LaAltagracia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-11-Subdivision ;
+	.
+
+lcc-3166-2-do:LaRomana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-12-Subdivision ;
+	.
+
+lcc-3166-2-do:LaVega
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-13-Subdivision ;
+	.
+
+lcc-3166-2-do:MariaTrinidadSanchez
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-14-Subdivision ;
+	.
+
+lcc-3166-2-do:MonsenorNouel
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-28-Subdivision ;
+	.
+
+lcc-3166-2-do:MonteCristi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-15-Subdivision ;
+	.
+
+lcc-3166-2-do:MontePlata
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-29-Subdivision ;
+	.
+
+lcc-3166-2-do:Ozama
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-40-Subdivision ;
+	.
+
+lcc-3166-2-do:Pedernales
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-16-Subdivision ;
+	.
+
+lcc-3166-2-do:Peravia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-17-Subdivision ;
+	.
+
+lcc-3166-2-do:Provincia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-105-RegionKind ;
+	.
+
+lcc-3166-2-do:PuertoPlata
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-18-Subdivision ;
+	.
+
+lcc-3166-2-do:Region
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-449-RegionKind ;
+	.
+
+lcc-3166-2-do:Samana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-20-Subdivision ;
+	.
+
+lcc-3166-2-do:SanCristobal
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-21-Subdivision ;
+	.
+
+lcc-3166-2-do:SanJoseDeOcoa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-31-Subdivision ;
+	.
+
+lcc-3166-2-do:SanJuan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-22-Subdivision ;
+	.
+
+lcc-3166-2-do:SanPedroDeMacoris
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-23-Subdivision ;
+	.
+
+lcc-3166-2-do:SanchezRamirez
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-24-Subdivision ;
+	.
+
+lcc-3166-2-do:Santiago
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-25-Subdivision ;
+	.
+
+lcc-3166-2-do:SantiagoRodriguez
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-26-Subdivision ;
+	.
+
+lcc-3166-2-do:SantoDomingo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-32-Subdivision ;
+	.
+
+lcc-3166-2-do:Valdesia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-41-Subdivision ;
+	.
+
+lcc-3166-2-do:Valverde
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-27-Subdivision ;
+	.
+
+lcc-3166-2-do:Yuma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-do:DO-42-Subdivision ;
+	.
+

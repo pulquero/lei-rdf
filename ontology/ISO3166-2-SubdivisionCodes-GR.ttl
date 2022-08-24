@@ -1,0 +1,620 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Greece Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Greece, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	.
+
+lcc-3166-2-gr:AftonomiMonastikiPoliteia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-185-RegionKind ;
+	.
+
+lcc-3166-2-gr:AgionOros
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-69-Subdivision ;
+	.
+
+lcc-3166-2-gr:AnatolikiMakedoniaKaiThraki
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-A-Subdivision ;
+	.
+
+lcc-3166-2-gr:Attiki
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-I-Subdivision ;
+	.
+
+lcc-3166-2-gr:DytikiEllada
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-G-Subdivision ;
+	.
+
+lcc-3166-2-gr:DytikiMakedonia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-C-Subdivision ;
+	.
+
+lcc-3166-2-gr:GR-1131-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the territory of Mount Athos autonomous area in the country of Greece" ;
+	lcc-cr:hasEnglishShortName "Mount Athos autonomous area"@en ;
+	lcc-cr:hasFrenchShortName "le territoire autonome du Mont Athos"@fr ;
+	lcc-cr:hasNumericRegionCode "1131" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-185-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "aftonomi monastiki politeia"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision category aftonomi monastiki politeia in the country of Greece" ;
+	.
+
+lcc-3166-2-gr:GR-202-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "periféreia"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision category periféreia in the country of Greece" ;
+	.
+
+lcc-3166-2-gr:GR-69
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-69-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-69-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-69" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the aftonomi monastiki politeia of Ágion Óros in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-69-Subdivision ;
+	lcc-lr:hasTag "GR-69" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-69-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-69-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ágion Óros"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the aftonomi monastiki politeia of Ágion Óros in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Ágion Óros"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-185-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-A
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-A-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-A-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Anatolikí Makedonía kai Thráki in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-A-Subdivision ;
+	lcc-lr:hasTag "GR-A" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-A-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-A-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anatolikí Makedonía kai Thráki"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Anatolikí Makedonía kai Thráki in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Anatolikí Makedonía kai Thráki"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-B-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Kentrikí Makedonía in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-B-Subdivision ;
+	lcc-lr:hasTag "GR-B" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kentrikí Makedonía"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Kentrikí Makedonía in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Kentrikí Makedonía"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Dytikí Makedonía in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-C-Subdivision ;
+	lcc-lr:hasTag "GR-C" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dytikí Makedonía"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Dytikí Makedonía in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Dytikí Makedonía"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-D
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-D-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-D-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Ípeiros in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-D-Subdivision ;
+	lcc-lr:hasTag "GR-D" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-D-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-D-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ípeiros"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Ípeiros in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Ípeiros"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-E
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-E-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-E-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Thessalía in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-E-Subdivision ;
+	lcc-lr:hasTag "GR-E" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-E-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-E-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thessalía"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Thessalía in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Thessalía"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-F
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-F-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-F-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Ionía Nísia in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-F-Subdivision ;
+	lcc-lr:hasTag "GR-F" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-F-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-F-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ionía Nísia"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Ionía Nísia in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Ionía Nísia"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-G
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-G-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-G-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Dytikí Elláda in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-G-Subdivision ;
+	lcc-lr:hasTag "GR-G" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-G-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-G-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dytikí Elláda"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Dytikí Elláda in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Dytikí Elláda"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-H
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-H-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-H-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Stereá Elláda in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-H-Subdivision ;
+	lcc-lr:hasTag "GR-H" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-H-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-H-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Stereá Elláda"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Stereá Elláda in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Stereá Elláda"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-I
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-I-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-I-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-I" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Attikí in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-I-Subdivision ;
+	lcc-lr:hasTag "GR-I" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-I-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-I-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Attikí"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Attikí in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Attikí"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-J
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-J-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-J-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-J" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Pelopónnisos in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-J-Subdivision ;
+	lcc-lr:hasTag "GR-J" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-J-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-J-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pelopónnisos"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Pelopónnisos in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Pelopónnisos"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-K
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-K-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-K-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-K" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Vóreio Aigaío in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-K-Subdivision ;
+	lcc-lr:hasTag "GR-K" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-K-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-K-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vóreio Aigaío"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Vóreio Aigaío in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Vóreio Aigaío"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Nótio Aigaío in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-L-Subdivision ;
+	lcc-lr:hasTag "GR-L" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nótio Aigaío"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Nótio Aigaío in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Nótio Aigaío"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:GR-M
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-M-RegionIdentifier ;
+	.
+
+lcc-3166-2-gr:GR-M-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GR-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "subdivision code for the periféreia of Kríti in the country of Greece" ;
+	lcc-lr:denotes lcc-3166-2-gr:GR-M-Subdivision ;
+	lcc-lr:hasTag "GR-M" ;
+	lcc-lr:identifies lcc-3166-2-gr:GR-M-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gr:GR-M-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kríti"@el ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/> ;
+	skos:definition "the periféreia of Kríti in the country of Greece" ;
+	lcc-cr:hasLocalShortName "Kríti"@el ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gr:GR-202-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greece ;
+	.
+
+lcc-3166-2-gr:IoniaNisia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-F-Subdivision ;
+	.
+
+lcc-3166-2-gr:Ipeiros
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-D-Subdivision ;
+	.
+
+lcc-3166-2-gr:KentrikiMakedonia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-B-Subdivision ;
+	.
+
+lcc-3166-2-gr:Kriti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-M-Subdivision ;
+	.
+
+lcc-3166-2-gr:MountAthosAutonomousArea
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-1131-Territory ;
+	.
+
+lcc-3166-2-gr:NotioAigaio
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-L-Subdivision ;
+	.
+
+lcc-3166-2-gr:Peloponnisos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-J-Subdivision ;
+	.
+
+lcc-3166-2-gr:Perifereia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-202-RegionKind ;
+	.
+
+lcc-3166-2-gr:StereaEllada
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-H-Subdivision ;
+	.
+
+lcc-3166-2-gr:Thessalia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-E-Subdivision ;
+	.
+
+lcc-3166-2-gr:VoreioAigaio
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gr:GR-K-Subdivision ;
+	.
+

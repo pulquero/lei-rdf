@@ -1,0 +1,686 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tt: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Trinidad and Tobago Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tt" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Trinidad and Tobago, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	.
+
+lcc-3166-2-tt:Arima
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-ARI-Subdivision ;
+	.
+
+lcc-3166-2-tt:Borough
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-167-RegionKind ;
+	.
+
+lcc-3166-2-tt:Chaguanas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-CHA-Subdivision ;
+	.
+
+lcc-3166-2-tt:City
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-488-RegionKind ;
+	.
+
+lcc-3166-2-tt:Couva-Tabaquite-Talparo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-CTT-Subdivision ;
+	.
+
+lcc-3166-2-tt:DiegoMartin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-DMN-Subdivision ;
+	.
+
+lcc-3166-2-tt:Mayaro-RioClaro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-MRC-Subdivision ;
+	.
+
+lcc-3166-2-tt:Penal-Debe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-PED-Subdivision ;
+	.
+
+lcc-3166-2-tt:PointFortin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-PTF-Subdivision ;
+	.
+
+lcc-3166-2-tt:PortOfSpain
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-POS-Subdivision ;
+	.
+
+lcc-3166-2-tt:PrincesTown
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-PRT-Subdivision ;
+	.
+
+lcc-3166-2-tt:Region
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-176-RegionKind ;
+	.
+
+lcc-3166-2-tt:SanFernando
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SFO-Subdivision ;
+	.
+
+lcc-3166-2-tt:SanJuan-Laventille
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SJL-Subdivision ;
+	.
+
+lcc-3166-2-tt:SangreGrande
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SGE-Subdivision ;
+	.
+
+lcc-3166-2-tt:Siparia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SIP-Subdivision ;
+	.
+
+lcc-3166-2-tt:TT-1209-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Tobago *"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the territory of Tobago * in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Tobago *"@en ;
+	lcc-cr:hasFrenchShortName "Tobago *"@fr ;
+	lcc-cr:hasNumericRegionCode "1209" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-167-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "borough"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision category borough in the country of Trinidad and Tobago" ;
+	.
+
+lcc-3166-2-tt:TT-176-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision category region in the country of Trinidad and Tobago" ;
+	.
+
+lcc-3166-2-tt:TT-463-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "ward"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision category ward in the country of Trinidad and Tobago" ;
+	.
+
+lcc-3166-2-tt:TT-488-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision category city in the country of Trinidad and Tobago" ;
+	.
+
+lcc-3166-2-tt:TT-ARI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-ARI-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-ARI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-ARI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the borough of Arima in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-ARI-Subdivision ;
+	lcc-lr:hasTag "TT-ARI" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-ARI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-ARI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arima"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the borough of Arima in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Arima"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-167-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-CHA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-CHA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-CHA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-CHA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the borough of Chaguanas in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-CHA-Subdivision ;
+	lcc-lr:hasTag "TT-CHA" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-CHA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-CHA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chaguanas"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the borough of Chaguanas in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Chaguanas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-167-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-CTT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-CTT-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-CTT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-CTT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Couva-Tabaquite-Talparo in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-CTT-Subdivision ;
+	lcc-lr:hasTag "TT-CTT" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-CTT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-CTT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Couva-Tabaquite-Talparo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Couva-Tabaquite-Talparo in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Couva-Tabaquite-Talparo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-DMN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-DMN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-DMN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-DMN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Diego Martin in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-DMN-Subdivision ;
+	lcc-lr:hasTag "TT-DMN" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-DMN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-DMN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Diego Martin"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Diego Martin in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Diego Martin"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-MRC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-MRC-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-MRC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-MRC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Mayaro-Rio Claro in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-MRC-Subdivision ;
+	lcc-lr:hasTag "TT-MRC" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-MRC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-MRC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mayaro-Rio Claro"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Mayaro-Rio Claro in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Mayaro-Rio Claro"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-PED
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-PED-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-PED-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-PED" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Penal-Debe in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-PED-Subdivision ;
+	lcc-lr:hasTag "TT-PED" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-PED-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-PED-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Penal-Debe"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Penal-Debe in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Penal-Debe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-POS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-POS-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-POS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-POS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the city of Port of Spain in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-POS-Subdivision ;
+	lcc-lr:hasTag "TT-POS" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-POS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-POS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Port of Spain"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the city of Port of Spain in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Port of Spain"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-488-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-PRT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-PRT-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-PRT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-PRT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Princes Town in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-PRT-Subdivision ;
+	lcc-lr:hasTag "TT-PRT" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-PRT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-PRT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Princes Town"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Princes Town in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Princes Town"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-PTF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-PTF-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-PTF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-PTF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the borough of Point Fortin in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-PTF-Subdivision ;
+	lcc-lr:hasTag "TT-PTF" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-PTF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-PTF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Point Fortin"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the borough of Point Fortin in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Point Fortin"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-167-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-SFO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SFO-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-SFO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-SFO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the city of San Fernando in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-SFO-Subdivision ;
+	lcc-lr:hasTag "TT-SFO" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-SFO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-SFO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Fernando"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the city of San Fernando in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "San Fernando"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-488-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-SGE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SGE-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-SGE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-SGE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Sangre Grande in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-SGE-Subdivision ;
+	lcc-lr:hasTag "TT-SGE" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-SGE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-SGE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sangre Grande"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Sangre Grande in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Sangre Grande"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-SIP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SIP-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-SIP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-SIP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Siparia in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-SIP-Subdivision ;
+	lcc-lr:hasTag "TT-SIP" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-SIP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-SIP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siparia"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Siparia in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Siparia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-SJL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-SJL-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-SJL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-SJL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of San Juan-Laventille in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-SJL-Subdivision ;
+	lcc-lr:hasTag "TT-SJL" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-SJL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-SJL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Juan-Laventille"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of San Juan-Laventille in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "San Juan-Laventille"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-TOB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-TOB-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-TOB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-TOB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the ward of Tobago in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-TOB-Subdivision ;
+	lcc-lr:hasTag "TT-TOB" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-TOB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-TOB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tobago"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the ward of Tobago in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Tobago"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-463-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:TT-TUP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-TUP-RegionIdentifier ;
+	.
+
+lcc-3166-2-tt:TT-TUP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TT-TUP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "subdivision code for the region of Tunapuna-Piarco in the country of Trinidad and Tobago" ;
+	lcc-lr:denotes lcc-3166-2-tt:TT-TUP-Subdivision ;
+	lcc-lr:hasTag "TT-TUP" ;
+	lcc-lr:identifies lcc-3166-2-tt:TT-TUP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tt:TT-TUP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tunapuna-Piarco"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT/> ;
+	skos:definition "the region of Tunapuna-Piarco in the country of Trinidad and Tobago" ;
+	lcc-cr:hasEnglishShortName "Tunapuna-Piarco"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tt:TT-176-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-2-tt:Tobago
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-tt:TT-1209-Territory ,
+		lcc-3166-2-tt:TT-TOB-Subdivision
+		;
+	.
+
+lcc-3166-2-tt:Tunapuna-Piarco
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-TUP-Subdivision ;
+	.
+
+lcc-3166-2-tt:Ward
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tt:TT-463-RegionKind ;
+	.
+

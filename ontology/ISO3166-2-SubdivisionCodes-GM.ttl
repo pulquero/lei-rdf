@@ -1,0 +1,305 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Gambia (the) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Gambia (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	.
+
+lcc-3166-2-gm:Banjul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-B-Subdivision ;
+	.
+
+lcc-3166-2-gm:CentralRiver
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-M-Subdivision ;
+	.
+
+lcc-3166-2-gm:City
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-442-RegionKind ;
+	.
+
+lcc-3166-2-gm:Division
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-225-RegionKind ;
+	.
+
+lcc-3166-2-gm:GM-225-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "division"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision category division in the country of Gambia (the)" ;
+	.
+
+lcc-3166-2-gm:GM-442-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision category city in the country of Gambia (the)" ;
+	.
+
+lcc-3166-2-gm:GM-B
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-B-RegionIdentifier ;
+	.
+
+lcc-3166-2-gm:GM-B-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GM-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision code for the city of Banjul in the country of Gambia (the)" ;
+	lcc-lr:denotes lcc-3166-2-gm:GM-B-Subdivision ;
+	lcc-lr:hasTag "GM-B" ;
+	lcc-lr:identifies lcc-3166-2-gm:GM-B-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gm:GM-B-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banjul"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "the city of Banjul in the country of Gambia (the)" ;
+	lcc-cr:hasEnglishShortName "Banjul"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gm:GM-442-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Gambia ;
+	.
+
+lcc-3166-2-gm:GM-L
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-L-RegionIdentifier ;
+	.
+
+lcc-3166-2-gm:GM-L-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GM-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision code for the division of Lower River in the country of Gambia (the)" ;
+	lcc-lr:denotes lcc-3166-2-gm:GM-L-Subdivision ;
+	lcc-lr:hasTag "GM-L" ;
+	lcc-lr:identifies lcc-3166-2-gm:GM-L-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gm:GM-L-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lower River"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "the division of Lower River in the country of Gambia (the)" ;
+	lcc-cr:hasEnglishShortName "Lower River"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gm:GM-225-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Gambia ;
+	.
+
+lcc-3166-2-gm:GM-M
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-M-RegionIdentifier ;
+	.
+
+lcc-3166-2-gm:GM-M-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GM-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision code for the division of Central River in the country of Gambia (the)" ;
+	lcc-lr:denotes lcc-3166-2-gm:GM-M-Subdivision ;
+	lcc-lr:hasTag "GM-M" ;
+	lcc-lr:identifies lcc-3166-2-gm:GM-M-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gm:GM-M-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central River"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "the division of Central River in the country of Gambia (the)" ;
+	lcc-cr:hasEnglishShortName "Central River"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gm:GM-225-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Gambia ;
+	.
+
+lcc-3166-2-gm:GM-N
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-N-RegionIdentifier ;
+	.
+
+lcc-3166-2-gm:GM-N-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GM-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision code for the division of North Bank in the country of Gambia (the)" ;
+	lcc-lr:denotes lcc-3166-2-gm:GM-N-Subdivision ;
+	lcc-lr:hasTag "GM-N" ;
+	lcc-lr:identifies lcc-3166-2-gm:GM-N-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gm:GM-N-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Bank"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "the division of North Bank in the country of Gambia (the)" ;
+	lcc-cr:hasEnglishShortName "North Bank"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gm:GM-225-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Gambia ;
+	.
+
+lcc-3166-2-gm:GM-U
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-U-RegionIdentifier ;
+	.
+
+lcc-3166-2-gm:GM-U-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GM-U" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision code for the division of Upper River in the country of Gambia (the)" ;
+	lcc-lr:denotes lcc-3166-2-gm:GM-U-Subdivision ;
+	lcc-lr:hasTag "GM-U" ;
+	lcc-lr:identifies lcc-3166-2-gm:GM-U-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gm:GM-U-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Upper River"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "the division of Upper River in the country of Gambia (the)" ;
+	lcc-cr:hasEnglishShortName "Upper River"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gm:GM-225-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Gambia ;
+	.
+
+lcc-3166-2-gm:GM-W
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-W-RegionIdentifier ;
+	.
+
+lcc-3166-2-gm:GM-W-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GM-W" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "subdivision code for the division of Western in the country of Gambia (the)" ;
+	lcc-lr:denotes lcc-3166-2-gm:GM-W-Subdivision ;
+	lcc-lr:hasTag "GM-W" ;
+	lcc-lr:identifies lcc-3166-2-gm:GM-W-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gm:GM-W-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GM/> ;
+	skos:definition "the division of Western in the country of Gambia (the)" ;
+	lcc-cr:hasEnglishShortName "Western"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gm:GM-225-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Gambia ;
+	.
+
+lcc-3166-2-gm:LowerRiver
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-L-Subdivision ;
+	.
+
+lcc-3166-2-gm:NorthBank
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-N-Subdivision ;
+	.
+
+lcc-3166-2-gm:UpperRiver
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-U-Subdivision ;
+	.
+
+lcc-3166-2-gm:Western
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gm:GM-W-Subdivision ;
+	.
+

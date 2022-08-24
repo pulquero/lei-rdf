@@ -1,0 +1,397 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tv: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Tuvalu Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tv" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Tuvalu, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TV.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	.
+
+lcc-3166-2-tv:Funafuti
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-tv:TV-1063-Territory ,
+		lcc-3166-2-tv:TV-FUN-Subdivision
+		;
+	.
+
+lcc-3166-2-tv:IslandCouncil
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-177-RegionKind ;
+	.
+
+lcc-3166-2-tv:Nanumaga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NMG-Subdivision ;
+	.
+
+lcc-3166-2-tv:Nanumea
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NMA-Subdivision ;
+	.
+
+lcc-3166-2-tv:Niutao
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NIT-Subdivision ;
+	.
+
+lcc-3166-2-tv:Nui
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NUI-Subdivision ;
+	.
+
+lcc-3166-2-tv:Nukufetau
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NKF-Subdivision ;
+	.
+
+lcc-3166-2-tv:Nukulaelae
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NKL-Subdivision ;
+	.
+
+lcc-3166-2-tv:TV-1063-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Funafuti (principal atoll)"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the territory of Funafuti (principal atoll) in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Funafuti (principal atoll)"@en ;
+	lcc-cr:hasFrenchShortName "Funafuti (atoll principal)"@fr ;
+	lcc-cr:hasNumericRegionCode "1063" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-177-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "island council"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision category island council in the country of Tuvalu" ;
+	.
+
+lcc-3166-2-tv:TV-307-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "town council"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision category town council in the country of Tuvalu" ;
+	.
+
+lcc-3166-2-tv:TV-FUN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-FUN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-FUN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-FUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the town council of Funafuti in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-FUN-Subdivision ;
+	lcc-lr:hasTag "TV-FUN" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-FUN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-FUN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Funafuti"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the town council of Funafuti in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Funafuti"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-307-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-NIT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NIT-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-NIT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-NIT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the island council of Niutao in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-NIT-Subdivision ;
+	lcc-lr:hasTag "TV-NIT" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-NIT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-NIT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niutao"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the island council of Niutao in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Niutao"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-177-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-NKF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NKF-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-NKF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-NKF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the island council of Nukufetau in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-NKF-Subdivision ;
+	lcc-lr:hasTag "TV-NKF" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-NKF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-NKF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nukufetau"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the island council of Nukufetau in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Nukufetau"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-177-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-NKL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NKL-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-NKL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-NKL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the island council of Nukulaelae in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-NKL-Subdivision ;
+	lcc-lr:hasTag "TV-NKL" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-NKL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-NKL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nukulaelae"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the island council of Nukulaelae in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Nukulaelae"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-177-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-NMA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NMA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-NMA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-NMA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the island council of Nanumea in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-NMA-Subdivision ;
+	lcc-lr:hasTag "TV-NMA" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-NMA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-NMA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nanumea"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the island council of Nanumea in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Nanumea"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-177-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-NMG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NMG-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-NMG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-NMG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the island council of Nanumaga in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-NMG-Subdivision ;
+	lcc-lr:hasTag "TV-NMG" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-NMG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-NMG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nanumaga"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the island council of Nanumaga in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Nanumaga"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-177-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-NUI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-NUI-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-NUI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-NUI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the island council of Nui in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-NUI-Subdivision ;
+	lcc-lr:hasTag "TV-NUI" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-NUI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-NUI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nui"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the island council of Nui in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Nui"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-177-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TV-VAI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-VAI-RegionIdentifier ;
+	.
+
+lcc-3166-2-tv:TV-VAI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TV-VAI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "subdivision code for the island council of Vaitupu in the country of Tuvalu" ;
+	lcc-lr:denotes lcc-3166-2-tv:TV-VAI-Subdivision ;
+	lcc-lr:hasTag "TV-VAI" ;
+	lcc-lr:identifies lcc-3166-2-tv:TV-VAI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tv:TV-VAI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vaitupu"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TV/> ;
+	skos:definition "the island council of Vaitupu in the country of Tuvalu" ;
+	lcc-cr:hasEnglishShortName "Vaitupu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tv:TV-177-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-2-tv:TownCouncil
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-307-RegionKind ;
+	.
+
+lcc-3166-2-tv:Vaitupu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tv:TV-VAI-Subdivision ;
+	.
+

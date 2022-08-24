@@ -1,0 +1,629 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-kp: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Korea Democratic Peoples Republic Of Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-kp" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Korea Democratic Peoples Republic Of, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KP.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	.
+
+lcc-3166-2-kp:Chagang-do
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-04-Subdivision ;
+	.
+
+lcc-3166-2-kp:Chikhalsi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-356-RegionKind ;
+	.
+
+lcc-3166-2-kp:Do
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-207-RegionKind ;
+	.
+
+lcc-3166-2-kp:Hamgyong-namdo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-08-Subdivision ;
+	.
+
+lcc-3166-2-kp:Hamkyeongpukto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-09-Subdivision ;
+	.
+
+lcc-3166-2-kp:Hwanghae-bukto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-06-Subdivision ;
+	.
+
+lcc-3166-2-kp:Hwanghae-namdo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-05-Subdivision ;
+	.
+
+lcc-3166-2-kp:KP-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the chikhalsi of P'yǒngyang in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-01-Subdivision ;
+	lcc-lr:hasTag "KP-01" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"P'yǒngyang"@ko ,
+		"Phyeongyang"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the chikhalsi of P'yǒngyang in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"P'yǒngyang"@ko ,
+		"Phyeongyang"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-356-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Phyeongannamto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-02-Subdivision ;
+	lcc-lr:hasTag "KP-02" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"P'yǒngan-namdo"@ko ,
+		"Phyeongannamto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Phyeongannamto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"P'yǒngan-namdo"@ko ,
+		"Phyeongannamto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of P'yǒngan-bukto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-03-Subdivision ;
+	lcc-lr:hasTag "KP-03" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"P'yǒngan-bukto"@ko ,
+		"Phyeonganpukto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of P'yǒngan-bukto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"P'yǒngan-bukto"@ko ,
+		"Phyeonganpukto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Chagang-do in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-04-Subdivision ;
+	lcc-lr:hasTag "KP-04" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Chagang-do"@ko ,
+		"Jakangto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Chagang-do in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Chagang-do"@ko ,
+		"Jakangto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Hwanghae-namdo in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-05-Subdivision ;
+	lcc-lr:hasTag "KP-05" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Hwanghae-namdo"@ko ,
+		"Hwanghainamto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Hwanghae-namdo in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Hwanghae-namdo"@ko ,
+		"Hwanghainamto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Hwanghae-bukto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-06-Subdivision ;
+	lcc-lr:hasTag "KP-06" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Hwanghae-bukto"@ko ,
+		"Hwanghaipukto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Hwanghae-bukto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Hwanghae-bukto"@ko ,
+		"Hwanghaipukto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Kangweonto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-07-Subdivision ;
+	lcc-lr:hasTag "KP-07" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kangweonto"@ko ,
+		"Kangwǒn-do"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Kangweonto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Kangweonto"@ko ,
+		"Kangwǒn-do"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Hamgyǒng-namdo in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-08-Subdivision ;
+	lcc-lr:hasTag "KP-08" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Hamgyǒng-namdo"@ko ,
+		"Hamkyeongnamto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Hamgyǒng-namdo in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Hamgyǒng-namdo"@ko ,
+		"Hamkyeongnamto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Hamkyeongpukto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-09-Subdivision ;
+	lcc-lr:hasTag "KP-09" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Hamgyǒng-bukto"@ko ,
+		"Hamkyeongpukto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Hamkyeongpukto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Hamgyǒng-bukto"@ko ,
+		"Hamkyeongpukto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the do of Ryangkangto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-10-Subdivision ;
+	lcc-lr:hasTag "KP-10" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ryanggang-do"@ko ,
+		"Ryangkangto"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the do of Ryangkangto in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Ryanggang-do"@ko ,
+		"Ryangkangto"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-207-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the si of Raseon in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-13-Subdivision ;
+	lcc-lr:hasTag "KP-13" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Raseon"@ko ,
+		"Rasǒn"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the si of Raseon in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Raseon"@ko ,
+		"Rasǒn"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-140-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-kp:KP-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KP-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision code for the t’ŭkpyŏlsi of Namp’o in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kp:KP-14-Subdivision ;
+	lcc-lr:hasTag "KP-14" ;
+	lcc-lr:identifies lcc-3166-2-kp:KP-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kp:KP-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Nampho"@ko ,
+		"Namp’o"@ko
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "the t’ŭkpyŏlsi of Namp’o in the country of Korea Democratic Peoples Republic Of" ;
+	lcc-cr:hasLocalShortName
+		"Nampho"@ko ,
+		"Namp’o"@ko
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kp:KP-473-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-2-kp:KP-140-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "si"@ko ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision category si in the country of Korea Democratic Peoples Republic Of" ;
+	.
+
+lcc-3166-2-kp:KP-207-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "do"@ko ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision category do in the country of Korea Democratic Peoples Republic Of" ;
+	.
+
+lcc-3166-2-kp:KP-356-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "chikhalsi"@ko ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision category chikhalsi in the country of Korea Democratic Peoples Republic Of" ;
+	.
+
+lcc-3166-2-kp:KP-473-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "t’ŭkpyŏlsi"@ko ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KP/> ;
+	skos:definition "subdivision category t’ŭkpyŏlsi in the country of Korea Democratic Peoples Republic Of" ;
+	.
+
+lcc-3166-2-kp:Kangweonto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-07-Subdivision ;
+	.
+
+lcc-3166-2-kp:Nampo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-14-Subdivision ;
+	.
+
+lcc-3166-2-kp:Phyeongannamto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-02-Subdivision ;
+	.
+
+lcc-3166-2-kp:Pyongan-bukto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-03-Subdivision ;
+	.
+
+lcc-3166-2-kp:Pyongyang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-01-Subdivision ;
+	.
+
+lcc-3166-2-kp:Raseon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-13-Subdivision ;
+	.
+
+lcc-3166-2-kp:Ryangkangto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-10-Subdivision ;
+	.
+
+lcc-3166-2-kp:Si
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-140-RegionKind ;
+	.
+
+lcc-3166-2-kp:Tukpyolsi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-kp:KP-473-RegionKind ;
+	.
+

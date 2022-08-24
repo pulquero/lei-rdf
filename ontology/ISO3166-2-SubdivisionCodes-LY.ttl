@@ -1,0 +1,882 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ly: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Libya Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ly" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Libya, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	.
+
+lcc-3166-2-ly:AlButnan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-BU-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlJabalAlAkhdar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JA-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlJabalAlGharbi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JG-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlJafarah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JI-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlJufrah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JU-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlKufrah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-KF-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlMarj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MJ-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlMarqab
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MB-Subdivision ;
+	.
+
+lcc-3166-2-ly:AlWahat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-WA-Subdivision ;
+	.
+
+lcc-3166-2-ly:AnNuqatAlKhams
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-NQ-Subdivision ;
+	.
+
+lcc-3166-2-ly:AzZawiyah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-ZA-Subdivision ;
+	.
+
+lcc-3166-2-ly:Banghazi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-BA-Subdivision ;
+	.
+
+lcc-3166-2-ly:Darnah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-DR-Subdivision ;
+	.
+
+lcc-3166-2-ly:Ghat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-GT-Subdivision ;
+	.
+
+lcc-3166-2-ly:LY-332-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "sha‘bīyah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision category sha‘bīyah in the country of Libya" ;
+	.
+
+lcc-3166-2-ly:LY-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Banghāzī in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-BA-Subdivision ;
+	lcc-lr:hasTag "LY-BA" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banghāzī"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Banghāzī in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Banghāzī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-BU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-BU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-BU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Buţnān in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-BU-Subdivision ;
+	lcc-lr:hasTag "LY-BU" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-BU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-BU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Buţnān"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Buţnān in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Buţnān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-DR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-DR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-DR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-DR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Darnah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-DR-Subdivision ;
+	lcc-lr:hasTag "LY-DR" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-DR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-DR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Darnah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Darnah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Darnah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-GT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-GT-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-GT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-GT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Ghāt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-GT-Subdivision ;
+	lcc-lr:hasTag "LY-GT" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-GT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-GT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ghāt"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Ghāt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Ghāt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-JA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-JA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Jabal al Akhḑar in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-JA-Subdivision ;
+	lcc-lr:hasTag "LY-JA" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-JA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jabal al Akhḑar"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Jabal al Akhḑar in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jabal al Akhḑar"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-JG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JG-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-JG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Jabal al Gharbī in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-JG-Subdivision ;
+	lcc-lr:hasTag "LY-JG" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-JG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jabal al Gharbī"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Jabal al Gharbī in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jabal al Gharbī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-JI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-JI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Jafārah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-JI-Subdivision ;
+	lcc-lr:hasTag "LY-JI" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-JI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jafārah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Jafārah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jafārah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-JU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-JU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-JU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Jufrah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-JU-Subdivision ;
+	lcc-lr:hasTag "LY-JU" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-JU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jufrah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Jufrah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jufrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-KF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-KF-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-KF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-KF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Kufrah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-KF-Subdivision ;
+	lcc-lr:hasTag "LY-KF" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-KF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-KF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Kufrah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Kufrah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Kufrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-MB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-MB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Marqab in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-MB-Subdivision ;
+	lcc-lr:hasTag "LY-MB" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-MB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Marqab"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Marqab in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Marqab"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-MI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-MI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Mişrātah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-MI-Subdivision ;
+	lcc-lr:hasTag "LY-MI" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-MI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mişrātah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Mişrātah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Mişrātah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-MJ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MJ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-MJ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Marj in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-MJ-Subdivision ;
+	lcc-lr:hasTag "LY-MJ" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-MJ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MJ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Marj"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Marj in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Marj"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-MQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-MQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Murzuq in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-MQ-Subdivision ;
+	lcc-lr:hasTag "LY-MQ" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-MQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Murzuq"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Murzuq in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Murzuq"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-NL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-NL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-NL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-NL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Nālūt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-NL-Subdivision ;
+	lcc-lr:hasTag "LY-NL" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-NL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-NL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nālūt"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Nālūt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Nālūt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-NQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-NQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-NQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-NQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of An Nuqāţ al Khams in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-NQ-Subdivision ;
+	lcc-lr:hasTag "LY-NQ" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-NQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-NQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "An Nuqāţ al Khams"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of An Nuqāţ al Khams in the country of Libya" ;
+	lcc-cr:hasLocalShortName "An Nuqāţ al Khams"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-SB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-SB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-SB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-SB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Sabhā in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-SB-Subdivision ;
+	lcc-lr:hasTag "LY-SB" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-SB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-SB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sabhā"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Sabhā in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Sabhā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-SR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-SR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-SR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-SR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Surt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-SR-Subdivision ;
+	lcc-lr:hasTag "LY-SR" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-SR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-SR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Surt"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Surt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Surt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-TB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-TB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-TB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-TB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Ţarābulus in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-TB-Subdivision ;
+	lcc-lr:hasTag "LY-TB" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-TB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-TB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ţarābulus"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Ţarābulus in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Ţarābulus"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-WA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-WA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-WA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Al Wāḩāt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-WA-Subdivision ;
+	lcc-lr:hasTag "LY-WA" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-WA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-WA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Wāḩāt"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Al Wāḩāt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Wāḩāt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-WD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-WD-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-WD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-WD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Wādī al Ḩayāt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-WD-Subdivision ;
+	lcc-lr:hasTag "LY-WD" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-WD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-WD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wādī al Ḩayāt"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Wādī al Ḩayāt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Wādī al Ḩayāt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-WS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-WS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-WS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-WS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Wādī ash Shāţi’ in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-WS-Subdivision ;
+	lcc-lr:hasTag "LY-WS" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-WS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-WS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wādī ash Shāţi’"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Wādī ash Shāţi’ in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Wādī ash Shāţi’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-ZA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-ZA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ly:LY-ZA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the sha‘bīyah of Az Zāwiyah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:LY-ZA-Subdivision ;
+	lcc-lr:hasTag "LY-ZA" ;
+	lcc-lr:identifies lcc-3166-2-ly:LY-ZA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-ZA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Az Zāwiyah"@ar ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "the sha‘bīyah of Az Zāwiyah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Az Zāwiyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:LY-332-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Misratah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MI-Subdivision ;
+	.
+
+lcc-3166-2-ly:Murzuq
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-MQ-Subdivision ;
+	.
+
+lcc-3166-2-ly:Nalut
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-NL-Subdivision ;
+	.
+
+lcc-3166-2-ly:Sabha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-SB-Subdivision ;
+	.
+
+lcc-3166-2-ly:Shabiyah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-332-RegionKind ;
+	.
+
+lcc-3166-2-ly:Surt
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-SR-Subdivision ;
+	.
+
+lcc-3166-2-ly:Tarabulus
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-TB-Subdivision ;
+	.
+
+lcc-3166-2-ly:WadiAlHayat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-WD-Subdivision ;
+	.
+
+lcc-3166-2-ly:WadiAshShati
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ly:LY-WS-Subdivision ;
+	.
+

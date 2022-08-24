@@ -1,0 +1,970 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-pg: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Papua New Guinea Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-pg" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Papua New Guinea, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	.
+
+lcc-3166-2-pg:AutonomousRegion
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-186-RegionKind ;
+	.
+
+lcc-3166-2-pg:BismarckArchipelago
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-1025-Territory ;
+	.
+
+lcc-3166-2-pg:Bougainville
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-pg:PG-1027-Territory ,
+		lcc-3166-2-pg:PG-NSB-Subdivision
+		;
+	.
+
+lcc-3166-2-pg:Central
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-CPM-Subdivision ;
+	.
+
+lcc-3166-2-pg:Chimbu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-CPK-Subdivision ;
+	.
+
+lcc-3166-2-pg:District
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-137-RegionKind ;
+	.
+
+lcc-3166-2-pg:EastNewBritain
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-EBR-Subdivision ;
+	.
+
+lcc-3166-2-pg:EastSepik
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-ESW-Subdivision ;
+	.
+
+lcc-3166-2-pg:EasternHighlands
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-EHG-Subdivision ;
+	.
+
+lcc-3166-2-pg:Enga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-EPW-Subdivision ;
+	.
+
+lcc-3166-2-pg:Gulf
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-GPK-Subdivision ;
+	.
+
+lcc-3166-2-pg:Hela
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-HLA-Subdivision ;
+	.
+
+lcc-3166-2-pg:Jiwaka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-JWK-Subdivision ;
+	.
+
+lcc-3166-2-pg:Madang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MPM-Subdivision ;
+	.
+
+lcc-3166-2-pg:Manus
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MRL-Subdivision ;
+	.
+
+lcc-3166-2-pg:MilneBay
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MBA-Subdivision ;
+	.
+
+lcc-3166-2-pg:Morobe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MPL-Subdivision ;
+	.
+
+lcc-3166-2-pg:NationalCapitalDistrict
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-NCD-Subdivision ;
+	.
+
+lcc-3166-2-pg:NewIreland
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-NIK-Subdivision ;
+	.
+
+lcc-3166-2-pg:Northern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-NPP-Subdivision ;
+	.
+
+lcc-3166-2-pg:PG-1025-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Bismarck Archipelago"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the territory of Bismarck Archipelago in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Bismarck Archipelago"@en ;
+	lcc-cr:hasFrenchShortName "l'Archipel des Bismarck"@fr ;
+	lcc-cr:hasNumericRegionCode "1025" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-1027-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Bougainville (principal island)"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the territory of Bougainville (principal island) in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Bougainville (principal island)"@en ;
+	lcc-cr:hasFrenchShortName "Bougainville (Île principale)"@fr ;
+	lcc-cr:hasNumericRegionCode "1027" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-1141-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Solomon Islands, Northern "@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the territory of Solomon Islands, Northern  in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Solomon Islands, Northern"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Salomon du Nord"@fr ;
+	lcc-cr:hasNumericRegionCode "1141" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-137-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision category district in the country of Papua New Guinea" ;
+	.
+
+lcc-3166-2-pg:PG-173-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision category province in the country of Papua New Guinea" ;
+	.
+
+lcc-3166-2-pg:PG-186-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "autonomous region"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision category autonomous region in the country of Papua New Guinea" ;
+	.
+
+lcc-3166-2-pg:PG-CPK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-CPK-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-CPK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-CPK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Chimbu in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-CPK-Subdivision ;
+	lcc-lr:hasTag "PG-CPK" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-CPK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-CPK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chimbu"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Chimbu in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Chimbu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-CPM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-CPM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-CPM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-CPM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Central in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-CPM-Subdivision ;
+	lcc-lr:hasTag "PG-CPM" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-CPM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-CPM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Central in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Central"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-EBR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-EBR-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-EBR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-EBR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of East New Britain in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-EBR-Subdivision ;
+	lcc-lr:hasTag "PG-EBR" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-EBR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-EBR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "East New Britain"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of East New Britain in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "East New Britain"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-EHG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-EHG-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-EHG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-EHG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Eastern Highlands in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-EHG-Subdivision ;
+	lcc-lr:hasTag "PG-EHG" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-EHG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-EHG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern Highlands"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Eastern Highlands in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Eastern Highlands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-EPW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-EPW-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-EPW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-EPW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Enga in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-EPW-Subdivision ;
+	lcc-lr:hasTag "PG-EPW" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-EPW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-EPW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Enga"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Enga in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Enga"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-ESW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-ESW-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-ESW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-ESW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of East Sepik in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-ESW-Subdivision ;
+	lcc-lr:hasTag "PG-ESW" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-ESW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-ESW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "East Sepik"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of East Sepik in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "East Sepik"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-GPK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-GPK-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-GPK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-GPK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Gulf in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-GPK-Subdivision ;
+	lcc-lr:hasTag "PG-GPK" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-GPK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-GPK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gulf"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Gulf in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Gulf"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-HLA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-HLA-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-HLA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-HLA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Hela in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-HLA-Subdivision ;
+	lcc-lr:hasTag "PG-HLA" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-HLA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-HLA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hela"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Hela in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Hela"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-JWK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-JWK-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-JWK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-JWK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Jiwaka in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-JWK-Subdivision ;
+	lcc-lr:hasTag "PG-JWK" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-JWK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-JWK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jiwaka"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Jiwaka in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Jiwaka"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-MBA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MBA-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-MBA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-MBA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Milne Bay in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-MBA-Subdivision ;
+	lcc-lr:hasTag "PG-MBA" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-MBA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-MBA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Milne Bay"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Milne Bay in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Milne Bay"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-MPL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MPL-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-MPL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-MPL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Morobe in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-MPL-Subdivision ;
+	lcc-lr:hasTag "PG-MPL" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-MPL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-MPL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Morobe"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Morobe in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Morobe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-MPM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MPM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-MPM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-MPM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Madang in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-MPM-Subdivision ;
+	lcc-lr:hasTag "PG-MPM" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-MPM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-MPM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madang"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Madang in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Madang"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-MRL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-MRL-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-MRL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-MRL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Manus in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-MRL-Subdivision ;
+	lcc-lr:hasTag "PG-MRL" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-MRL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-MRL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manus"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Manus in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Manus"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-NCD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-NCD-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-NCD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-NCD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the district of National Capital District (Port Moresby) in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-NCD-Subdivision ;
+	lcc-lr:hasTag "PG-NCD" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-NCD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-NCD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "National Capital District (Port Moresby)"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the district of National Capital District (Port Moresby) in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "National Capital District (Port Moresby)"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-137-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-NIK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-NIK-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-NIK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-NIK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of New Ireland in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-NIK-Subdivision ;
+	lcc-lr:hasTag "PG-NIK" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-NIK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-NIK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New Ireland"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of New Ireland in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "New Ireland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-NPP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-NPP-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-NPP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-NPP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Northern in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-NPP-Subdivision ;
+	lcc-lr:hasTag "PG-NPP" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-NPP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-NPP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Northern in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Northern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-NSB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-NSB-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-NSB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-NSB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the autonomous region of Bougainville in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-NSB-Subdivision ;
+	lcc-lr:hasTag "PG-NSB" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-NSB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-NSB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bougainville"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the autonomous region of Bougainville in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Bougainville"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-186-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-SAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-SAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-SAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-SAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of West Sepik in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-SAN-Subdivision ;
+	lcc-lr:hasTag "PG-SAN" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-SAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-SAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West Sepik"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of West Sepik in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "West Sepik"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-SHM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-SHM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-SHM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-SHM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Southern Highlands in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-SHM-Subdivision ;
+	lcc-lr:hasTag "PG-SHM" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-SHM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-SHM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern Highlands"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Southern Highlands in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Southern Highlands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-WBK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-WBK-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-WBK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-WBK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of West New Britain in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-WBK-Subdivision ;
+	lcc-lr:hasTag "PG-WBK" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-WBK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-WBK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West New Britain"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of West New Britain in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "West New Britain"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-WHM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-WHM-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-WHM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-WHM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Western Highlands in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-WHM-Subdivision ;
+	lcc-lr:hasTag "PG-WHM" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-WHM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-WHM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western Highlands"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Western Highlands in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Western Highlands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:PG-WPD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-WPD-RegionIdentifier ;
+	.
+
+lcc-3166-2-pg:PG-WPD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PG-WPD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "subdivision code for the province of Western in the country of Papua New Guinea" ;
+	lcc-lr:denotes lcc-3166-2-pg:PG-WPD-Subdivision ;
+	lcc-lr:hasTag "PG-WPD" ;
+	lcc-lr:identifies lcc-3166-2-pg:PG-WPD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pg:PG-WPD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PG/> ;
+	skos:definition "the province of Western in the country of Papua New Guinea" ;
+	lcc-cr:hasEnglishShortName "Western"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pg:PG-173-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-2-pg:Province
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-173-RegionKind ;
+	.
+
+lcc-3166-2-pg:SolomonIslands
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-1141-Territory ;
+	.
+
+lcc-3166-2-pg:SouthernHighlands
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-SHM-Subdivision ;
+	.
+
+lcc-3166-2-pg:WestNewBritain
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-WBK-Subdivision ;
+	.
+
+lcc-3166-2-pg:WestSepik
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-SAN-Subdivision ;
+	.
+
+lcc-3166-2-pg:Western
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-WPD-Subdivision ;
+	.
+
+lcc-3166-2-pg:WesternHighlands
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-pg:PG-WHM-Subdivision ;
+	.
+

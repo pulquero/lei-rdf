@@ -1,0 +1,1533 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-af: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Afghanistan Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-af" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Afghanistan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AF.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	.
+
+lcc-3166-2-af:AF-321-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"wilāyat"@fa ,
+		"wilāyat"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision category wilāyat in the country of Afghanistan" ;
+	.
+
+lcc-3166-2-af:AF-BAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-BAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-BAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Balkh in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-BAL-Subdivision ;
+	lcc-lr:hasTag "AF-BAL" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-BAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-BAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Balkh"@fa ,
+		"Balkh"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Balkh in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Balkh"@fa ,
+		"Balkh"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-BAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-BAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-BAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Bāmyān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-BAM-Subdivision ;
+	lcc-lr:hasTag "AF-BAM" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-BAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-BAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bāmyān"@fa ,
+		"Bāmyān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Bāmyān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Bāmyān"@fa ,
+		"Bāmyān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-BDG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BDG-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-BDG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-BDG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Bādghīs in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-BDG-Subdivision ;
+	lcc-lr:hasTag "AF-BDG" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-BDG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-BDG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bādghīs"@fa ,
+		"Bādghīs"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Bādghīs in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Bādghīs"@fa ,
+		"Bādghīs"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-BDS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BDS-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-BDS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-BDS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Badakhshān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-BDS-Subdivision ;
+	lcc-lr:hasTag "AF-BDS" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-BDS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-BDS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Badakhshān"@fa ,
+		"Badakhshān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Badakhshān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Badakhshān"@fa ,
+		"Badakhshān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-BGL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BGL-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-BGL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-BGL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Baghlān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-BGL-Subdivision ;
+	lcc-lr:hasTag "AF-BGL" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-BGL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-BGL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Baghlān"@fa ,
+		"Baghlān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Baghlān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Baghlān"@fa ,
+		"Baghlān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-DAY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-DAY-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-DAY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-DAY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Dāykundī in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-DAY-Subdivision ;
+	lcc-lr:hasTag "AF-DAY" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-DAY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-DAY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Dāykundī"@fa ,
+		"Dāykundī"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Dāykundī in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Dāykundī"@fa ,
+		"Dāykundī"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-FRA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-FRA-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-FRA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-FRA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Farāh in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-FRA-Subdivision ;
+	lcc-lr:hasTag "AF-FRA" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-FRA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-FRA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Farāh"@fa ,
+		"Farāh"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Farāh in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Farāh"@fa ,
+		"Farāh"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-FYB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-FYB-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-FYB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-FYB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Fāryāb in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-FYB-Subdivision ;
+	lcc-lr:hasTag "AF-FYB" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-FYB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-FYB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Fāryāb"@fa ,
+		"Fāryāb"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Fāryāb in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Fāryāb"@fa ,
+		"Fāryāb"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-GHA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-GHA-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-GHA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-GHA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Ghaznī in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-GHA-Subdivision ;
+	lcc-lr:hasTag "AF-GHA" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-GHA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-GHA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ghaznī"@fa ,
+		"Ghaznī"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Ghaznī in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Ghaznī"@fa ,
+		"Ghaznī"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-GHO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-GHO-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-GHO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-GHO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Ghōr in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-GHO-Subdivision ;
+	lcc-lr:hasTag "AF-GHO" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-GHO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-GHO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ghōr"@fa ,
+		"Ghōr"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Ghōr in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Ghōr"@fa ,
+		"Ghōr"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-HEL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-HEL-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-HEL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-HEL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Helmand in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-HEL-Subdivision ;
+	lcc-lr:hasTag "AF-HEL" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-HEL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-HEL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Helmand"@fa ,
+		"Helmand"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Helmand in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Helmand"@fa ,
+		"Helmand"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-HER
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-HER-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-HER-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-HER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Herāt in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-HER-Subdivision ;
+	lcc-lr:hasTag "AF-HER" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-HER-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-HER-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Herāt"@fa ,
+		"Herāt"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Herāt in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Herāt"@fa ,
+		"Herāt"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-JOW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-JOW-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-JOW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-JOW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Jowzjān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-JOW-Subdivision ;
+	lcc-lr:hasTag "AF-JOW" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-JOW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-JOW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Jowzjān"@fa ,
+		"Jowzjān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Jowzjān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Jowzjān"@fa ,
+		"Jowzjān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-KAB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KAB-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-KAB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-KAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Kābul in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-KAB-Subdivision ;
+	lcc-lr:hasTag "AF-KAB" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-KAB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-KAB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kābul"@fa ,
+		"Kābul"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Kābul in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Kābul"@fa ,
+		"Kābul"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-KAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-KAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-KAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Kandahār in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-KAN-Subdivision ;
+	lcc-lr:hasTag "AF-KAN" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-KAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-KAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kandahār"@fa ,
+		"Kandahār"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Kandahār in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Kandahār"@fa ,
+		"Kandahār"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-KAP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KAP-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-KAP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-KAP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Kāpīsā in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-KAP-Subdivision ;
+	lcc-lr:hasTag "AF-KAP" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-KAP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-KAP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kāpīsā"@fa ,
+		"Kāpīsā"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Kāpīsā in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Kāpīsā"@fa ,
+		"Kāpīsā"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-KDZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KDZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-KDZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-KDZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Kunduz in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-KDZ-Subdivision ;
+	lcc-lr:hasTag "AF-KDZ" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-KDZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-KDZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kunduz"@fa ,
+		"Kunduz"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Kunduz in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Kunduz"@fa ,
+		"Kunduz"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-KHO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KHO-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-KHO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-KHO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Khōst in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-KHO-Subdivision ;
+	lcc-lr:hasTag "AF-KHO" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-KHO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-KHO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Khōst"@fa ,
+		"Khōst"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Khōst in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Khōst"@fa ,
+		"Khōst"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-KNR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KNR-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-KNR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-KNR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Kunaṟ in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-KNR-Subdivision ;
+	lcc-lr:hasTag "AF-KNR" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-KNR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-KNR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kunaṟ"@fa ,
+		"Kunaṟ"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Kunaṟ in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Kunaṟ"@fa ,
+		"Kunaṟ"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-LAG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-LAG-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-LAG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-LAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Laghmān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-LAG-Subdivision ;
+	lcc-lr:hasTag "AF-LAG" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-LAG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-LAG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Laghmān"@fa ,
+		"Laghmān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Laghmān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Laghmān"@fa ,
+		"Laghmān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-LOG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-LOG-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-LOG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-LOG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Lōgar in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-LOG-Subdivision ;
+	lcc-lr:hasTag "AF-LOG" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-LOG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-LOG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lōgar"@fa ,
+		"Lōgar"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Lōgar in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Lōgar"@fa ,
+		"Lōgar"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-NAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-NAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-NAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-NAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Nangarhār in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-NAN-Subdivision ;
+	lcc-lr:hasTag "AF-NAN" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-NAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-NAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Nangarhār"@fa ,
+		"Nangarhār"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Nangarhār in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Nangarhār"@fa ,
+		"Nangarhār"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-NIM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-NIM-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-NIM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-NIM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Nīmrōz in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-NIM-Subdivision ;
+	lcc-lr:hasTag "AF-NIM" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-NIM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-NIM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Nīmrōz"@fa ,
+		"Nīmrōz"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Nīmrōz in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Nīmrōz"@fa ,
+		"Nīmrōz"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-NUR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-NUR-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-NUR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-NUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Nūristān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-NUR-Subdivision ;
+	lcc-lr:hasTag "AF-NUR" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-NUR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-NUR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Nūristān"@fa ,
+		"Nūristān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Nūristān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Nūristān"@fa ,
+		"Nūristān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-PAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-PAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-PAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Panjshayr in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-PAN-Subdivision ;
+	lcc-lr:hasTag "AF-PAN" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-PAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-PAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Panjshayr"@fa ,
+		"Panjshayr"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Panjshayr in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Panjshayr"@fa ,
+		"Panjshayr"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-PAR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PAR-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-PAR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-PAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Parwān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-PAR-Subdivision ;
+	lcc-lr:hasTag "AF-PAR" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-PAR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-PAR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Parwān"@fa ,
+		"Parwān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Parwān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Parwān"@fa ,
+		"Parwān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-PIA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PIA-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-PIA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-PIA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Paktiyā in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-PIA-Subdivision ;
+	lcc-lr:hasTag "AF-PIA" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-PIA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-PIA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Paktiyā"@fa ,
+		"Paktiyā"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Paktiyā in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Paktiyā"@fa ,
+		"Paktiyā"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-PKA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PKA-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-PKA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-PKA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Paktīkā in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-PKA-Subdivision ;
+	lcc-lr:hasTag "AF-PKA" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-PKA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-PKA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Paktīkā"@fa ,
+		"Paktīkā"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Paktīkā in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Paktīkā"@fa ,
+		"Paktīkā"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-SAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-SAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-SAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-SAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Samangān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-SAM-Subdivision ;
+	lcc-lr:hasTag "AF-SAM" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-SAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-SAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Samangān"@fa ,
+		"Samangān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Samangān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Samangān"@fa ,
+		"Samangān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-SAR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-SAR-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-SAR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-SAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Sar-e Pul in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-SAR-Subdivision ;
+	lcc-lr:hasTag "AF-SAR" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-SAR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-SAR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Sar-e Pul"@fa ,
+		"Sar-e Pul"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Sar-e Pul in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Sar-e Pul"@fa ,
+		"Sar-e Pul"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-TAK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-TAK-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-TAK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-TAK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Takhār in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-TAK-Subdivision ;
+	lcc-lr:hasTag "AF-TAK" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-TAK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-TAK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Takhār"@fa ,
+		"Takhār"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Takhār in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Takhār"@fa ,
+		"Takhār"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-URU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-URU-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-URU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-URU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Uruzgān in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-URU-Subdivision ;
+	lcc-lr:hasTag "AF-URU" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-URU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-URU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Uruzgān"@fa ,
+		"Uruzgān"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Uruzgān in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Uruzgān"@fa ,
+		"Uruzgān"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-WAR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-WAR-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-WAR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-WAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Wardak in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-WAR-Subdivision ;
+	lcc-lr:hasTag "AF-WAR" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-WAR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-WAR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Wardak"@fa ,
+		"Wardak"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Wardak in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Wardak"@fa ,
+		"Wardak"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:AF-ZAB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-ZAB-RegionIdentifier ;
+	.
+
+lcc-3166-2-af:AF-ZAB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AF-ZAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "subdivision code for the wilāyat of Zābul in the country of Afghanistan" ;
+	lcc-lr:denotes lcc-3166-2-af:AF-ZAB-Subdivision ;
+	lcc-lr:hasTag "AF-ZAB" ;
+	lcc-lr:identifies lcc-3166-2-af:AF-ZAB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-af:AF-ZAB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Zābul"@fa ,
+		"Zābul"@ps
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AF/> ;
+	skos:definition "the wilāyat of Zābul in the country of Afghanistan" ;
+	lcc-cr:hasLocalShortName
+		"Zābul"@fa ,
+		"Zābul"@ps
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-af:AF-321-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-2-af:Badakhshan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BDS-Subdivision ;
+	.
+
+lcc-3166-2-af:Badghis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BDG-Subdivision ;
+	.
+
+lcc-3166-2-af:Baghlan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BGL-Subdivision ;
+	.
+
+lcc-3166-2-af:Balkh
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BAL-Subdivision ;
+	.
+
+lcc-3166-2-af:Bamyan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-BAM-Subdivision ;
+	.
+
+lcc-3166-2-af:Daykundi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-DAY-Subdivision ;
+	.
+
+lcc-3166-2-af:Farah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-FRA-Subdivision ;
+	.
+
+lcc-3166-2-af:Faryab
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-FYB-Subdivision ;
+	.
+
+lcc-3166-2-af:Ghazni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-GHA-Subdivision ;
+	.
+
+lcc-3166-2-af:Ghor
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-GHO-Subdivision ;
+	.
+
+lcc-3166-2-af:Helmand
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-HEL-Subdivision ;
+	.
+
+lcc-3166-2-af:Herat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-HER-Subdivision ;
+	.
+
+lcc-3166-2-af:Jowzjan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-JOW-Subdivision ;
+	.
+
+lcc-3166-2-af:Kabul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KAB-Subdivision ;
+	.
+
+lcc-3166-2-af:Kandahar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KAN-Subdivision ;
+	.
+
+lcc-3166-2-af:Kapisa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KAP-Subdivision ;
+	.
+
+lcc-3166-2-af:Khost
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KHO-Subdivision ;
+	.
+
+lcc-3166-2-af:Kunar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KNR-Subdivision ;
+	.
+
+lcc-3166-2-af:Kunduz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-KDZ-Subdivision ;
+	.
+
+lcc-3166-2-af:Laghman
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-LAG-Subdivision ;
+	.
+
+lcc-3166-2-af:Logar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-LOG-Subdivision ;
+	.
+
+lcc-3166-2-af:Nangarhar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-NAN-Subdivision ;
+	.
+
+lcc-3166-2-af:Nimroz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-NIM-Subdivision ;
+	.
+
+lcc-3166-2-af:Nuristan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-NUR-Subdivision ;
+	.
+
+lcc-3166-2-af:Paktika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PKA-Subdivision ;
+	.
+
+lcc-3166-2-af:Paktiya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PIA-Subdivision ;
+	.
+
+lcc-3166-2-af:Panjshayr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PAN-Subdivision ;
+	.
+
+lcc-3166-2-af:Parwan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-PAR-Subdivision ;
+	.
+
+lcc-3166-2-af:Samangan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-SAM-Subdivision ;
+	.
+
+lcc-3166-2-af:Sar-ePul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-SAR-Subdivision ;
+	.
+
+lcc-3166-2-af:Takhar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-TAK-Subdivision ;
+	.
+
+lcc-3166-2-af:Uruzgan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-URU-Subdivision ;
+	.
+
+lcc-3166-2-af:Wardak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-WAR-Subdivision ;
+	.
+
+lcc-3166-2-af:Wilayat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-321-RegionKind ;
+	.
+
+lcc-3166-2-af:Zabul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-af:AF-ZAB-Subdivision ;
+	.
+

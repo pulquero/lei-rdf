@@ -1,0 +1,3065 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Turkey Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Turkey, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	.
+
+lcc-3166-2-tr:Adana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-01-Subdivision ;
+	.
+
+lcc-3166-2-tr:Adyaman
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-02-Subdivision ;
+	.
+
+lcc-3166-2-tr:Afyonkarahisar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-03-Subdivision ;
+	.
+
+lcc-3166-2-tr:Agr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-04-Subdivision ;
+	.
+
+lcc-3166-2-tr:Aksaray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-68-Subdivision ;
+	.
+
+lcc-3166-2-tr:Amasya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-05-Subdivision ;
+	.
+
+lcc-3166-2-tr:Ankara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-06-Subdivision ;
+	.
+
+lcc-3166-2-tr:Antalya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-07-Subdivision ;
+	.
+
+lcc-3166-2-tr:Ardahan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-75-Subdivision ;
+	.
+
+lcc-3166-2-tr:Artvin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-08-Subdivision ;
+	.
+
+lcc-3166-2-tr:Aydn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-09-Subdivision ;
+	.
+
+lcc-3166-2-tr:Balkesir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-10-Subdivision ;
+	.
+
+lcc-3166-2-tr:Bartn
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-74-Subdivision ;
+	.
+
+lcc-3166-2-tr:Batman
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-72-Subdivision ;
+	.
+
+lcc-3166-2-tr:Bayburt
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-69-Subdivision ;
+	.
+
+lcc-3166-2-tr:Bilecik
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-11-Subdivision ;
+	.
+
+lcc-3166-2-tr:Bingol
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-12-Subdivision ;
+	.
+
+lcc-3166-2-tr:Bitlis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-13-Subdivision ;
+	.
+
+lcc-3166-2-tr:Bolu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-14-Subdivision ;
+	.
+
+lcc-3166-2-tr:Burdur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-15-Subdivision ;
+	.
+
+lcc-3166-2-tr:Bursa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-16-Subdivision ;
+	.
+
+lcc-3166-2-tr:Canakkale
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-17-Subdivision ;
+	.
+
+lcc-3166-2-tr:Cankr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-18-Subdivision ;
+	.
+
+lcc-3166-2-tr:Corum
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-19-Subdivision ;
+	.
+
+lcc-3166-2-tr:Denizli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-20-Subdivision ;
+	.
+
+lcc-3166-2-tr:Diyarbakr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-21-Subdivision ;
+	.
+
+lcc-3166-2-tr:Duzce
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-81-Subdivision ;
+	.
+
+lcc-3166-2-tr:Edirne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-22-Subdivision ;
+	.
+
+lcc-3166-2-tr:Elazg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-23-Subdivision ;
+	.
+
+lcc-3166-2-tr:Erzincan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-24-Subdivision ;
+	.
+
+lcc-3166-2-tr:Erzurum
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-25-Subdivision ;
+	.
+
+lcc-3166-2-tr:Eskisehir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-26-Subdivision ;
+	.
+
+lcc-3166-2-tr:Gaziantep
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-27-Subdivision ;
+	.
+
+lcc-3166-2-tr:Giresun
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-28-Subdivision ;
+	.
+
+lcc-3166-2-tr:Gumushane
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-29-Subdivision ;
+	.
+
+lcc-3166-2-tr:Hakkari
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-30-Subdivision ;
+	.
+
+lcc-3166-2-tr:Hatay
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-31-Subdivision ;
+	.
+
+lcc-3166-2-tr:Igdr
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-76-Subdivision ;
+	.
+
+lcc-3166-2-tr:Il
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-426-RegionKind ;
+	.
+
+lcc-3166-2-tr:Isparta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-32-Subdivision ;
+	.
+
+lcc-3166-2-tr:Istanbul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-34-Subdivision ;
+	.
+
+lcc-3166-2-tr:Izmir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-35-Subdivision ;
+	.
+
+lcc-3166-2-tr:Kahramanmaras
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-46-Subdivision ;
+	.
+
+lcc-3166-2-tr:Karabuk
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-78-Subdivision ;
+	.
+
+lcc-3166-2-tr:Karaman
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-70-Subdivision ;
+	.
+
+lcc-3166-2-tr:Kars
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-36-Subdivision ;
+	.
+
+lcc-3166-2-tr:Kastamonu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-37-Subdivision ;
+	.
+
+lcc-3166-2-tr:Kayseri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-38-Subdivision ;
+	.
+
+lcc-3166-2-tr:Kilis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-79-Subdivision ;
+	.
+
+lcc-3166-2-tr:Kocaeli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-41-Subdivision ;
+	.
+
+lcc-3166-2-tr:Konya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-42-Subdivision ;
+	.
+
+lcc-3166-2-tr:Krkkale
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-71-Subdivision ;
+	.
+
+lcc-3166-2-tr:Krklareli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-39-Subdivision ;
+	.
+
+lcc-3166-2-tr:Krsehir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-40-Subdivision ;
+	.
+
+lcc-3166-2-tr:Kutahya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-43-Subdivision ;
+	.
+
+lcc-3166-2-tr:Malatya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-44-Subdivision ;
+	.
+
+lcc-3166-2-tr:Manisa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-45-Subdivision ;
+	.
+
+lcc-3166-2-tr:Mardin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-47-Subdivision ;
+	.
+
+lcc-3166-2-tr:Mersin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-33-Subdivision ;
+	.
+
+lcc-3166-2-tr:Mugla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-48-Subdivision ;
+	.
+
+lcc-3166-2-tr:Mus
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-49-Subdivision ;
+	.
+
+lcc-3166-2-tr:Nevsehir
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-50-Subdivision ;
+	.
+
+lcc-3166-2-tr:Nigde
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-51-Subdivision ;
+	.
+
+lcc-3166-2-tr:Ordu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-52-Subdivision ;
+	.
+
+lcc-3166-2-tr:Osmaniye
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-80-Subdivision ;
+	.
+
+lcc-3166-2-tr:Rize
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-53-Subdivision ;
+	.
+
+lcc-3166-2-tr:Sakarya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-54-Subdivision ;
+	.
+
+lcc-3166-2-tr:Samsun
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-55-Subdivision ;
+	.
+
+lcc-3166-2-tr:Sanlurfa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-63-Subdivision ;
+	.
+
+lcc-3166-2-tr:Siirt
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-56-Subdivision ;
+	.
+
+lcc-3166-2-tr:Sinop
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-57-Subdivision ;
+	.
+
+lcc-3166-2-tr:Sivas
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-58-Subdivision ;
+	.
+
+lcc-3166-2-tr:Srnak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-73-Subdivision ;
+	.
+
+lcc-3166-2-tr:TR-01
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-01-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-01-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Adana in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-01-Subdivision ;
+	lcc-lr:hasTag "TR-01" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-01-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-01-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Adana"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Adana in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Adana"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-02
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-02-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-02-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Adıyaman in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-02-Subdivision ;
+	lcc-lr:hasTag "TR-02" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-02-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-02-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Adıyaman"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Adıyaman in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Adıyaman"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-03
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-03-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-03-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Afyonkarahisar in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-03-Subdivision ;
+	lcc-lr:hasTag "TR-03" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-03-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-03-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Afyonkarahisar"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Afyonkarahisar in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Afyonkarahisar"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-04
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-04-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-04-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Ağrı in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-04-Subdivision ;
+	lcc-lr:hasTag "TR-04" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-04-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-04-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ağrı"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Ağrı in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Ağrı"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-05
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-05-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-05-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Amasya in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-05-Subdivision ;
+	lcc-lr:hasTag "TR-05" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-05-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-05-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amasya"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Amasya in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Amasya"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-06
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-06-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-06-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Ankara in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-06-Subdivision ;
+	lcc-lr:hasTag "TR-06" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-06-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-06-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ankara"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Ankara in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Ankara"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-07
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-07-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-07-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Antalya in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-07-Subdivision ;
+	lcc-lr:hasTag "TR-07" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-07-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-07-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Antalya"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Antalya in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Antalya"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-08
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-08-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-08-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Artvin in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-08-Subdivision ;
+	lcc-lr:hasTag "TR-08" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-08-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-08-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Artvin"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Artvin in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Artvin"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-09
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-09-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-09-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Aydın in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-09-Subdivision ;
+	lcc-lr:hasTag "TR-09" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-09-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-09-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aydın"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Aydın in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Aydın"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Balıkesir in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-10-Subdivision ;
+	lcc-lr:hasTag "TR-10" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balıkesir"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Balıkesir in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Balıkesir"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Bilecik in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-11-Subdivision ;
+	lcc-lr:hasTag "TR-11" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bilecik"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Bilecik in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Bilecik"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Bingöl in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-12-Subdivision ;
+	lcc-lr:hasTag "TR-12" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bingöl"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Bingöl in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Bingöl"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Bitlis in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-13-Subdivision ;
+	lcc-lr:hasTag "TR-13" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bitlis"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Bitlis in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Bitlis"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Bolu in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-14-Subdivision ;
+	lcc-lr:hasTag "TR-14" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolu"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Bolu in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Bolu"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Burdur in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-15-Subdivision ;
+	lcc-lr:hasTag "TR-15" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Burdur"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Burdur in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Burdur"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Bursa in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-16-Subdivision ;
+	lcc-lr:hasTag "TR-16" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bursa"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Bursa in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Bursa"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Çanakkale in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-17-Subdivision ;
+	lcc-lr:hasTag "TR-17" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Çanakkale"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Çanakkale in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Çanakkale"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Çankırı in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-18-Subdivision ;
+	lcc-lr:hasTag "TR-18" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Çankırı"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Çankırı in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Çankırı"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Çorum in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-19-Subdivision ;
+	lcc-lr:hasTag "TR-19" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Çorum"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Çorum in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Çorum"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Denizli in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-20-Subdivision ;
+	lcc-lr:hasTag "TR-20" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Denizli"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Denizli in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Denizli"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Diyarbakır in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-21-Subdivision ;
+	lcc-lr:hasTag "TR-21" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Diyarbakır"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Diyarbakır in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Diyarbakır"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Edirne in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-22-Subdivision ;
+	lcc-lr:hasTag "TR-22" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Edirne"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Edirne in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Edirne"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Elazığ in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-23-Subdivision ;
+	lcc-lr:hasTag "TR-23" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Elazığ"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Elazığ in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Elazığ"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Erzincan in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-24-Subdivision ;
+	lcc-lr:hasTag "TR-24" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Erzincan"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Erzincan in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Erzincan"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Erzurum in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-25-Subdivision ;
+	lcc-lr:hasTag "TR-25" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Erzurum"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Erzurum in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Erzurum"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Eskişehir in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-26-Subdivision ;
+	lcc-lr:hasTag "TR-26" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eskişehir"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Eskişehir in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Eskişehir"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Gaziantep in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-27-Subdivision ;
+	lcc-lr:hasTag "TR-27" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gaziantep"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Gaziantep in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Gaziantep"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-28
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-28-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-28-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Giresun in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-28-Subdivision ;
+	lcc-lr:hasTag "TR-28" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-28-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-28-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Giresun"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Giresun in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Giresun"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-29
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-29-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-29-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Gümüşhane in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-29-Subdivision ;
+	lcc-lr:hasTag "TR-29" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-29-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-29-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gümüşhane"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Gümüşhane in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Gümüşhane"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Hakkâri in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-30-Subdivision ;
+	lcc-lr:hasTag "TR-30" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hakkâri"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Hakkâri in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Hakkâri"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Hatay in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-31-Subdivision ;
+	lcc-lr:hasTag "TR-31" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hatay"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Hatay in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Hatay"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Isparta in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-32-Subdivision ;
+	lcc-lr:hasTag "TR-32" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isparta"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Isparta in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Isparta"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Mersin in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-33-Subdivision ;
+	lcc-lr:hasTag "TR-33" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mersin"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Mersin in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Mersin"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of İstanbul in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-34-Subdivision ;
+	lcc-lr:hasTag "TR-34" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "İstanbul"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of İstanbul in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "İstanbul"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-35
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-35-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-35-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of İzmir in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-35-Subdivision ;
+	lcc-lr:hasTag "TR-35" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-35-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-35-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "İzmir"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of İzmir in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "İzmir"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-36
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-36-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-36-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kars in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-36-Subdivision ;
+	lcc-lr:hasTag "TR-36" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-36-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-36-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kars"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kars in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kars"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-37
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-37-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-37-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kastamonu in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-37-Subdivision ;
+	lcc-lr:hasTag "TR-37" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-37-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-37-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kastamonu"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kastamonu in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kastamonu"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-38
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-38-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-38-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kayseri in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-38-Subdivision ;
+	lcc-lr:hasTag "TR-38" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-38-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-38-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kayseri"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kayseri in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kayseri"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-39
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-39-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-39-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kırklareli in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-39-Subdivision ;
+	lcc-lr:hasTag "TR-39" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-39-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-39-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kırklareli"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kırklareli in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kırklareli"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-40
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-40-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-40-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kırşehir in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-40-Subdivision ;
+	lcc-lr:hasTag "TR-40" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-40-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-40-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kırşehir"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kırşehir in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kırşehir"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kocaeli in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-41-Subdivision ;
+	lcc-lr:hasTag "TR-41" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kocaeli"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kocaeli in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kocaeli"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Konya in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-42-Subdivision ;
+	lcc-lr:hasTag "TR-42" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Konya"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Konya in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Konya"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-426-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "il"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision category il in the country of Turkey" ;
+	.
+
+lcc-3166-2-tr:TR-43
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-43-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-43-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kütahya in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-43-Subdivision ;
+	lcc-lr:hasTag "TR-43" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-43-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-43-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kütahya"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kütahya in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kütahya"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-44
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-44-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-44-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Malatya in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-44-Subdivision ;
+	lcc-lr:hasTag "TR-44" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-44-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-44-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Malatya"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Malatya in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Malatya"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-45
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-45-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-45-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Manisa in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-45-Subdivision ;
+	lcc-lr:hasTag "TR-45" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-45-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-45-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manisa"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Manisa in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Manisa"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-46
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-46-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-46-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kahramanmaraş in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-46-Subdivision ;
+	lcc-lr:hasTag "TR-46" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-46-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-46-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kahramanmaraş"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kahramanmaraş in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kahramanmaraş"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-47
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-47-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-47-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Mardin in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-47-Subdivision ;
+	lcc-lr:hasTag "TR-47" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-47-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-47-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mardin"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Mardin in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Mardin"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-48
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-48-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-48-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Muğla in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-48-Subdivision ;
+	lcc-lr:hasTag "TR-48" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-48-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-48-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Muğla"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Muğla in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Muğla"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-49
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-49-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-49-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Muş in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-49-Subdivision ;
+	lcc-lr:hasTag "TR-49" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-49-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-49-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Muş"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Muş in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Muş"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-50
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-50-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-50-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Nevşehir in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-50-Subdivision ;
+	lcc-lr:hasTag "TR-50" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-50-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-50-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nevşehir"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Nevşehir in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Nevşehir"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-51
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-51-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-51-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Niğde in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-51-Subdivision ;
+	lcc-lr:hasTag "TR-51" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-51-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-51-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niğde"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Niğde in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Niğde"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-52
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-52-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-52-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Ordu in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-52-Subdivision ;
+	lcc-lr:hasTag "TR-52" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-52-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-52-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ordu"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Ordu in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Ordu"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-53
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-53-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-53-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Rize in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-53-Subdivision ;
+	lcc-lr:hasTag "TR-53" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-53-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-53-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rize"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Rize in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Rize"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-54
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-54-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-54-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-54" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Sakarya in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-54-Subdivision ;
+	lcc-lr:hasTag "TR-54" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-54-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-54-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sakarya"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Sakarya in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Sakarya"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-55
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-55-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-55-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Samsun in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-55-Subdivision ;
+	lcc-lr:hasTag "TR-55" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-55-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-55-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samsun"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Samsun in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Samsun"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-56
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-56-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-56-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Siirt in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-56-Subdivision ;
+	lcc-lr:hasTag "TR-56" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-56-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-56-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siirt"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Siirt in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Siirt"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-57
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-57-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-57-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Sinop in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-57-Subdivision ;
+	lcc-lr:hasTag "TR-57" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-57-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-57-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sinop"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Sinop in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Sinop"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-58
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-58-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-58-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-58" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Sivas in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-58-Subdivision ;
+	lcc-lr:hasTag "TR-58" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-58-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-58-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sivas"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Sivas in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Sivas"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-59
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-59-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-59-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Tekirdağ in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-59-Subdivision ;
+	lcc-lr:hasTag "TR-59" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-59-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-59-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tekirdağ"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Tekirdağ in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Tekirdağ"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-60
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-60-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-60-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-60" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Tokat in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-60-Subdivision ;
+	lcc-lr:hasTag "TR-60" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-60-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-60-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tokat"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Tokat in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Tokat"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-61
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-61-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-61-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Trabzon in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-61-Subdivision ;
+	lcc-lr:hasTag "TR-61" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-61-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-61-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trabzon"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Trabzon in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Trabzon"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-62
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-62-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-62-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-62" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Tunceli in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-62-Subdivision ;
+	lcc-lr:hasTag "TR-62" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-62-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-62-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tunceli"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Tunceli in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Tunceli"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-63
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-63-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-63-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Şanlıurfa in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-63-Subdivision ;
+	lcc-lr:hasTag "TR-63" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-63-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-63-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şanlıurfa"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Şanlıurfa in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Şanlıurfa"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-64
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-64-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-64-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-64" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Uşak in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-64-Subdivision ;
+	lcc-lr:hasTag "TR-64" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-64-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-64-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uşak"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Uşak in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Uşak"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-65
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-65-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-65-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-65" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Van in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-65-Subdivision ;
+	lcc-lr:hasTag "TR-65" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-65-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-65-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Van"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Van in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Van"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-66
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-66-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-66-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-66" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Yozgat in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-66-Subdivision ;
+	lcc-lr:hasTag "TR-66" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-66-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-66-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yozgat"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Yozgat in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Yozgat"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-67
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-67-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-67-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Zonguldak in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-67-Subdivision ;
+	lcc-lr:hasTag "TR-67" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-67-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-67-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zonguldak"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Zonguldak in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Zonguldak"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-68
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-68-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-68-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-68" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Aksaray in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-68-Subdivision ;
+	lcc-lr:hasTag "TR-68" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-68-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-68-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aksaray"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Aksaray in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Aksaray"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-69
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-69-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-69-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-69" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Bayburt in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-69-Subdivision ;
+	lcc-lr:hasTag "TR-69" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-69-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-69-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bayburt"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Bayburt in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Bayburt"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-70
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-70-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-70-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-70" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Karaman in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-70-Subdivision ;
+	lcc-lr:hasTag "TR-70" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-70-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-70-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karaman"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Karaman in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Karaman"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-71
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-71-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-71-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kırıkkale in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-71-Subdivision ;
+	lcc-lr:hasTag "TR-71" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-71-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-71-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kırıkkale"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kırıkkale in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kırıkkale"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-72
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-72-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-72-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Batman in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-72-Subdivision ;
+	lcc-lr:hasTag "TR-72" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-72-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-72-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Batman"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Batman in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Batman"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-73
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-73-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-73-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-73" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Şırnak in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-73-Subdivision ;
+	lcc-lr:hasTag "TR-73" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-73-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-73-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şırnak"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Şırnak in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Şırnak"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-74
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-74-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-74-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-74" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Bartın in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-74-Subdivision ;
+	lcc-lr:hasTag "TR-74" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-74-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-74-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bartın"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Bartın in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Bartın"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-75
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-75-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-75-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-75" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Ardahan in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-75-Subdivision ;
+	lcc-lr:hasTag "TR-75" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-75-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-75-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ardahan"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Ardahan in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Ardahan"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-76
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-76-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-76-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-76" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Iğdır in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-76-Subdivision ;
+	lcc-lr:hasTag "TR-76" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-76-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-76-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iğdır"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Iğdır in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Iğdır"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-77
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-77-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-77-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-77" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Yalova in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-77-Subdivision ;
+	lcc-lr:hasTag "TR-77" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-77-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-77-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yalova"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Yalova in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Yalova"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-78
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-78-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-78-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-78" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Karabük in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-78-Subdivision ;
+	lcc-lr:hasTag "TR-78" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-78-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-78-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karabük"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Karabük in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Karabük"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-79
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-79-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-79-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-79" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Kilis in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-79-Subdivision ;
+	lcc-lr:hasTag "TR-79" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-79-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-79-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kilis"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Kilis in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Kilis"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-80
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-80-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-80-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-80" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Osmaniye in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-80-Subdivision ;
+	lcc-lr:hasTag "TR-80" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-80-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-80-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Osmaniye"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Osmaniye in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Osmaniye"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:TR-81
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-81-RegionIdentifier ;
+	.
+
+lcc-3166-2-tr:TR-81-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TR-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "subdivision code for the il of Düzce in the country of Turkey" ;
+	lcc-lr:denotes lcc-3166-2-tr:TR-81-Subdivision ;
+	lcc-lr:hasTag "TR-81" ;
+	lcc-lr:identifies lcc-3166-2-tr:TR-81-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tr:TR-81-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Düzce"@tr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TR/> ;
+	skos:definition "the il of Düzce in the country of Turkey" ;
+	lcc-cr:hasLocalShortName "Düzce"@tr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tr:TR-426-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-2-tr:Tekirdag
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-59-Subdivision ;
+	.
+
+lcc-3166-2-tr:Tokat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-60-Subdivision ;
+	.
+
+lcc-3166-2-tr:Trabzon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-61-Subdivision ;
+	.
+
+lcc-3166-2-tr:Tunceli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-62-Subdivision ;
+	.
+
+lcc-3166-2-tr:Usak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-64-Subdivision ;
+	.
+
+lcc-3166-2-tr:Van
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-65-Subdivision ;
+	.
+
+lcc-3166-2-tr:Yalova
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-77-Subdivision ;
+	.
+
+lcc-3166-2-tr:Yozgat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-66-Subdivision ;
+	.
+
+lcc-3166-2-tr:Zonguldak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tr:TR-67-Subdivision ;
+	.
+

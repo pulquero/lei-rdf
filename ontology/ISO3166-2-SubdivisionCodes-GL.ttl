@@ -1,0 +1,253 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gl: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Greenland Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gl" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Greenland, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GL.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	.
+
+lcc-3166-2-gl:AvannaataKommunia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-AV-Subdivision ;
+	.
+
+lcc-3166-2-gl:GL-243-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "kommunia"@kl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "subdivision category kommunia in the country of Greenland" ;
+	.
+
+lcc-3166-2-gl:GL-AV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-AV-RegionIdentifier ;
+	.
+
+lcc-3166-2-gl:GL-AV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GL-AV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "subdivision code for the kommunia of Avannaata Kommunia in the country of Greenland" ;
+	lcc-lr:denotes lcc-3166-2-gl:GL-AV-Subdivision ;
+	lcc-lr:hasTag "GL-AV" ;
+	lcc-lr:identifies lcc-3166-2-gl:GL-AV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gl:GL-AV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Avannaata Kommunia"@kl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "the kommunia of Avannaata Kommunia in the country of Greenland" ;
+	lcc-cr:hasLocalShortName "Avannaata Kommunia"@kl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gl:GL-243-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greenland ;
+	.
+
+lcc-3166-2-gl:GL-KU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-KU-RegionIdentifier ;
+	.
+
+lcc-3166-2-gl:GL-KU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GL-KU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "subdivision code for the kommunia of Kommune Kujalleq in the country of Greenland" ;
+	lcc-lr:denotes lcc-3166-2-gl:GL-KU-Subdivision ;
+	lcc-lr:hasTag "GL-KU" ;
+	lcc-lr:identifies lcc-3166-2-gl:GL-KU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gl:GL-KU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kommune Kujalleq"@kl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "the kommunia of Kommune Kujalleq in the country of Greenland" ;
+	lcc-cr:hasLocalShortName "Kommune Kujalleq"@kl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gl:GL-243-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greenland ;
+	.
+
+lcc-3166-2-gl:GL-QE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-QE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gl:GL-QE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GL-QE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "subdivision code for the kommunia of Qeqqata Kommunia in the country of Greenland" ;
+	lcc-lr:denotes lcc-3166-2-gl:GL-QE-Subdivision ;
+	lcc-lr:hasTag "GL-QE" ;
+	lcc-lr:identifies lcc-3166-2-gl:GL-QE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gl:GL-QE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qeqqata Kommunia"@kl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "the kommunia of Qeqqata Kommunia in the country of Greenland" ;
+	lcc-cr:hasLocalShortName "Qeqqata Kommunia"@kl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gl:GL-243-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greenland ;
+	.
+
+lcc-3166-2-gl:GL-QT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-QT-RegionIdentifier ;
+	.
+
+lcc-3166-2-gl:GL-QT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GL-QT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "subdivision code for the kommunia of Kommune Qeqertalik in the country of Greenland" ;
+	lcc-lr:denotes lcc-3166-2-gl:GL-QT-Subdivision ;
+	lcc-lr:hasTag "GL-QT" ;
+	lcc-lr:identifies lcc-3166-2-gl:GL-QT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gl:GL-QT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kommune Qeqertalik"@kl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "the kommunia of Kommune Qeqertalik in the country of Greenland" ;
+	lcc-cr:hasLocalShortName "Kommune Qeqertalik"@kl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gl:GL-243-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greenland ;
+	.
+
+lcc-3166-2-gl:GL-SM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-SM-RegionIdentifier ;
+	.
+
+lcc-3166-2-gl:GL-SM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GL-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "subdivision code for the kommunia of Kommuneqarfik Sermersooq in the country of Greenland" ;
+	lcc-lr:denotes lcc-3166-2-gl:GL-SM-Subdivision ;
+	lcc-lr:hasTag "GL-SM" ;
+	lcc-lr:identifies lcc-3166-2-gl:GL-SM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gl:GL-SM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kommuneqarfik Sermersooq"@kl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL/> ;
+	skos:definition "the kommunia of Kommuneqarfik Sermersooq in the country of Greenland" ;
+	lcc-cr:hasLocalShortName "Kommuneqarfik Sermersooq"@kl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gl:GL-243-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Greenland ;
+	.
+
+lcc-3166-2-gl:KommuneKujalleq
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-KU-Subdivision ;
+	.
+
+lcc-3166-2-gl:KommuneQeqertalik
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-QT-Subdivision ;
+	.
+
+lcc-3166-2-gl:KommuneqarfikSermersooq
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-SM-Subdivision ;
+	.
+
+lcc-3166-2-gl:Kommunia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-243-RegionKind ;
+	.
+
+lcc-3166-2-gl:QeqqataKommunia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gl:GL-QE-Subdivision ;
+	.
+

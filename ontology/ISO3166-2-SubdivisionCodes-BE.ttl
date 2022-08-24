@@ -1,0 +1,576 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-be: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Belgium Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-be" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Belgium, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	.
+
+lcc-3166-2-be:Antwerpen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VAN-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-390-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"Provinz"@de ,
+		"province"@fr ,
+		"provincie"@nl
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision category Provinz in the country of Belgium" ;
+	.
+
+lcc-3166-2-be:BE-391-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label
+		"Region"@de ,
+		"gewest"@nl ,
+		"région"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision category Region in the country of Belgium" ;
+	.
+
+lcc-3166-2-be:BE-BRU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-BRU-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-BRU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-BRU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Region of Bruxelles-Capitale, Région de in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-BRU-Subdivision ;
+	lcc-lr:hasTag "BE-BRU" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-BRU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-BRU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Brussels Hoofdstedelijk Gewest"@nl ,
+		"Bruxelles-Capitale, Région de"@fr
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Region of Bruxelles-Capitale, Région de in the country of Belgium" ;
+	lcc-cr:hasFrenchShortName "Bruxelles-Capitale, Région de"@fr ;
+	lcc-cr:hasLocalShortName "Brussels Hoofdstedelijk Gewest"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-391-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belgium ;
+	.
+
+lcc-3166-2-be:BE-VAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-VAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-VAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Antwerpen in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-VAN-Subdivision ;
+	lcc-lr:hasTag "BE-VAN" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-VAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-VAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Antwerpen"@nl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Antwerpen in the country of Belgium" ;
+	lcc-cr:hasLocalShortName "Antwerpen"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-VLG-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-VBR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VBR-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-VBR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-VBR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Vlaams-Brabant in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-VBR-Subdivision ;
+	lcc-lr:hasTag "BE-VBR" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-VBR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-VBR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vlaams-Brabant"@nl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Vlaams-Brabant in the country of Belgium" ;
+	lcc-cr:hasLocalShortName "Vlaams-Brabant"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-VLG-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-VLG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VLG-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-VLG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-VLG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Region of Vlaams Gewest in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-VLG-Subdivision ;
+	lcc-lr:hasTag "BE-VLG" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-VLG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-VLG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vlaams Gewest"@nl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Region of Vlaams Gewest in the country of Belgium" ;
+	lcc-cr:hasLocalShortName "Vlaams Gewest"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-391-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belgium ;
+	.
+
+lcc-3166-2-be:BE-VLI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VLI-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-VLI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-VLI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Limburg in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-VLI-Subdivision ;
+	lcc-lr:hasTag "BE-VLI" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-VLI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-VLI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Limburg"@nl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Limburg in the country of Belgium" ;
+	lcc-cr:hasLocalShortName "Limburg"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-VLG-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-VOV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VOV-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-VOV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-VOV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Oost-Vlaanderen in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-VOV-Subdivision ;
+	lcc-lr:hasTag "BE-VOV" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-VOV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-VOV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oost-Vlaanderen"@nl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Oost-Vlaanderen in the country of Belgium" ;
+	lcc-cr:hasLocalShortName "Oost-Vlaanderen"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-VLG-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-VWV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VWV-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-VWV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-VWV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of West-Vlaanderen in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-VWV-Subdivision ;
+	lcc-lr:hasTag "BE-VWV" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-VWV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-VWV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West-Vlaanderen"@nl ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of West-Vlaanderen in the country of Belgium" ;
+	lcc-cr:hasLocalShortName "West-Vlaanderen"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-VLG-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-WAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-WAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-WAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Region of wallonne, Région in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-WAL-Subdivision ;
+	lcc-lr:hasTag "BE-WAL" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-WAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-WAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "wallonne, Région"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Region of wallonne, Région in the country of Belgium" ;
+	lcc-cr:hasFrenchShortName "wallonne, Région"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-391-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belgium ;
+	.
+
+lcc-3166-2-be:BE-WBR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WBR-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-WBR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-WBR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Brabant wallon in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-WBR-Subdivision ;
+	lcc-lr:hasTag "BE-WBR" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-WBR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-WBR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brabant wallon"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Brabant wallon in the country of Belgium" ;
+	lcc-cr:hasFrenchShortName "Brabant wallon"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-WAL-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-WHT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WHT-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-WHT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-WHT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Hainaut in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-WHT-Subdivision ;
+	lcc-lr:hasTag "BE-WHT" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-WHT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-WHT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hainaut"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Hainaut in the country of Belgium" ;
+	lcc-cr:hasFrenchShortName "Hainaut"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-WAL-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-WLG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WLG-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-WLG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-WLG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Liège in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-WLG-Subdivision ;
+	lcc-lr:hasTag "BE-WLG" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-WLG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-WLG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Liège"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Liège in the country of Belgium" ;
+	lcc-cr:hasFrenchShortName "Liège"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-WAL-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-WLX
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WLX-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-WLX-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-WLX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Luxembourg in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-WLX-Subdivision ;
+	lcc-lr:hasTag "BE-WLX" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-WLX-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-WLX-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luxembourg"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Luxembourg in the country of Belgium" ;
+	lcc-cr:hasFrenchShortName "Luxembourg"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-WAL-Subdivision ;
+	.
+
+lcc-3166-2-be:BE-WNA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WNA-RegionIdentifier ;
+	.
+
+lcc-3166-2-be:BE-WNA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BE-WNA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "subdivision code for the Provinz of Namur in the country of Belgium" ;
+	lcc-lr:denotes lcc-3166-2-be:BE-WNA-Subdivision ;
+	lcc-lr:hasTag "BE-WNA" ;
+	lcc-lr:identifies lcc-3166-2-be:BE-WNA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-be:BE-WNA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namur"@fr ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/> ;
+	skos:definition "the Provinz of Namur in the country of Belgium" ;
+	lcc-cr:hasFrenchShortName "Namur"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-be:BE-390-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-be:BE-WAL-Subdivision ;
+	.
+
+lcc-3166-2-be:BrabantWallon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WBR-Subdivision ;
+	.
+
+lcc-3166-2-be:Bruxelles-Capitale
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-BRU-Subdivision ;
+	.
+
+lcc-3166-2-be:Hainaut
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WHT-Subdivision ;
+	.
+
+lcc-3166-2-be:Liege
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WLG-Subdivision ;
+	.
+
+lcc-3166-2-be:Limburg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VLI-Subdivision ;
+	.
+
+lcc-3166-2-be:Luxembourg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WLX-Subdivision ;
+	.
+
+lcc-3166-2-be:Namur
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WNA-Subdivision ;
+	.
+
+lcc-3166-2-be:Oost-Vlaanderen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VOV-Subdivision ;
+	.
+
+lcc-3166-2-be:Provinz
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-390-RegionKind ;
+	.
+
+lcc-3166-2-be:Region
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-391-RegionKind ;
+	.
+
+lcc-3166-2-be:Vlaams-Brabant
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VBR-Subdivision ;
+	.
+
+lcc-3166-2-be:VlaamsGewest
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VLG-Subdivision ;
+	.
+
+lcc-3166-2-be:Wallonne
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-WAL-Subdivision ;
+	.
+
+lcc-3166-2-be:West-Vlaanderen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-be:BE-VWV-Subdivision ;
+	.
+

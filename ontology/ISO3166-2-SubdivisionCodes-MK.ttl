@@ -1,0 +1,3028 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mk: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for North Macedonia Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mk" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for North Macedonia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MK.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	.
+
+lcc-3166-2-mk:Aerodrom
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-801-Subdivision ;
+	.
+
+lcc-3166-2-mk:Aracinovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-802-Subdivision ;
+	.
+
+lcc-3166-2-mk:Berovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-201-Subdivision ;
+	.
+
+lcc-3166-2-mk:Bitola
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-501-Subdivision ;
+	.
+
+lcc-3166-2-mk:Bogdanci
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-401-Subdivision ;
+	.
+
+lcc-3166-2-mk:Bogovinje
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-601-Subdivision ;
+	.
+
+lcc-3166-2-mk:Bosilovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-402-Subdivision ;
+	.
+
+lcc-3166-2-mk:Brvenica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-602-Subdivision ;
+	.
+
+lcc-3166-2-mk:Butel
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-803-Subdivision ;
+	.
+
+lcc-3166-2-mk:Cair
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-815-Subdivision ;
+	.
+
+lcc-3166-2-mk:Caska
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-109-Subdivision ;
+	.
+
+lcc-3166-2-mk:Centar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-814-Subdivision ;
+	.
+
+lcc-3166-2-mk:CentarZupa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-313-Subdivision ;
+	.
+
+lcc-3166-2-mk:Cesinovo-Oblesevo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-210-Subdivision ;
+	.
+
+lcc-3166-2-mk:Cucer-Sandevo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-816-Subdivision ;
+	.
+
+lcc-3166-2-mk:Debar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-303-Subdivision ;
+	.
+
+lcc-3166-2-mk:Debrca
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-304-Subdivision ;
+	.
+
+lcc-3166-2-mk:Delcevo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-203-Subdivision ;
+	.
+
+lcc-3166-2-mk:DemirHisar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-502-Subdivision ;
+	.
+
+lcc-3166-2-mk:DemirKapija
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-103-Subdivision ;
+	.
+
+lcc-3166-2-mk:Dojran
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-406-Subdivision ;
+	.
+
+lcc-3166-2-mk:Dolneni
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-503-Subdivision ;
+	.
+
+lcc-3166-2-mk:GaziBaba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-804-Subdivision ;
+	.
+
+lcc-3166-2-mk:Gevgelija
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-405-Subdivision ;
+	.
+
+lcc-3166-2-mk:GjorcePetrov
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-805-Subdivision ;
+	.
+
+lcc-3166-2-mk:Gostivar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-604-Subdivision ;
+	.
+
+lcc-3166-2-mk:Gradsko
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-102-Subdivision ;
+	.
+
+lcc-3166-2-mk:Ilinden
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-807-Subdivision ;
+	.
+
+lcc-3166-2-mk:Jegunovce
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-606-Subdivision ;
+	.
+
+lcc-3166-2-mk:Karbinci
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-205-Subdivision ;
+	.
+
+lcc-3166-2-mk:Karpos
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-808-Subdivision ;
+	.
+
+lcc-3166-2-mk:Kavadarci
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-104-Subdivision ;
+	.
+
+lcc-3166-2-mk:Kicevo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-307-Subdivision ;
+	.
+
+lcc-3166-2-mk:KiselaVoda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-809-Subdivision ;
+	.
+
+lcc-3166-2-mk:Kocani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-206-Subdivision ;
+	.
+
+lcc-3166-2-mk:Konce
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-407-Subdivision ;
+	.
+
+lcc-3166-2-mk:Kratovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-701-Subdivision ;
+	.
+
+lcc-3166-2-mk:KrivaPalanka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-702-Subdivision ;
+	.
+
+lcc-3166-2-mk:Krivogastani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-504-Subdivision ;
+	.
+
+lcc-3166-2-mk:Krusevo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-505-Subdivision ;
+	.
+
+lcc-3166-2-mk:Kumanovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-703-Subdivision ;
+	.
+
+lcc-3166-2-mk:Lipkovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-704-Subdivision ;
+	.
+
+lcc-3166-2-mk:Lozovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-105-Subdivision ;
+	.
+
+lcc-3166-2-mk:MK-101
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-101-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-101-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-101" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Veles in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-101-Subdivision ;
+	lcc-lr:hasTag "MK-101" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-101-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-101-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Veles"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Veles in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Veles"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-102
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-102-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-102-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-102" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Gradsko in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-102-Subdivision ;
+	lcc-lr:hasTag "MK-102" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-102-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-102-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gradsko"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Gradsko in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Gradsko"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-103
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-103-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-103-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-103" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Demir Kapija in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-103-Subdivision ;
+	lcc-lr:hasTag "MK-103" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-103-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-103-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Demir Kapija"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Demir Kapija in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Demir Kapija"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-104
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-104-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-104-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-104" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kavadarci in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-104-Subdivision ;
+	lcc-lr:hasTag "MK-104" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-104-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-104-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kavadarci"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kavadarci in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kavadarci"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-105
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-105-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-105-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-105" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Lozovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-105-Subdivision ;
+	lcc-lr:hasTag "MK-105" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-105-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-105-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lozovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Lozovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Lozovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-106
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-106-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-106-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-106" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Negotino in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-106-Subdivision ;
+	lcc-lr:hasTag "MK-106" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-106-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-106-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Negotino"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Negotino in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Negotino"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-107
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-107-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-107-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-107" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Rosoman in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-107-Subdivision ;
+	lcc-lr:hasTag "MK-107" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-107-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-107-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rosoman"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Rosoman in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Rosoman"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-108
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-108-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-108-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-108" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Sveti Nikole in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-108-Subdivision ;
+	lcc-lr:hasTag "MK-108" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-108-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-108-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sveti Nikole"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Sveti Nikole in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Sveti Nikole"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-109
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-109-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-109-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-109" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Čaška in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-109-Subdivision ;
+	lcc-lr:hasTag "MK-109" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-109-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-109-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Čaška"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Čaška in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Čaška"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-201
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-201-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-201-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-201" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Berovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-201-Subdivision ;
+	lcc-lr:hasTag "MK-201" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-201-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-201-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Berovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Berovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Berovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-202
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-202-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-202-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-202" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Vinica in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-202-Subdivision ;
+	lcc-lr:hasTag "MK-202" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-202-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-202-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vinica"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Vinica in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Vinica"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-203
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-203-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-203-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-203" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Delčevo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-203-Subdivision ;
+	lcc-lr:hasTag "MK-203" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-203-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-203-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Delčevo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Delčevo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Delčevo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-204
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-204-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-204-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-204" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Zrnovci in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-204-Subdivision ;
+	lcc-lr:hasTag "MK-204" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-204-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-204-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zrnovci"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Zrnovci in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Zrnovci"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-205
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-205-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-205-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-205" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Karbinci in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-205-Subdivision ;
+	lcc-lr:hasTag "MK-205" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-205-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-205-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karbinci"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Karbinci in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Karbinci"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-206
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-206-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-206-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-206" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kočani in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-206-Subdivision ;
+	lcc-lr:hasTag "MK-206" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-206-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-206-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kočani"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kočani in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kočani"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-207
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-207-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-207-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-207" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Makedonska Kamenica in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-207-Subdivision ;
+	lcc-lr:hasTag "MK-207" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-207-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-207-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Makedonska Kamenica"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Makedonska Kamenica in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Makedonska Kamenica"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-208
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-208-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-208-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-208" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Pehčevo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-208-Subdivision ;
+	lcc-lr:hasTag "MK-208" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-208-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-208-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pehčevo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Pehčevo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Pehčevo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-209
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-209-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-209-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-209" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Probištip in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-209-Subdivision ;
+	lcc-lr:hasTag "MK-209" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-209-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-209-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Probištip"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Probištip in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Probištip"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-210
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-210-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-210-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-210" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Češinovo-Obleševo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-210-Subdivision ;
+	lcc-lr:hasTag "MK-210" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-210-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-210-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Češinovo-Obleševo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Češinovo-Obleševo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Češinovo-Obleševo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-211
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-211-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-211-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-211" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Štip in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-211-Subdivision ;
+	lcc-lr:hasTag "MK-211" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-211-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-211-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Štip"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Štip in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Štip"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-288-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "opština"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision category opština in the country of North Macedonia" ;
+	.
+
+lcc-3166-2-mk:MK-301
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-301-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-301-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-301" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Vevčani in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-301-Subdivision ;
+	lcc-lr:hasTag "MK-301" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-301-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-301-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vevčani"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Vevčani in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Vevčani"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-303
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-303-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-303-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-303" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Debar in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-303-Subdivision ;
+	lcc-lr:hasTag "MK-303" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-303-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-303-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Debar"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Debar in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Debar"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-304
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-304-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-304-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-304" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Debrca in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-304-Subdivision ;
+	lcc-lr:hasTag "MK-304" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-304-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-304-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Debrca"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Debrca in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Debrca"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-307
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-307-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-307-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-307" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kičevo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-307-Subdivision ;
+	lcc-lr:hasTag "MK-307" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-307-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-307-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kičevo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kičevo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kičevo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-308
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-308-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-308-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-308" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Makedonski Brod in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-308-Subdivision ;
+	lcc-lr:hasTag "MK-308" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-308-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-308-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Makedonski Brod"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Makedonski Brod in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Makedonski Brod"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-310
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-310-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-310-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-310" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Ohrid in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-310-Subdivision ;
+	lcc-lr:hasTag "MK-310" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-310-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-310-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ohrid"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Ohrid in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Ohrid"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-311
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-311-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-311-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-311" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Plasnica in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-311-Subdivision ;
+	lcc-lr:hasTag "MK-311" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-311-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-311-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plasnica"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Plasnica in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Plasnica"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-312
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-312-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-312-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-312" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Struga in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-312-Subdivision ;
+	lcc-lr:hasTag "MK-312" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-312-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-312-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Struga"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Struga in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Struga"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-313
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-313-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-313-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-313" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Centar Župa in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-313-Subdivision ;
+	lcc-lr:hasTag "MK-313" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-313-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-313-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centar Župa"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Centar Župa in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Centar Župa"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-401
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-401-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-401-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-401" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Bogdanci in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-401-Subdivision ;
+	lcc-lr:hasTag "MK-401" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-401-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-401-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bogdanci"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Bogdanci in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Bogdanci"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-402
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-402-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-402-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-402" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Bosilovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-402-Subdivision ;
+	lcc-lr:hasTag "MK-402" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-402-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-402-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bosilovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Bosilovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Bosilovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-403
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-403-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-403-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-403" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Valandovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-403-Subdivision ;
+	lcc-lr:hasTag "MK-403" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-403-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-403-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valandovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Valandovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Valandovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-404
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-404-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-404-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-404" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Vasilevo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-404-Subdivision ;
+	lcc-lr:hasTag "MK-404" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-404-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-404-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vasilevo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Vasilevo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Vasilevo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-405
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-405-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-405-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-405" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Gevgelija in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-405-Subdivision ;
+	lcc-lr:hasTag "MK-405" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-405-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-405-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gevgelija"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Gevgelija in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Gevgelija"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-406
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-406-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-406-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-406" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Dojran in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-406-Subdivision ;
+	lcc-lr:hasTag "MK-406" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-406-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-406-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dojran"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Dojran in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Dojran"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-407
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-407-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-407-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-407" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Konče in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-407-Subdivision ;
+	lcc-lr:hasTag "MK-407" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-407-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-407-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Konče"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Konče in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Konče"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-408
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-408-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-408-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-408" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Novo Selo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-408-Subdivision ;
+	lcc-lr:hasTag "MK-408" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-408-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-408-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Novo Selo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Novo Selo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Novo Selo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-409
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-409-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-409-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-409" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Radoviš in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-409-Subdivision ;
+	lcc-lr:hasTag "MK-409" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-409-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-409-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Radoviš"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Radoviš in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Radoviš"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-410
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-410-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-410-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-410" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Strumica in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-410-Subdivision ;
+	lcc-lr:hasTag "MK-410" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-410-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-410-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Strumica"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Strumica in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Strumica"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-501
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-501-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-501-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-501" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Bitola in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-501-Subdivision ;
+	lcc-lr:hasTag "MK-501" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-501-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-501-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bitola"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Bitola in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Bitola"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-502
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-502-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-502-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-502" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Demir Hisar in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-502-Subdivision ;
+	lcc-lr:hasTag "MK-502" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-502-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-502-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Demir Hisar"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Demir Hisar in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Demir Hisar"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-503
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-503-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-503-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-503" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Dolneni in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-503-Subdivision ;
+	lcc-lr:hasTag "MK-503" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-503-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-503-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dolneni"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Dolneni in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Dolneni"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-504
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-504-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-504-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-504" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Krivogaštani in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-504-Subdivision ;
+	lcc-lr:hasTag "MK-504" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-504-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-504-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Krivogaštani"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Krivogaštani in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Krivogaštani"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-505
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-505-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-505-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-505" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kruševo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-505-Subdivision ;
+	lcc-lr:hasTag "MK-505" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-505-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-505-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kruševo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kruševo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kruševo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-506
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-506-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-506-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-506" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Mogila in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-506-Subdivision ;
+	lcc-lr:hasTag "MK-506" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-506-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-506-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mogila"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Mogila in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Mogila"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-507
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-507-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-507-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-507" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Novaci in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-507-Subdivision ;
+	lcc-lr:hasTag "MK-507" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-507-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-507-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Novaci"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Novaci in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Novaci"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-508
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-508-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-508-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-508" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Prilep in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-508-Subdivision ;
+	lcc-lr:hasTag "MK-508" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-508-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-508-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prilep"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Prilep in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Prilep"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-509
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-509-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-509-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-509" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Resen in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-509-Subdivision ;
+	lcc-lr:hasTag "MK-509" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-509-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-509-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Resen"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Resen in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Resen"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-601
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-601-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-601-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-601" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Bogovinje in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-601-Subdivision ;
+	lcc-lr:hasTag "MK-601" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-601-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-601-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bogovinje"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Bogovinje in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Bogovinje"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-602
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-602-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-602-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-602" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Brvenica in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-602-Subdivision ;
+	lcc-lr:hasTag "MK-602" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-602-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-602-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brvenica"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Brvenica in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Brvenica"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-603
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-603-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-603-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-603" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Vrapčište in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-603-Subdivision ;
+	lcc-lr:hasTag "MK-603" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-603-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-603-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vrapčište"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Vrapčište in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Vrapčište"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-604
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-604-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-604-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-604" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Gostivar in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-604-Subdivision ;
+	lcc-lr:hasTag "MK-604" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-604-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-604-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gostivar"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Gostivar in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Gostivar"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-605
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-605-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-605-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-605" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Želino in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-605-Subdivision ;
+	lcc-lr:hasTag "MK-605" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-605-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-605-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Želino"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Želino in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Želino"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-606
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-606-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-606-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-606" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Jegunovce in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-606-Subdivision ;
+	lcc-lr:hasTag "MK-606" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-606-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-606-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jegunovce"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Jegunovce in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Jegunovce"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-607
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-607-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-607-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-607" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Mavrovo i Rostuše in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-607-Subdivision ;
+	lcc-lr:hasTag "MK-607" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-607-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-607-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mavrovo i Rostuše"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Mavrovo i Rostuše in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Mavrovo i Rostuše"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-608
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-608-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-608-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-608" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Tearce in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-608-Subdivision ;
+	lcc-lr:hasTag "MK-608" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-608-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-608-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tearce"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Tearce in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Tearce"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-609
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-609-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-609-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-609" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Tetovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-609-Subdivision ;
+	lcc-lr:hasTag "MK-609" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-609-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-609-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tetovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Tetovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Tetovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-701
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-701-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-701-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-701" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kratovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-701-Subdivision ;
+	lcc-lr:hasTag "MK-701" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-701-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-701-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kratovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kratovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kratovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-702
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-702-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-702-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-702" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kriva Palanka in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-702-Subdivision ;
+	lcc-lr:hasTag "MK-702" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-702-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-702-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kriva Palanka"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kriva Palanka in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kriva Palanka"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-703
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-703-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-703-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-703" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kumanovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-703-Subdivision ;
+	lcc-lr:hasTag "MK-703" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-703-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-703-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kumanovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kumanovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kumanovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-704
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-704-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-704-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-704" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Lipkovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-704-Subdivision ;
+	lcc-lr:hasTag "MK-704" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-704-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-704-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lipkovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Lipkovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Lipkovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-705
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-705-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-705-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-705" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Rankovce in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-705-Subdivision ;
+	lcc-lr:hasTag "MK-705" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-705-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-705-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rankovce"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Rankovce in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Rankovce"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-706
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-706-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-706-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-706" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Staro Nagoričane in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-706-Subdivision ;
+	lcc-lr:hasTag "MK-706" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-706-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-706-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Staro Nagoričane"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Staro Nagoričane in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Staro Nagoričane"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-801
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-801-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-801-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-801" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Aerodrom † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-801-Subdivision ;
+	lcc-lr:hasTag "MK-801" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-801-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-801-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aerodrom †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Aerodrom † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Aerodrom †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-802
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-802-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-802-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-802" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Aračinovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-802-Subdivision ;
+	lcc-lr:hasTag "MK-802" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-802-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-802-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aračinovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Aračinovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Aračinovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-803
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-803-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-803-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-803" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Butel † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-803-Subdivision ;
+	lcc-lr:hasTag "MK-803" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-803-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-803-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Butel †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Butel † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Butel †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-804
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-804-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-804-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-804" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Gazi Baba † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-804-Subdivision ;
+	lcc-lr:hasTag "MK-804" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-804-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-804-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gazi Baba †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Gazi Baba † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Gazi Baba †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-805
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-805-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-805-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-805" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Gjorče Petrov † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-805-Subdivision ;
+	lcc-lr:hasTag "MK-805" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-805-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-805-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gjorče Petrov †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Gjorče Petrov † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Gjorče Petrov †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-806
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-806-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-806-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-806" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Zelenikovo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-806-Subdivision ;
+	lcc-lr:hasTag "MK-806" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-806-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-806-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zelenikovo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Zelenikovo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Zelenikovo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-807
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-807-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-807-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-807" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Ilinden in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-807-Subdivision ;
+	lcc-lr:hasTag "MK-807" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-807-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-807-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilinden"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Ilinden in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Ilinden"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-808
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-808-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-808-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-808" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Karpoš † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-808-Subdivision ;
+	lcc-lr:hasTag "MK-808" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-808-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-808-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karpoš †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Karpoš † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Karpoš †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-809
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-809-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-809-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-809" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Kisela Voda † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-809-Subdivision ;
+	lcc-lr:hasTag "MK-809" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-809-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-809-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kisela Voda †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Kisela Voda † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Kisela Voda †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-810
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-810-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-810-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-810" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Petrovec in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-810-Subdivision ;
+	lcc-lr:hasTag "MK-810" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-810-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-810-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Petrovec"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Petrovec in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Petrovec"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-811
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-811-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-811-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-811" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Saraj † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-811-Subdivision ;
+	lcc-lr:hasTag "MK-811" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-811-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-811-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saraj †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Saraj † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Saraj †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-812
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-812-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-812-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-812" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Sopište in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-812-Subdivision ;
+	lcc-lr:hasTag "MK-812" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-812-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-812-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sopište"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Sopište in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Sopište"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-813
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-813-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-813-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-813" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Studeničani in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-813-Subdivision ;
+	lcc-lr:hasTag "MK-813" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-813-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-813-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Studeničani"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Studeničani in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Studeničani"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-814
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-814-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-814-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-814" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Centar † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-814-Subdivision ;
+	lcc-lr:hasTag "MK-814" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-814-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-814-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centar †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Centar † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Centar †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-815
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-815-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-815-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-815" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Čair † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-815-Subdivision ;
+	lcc-lr:hasTag "MK-815" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-815-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-815-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Čair †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Čair † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Čair †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-816
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-816-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-816-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-816" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Čučer-Sandevo in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-816-Subdivision ;
+	lcc-lr:hasTag "MK-816" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-816-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-816-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Čučer-Sandevo"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Čučer-Sandevo in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Čučer-Sandevo"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MK-817
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-817-RegionIdentifier ;
+	.
+
+lcc-3166-2-mk:MK-817-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MK-817" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "subdivision code for the opština of Šuto Orizari † in the country of North Macedonia" ;
+	lcc-lr:denotes lcc-3166-2-mk:MK-817-Subdivision ;
+	lcc-lr:hasTag "MK-817" ;
+	lcc-lr:identifies lcc-3166-2-mk:MK-817-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mk:MK-817-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šuto Orizari †"@mk ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/> ;
+	skos:definition "the opština of Šuto Orizari † in the country of North Macedonia" ;
+	lcc-cr:hasLocalShortName "Šuto Orizari †"@mk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mk:MK-288-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:NorthMacedonia ;
+	.
+
+lcc-3166-2-mk:MakedonskaKamenica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-207-Subdivision ;
+	.
+
+lcc-3166-2-mk:MakedonskiBrod
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-308-Subdivision ;
+	.
+
+lcc-3166-2-mk:MavrovoIRostuse
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-607-Subdivision ;
+	.
+
+lcc-3166-2-mk:Mogila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-506-Subdivision ;
+	.
+
+lcc-3166-2-mk:Negotino
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-106-Subdivision ;
+	.
+
+lcc-3166-2-mk:Novaci
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-507-Subdivision ;
+	.
+
+lcc-3166-2-mk:NovoSelo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-408-Subdivision ;
+	.
+
+lcc-3166-2-mk:Ohrid
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-310-Subdivision ;
+	.
+
+lcc-3166-2-mk:Opstina
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-288-RegionKind ;
+	.
+
+lcc-3166-2-mk:Pehcevo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-208-Subdivision ;
+	.
+
+lcc-3166-2-mk:Petrovec
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-810-Subdivision ;
+	.
+
+lcc-3166-2-mk:Plasnica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-311-Subdivision ;
+	.
+
+lcc-3166-2-mk:Prilep
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-508-Subdivision ;
+	.
+
+lcc-3166-2-mk:Probistip
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-209-Subdivision ;
+	.
+
+lcc-3166-2-mk:Radovis
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-409-Subdivision ;
+	.
+
+lcc-3166-2-mk:Rankovce
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-705-Subdivision ;
+	.
+
+lcc-3166-2-mk:Resen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-509-Subdivision ;
+	.
+
+lcc-3166-2-mk:Rosoman
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-107-Subdivision ;
+	.
+
+lcc-3166-2-mk:Saraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-811-Subdivision ;
+	.
+
+lcc-3166-2-mk:Sopiste
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-812-Subdivision ;
+	.
+
+lcc-3166-2-mk:StaroNagoricane
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-706-Subdivision ;
+	.
+
+lcc-3166-2-mk:Stip
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-211-Subdivision ;
+	.
+
+lcc-3166-2-mk:Struga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-312-Subdivision ;
+	.
+
+lcc-3166-2-mk:Strumica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-410-Subdivision ;
+	.
+
+lcc-3166-2-mk:Studenicani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-813-Subdivision ;
+	.
+
+lcc-3166-2-mk:SutoOrizari
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-817-Subdivision ;
+	.
+
+lcc-3166-2-mk:SvetiNikole
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-108-Subdivision ;
+	.
+
+lcc-3166-2-mk:Tearce
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-608-Subdivision ;
+	.
+
+lcc-3166-2-mk:Tetovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-609-Subdivision ;
+	.
+
+lcc-3166-2-mk:Valandovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-403-Subdivision ;
+	.
+
+lcc-3166-2-mk:Vasilevo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-404-Subdivision ;
+	.
+
+lcc-3166-2-mk:Veles
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-101-Subdivision ;
+	.
+
+lcc-3166-2-mk:Vevcani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-301-Subdivision ;
+	.
+
+lcc-3166-2-mk:Vinica
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-202-Subdivision ;
+	.
+
+lcc-3166-2-mk:Vrapciste
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-603-Subdivision ;
+	.
+
+lcc-3166-2-mk:Zelenikovo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-806-Subdivision ;
+	.
+
+lcc-3166-2-mk:Zelino
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-605-Subdivision ;
+	.
+
+lcc-3166-2-mk:Zrnovci
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-mk:MK-204-Subdivision ;
+	.
+

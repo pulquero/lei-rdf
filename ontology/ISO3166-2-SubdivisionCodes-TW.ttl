@@ -1,0 +1,929 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Taiwan (Province of China) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Taiwan (Province of China), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	.
+
+lcc-3166-2-tw:Changhua
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-CHA-Subdivision ;
+	.
+
+lcc-3166-2-tw:Chiayi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-CYQ-Subdivision ;
+	.
+
+lcc-3166-2-tw:Chiayi-City
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-CYI-Subdivision ;
+	.
+
+lcc-3166-2-tw:Chih-hsia-shih
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-223-RegionKind ;
+	.
+
+lcc-3166-2-tw:Hsien
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-344-RegionKind ;
+	.
+
+lcc-3166-2-tw:Hsinchu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-HSQ-Subdivision ;
+	.
+
+lcc-3166-2-tw:Hsinchu-City
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-HSZ-Subdivision ;
+	.
+
+lcc-3166-2-tw:Hualien
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-HUA-Subdivision ;
+	.
+
+lcc-3166-2-tw:Kaohsiung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-KHH-Subdivision ;
+	.
+
+lcc-3166-2-tw:Keelung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-KEE-Subdivision ;
+	.
+
+lcc-3166-2-tw:Kinmen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-KIN-Subdivision ;
+	.
+
+lcc-3166-2-tw:Lienchiang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-LIE-Subdivision ;
+	.
+
+lcc-3166-2-tw:Miaoli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-MIA-Subdivision ;
+	.
+
+lcc-3166-2-tw:Nantou
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-NAN-Subdivision ;
+	.
+
+lcc-3166-2-tw:NewTaipei
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-NWT-Subdivision ;
+	.
+
+lcc-3166-2-tw:Penghu
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-tw:TW-1147-Territory ,
+		lcc-3166-2-tw:TW-PEN-Subdivision
+		;
+	.
+
+lcc-3166-2-tw:Pingtung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-PIF-Subdivision ;
+	.
+
+lcc-3166-2-tw:Shih
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-136-RegionKind ;
+	.
+
+lcc-3166-2-tw:TW-1147-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the territory of Penghu (Pescadores) Islands in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasEnglishShortName "Penghu (Pescadores) Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Penghu (Pescadores)"@fr ;
+	lcc-cr:hasNumericRegionCode "1147" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-136-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "shih"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision category shih in the country of Taiwan (Province of China)" ;
+	.
+
+lcc-3166-2-tw:TW-223-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "chih-hsia-shih"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision category chih-hsia-shih in the country of Taiwan (Province of China)" ;
+	.
+
+lcc-3166-2-tw:TW-344-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "hsien"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision category hsien in the country of Taiwan (Province of China)" ;
+	.
+
+lcc-3166-2-tw:TW-CHA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-CHA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-CHA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-CHA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Changhua in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-CHA-Subdivision ;
+	lcc-lr:hasTag "TW-CHA" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-CHA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-CHA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Changhua"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Changhua in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Changhua"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-CYI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-CYI-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-CYI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-CYI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the shih of Chiayi in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-CYI-Subdivision ;
+	lcc-lr:hasTag "TW-CYI" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-CYI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-CYI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiayi"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the shih of Chiayi in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Chiayi"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-136-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-CYQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-CYQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-CYQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-CYQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Chiayi in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-CYQ-Subdivision ;
+	lcc-lr:hasTag "TW-CYQ" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-CYQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-CYQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiayi"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Chiayi in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Chiayi"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-HSQ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-HSQ-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-HSQ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-HSQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Hsinchu in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-HSQ-Subdivision ;
+	lcc-lr:hasTag "TW-HSQ" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-HSQ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-HSQ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hsinchu"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Hsinchu in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Hsinchu"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-HSZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-HSZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-HSZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-HSZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the shih of Hsinchu in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-HSZ-Subdivision ;
+	lcc-lr:hasTag "TW-HSZ" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-HSZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-HSZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hsinchu"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the shih of Hsinchu in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Hsinchu"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-136-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-HUA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-HUA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-HUA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-HUA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Hualien in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-HUA-Subdivision ;
+	lcc-lr:hasTag "TW-HUA" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-HUA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-HUA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hualien"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Hualien in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Hualien"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-ILA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-ILA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-ILA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-ILA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Yilan in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-ILA-Subdivision ;
+	lcc-lr:hasTag "TW-ILA" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-ILA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-ILA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yilan"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Yilan in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Yilan"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-KEE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-KEE-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-KEE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-KEE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the shih of Keelung in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-KEE-Subdivision ;
+	lcc-lr:hasTag "TW-KEE" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-KEE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-KEE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Keelung"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the shih of Keelung in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Keelung"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-136-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-KHH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-KHH-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-KHH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-KHH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the chih-hsia-shih of Kaohsiung in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-KHH-Subdivision ;
+	lcc-lr:hasTag "TW-KHH" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-KHH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-KHH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaohsiung"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the chih-hsia-shih of Kaohsiung in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Kaohsiung"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-223-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-KIN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-KIN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-KIN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-KIN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Kinmen in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-KIN-Subdivision ;
+	lcc-lr:hasTag "TW-KIN" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-KIN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-KIN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kinmen"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Kinmen in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Kinmen"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-LIE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-LIE-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-LIE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-LIE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Lienchiang in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-LIE-Subdivision ;
+	lcc-lr:hasTag "TW-LIE" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-LIE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-LIE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lienchiang"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Lienchiang in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Lienchiang"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-MIA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-MIA-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-MIA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-MIA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Miaoli in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-MIA-Subdivision ;
+	lcc-lr:hasTag "TW-MIA" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-MIA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-MIA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Miaoli"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Miaoli in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Miaoli"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-NAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-NAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-NAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-NAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Nantou in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-NAN-Subdivision ;
+	lcc-lr:hasTag "TW-NAN" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-NAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-NAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nantou"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Nantou in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Nantou"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-NWT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-NWT-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-NWT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-NWT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the chih-hsia-shih of New Taipei in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-NWT-Subdivision ;
+	lcc-lr:hasTag "TW-NWT" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-NWT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-NWT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New Taipei"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the chih-hsia-shih of New Taipei in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "New Taipei"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-223-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-PEN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-PEN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-PEN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-PEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Penghu in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-PEN-Subdivision ;
+	lcc-lr:hasTag "TW-PEN" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-PEN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-PEN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Penghu"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Penghu in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Penghu"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-PIF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-PIF-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-PIF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-PIF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Pingtung in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-PIF-Subdivision ;
+	lcc-lr:hasTag "TW-PIF" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-PIF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-PIF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pingtung"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Pingtung in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Pingtung"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-TAO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TAO-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-TAO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-TAO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the chih-hsia-shih of Taoyuan in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-TAO-Subdivision ;
+	lcc-lr:hasTag "TW-TAO" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-TAO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-TAO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taoyuan"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the chih-hsia-shih of Taoyuan in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Taoyuan"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-223-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-TNN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TNN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-TNN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-TNN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the chih-hsia-shih of Tainan in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-TNN-Subdivision ;
+	lcc-lr:hasTag "TW-TNN" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-TNN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-TNN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tainan"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the chih-hsia-shih of Tainan in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Tainan"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-223-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-TPE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TPE-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-TPE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-TPE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the chih-hsia-shih of Taipei in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-TPE-Subdivision ;
+	lcc-lr:hasTag "TW-TPE" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-TPE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-TPE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taipei"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the chih-hsia-shih of Taipei in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Taipei"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-223-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-TTT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TTT-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-TTT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-TTT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Taitung in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-TTT-Subdivision ;
+	lcc-lr:hasTag "TW-TTT" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-TTT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-TTT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taitung"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Taitung in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Taitung"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-TXG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TXG-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-TXG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-TXG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the chih-hsia-shih of Taichung in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-TXG-Subdivision ;
+	lcc-lr:hasTag "TW-TXG" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-TXG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-TXG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taichung"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the chih-hsia-shih of Taichung in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Taichung"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-223-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:TW-YUN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-YUN-RegionIdentifier ;
+	.
+
+lcc-3166-2-tw:TW-YUN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TW-YUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "subdivision code for the hsien of Yunlin in the country of Taiwan (Province of China)" ;
+	lcc-lr:denotes lcc-3166-2-tw:TW-YUN-Subdivision ;
+	lcc-lr:hasTag "TW-YUN" ;
+	lcc-lr:identifies lcc-3166-2-tw:TW-YUN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tw:TW-YUN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yunlin"@zh ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TW/> ;
+	skos:definition "the hsien of Yunlin in the country of Taiwan (Province of China)" ;
+	lcc-cr:hasLocalShortName "Yunlin"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tw:TW-344-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-2-tw:Taichung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TXG-Subdivision ;
+	.
+
+lcc-3166-2-tw:Tainan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TNN-Subdivision ;
+	.
+
+lcc-3166-2-tw:Taipei
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TPE-Subdivision ;
+	.
+
+lcc-3166-2-tw:Taitung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TTT-Subdivision ;
+	.
+
+lcc-3166-2-tw:Taoyuan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-TAO-Subdivision ;
+	.
+
+lcc-3166-2-tw:Yilan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-ILA-Subdivision ;
+	.
+
+lcc-3166-2-tw:Yunlin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-tw:TW-YUN-Subdivision ;
+	.
+

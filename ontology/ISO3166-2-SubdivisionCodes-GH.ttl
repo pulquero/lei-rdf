@@ -1,0 +1,660 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gh: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Ghana Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gh" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Ghana, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GH.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	.
+
+lcc-3166-2-gh:Ahafo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-AF-Subdivision ;
+	.
+
+lcc-3166-2-gh:Ashanti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-AH-Subdivision ;
+	.
+
+lcc-3166-2-gh:Bono
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-BO-Subdivision ;
+	.
+
+lcc-3166-2-gh:BonoEast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-BE-Subdivision ;
+	.
+
+lcc-3166-2-gh:Central
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-CP-Subdivision ;
+	.
+
+lcc-3166-2-gh:Eastern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-EP-Subdivision ;
+	.
+
+lcc-3166-2-gh:GH-114-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision category region in the country of Ghana" ;
+	.
+
+lcc-3166-2-gh:GH-AA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-AA-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-AA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-AA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Greater Accra in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-AA-Subdivision ;
+	lcc-lr:hasTag "GH-AA" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-AA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-AA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Greater Accra"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Greater Accra in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Greater Accra"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-AF
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-AF-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-AF-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-AF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Ahafo in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-AF-Subdivision ;
+	lcc-lr:hasTag "GH-AF" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-AF-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-AF-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ahafo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Ahafo in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Ahafo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-AH
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-AH-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-AH-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-AH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Ashanti in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-AH-Subdivision ;
+	lcc-lr:hasTag "GH-AH" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-AH-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-AH-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ashanti"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Ashanti in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Ashanti"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-BE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-BE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-BE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Bono East in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-BE-Subdivision ;
+	lcc-lr:hasTag "GH-BE" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-BE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-BE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bono East"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Bono East in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Bono East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-BO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-BO-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-BO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Bono in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-BO-Subdivision ;
+	lcc-lr:hasTag "GH-BO" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-BO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-BO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bono"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Bono in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Bono"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-CP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-CP-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-CP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-CP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Central in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-CP-Subdivision ;
+	lcc-lr:hasTag "GH-CP" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-CP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-CP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Central in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Central"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-EP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-EP-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-EP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-EP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Eastern in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-EP-Subdivision ;
+	lcc-lr:hasTag "GH-EP" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-EP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-EP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Eastern in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Eastern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-NE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-NE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-NE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-NE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of North East in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-NE-Subdivision ;
+	lcc-lr:hasTag "GH-NE" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-NE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-NE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North East"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of North East in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "North East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-NP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-NP-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-NP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-NP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Northern in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-NP-Subdivision ;
+	lcc-lr:hasTag "GH-NP" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-NP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-NP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Northern in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Northern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-OT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-OT-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-OT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-OT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Oti in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-OT-Subdivision ;
+	lcc-lr:hasTag "GH-OT" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-OT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-OT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oti"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Oti in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Oti"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-SV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-SV-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-SV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Savannah in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-SV-Subdivision ;
+	lcc-lr:hasTag "GH-SV" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-SV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-SV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Savannah"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Savannah in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Savannah"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-TV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-TV-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-TV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-TV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Volta in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-TV-Subdivision ;
+	lcc-lr:hasTag "GH-TV" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-TV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-TV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Volta"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Volta in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Volta"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-UE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-UE-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-UE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-UE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Upper East in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-UE-Subdivision ;
+	lcc-lr:hasTag "GH-UE" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-UE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-UE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Upper East"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Upper East in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Upper East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-UW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-UW-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-UW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-UW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Upper West in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-UW-Subdivision ;
+	lcc-lr:hasTag "GH-UW" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-UW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-UW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Upper West"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Upper West in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Upper West"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-WN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-WN-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-WN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-WN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Western North in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-WN-Subdivision ;
+	lcc-lr:hasTag "GH-WN" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-WN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-WN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western North"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Western North in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Western North"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GH-WP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-WP-RegionIdentifier ;
+	.
+
+lcc-3166-2-gh:GH-WP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GH-WP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "subdivision code for the region of Western in the country of Ghana" ;
+	lcc-lr:denotes lcc-3166-2-gh:GH-WP-Subdivision ;
+	lcc-lr:hasTag "GH-WP" ;
+	lcc-lr:identifies lcc-3166-2-gh:GH-WP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gh:GH-WP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GH/> ;
+	skos:definition "the region of Western in the country of Ghana" ;
+	lcc-cr:hasEnglishShortName "Western"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-gh:GH-114-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-2-gh:GreaterAccra
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-AA-Subdivision ;
+	.
+
+lcc-3166-2-gh:NorthEast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-NE-Subdivision ;
+	.
+
+lcc-3166-2-gh:Northern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-NP-Subdivision ;
+	.
+
+lcc-3166-2-gh:Oti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-OT-Subdivision ;
+	.
+
+lcc-3166-2-gh:Region
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-114-RegionKind ;
+	.
+
+lcc-3166-2-gh:Savannah
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-SV-Subdivision ;
+	.
+
+lcc-3166-2-gh:UpperEast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-UE-Subdivision ;
+	.
+
+lcc-3166-2-gh:UpperWest
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-UW-Subdivision ;
+	.
+
+lcc-3166-2-gh:Volta
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-TV-Subdivision ;
+	.
+
+lcc-3166-2-gh:Western
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-WP-Subdivision ;
+	.
+
+lcc-3166-2-gh:WesternNorth
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-gh:GH-WN-Subdivision ;
+	.
+

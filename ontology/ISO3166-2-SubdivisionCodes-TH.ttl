@@ -1,0 +1,2982 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-th: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Thailand Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-th" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Thailand, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TH.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	.
+
+lcc-3166-2-th:AmnatCharoen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-37-Subdivision ;
+	.
+
+lcc-3166-2-th:AngThong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-15-Subdivision ;
+	.
+
+lcc-3166-2-th:BuengKan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-38-Subdivision ;
+	.
+
+lcc-3166-2-th:BuriRam
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-31-Subdivision ;
+	.
+
+lcc-3166-2-th:Chachoengsao
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-24-Subdivision ;
+	.
+
+lcc-3166-2-th:ChaiNat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-18-Subdivision ;
+	.
+
+lcc-3166-2-th:Chaiyaphum
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-36-Subdivision ;
+	.
+
+lcc-3166-2-th:Changwat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-291-RegionKind ;
+	.
+
+lcc-3166-2-th:Chanthaburi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-22-Subdivision ;
+	.
+
+lcc-3166-2-th:ChiangMai
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-50-Subdivision ;
+	.
+
+lcc-3166-2-th:ChiangRai
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-57-Subdivision ;
+	.
+
+lcc-3166-2-th:ChonBuri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-20-Subdivision ;
+	.
+
+lcc-3166-2-th:Chumphon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-86-Subdivision ;
+	.
+
+lcc-3166-2-th:Kalasin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-46-Subdivision ;
+	.
+
+lcc-3166-2-th:KamphaengPhet
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-62-Subdivision ;
+	.
+
+lcc-3166-2-th:Kanchanaburi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-71-Subdivision ;
+	.
+
+lcc-3166-2-th:KhonKaen
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-40-Subdivision ;
+	.
+
+lcc-3166-2-th:Krabi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-81-Subdivision ;
+	.
+
+lcc-3166-2-th:KrungThepMahaNakhon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-10-Subdivision ;
+	.
+
+lcc-3166-2-th:Lampang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-52-Subdivision ;
+	.
+
+lcc-3166-2-th:Lamphun
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-51-Subdivision ;
+	.
+
+lcc-3166-2-th:Loei
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-42-Subdivision ;
+	.
+
+lcc-3166-2-th:LopBuri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-16-Subdivision ;
+	.
+
+lcc-3166-2-th:MaeHongSon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-58-Subdivision ;
+	.
+
+lcc-3166-2-th:MahaSarakham
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-44-Subdivision ;
+	.
+
+lcc-3166-2-th:MetropolitanAdministration
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-134-RegionKind ;
+	.
+
+lcc-3166-2-th:Mukdahan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-49-Subdivision ;
+	.
+
+lcc-3166-2-th:NakhonNayok
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-26-Subdivision ;
+	.
+
+lcc-3166-2-th:NakhonPathom
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-73-Subdivision ;
+	.
+
+lcc-3166-2-th:NakhonPhanom
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-48-Subdivision ;
+	.
+
+lcc-3166-2-th:NakhonRatchasima
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-30-Subdivision ;
+	.
+
+lcc-3166-2-th:NakhonSawan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-60-Subdivision ;
+	.
+
+lcc-3166-2-th:NakhonSiThammarat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-80-Subdivision ;
+	.
+
+lcc-3166-2-th:Nan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-55-Subdivision ;
+	.
+
+lcc-3166-2-th:Narathiwat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-96-Subdivision ;
+	.
+
+lcc-3166-2-th:NongBuaLamPhu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-39-Subdivision ;
+	.
+
+lcc-3166-2-th:NongKhai
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-43-Subdivision ;
+	.
+
+lcc-3166-2-th:Nonthaburi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-12-Subdivision ;
+	.
+
+lcc-3166-2-th:PathumThani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-13-Subdivision ;
+	.
+
+lcc-3166-2-th:Pattani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-94-Subdivision ;
+	.
+
+lcc-3166-2-th:Phangnga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-82-Subdivision ;
+	.
+
+lcc-3166-2-th:Phatthalung
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-93-Subdivision ;
+	.
+
+lcc-3166-2-th:Phatthaya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-S-Subdivision ;
+	.
+
+lcc-3166-2-th:Phayao
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-56-Subdivision ;
+	.
+
+lcc-3166-2-th:Phetchabun
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-67-Subdivision ;
+	.
+
+lcc-3166-2-th:Phetchaburi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-76-Subdivision ;
+	.
+
+lcc-3166-2-th:Phichit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-66-Subdivision ;
+	.
+
+lcc-3166-2-th:Phitsanulok
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-65-Subdivision ;
+	.
+
+lcc-3166-2-th:PhraNakhonSiAyutthaya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-14-Subdivision ;
+	.
+
+lcc-3166-2-th:Phrae
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-54-Subdivision ;
+	.
+
+lcc-3166-2-th:Phuket
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-83-Subdivision ;
+	.
+
+lcc-3166-2-th:PrachinBuri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-25-Subdivision ;
+	.
+
+lcc-3166-2-th:PrachuapKhiriKhan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-77-Subdivision ;
+	.
+
+lcc-3166-2-th:Ranong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-85-Subdivision ;
+	.
+
+lcc-3166-2-th:Ratchaburi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-70-Subdivision ;
+	.
+
+lcc-3166-2-th:Rayong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-21-Subdivision ;
+	.
+
+lcc-3166-2-th:RoiEt
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-45-Subdivision ;
+	.
+
+lcc-3166-2-th:SaKaeo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-27-Subdivision ;
+	.
+
+lcc-3166-2-th:SakonNakhon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-47-Subdivision ;
+	.
+
+lcc-3166-2-th:SamutPrakan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-11-Subdivision ;
+	.
+
+lcc-3166-2-th:SamutSakhon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-74-Subdivision ;
+	.
+
+lcc-3166-2-th:SamutSongkhram
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-75-Subdivision ;
+	.
+
+lcc-3166-2-th:Saraburi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-19-Subdivision ;
+	.
+
+lcc-3166-2-th:Satun
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-91-Subdivision ;
+	.
+
+lcc-3166-2-th:SiSaKet
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-33-Subdivision ;
+	.
+
+lcc-3166-2-th:SingBuri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-17-Subdivision ;
+	.
+
+lcc-3166-2-th:Songkhla
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-90-Subdivision ;
+	.
+
+lcc-3166-2-th:SpecialAdministrativeCity
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-348-RegionKind ;
+	.
+
+lcc-3166-2-th:Sukhothai
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-64-Subdivision ;
+	.
+
+lcc-3166-2-th:SuphanBuri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-72-Subdivision ;
+	.
+
+lcc-3166-2-th:SuratThani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-84-Subdivision ;
+	.
+
+lcc-3166-2-th:Surin
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-32-Subdivision ;
+	.
+
+lcc-3166-2-th:TH-10
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-10-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-10-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the metropolitan administration of Krung Thep Maha Nakhon in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-10-Subdivision ;
+	lcc-lr:hasTag "TH-10" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-10-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-10-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Krung Thep Maha Nakhon"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the metropolitan administration of Krung Thep Maha Nakhon in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Krung Thep Maha Nakhon"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-134-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-11
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-11-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-11-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Samut Prakan in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-11-Subdivision ;
+	lcc-lr:hasTag "TH-11" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-11-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-11-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samut Prakan"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Samut Prakan in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Samut Prakan"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-12
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-12-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-12-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nonthaburi in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-12-Subdivision ;
+	lcc-lr:hasTag "TH-12" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-12-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-12-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nonthaburi"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nonthaburi in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nonthaburi"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-13
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-13-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-13-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Pathum Thani in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-13-Subdivision ;
+	lcc-lr:hasTag "TH-13" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-13-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-13-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pathum Thani"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Pathum Thani in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Pathum Thani"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-134-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision category metropolitan administration in the country of Thailand" ;
+	.
+
+lcc-3166-2-th:TH-14
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-14-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-14-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phra Nakhon Si Ayutthaya in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-14-Subdivision ;
+	lcc-lr:hasTag "TH-14" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-14-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-14-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phra Nakhon Si Ayutthaya"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phra Nakhon Si Ayutthaya in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phra Nakhon Si Ayutthaya"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-15
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-15-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-15-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Ang Thong in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-15-Subdivision ;
+	lcc-lr:hasTag "TH-15" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-15-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-15-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ang Thong"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Ang Thong in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Ang Thong"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-16
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-16-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-16-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Lop Buri in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-16-Subdivision ;
+	lcc-lr:hasTag "TH-16" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-16-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-16-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lop Buri"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Lop Buri in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Lop Buri"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-17
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-17-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-17-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Sing Buri in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-17-Subdivision ;
+	lcc-lr:hasTag "TH-17" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-17-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-17-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sing Buri"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Sing Buri in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Sing Buri"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-18
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-18-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-18-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chai Nat in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-18-Subdivision ;
+	lcc-lr:hasTag "TH-18" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-18-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-18-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chai Nat"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chai Nat in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chai Nat"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-19
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-19-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-19-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Saraburi in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-19-Subdivision ;
+	lcc-lr:hasTag "TH-19" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-19-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-19-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saraburi"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Saraburi in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Saraburi"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-20
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-20-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-20-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chon Buri in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-20-Subdivision ;
+	lcc-lr:hasTag "TH-20" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-20-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-20-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chon Buri"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chon Buri in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chon Buri"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-21
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-21-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-21-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Rayong in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-21-Subdivision ;
+	lcc-lr:hasTag "TH-21" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-21-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-21-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rayong"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Rayong in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Rayong"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-22
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-22-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-22-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chanthaburi in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-22-Subdivision ;
+	lcc-lr:hasTag "TH-22" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-22-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-22-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chanthaburi"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chanthaburi in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chanthaburi"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-23
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-23-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-23-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Trat in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-23-Subdivision ;
+	lcc-lr:hasTag "TH-23" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-23-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-23-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trat"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Trat in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Trat"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-24
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-24-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-24-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chachoengsao in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-24-Subdivision ;
+	lcc-lr:hasTag "TH-24" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-24-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-24-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chachoengsao"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chachoengsao in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chachoengsao"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-25
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-25-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-25-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Prachin Buri in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-25-Subdivision ;
+	lcc-lr:hasTag "TH-25" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-25-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-25-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prachin Buri"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Prachin Buri in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Prachin Buri"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-26
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-26-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-26-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nakhon Nayok in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-26-Subdivision ;
+	lcc-lr:hasTag "TH-26" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-26-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-26-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakhon Nayok"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nakhon Nayok in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nakhon Nayok"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-27
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-27-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-27-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Sa Kaeo in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-27-Subdivision ;
+	lcc-lr:hasTag "TH-27" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-27-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-27-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sa Kaeo"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Sa Kaeo in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Sa Kaeo"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-291-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "changwat"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision category changwat in the country of Thailand" ;
+	.
+
+lcc-3166-2-th:TH-30
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-30-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-30-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nakhon Ratchasima in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-30-Subdivision ;
+	lcc-lr:hasTag "TH-30" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-30-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-30-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakhon Ratchasima"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nakhon Ratchasima in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nakhon Ratchasima"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-31
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-31-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-31-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Buri Ram in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-31-Subdivision ;
+	lcc-lr:hasTag "TH-31" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-31-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-31-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buri Ram"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Buri Ram in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Buri Ram"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-32
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-32-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-32-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Surin in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-32-Subdivision ;
+	lcc-lr:hasTag "TH-32" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-32-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-32-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Surin"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Surin in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Surin"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-33
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-33-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-33-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Si Sa Ket in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-33-Subdivision ;
+	lcc-lr:hasTag "TH-33" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-33-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-33-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Si Sa Ket"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Si Sa Ket in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Si Sa Ket"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-34
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-34-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-34-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Ubon Ratchathani in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-34-Subdivision ;
+	lcc-lr:hasTag "TH-34" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-34-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-34-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ubon Ratchathani"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Ubon Ratchathani in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Ubon Ratchathani"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-348-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision category special administrative city in the country of Thailand" ;
+	.
+
+lcc-3166-2-th:TH-35
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-35-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-35-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Yasothon in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-35-Subdivision ;
+	lcc-lr:hasTag "TH-35" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-35-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-35-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yasothon"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Yasothon in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Yasothon"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-36
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-36-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-36-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chaiyaphum in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-36-Subdivision ;
+	lcc-lr:hasTag "TH-36" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-36-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-36-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chaiyaphum"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chaiyaphum in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chaiyaphum"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-37
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-37-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-37-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Amnat Charoen in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-37-Subdivision ;
+	lcc-lr:hasTag "TH-37" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-37-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-37-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amnat Charoen"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Amnat Charoen in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Amnat Charoen"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-38
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-38-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-38-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Bueng Kan in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-38-Subdivision ;
+	lcc-lr:hasTag "TH-38" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-38-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-38-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bueng Kan"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Bueng Kan in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Bueng Kan"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-39
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-39-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-39-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nong Bua Lam Phu in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-39-Subdivision ;
+	lcc-lr:hasTag "TH-39" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-39-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-39-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nong Bua Lam Phu"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nong Bua Lam Phu in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nong Bua Lam Phu"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-40
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-40-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-40-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Khon Kaen in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-40-Subdivision ;
+	lcc-lr:hasTag "TH-40" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-40-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-40-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khon Kaen"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Khon Kaen in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Khon Kaen"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-41
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-41-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-41-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Udon Thani in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-41-Subdivision ;
+	lcc-lr:hasTag "TH-41" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-41-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-41-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Udon Thani"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Udon Thani in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Udon Thani"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-42
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-42-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-42-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Loei in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-42-Subdivision ;
+	lcc-lr:hasTag "TH-42" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-42-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-42-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loei"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Loei in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Loei"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-43
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-43-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-43-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nong Khai in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-43-Subdivision ;
+	lcc-lr:hasTag "TH-43" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-43-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-43-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nong Khai"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nong Khai in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nong Khai"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-44
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-44-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-44-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Maha Sarakham in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-44-Subdivision ;
+	lcc-lr:hasTag "TH-44" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-44-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-44-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maha Sarakham"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Maha Sarakham in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Maha Sarakham"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-45
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-45-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-45-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Roi Et in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-45-Subdivision ;
+	lcc-lr:hasTag "TH-45" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-45-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-45-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Roi Et"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Roi Et in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Roi Et"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-46
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-46-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-46-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Kalasin in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-46-Subdivision ;
+	lcc-lr:hasTag "TH-46" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-46-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-46-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalasin"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Kalasin in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Kalasin"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-47
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-47-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-47-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Sakon Nakhon in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-47-Subdivision ;
+	lcc-lr:hasTag "TH-47" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-47-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-47-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sakon Nakhon"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Sakon Nakhon in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Sakon Nakhon"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-48
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-48-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-48-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nakhon Phanom in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-48-Subdivision ;
+	lcc-lr:hasTag "TH-48" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-48-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-48-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakhon Phanom"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nakhon Phanom in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nakhon Phanom"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-49
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-49-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-49-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Mukdahan in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-49-Subdivision ;
+	lcc-lr:hasTag "TH-49" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-49-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-49-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mukdahan"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Mukdahan in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Mukdahan"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-50
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-50-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-50-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chiang Mai in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-50-Subdivision ;
+	lcc-lr:hasTag "TH-50" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-50-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-50-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiang Mai"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chiang Mai in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chiang Mai"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-51
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-51-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-51-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Lamphun in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-51-Subdivision ;
+	lcc-lr:hasTag "TH-51" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-51-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-51-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lamphun"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Lamphun in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Lamphun"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-52
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-52-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-52-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Lampang in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-52-Subdivision ;
+	lcc-lr:hasTag "TH-52" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-52-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-52-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lampang"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Lampang in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Lampang"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-53
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-53-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-53-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Uttaradit in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-53-Subdivision ;
+	lcc-lr:hasTag "TH-53" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-53-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-53-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uttaradit"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Uttaradit in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Uttaradit"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-54
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-54-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-54-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-54" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phrae in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-54-Subdivision ;
+	lcc-lr:hasTag "TH-54" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-54-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-54-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phrae"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phrae in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phrae"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-55
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-55-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-55-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nan in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-55-Subdivision ;
+	lcc-lr:hasTag "TH-55" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-55-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-55-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nan"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nan in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nan"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-56
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-56-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-56-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phayao in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-56-Subdivision ;
+	lcc-lr:hasTag "TH-56" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-56-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-56-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phayao"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phayao in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phayao"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-57
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-57-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-57-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chiang Rai in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-57-Subdivision ;
+	lcc-lr:hasTag "TH-57" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-57-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-57-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiang Rai"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chiang Rai in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chiang Rai"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-58
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-58-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-58-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-58" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Mae Hong Son in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-58-Subdivision ;
+	lcc-lr:hasTag "TH-58" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-58-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-58-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mae Hong Son"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Mae Hong Son in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Mae Hong Son"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-60
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-60-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-60-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-60" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nakhon Sawan in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-60-Subdivision ;
+	lcc-lr:hasTag "TH-60" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-60-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-60-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakhon Sawan"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nakhon Sawan in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nakhon Sawan"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-61
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-61-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-61-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Uthai Thani in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-61-Subdivision ;
+	lcc-lr:hasTag "TH-61" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-61-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-61-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uthai Thani"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Uthai Thani in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Uthai Thani"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-62
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-62-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-62-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-62" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Kamphaeng Phet in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-62-Subdivision ;
+	lcc-lr:hasTag "TH-62" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-62-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-62-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kamphaeng Phet"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Kamphaeng Phet in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Kamphaeng Phet"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-63
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-63-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-63-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Tak in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-63-Subdivision ;
+	lcc-lr:hasTag "TH-63" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-63-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-63-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tak"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Tak in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Tak"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-64
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-64-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-64-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-64" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Sukhothai in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-64-Subdivision ;
+	lcc-lr:hasTag "TH-64" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-64-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-64-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sukhothai"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Sukhothai in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Sukhothai"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-65
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-65-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-65-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-65" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phitsanulok in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-65-Subdivision ;
+	lcc-lr:hasTag "TH-65" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-65-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-65-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phitsanulok"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phitsanulok in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phitsanulok"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-66
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-66-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-66-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-66" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phichit in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-66-Subdivision ;
+	lcc-lr:hasTag "TH-66" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-66-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-66-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phichit"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phichit in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phichit"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-67
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-67-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-67-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phetchabun in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-67-Subdivision ;
+	lcc-lr:hasTag "TH-67" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-67-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-67-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phetchabun"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phetchabun in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phetchabun"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-70
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-70-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-70-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-70" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Ratchaburi in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-70-Subdivision ;
+	lcc-lr:hasTag "TH-70" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-70-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-70-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ratchaburi"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Ratchaburi in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Ratchaburi"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-71
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-71-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-71-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Kanchanaburi in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-71-Subdivision ;
+	lcc-lr:hasTag "TH-71" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-71-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-71-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kanchanaburi"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Kanchanaburi in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Kanchanaburi"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-72
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-72-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-72-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Suphan Buri in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-72-Subdivision ;
+	lcc-lr:hasTag "TH-72" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-72-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-72-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suphan Buri"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Suphan Buri in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Suphan Buri"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-73
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-73-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-73-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-73" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nakhon Pathom in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-73-Subdivision ;
+	lcc-lr:hasTag "TH-73" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-73-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-73-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakhon Pathom"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nakhon Pathom in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nakhon Pathom"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-74
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-74-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-74-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-74" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Samut Sakhon in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-74-Subdivision ;
+	lcc-lr:hasTag "TH-74" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-74-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-74-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samut Sakhon"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Samut Sakhon in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Samut Sakhon"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-75
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-75-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-75-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-75" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Samut Songkhram in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-75-Subdivision ;
+	lcc-lr:hasTag "TH-75" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-75-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-75-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samut Songkhram"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Samut Songkhram in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Samut Songkhram"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-76
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-76-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-76-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-76" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phetchaburi in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-76-Subdivision ;
+	lcc-lr:hasTag "TH-76" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-76-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-76-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phetchaburi"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phetchaburi in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phetchaburi"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-77
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-77-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-77-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-77" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Prachuap Khiri Khan in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-77-Subdivision ;
+	lcc-lr:hasTag "TH-77" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-77-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-77-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prachuap Khiri Khan"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Prachuap Khiri Khan in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Prachuap Khiri Khan"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-80
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-80-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-80-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-80" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Nakhon Si Thammarat in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-80-Subdivision ;
+	lcc-lr:hasTag "TH-80" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-80-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-80-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakhon Si Thammarat"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Nakhon Si Thammarat in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Nakhon Si Thammarat"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-81
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-81-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-81-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Krabi in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-81-Subdivision ;
+	lcc-lr:hasTag "TH-81" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-81-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-81-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Krabi"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Krabi in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Krabi"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-82
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-82-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-82-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-82" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phangnga in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-82-Subdivision ;
+	lcc-lr:hasTag "TH-82" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-82-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-82-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phangnga"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phangnga in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phangnga"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-83
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-83-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-83-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-83" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phuket in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-83-Subdivision ;
+	lcc-lr:hasTag "TH-83" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-83-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-83-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phuket"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phuket in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phuket"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-84
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-84-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-84-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-84" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Surat Thani in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-84-Subdivision ;
+	lcc-lr:hasTag "TH-84" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-84-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-84-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Surat Thani"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Surat Thani in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Surat Thani"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-85
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-85-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-85-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-85" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Ranong in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-85-Subdivision ;
+	lcc-lr:hasTag "TH-85" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-85-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-85-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ranong"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Ranong in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Ranong"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-86
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-86-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-86-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-86" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Chumphon in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-86-Subdivision ;
+	lcc-lr:hasTag "TH-86" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-86-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-86-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chumphon"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Chumphon in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Chumphon"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-90
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-90-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-90-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-90" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Songkhla in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-90-Subdivision ;
+	lcc-lr:hasTag "TH-90" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-90-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-90-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Songkhla"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Songkhla in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Songkhla"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-91
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-91-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-91-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-91" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Satun in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-91-Subdivision ;
+	lcc-lr:hasTag "TH-91" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-91-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-91-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Satun"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Satun in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Satun"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-92
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-92-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-92-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-92" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Trang in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-92-Subdivision ;
+	lcc-lr:hasTag "TH-92" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-92-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-92-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trang"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Trang in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Trang"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-93
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-93-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-93-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-93" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Phatthalung in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-93-Subdivision ;
+	lcc-lr:hasTag "TH-93" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-93-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-93-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phatthalung"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Phatthalung in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phatthalung"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-94
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-94-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-94-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-94" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Pattani in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-94-Subdivision ;
+	lcc-lr:hasTag "TH-94" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-94-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-94-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pattani"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Pattani in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Pattani"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-95
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-95-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-95-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-95" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Yala in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-95-Subdivision ;
+	lcc-lr:hasTag "TH-95" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-95-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-95-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yala"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Yala in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Yala"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-96
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-96-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-96-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-96" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the changwat of Narathiwat in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-96-Subdivision ;
+	lcc-lr:hasTag "TH-96" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-96-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-96-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narathiwat"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the changwat of Narathiwat in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Narathiwat"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-291-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:TH-S
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-S-RegionIdentifier ;
+	.
+
+lcc-3166-2-th:TH-S-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TH-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "subdivision code for the special administrative city of Phatthaya in the country of Thailand" ;
+	lcc-lr:denotes lcc-3166-2-th:TH-S-Subdivision ;
+	lcc-lr:hasTag "TH-S" ;
+	lcc-lr:identifies lcc-3166-2-th:TH-S-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-th:TH-S-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phatthaya"@th ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TH/> ;
+	skos:definition "the special administrative city of Phatthaya in the country of Thailand" ;
+	lcc-cr:hasLocalShortName "Phatthaya"@th ;
+	lcc-cr:isClassifiedBy lcc-3166-2-th:TH-348-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-2-th:Tak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-63-Subdivision ;
+	.
+
+lcc-3166-2-th:Trang
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-92-Subdivision ;
+	.
+
+lcc-3166-2-th:Trat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-23-Subdivision ;
+	.
+
+lcc-3166-2-th:UbonRatchathani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-34-Subdivision ;
+	.
+
+lcc-3166-2-th:UdonThani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-41-Subdivision ;
+	.
+
+lcc-3166-2-th:UthaiThani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-61-Subdivision ;
+	.
+
+lcc-3166-2-th:Uttaradit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-53-Subdivision ;
+	.
+
+lcc-3166-2-th:Yala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-95-Subdivision ;
+	.
+
+lcc-3166-2-th:Yasothon
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-th:TH-35-Subdivision ;
+	.
+

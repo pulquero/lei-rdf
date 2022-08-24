@@ -1,0 +1,751 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ao: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Angola Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ao" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Angola, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	.
+
+lcc-3166-2-ao:AO-1031-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the territory of Cabinda in the country of Angola" ;
+	lcc-cr:hasEnglishShortName "Cabinda"@en ;
+	lcc-cr:hasFrenchShortName "Cabinda"@fr ;
+	lcc-cr:hasNumericRegionCode "1031" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-155-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "província"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision category província in the country of Angola" ;
+	.
+
+lcc-3166-2-ao:AO-BGO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-BGO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-BGO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-BGO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Bengo in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-BGO-Subdivision ;
+	lcc-lr:hasTag "AO-BGO" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-BGO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-BGO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bengo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Bengo in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Bengo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-BGU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-BGU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-BGU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-BGU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Benguela in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-BGU-Subdivision ;
+	lcc-lr:hasTag "AO-BGU" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-BGU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-BGU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Benguela"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Benguela in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Benguela"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-BIE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-BIE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-BIE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-BIE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Bié in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-BIE-Subdivision ;
+	lcc-lr:hasTag "AO-BIE" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-BIE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-BIE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bié"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Bié in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Bié"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-CAB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CAB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-CAB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-CAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Cabinda in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-CAB-Subdivision ;
+	lcc-lr:hasTag "AO-CAB" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-CAB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-CAB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cabinda"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Cabinda in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Cabinda"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-CCU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CCU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-CCU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-CCU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Cuando Cubango in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-CCU-Subdivision ;
+	lcc-lr:hasTag "AO-CCU" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-CCU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-CCU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuando Cubango"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Cuando Cubango in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Cuando Cubango"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-CNN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CNN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-CNN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-CNN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Cunene in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-CNN-Subdivision ;
+	lcc-lr:hasTag "AO-CNN" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-CNN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-CNN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cunene"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Cunene in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Cunene"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-CNO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CNO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-CNO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-CNO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Cuanza-Norte in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-CNO-Subdivision ;
+	lcc-lr:hasTag "AO-CNO" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-CNO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-CNO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuanza-Norte"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Cuanza-Norte in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Cuanza-Norte"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-CUS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CUS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-CUS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-CUS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Cuanza-Sul in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-CUS-Subdivision ;
+	lcc-lr:hasTag "AO-CUS" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-CUS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-CUS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuanza-Sul"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Cuanza-Sul in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Cuanza-Sul"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-HUA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-HUA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-HUA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-HUA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Huambo in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-HUA-Subdivision ;
+	lcc-lr:hasTag "AO-HUA" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-HUA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-HUA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Huambo"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Huambo in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Huambo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-HUI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-HUI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-HUI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-HUI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Huíla in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-HUI-Subdivision ;
+	lcc-lr:hasTag "AO-HUI" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-HUI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-HUI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Huíla"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Huíla in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Huíla"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-LNO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-LNO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-LNO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-LNO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Lunda-Norte in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-LNO-Subdivision ;
+	lcc-lr:hasTag "AO-LNO" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-LNO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-LNO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lunda-Norte"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Lunda-Norte in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Lunda-Norte"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-LSU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-LSU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-LSU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-LSU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Lunda-Sul in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-LSU-Subdivision ;
+	lcc-lr:hasTag "AO-LSU" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-LSU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-LSU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lunda-Sul"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Lunda-Sul in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Lunda-Sul"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-LUA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-LUA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-LUA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-LUA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Luanda in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-LUA-Subdivision ;
+	lcc-lr:hasTag "AO-LUA" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-LUA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-LUA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luanda"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Luanda in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Luanda"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-MAL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-MAL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-MAL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-MAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Malange in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-MAL-Subdivision ;
+	lcc-lr:hasTag "AO-MAL" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-MAL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-MAL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Malange"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Malange in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Malange"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-MOX
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-MOX-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-MOX-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-MOX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Moxico in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-MOX-Subdivision ;
+	lcc-lr:hasTag "AO-MOX" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-MOX-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-MOX-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moxico"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Moxico in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Moxico"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-NAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-NAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-NAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-NAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Namibe in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-NAM-Subdivision ;
+	lcc-lr:hasTag "AO-NAM" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-NAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-NAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namibe"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Namibe in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Namibe"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-UIG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-UIG-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-UIG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-UIG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Uíge in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-UIG-Subdivision ;
+	lcc-lr:hasTag "AO-UIG" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-UIG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-UIG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uíge"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Uíge in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Uíge"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:AO-ZAI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-ZAI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ao:AO-ZAI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AO-ZAI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "subdivision code for the província of Zaire in the country of Angola" ;
+	lcc-lr:denotes lcc-3166-2-ao:AO-ZAI-Subdivision ;
+	lcc-lr:hasTag "AO-ZAI" ;
+	lcc-lr:identifies lcc-3166-2-ao:AO-ZAI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ao:AO-ZAI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zaire"@pt ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AO/> ;
+	skos:definition "the província of Zaire in the country of Angola" ;
+	lcc-cr:hasLocalShortName "Zaire"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ao:AO-155-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Angola ;
+	.
+
+lcc-3166-2-ao:Bengo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-BGO-Subdivision ;
+	.
+
+lcc-3166-2-ao:Benguela
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-BGU-Subdivision ;
+	.
+
+lcc-3166-2-ao:Bie
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-BIE-Subdivision ;
+	.
+
+lcc-3166-2-ao:Cabinda
+	a owl:NamedIndividual ;
+	owl:sameAs
+		lcc-3166-2-ao:AO-1031-Territory ,
+		lcc-3166-2-ao:AO-CAB-Subdivision
+		;
+	.
+
+lcc-3166-2-ao:CuandoCubango
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CCU-Subdivision ;
+	.
+
+lcc-3166-2-ao:Cuanza-Norte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CNO-Subdivision ;
+	.
+
+lcc-3166-2-ao:Cuanza-Sul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CUS-Subdivision ;
+	.
+
+lcc-3166-2-ao:Cunene
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-CNN-Subdivision ;
+	.
+
+lcc-3166-2-ao:Huambo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-HUA-Subdivision ;
+	.
+
+lcc-3166-2-ao:Huila
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-HUI-Subdivision ;
+	.
+
+lcc-3166-2-ao:Luanda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-LUA-Subdivision ;
+	.
+
+lcc-3166-2-ao:Lunda-Norte
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-LNO-Subdivision ;
+	.
+
+lcc-3166-2-ao:Lunda-Sul
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-LSU-Subdivision ;
+	.
+
+lcc-3166-2-ao:Malange
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-MAL-Subdivision ;
+	.
+
+lcc-3166-2-ao:Moxico
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-MOX-Subdivision ;
+	.
+
+lcc-3166-2-ao:Namibe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-NAM-Subdivision ;
+	.
+
+lcc-3166-2-ao:Provincia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-155-RegionKind ;
+	.
+
+lcc-3166-2-ao:Uige
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-UIG-Subdivision ;
+	.
+
+lcc-3166-2-ao:Zaire
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ao:AO-ZAI-Subdivision ;
+	.
+

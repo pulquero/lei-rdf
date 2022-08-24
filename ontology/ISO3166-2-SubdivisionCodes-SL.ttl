@@ -1,0 +1,268 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sl: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Sierra Leone Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sl" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Sierra Leone, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SL.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	.
+
+lcc-3166-2-sl:Area
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-359-RegionKind ;
+	.
+
+lcc-3166-2-sl:Eastern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-E-Subdivision ;
+	.
+
+lcc-3166-2-sl:NorthWestern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-NW-Subdivision ;
+	.
+
+lcc-3166-2-sl:Northern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-N-Subdivision ;
+	.
+
+lcc-3166-2-sl:Province
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-424-RegionKind ;
+	.
+
+lcc-3166-2-sl:SL-359-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "area"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "subdivision category area in the country of Sierra Leone" ;
+	.
+
+lcc-3166-2-sl:SL-424-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "subdivision category province in the country of Sierra Leone" ;
+	.
+
+lcc-3166-2-sl:SL-E
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-E-RegionIdentifier ;
+	.
+
+lcc-3166-2-sl:SL-E-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SL-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "subdivision code for the province of Eastern in the country of Sierra Leone" ;
+	lcc-lr:denotes lcc-3166-2-sl:SL-E-Subdivision ;
+	lcc-lr:hasTag "SL-E" ;
+	lcc-lr:identifies lcc-3166-2-sl:SL-E-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sl:SL-E-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "the province of Eastern in the country of Sierra Leone" ;
+	lcc-cr:hasEnglishShortName "Eastern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sl:SL-424-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SierraLeone ;
+	.
+
+lcc-3166-2-sl:SL-N
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-N-RegionIdentifier ;
+	.
+
+lcc-3166-2-sl:SL-N-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SL-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "subdivision code for the province of Northern in the country of Sierra Leone" ;
+	lcc-lr:denotes lcc-3166-2-sl:SL-N-Subdivision ;
+	lcc-lr:hasTag "SL-N" ;
+	lcc-lr:identifies lcc-3166-2-sl:SL-N-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sl:SL-N-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "the province of Northern in the country of Sierra Leone" ;
+	lcc-cr:hasEnglishShortName "Northern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sl:SL-424-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SierraLeone ;
+	.
+
+lcc-3166-2-sl:SL-NW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-NW-RegionIdentifier ;
+	.
+
+lcc-3166-2-sl:SL-NW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SL-NW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "subdivision code for the province of North Western in the country of Sierra Leone" ;
+	lcc-lr:denotes lcc-3166-2-sl:SL-NW-Subdivision ;
+	lcc-lr:hasTag "SL-NW" ;
+	lcc-lr:identifies lcc-3166-2-sl:SL-NW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sl:SL-NW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Western"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "the province of North Western in the country of Sierra Leone" ;
+	lcc-cr:hasEnglishShortName "North Western"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sl:SL-424-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SierraLeone ;
+	.
+
+lcc-3166-2-sl:SL-S
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-S-RegionIdentifier ;
+	.
+
+lcc-3166-2-sl:SL-S-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SL-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "subdivision code for the province of Southern in the country of Sierra Leone" ;
+	lcc-lr:denotes lcc-3166-2-sl:SL-S-Subdivision ;
+	lcc-lr:hasTag "SL-S" ;
+	lcc-lr:identifies lcc-3166-2-sl:SL-S-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sl:SL-S-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "the province of Southern in the country of Sierra Leone" ;
+	lcc-cr:hasEnglishShortName "Southern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sl:SL-424-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SierraLeone ;
+	.
+
+lcc-3166-2-sl:SL-W
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-W-RegionIdentifier ;
+	.
+
+lcc-3166-2-sl:SL-W-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SL-W" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "subdivision code for the area of Western Area (Freetown) in the country of Sierra Leone" ;
+	lcc-lr:denotes lcc-3166-2-sl:SL-W-Subdivision ;
+	lcc-lr:hasTag "SL-W" ;
+	lcc-lr:identifies lcc-3166-2-sl:SL-W-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sl:SL-W-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western Area (Freetown)"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SL/> ;
+	skos:definition "the area of Western Area (Freetown) in the country of Sierra Leone" ;
+	lcc-cr:hasEnglishShortName "Western Area (Freetown)"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sl:SL-359-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:SierraLeone ;
+	.
+
+lcc-3166-2-sl:Southern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-S-Subdivision ;
+	.
+
+lcc-3166-2-sl:WesternArea
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-sl:SL-W-Subdivision ;
+	.
+

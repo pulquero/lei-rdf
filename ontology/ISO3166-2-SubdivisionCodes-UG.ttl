@@ -1,0 +1,5241 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ug: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Uganda Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ug" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Uganda, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-UG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	.
+
+lcc-3166-2-ug:Abim
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-314-Subdivision ;
+	.
+
+lcc-3166-2-ug:Adjumani
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-301-Subdivision ;
+	.
+
+lcc-3166-2-ug:Agago
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-322-Subdivision ;
+	.
+
+lcc-3166-2-ug:Alebtong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-323-Subdivision ;
+	.
+
+lcc-3166-2-ug:Amolatar
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-315-Subdivision ;
+	.
+
+lcc-3166-2-ug:Amudat
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-324-Subdivision ;
+	.
+
+lcc-3166-2-ug:Amuria
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-216-Subdivision ;
+	.
+
+lcc-3166-2-ug:Amuru
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-316-Subdivision ;
+	.
+
+lcc-3166-2-ug:Apac
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-302-Subdivision ;
+	.
+
+lcc-3166-2-ug:Arua
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-303-Subdivision ;
+	.
+
+lcc-3166-2-ug:Budaka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-217-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bududa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-218-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bugiri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-201-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bugweri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-235-Subdivision ;
+	.
+
+lcc-3166-2-ug:Buhweju
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-420-Subdivision ;
+	.
+
+lcc-3166-2-ug:Buikwe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-117-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bukedea
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-219-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bukomansibi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-118-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bukwo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-220-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bulambuli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-225-Subdivision ;
+	.
+
+lcc-3166-2-ug:Buliisa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-416-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bundibugyo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-401-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bunyangabu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-430-Subdivision ;
+	.
+
+lcc-3166-2-ug:Bushenyi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-402-Subdivision ;
+	.
+
+lcc-3166-2-ug:Busia
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-202-Subdivision ;
+	.
+
+lcc-3166-2-ug:Butaleja
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-221-Subdivision ;
+	.
+
+lcc-3166-2-ug:Butambala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-119-Subdivision ;
+	.
+
+lcc-3166-2-ug:Butebo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-233-Subdivision ;
+	.
+
+lcc-3166-2-ug:Buvuma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-120-Subdivision ;
+	.
+
+lcc-3166-2-ug:Buyende
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-226-Subdivision ;
+	.
+
+lcc-3166-2-ug:Central
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:City
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-459-RegionKind ;
+	.
+
+lcc-3166-2-ug:District
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-334-RegionKind ;
+	.
+
+lcc-3166-2-ug:Dokolo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-317-Subdivision ;
+	.
+
+lcc-3166-2-ug:Eastern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:GeographicalRegion
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-254-RegionKind ;
+	.
+
+lcc-3166-2-ug:Gomba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-121-Subdivision ;
+	.
+
+lcc-3166-2-ug:Gulu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-304-Subdivision ;
+	.
+
+lcc-3166-2-ug:Hoima
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-403-Subdivision ;
+	.
+
+lcc-3166-2-ug:Ibanda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-417-Subdivision ;
+	.
+
+lcc-3166-2-ug:Iganga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-203-Subdivision ;
+	.
+
+lcc-3166-2-ug:Isingiro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-418-Subdivision ;
+	.
+
+lcc-3166-2-ug:Jinja
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-204-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kaabong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-318-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kabale
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-404-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kabarole
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-405-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kaberamaido
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-213-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kagadi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-427-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kakumiro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-428-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kalaki
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-237-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kalangala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-101-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kaliro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-222-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kalungu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-122-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kampala
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-102-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kamuli
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-205-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kamwenge
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-413-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kanungu
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-414-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kapchorwa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-206-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kapelebyong
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-236-Subdivision ;
+	.
+
+lcc-3166-2-ug:Karenga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-335-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kasanda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-126-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kasese
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-406-Subdivision ;
+	.
+
+lcc-3166-2-ug:Katakwi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-207-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kayunga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-112-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kazo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-433-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kibaale
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-407-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kiboga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-103-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kibuku
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-227-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kikuube
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-432-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kiruhura
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-419-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kiryandongo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-421-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kisoro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-408-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kitagwenda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-434-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kitgum
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-305-Subdivision ;
+	.
+
+lcc-3166-2-ug:Koboko
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-319-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kole
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-325-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kotido
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-306-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kumi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-208-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kwania
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-333-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kween
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-228-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kyankwanzi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-123-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kyegegwa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-422-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kyenjojo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-415-Subdivision ;
+	.
+
+lcc-3166-2-ug:Kyotera
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-125-Subdivision ;
+	.
+
+lcc-3166-2-ug:Lamwo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-326-Subdivision ;
+	.
+
+lcc-3166-2-ug:Lira
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-307-Subdivision ;
+	.
+
+lcc-3166-2-ug:Luuka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-229-Subdivision ;
+	.
+
+lcc-3166-2-ug:Luwero
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-104-Subdivision ;
+	.
+
+lcc-3166-2-ug:Lwengo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-124-Subdivision ;
+	.
+
+lcc-3166-2-ug:Lyantonde
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-114-Subdivision ;
+	.
+
+lcc-3166-2-ug:Madi-Okollo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-336-Subdivision ;
+	.
+
+lcc-3166-2-ug:Manafwa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-223-Subdivision ;
+	.
+
+lcc-3166-2-ug:Maracha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-320-Subdivision ;
+	.
+
+lcc-3166-2-ug:Masaka
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-105-Subdivision ;
+	.
+
+lcc-3166-2-ug:Masindi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-409-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mayuge
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-214-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mbale
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-209-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mbarara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-410-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mitooma
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-423-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mityana
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-115-Subdivision ;
+	.
+
+lcc-3166-2-ug:Moroto
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-308-Subdivision ;
+	.
+
+lcc-3166-2-ug:Moyo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-309-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mpigi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-106-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mubende
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-107-Subdivision ;
+	.
+
+lcc-3166-2-ug:Mukono
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-108-Subdivision ;
+	.
+
+lcc-3166-2-ug:Nabilatuk
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-334-Subdivision ;
+	.
+
+lcc-3166-2-ug:Nakapiripirit
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-311-Subdivision ;
+	.
+
+lcc-3166-2-ug:Nakaseke
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-116-Subdivision ;
+	.
+
+lcc-3166-2-ug:Nakasongola
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-109-Subdivision ;
+	.
+
+lcc-3166-2-ug:Namayingo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-230-Subdivision ;
+	.
+
+lcc-3166-2-ug:Namisindwa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-234-Subdivision ;
+	.
+
+lcc-3166-2-ug:Namutumba
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-224-Subdivision ;
+	.
+
+lcc-3166-2-ug:Napak
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-327-Subdivision ;
+	.
+
+lcc-3166-2-ug:Nebbi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-310-Subdivision ;
+	.
+
+lcc-3166-2-ug:Ngora
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-231-Subdivision ;
+	.
+
+lcc-3166-2-ug:Northern
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:Ntoroko
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-424-Subdivision ;
+	.
+
+lcc-3166-2-ug:Ntungamo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-411-Subdivision ;
+	.
+
+lcc-3166-2-ug:Nwoya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-328-Subdivision ;
+	.
+
+lcc-3166-2-ug:Obongi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-337-Subdivision ;
+	.
+
+lcc-3166-2-ug:Omoro
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-331-Subdivision ;
+	.
+
+lcc-3166-2-ug:Otuke
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-329-Subdivision ;
+	.
+
+lcc-3166-2-ug:Oyam
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-321-Subdivision ;
+	.
+
+lcc-3166-2-ug:Pader
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-312-Subdivision ;
+	.
+
+lcc-3166-2-ug:Pakwach
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-332-Subdivision ;
+	.
+
+lcc-3166-2-ug:Pallisa
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-210-Subdivision ;
+	.
+
+lcc-3166-2-ug:Rakai
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-110-Subdivision ;
+	.
+
+lcc-3166-2-ug:Rubanda
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-429-Subdivision ;
+	.
+
+lcc-3166-2-ug:Rubirizi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-425-Subdivision ;
+	.
+
+lcc-3166-2-ug:Rukiga
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-431-Subdivision ;
+	.
+
+lcc-3166-2-ug:Rukungiri
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-412-Subdivision ;
+	.
+
+lcc-3166-2-ug:Rwampara
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-435-Subdivision ;
+	.
+
+lcc-3166-2-ug:Sembabule
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-111-Subdivision ;
+	.
+
+lcc-3166-2-ug:Serere
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-232-Subdivision ;
+	.
+
+lcc-3166-2-ug:Sheema
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-426-Subdivision ;
+	.
+
+lcc-3166-2-ug:Sironko
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-215-Subdivision ;
+	.
+
+lcc-3166-2-ug:Soroti
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-211-Subdivision ;
+	.
+
+lcc-3166-2-ug:Tororo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-212-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-101
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-101-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-101-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-101" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kalangala in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-101-Subdivision ;
+	lcc-lr:hasTag "UG-101" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-101-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-101-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalangala"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kalangala in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kalangala"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-102
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-102-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-102-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-102" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the city of Kampala in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-102-Subdivision ;
+	lcc-lr:hasTag "UG-102" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-102-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-102-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kampala"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the city of Kampala in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kampala"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-459-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-103
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-103-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-103-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-103" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kiboga in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-103-Subdivision ;
+	lcc-lr:hasTag "UG-103" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-103-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-103-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kiboga"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kiboga in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kiboga"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-104
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-104-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-104-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-104" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Luwero in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-104-Subdivision ;
+	lcc-lr:hasTag "UG-104" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-104-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-104-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luwero"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Luwero in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Luwero"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-105
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-105-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-105-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-105" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Masaka in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-105-Subdivision ;
+	lcc-lr:hasTag "UG-105" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-105-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-105-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Masaka"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Masaka in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Masaka"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-106
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-106-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-106-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-106" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mpigi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-106-Subdivision ;
+	lcc-lr:hasTag "UG-106" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-106-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-106-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mpigi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mpigi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mpigi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-107
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-107-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-107-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-107" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mubende in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-107-Subdivision ;
+	lcc-lr:hasTag "UG-107" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-107-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-107-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mubende"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mubende in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mubende"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-108
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-108-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-108-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-108" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mukono in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-108-Subdivision ;
+	lcc-lr:hasTag "UG-108" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-108-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-108-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mukono"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mukono in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mukono"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-109
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-109-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-109-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-109" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Nakasongola in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-109-Subdivision ;
+	lcc-lr:hasTag "UG-109" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-109-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-109-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakasongola"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Nakasongola in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Nakasongola"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-110
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-110-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-110-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-110" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Rakai in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-110-Subdivision ;
+	lcc-lr:hasTag "UG-110" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-110-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-110-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rakai"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Rakai in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Rakai"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-111
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-111-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-111-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-111" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Sembabule in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-111-Subdivision ;
+	lcc-lr:hasTag "UG-111" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-111-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-111-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sembabule"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Sembabule in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Sembabule"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-112
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-112-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-112-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-112" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kayunga in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-112-Subdivision ;
+	lcc-lr:hasTag "UG-112" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-112-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-112-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kayunga"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kayunga in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kayunga"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-113
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-113-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-113-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-113" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Wakiso in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-113-Subdivision ;
+	lcc-lr:hasTag "UG-113" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-113-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-113-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wakiso"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Wakiso in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Wakiso"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-114
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-114-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-114-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-114" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Lyantonde in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-114-Subdivision ;
+	lcc-lr:hasTag "UG-114" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-114-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-114-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lyantonde"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Lyantonde in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Lyantonde"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-115
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-115-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-115-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-115" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mityana in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-115-Subdivision ;
+	lcc-lr:hasTag "UG-115" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-115-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-115-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mityana"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mityana in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mityana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-116
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-116-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-116-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-116" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Nakaseke in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-116-Subdivision ;
+	lcc-lr:hasTag "UG-116" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-116-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-116-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakaseke"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Nakaseke in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Nakaseke"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-117
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-117-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-117-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-117" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Buikwe in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-117-Subdivision ;
+	lcc-lr:hasTag "UG-117" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-117-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-117-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buikwe"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Buikwe in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Buikwe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-118
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-118-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-118-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-118" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bukomansibi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-118-Subdivision ;
+	lcc-lr:hasTag "UG-118" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-118-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-118-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bukomansibi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bukomansibi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bukomansibi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-119
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-119-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-119-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-119" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Butambala in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-119-Subdivision ;
+	lcc-lr:hasTag "UG-119" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-119-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-119-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Butambala"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Butambala in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Butambala"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-120
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-120-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-120-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-120" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Buvuma in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-120-Subdivision ;
+	lcc-lr:hasTag "UG-120" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-120-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-120-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buvuma"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Buvuma in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Buvuma"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-121
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-121-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-121-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-121" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Gomba in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-121-Subdivision ;
+	lcc-lr:hasTag "UG-121" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-121-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-121-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gomba"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Gomba in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Gomba"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-122
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-122-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-122-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-122" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kalungu in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-122-Subdivision ;
+	lcc-lr:hasTag "UG-122" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-122-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-122-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalungu"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kalungu in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kalungu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-123
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-123-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-123-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-123" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kyankwanzi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-123-Subdivision ;
+	lcc-lr:hasTag "UG-123" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-123-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-123-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyankwanzi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kyankwanzi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kyankwanzi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-124
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-124-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-124-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-124" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Lwengo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-124-Subdivision ;
+	lcc-lr:hasTag "UG-124" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-124-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-124-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lwengo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Lwengo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Lwengo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-125
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-125-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-125-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-125" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kyotera in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-125-Subdivision ;
+	lcc-lr:hasTag "UG-125" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-125-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-125-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyotera"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kyotera in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kyotera"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-126
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-126-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-126-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-126" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kasanda in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-126-Subdivision ;
+	lcc-lr:hasTag "UG-126" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-126-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-126-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kasanda"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kasanda in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kasanda"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-C-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-201
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-201-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-201-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-201" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bugiri in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-201-Subdivision ;
+	lcc-lr:hasTag "UG-201" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-201-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-201-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bugiri"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bugiri in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bugiri"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-202
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-202-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-202-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-202" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Busia in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-202-Subdivision ;
+	lcc-lr:hasTag "UG-202" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-202-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-202-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Busia"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Busia in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Busia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-203
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-203-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-203-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-203" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Iganga in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-203-Subdivision ;
+	lcc-lr:hasTag "UG-203" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-203-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-203-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iganga"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Iganga in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Iganga"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-204
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-204-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-204-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-204" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Jinja in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-204-Subdivision ;
+	lcc-lr:hasTag "UG-204" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-204-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-204-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jinja"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Jinja in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Jinja"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-205
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-205-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-205-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-205" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kamuli in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-205-Subdivision ;
+	lcc-lr:hasTag "UG-205" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-205-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-205-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kamuli"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kamuli in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kamuli"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-206
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-206-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-206-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-206" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kapchorwa in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-206-Subdivision ;
+	lcc-lr:hasTag "UG-206" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-206-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-206-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kapchorwa"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kapchorwa in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kapchorwa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-207
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-207-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-207-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-207" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Katakwi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-207-Subdivision ;
+	lcc-lr:hasTag "UG-207" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-207-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-207-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Katakwi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Katakwi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Katakwi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-208
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-208-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-208-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-208" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kumi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-208-Subdivision ;
+	lcc-lr:hasTag "UG-208" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-208-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-208-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kumi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kumi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kumi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-209
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-209-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-209-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-209" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mbale in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-209-Subdivision ;
+	lcc-lr:hasTag "UG-209" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-209-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-209-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mbale"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mbale in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mbale"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-210
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-210-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-210-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-210" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Pallisa in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-210-Subdivision ;
+	lcc-lr:hasTag "UG-210" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-210-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-210-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pallisa"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Pallisa in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Pallisa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-211
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-211-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-211-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-211" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Soroti in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-211-Subdivision ;
+	lcc-lr:hasTag "UG-211" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-211-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-211-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Soroti"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Soroti in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Soroti"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-212
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-212-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-212-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-212" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Tororo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-212-Subdivision ;
+	lcc-lr:hasTag "UG-212" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-212-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-212-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tororo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Tororo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Tororo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-213
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-213-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-213-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-213" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kaberamaido in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-213-Subdivision ;
+	lcc-lr:hasTag "UG-213" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-213-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-213-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaberamaido"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kaberamaido in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kaberamaido"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-214
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-214-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-214-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-214" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mayuge in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-214-Subdivision ;
+	lcc-lr:hasTag "UG-214" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-214-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-214-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mayuge"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mayuge in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mayuge"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-215
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-215-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-215-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-215" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Sironko in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-215-Subdivision ;
+	lcc-lr:hasTag "UG-215" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-215-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-215-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sironko"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Sironko in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Sironko"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-216
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-216-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-216-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-216" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Amuria in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-216-Subdivision ;
+	lcc-lr:hasTag "UG-216" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-216-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-216-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amuria"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Amuria in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Amuria"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-217
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-217-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-217-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-217" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Budaka in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-217-Subdivision ;
+	lcc-lr:hasTag "UG-217" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-217-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-217-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Budaka"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Budaka in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Budaka"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-218
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-218-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-218-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-218" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bududa in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-218-Subdivision ;
+	lcc-lr:hasTag "UG-218" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-218-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-218-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bududa"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bududa in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bududa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-219
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-219-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-219-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-219" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bukedea in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-219-Subdivision ;
+	lcc-lr:hasTag "UG-219" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-219-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-219-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bukedea"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bukedea in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bukedea"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-220
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-220-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-220-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-220" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bukwo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-220-Subdivision ;
+	lcc-lr:hasTag "UG-220" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-220-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-220-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bukwo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bukwo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bukwo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-221
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-221-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-221-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-221" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Butaleja in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-221-Subdivision ;
+	lcc-lr:hasTag "UG-221" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-221-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-221-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Butaleja"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Butaleja in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Butaleja"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-222
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-222-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-222-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-222" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kaliro in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-222-Subdivision ;
+	lcc-lr:hasTag "UG-222" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-222-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-222-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaliro"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kaliro in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kaliro"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-223
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-223-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-223-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-223" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Manafwa in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-223-Subdivision ;
+	lcc-lr:hasTag "UG-223" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-223-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-223-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manafwa"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Manafwa in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Manafwa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-224
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-224-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-224-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-224" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Namutumba in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-224-Subdivision ;
+	lcc-lr:hasTag "UG-224" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-224-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-224-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namutumba"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Namutumba in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Namutumba"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-225
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-225-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-225-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-225" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bulambuli in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-225-Subdivision ;
+	lcc-lr:hasTag "UG-225" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-225-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-225-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bulambuli"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bulambuli in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bulambuli"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-226
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-226-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-226-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-226" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Buyende in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-226-Subdivision ;
+	lcc-lr:hasTag "UG-226" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-226-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-226-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buyende"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Buyende in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Buyende"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-227
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-227-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-227-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-227" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kibuku in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-227-Subdivision ;
+	lcc-lr:hasTag "UG-227" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-227-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-227-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kibuku"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kibuku in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kibuku"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-228
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-228-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-228-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-228" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kween in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-228-Subdivision ;
+	lcc-lr:hasTag "UG-228" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-228-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-228-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kween"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kween in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kween"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-229
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-229-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-229-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-229" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Luuka in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-229-Subdivision ;
+	lcc-lr:hasTag "UG-229" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-229-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-229-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luuka"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Luuka in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Luuka"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-230
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-230-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-230-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-230" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Namayingo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-230-Subdivision ;
+	lcc-lr:hasTag "UG-230" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-230-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-230-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namayingo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Namayingo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Namayingo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-231
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-231-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-231-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-231" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Ngora in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-231-Subdivision ;
+	lcc-lr:hasTag "UG-231" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-231-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-231-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngora"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Ngora in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Ngora"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-232
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-232-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-232-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-232" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Serere in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-232-Subdivision ;
+	lcc-lr:hasTag "UG-232" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-232-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-232-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Serere"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Serere in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Serere"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-233
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-233-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-233-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-233" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Butebo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-233-Subdivision ;
+	lcc-lr:hasTag "UG-233" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-233-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-233-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Butebo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Butebo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Butebo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-234
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-234-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-234-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-234" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Namisindwa in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-234-Subdivision ;
+	lcc-lr:hasTag "UG-234" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-234-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-234-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namisindwa"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Namisindwa in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Namisindwa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-235
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-235-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-235-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-235" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bugweri in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-235-Subdivision ;
+	lcc-lr:hasTag "UG-235" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-235-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-235-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bugweri"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bugweri in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bugweri"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-236
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-236-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-236-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-236" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kapelebyong in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-236-Subdivision ;
+	lcc-lr:hasTag "UG-236" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-236-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-236-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kapelebyong"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kapelebyong in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kapelebyong"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-237
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-237-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-237-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-237" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kalaki in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-237-Subdivision ;
+	lcc-lr:hasTag "UG-237" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-237-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-237-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalaki"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kalaki in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kalaki"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-E-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-254-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "geographical region"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision category geographical region in the country of Uganda" ;
+	.
+
+lcc-3166-2-ug:UG-301
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-301-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-301-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-301" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Adjumani in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-301-Subdivision ;
+	lcc-lr:hasTag "UG-301" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-301-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-301-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Adjumani"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Adjumani in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Adjumani"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-302
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-302-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-302-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-302" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Apac in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-302-Subdivision ;
+	lcc-lr:hasTag "UG-302" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-302-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-302-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Apac"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Apac in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Apac"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-303
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-303-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-303-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-303" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Arua in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-303-Subdivision ;
+	lcc-lr:hasTag "UG-303" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-303-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-303-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arua"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Arua in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Arua"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-304
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-304-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-304-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-304" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Gulu in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-304-Subdivision ;
+	lcc-lr:hasTag "UG-304" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-304-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-304-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gulu"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Gulu in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Gulu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-305
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-305-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-305-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-305" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kitgum in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-305-Subdivision ;
+	lcc-lr:hasTag "UG-305" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-305-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-305-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kitgum"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kitgum in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kitgum"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-306
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-306-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-306-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-306" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kotido in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-306-Subdivision ;
+	lcc-lr:hasTag "UG-306" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-306-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-306-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kotido"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kotido in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kotido"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-307
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-307-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-307-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-307" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Lira in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-307-Subdivision ;
+	lcc-lr:hasTag "UG-307" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-307-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-307-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lira"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Lira in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Lira"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-308
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-308-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-308-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-308" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Moroto in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-308-Subdivision ;
+	lcc-lr:hasTag "UG-308" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-308-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-308-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moroto"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Moroto in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Moroto"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-309
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-309-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-309-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-309" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Moyo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-309-Subdivision ;
+	lcc-lr:hasTag "UG-309" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-309-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-309-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moyo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Moyo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Moyo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-310
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-310-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-310-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-310" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Nebbi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-310-Subdivision ;
+	lcc-lr:hasTag "UG-310" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-310-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-310-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nebbi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Nebbi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Nebbi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-311
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-311-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-311-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-311" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Nakapiripirit in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-311-Subdivision ;
+	lcc-lr:hasTag "UG-311" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-311-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-311-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nakapiripirit"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Nakapiripirit in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Nakapiripirit"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-312
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-312-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-312-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-312" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Pader in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-312-Subdivision ;
+	lcc-lr:hasTag "UG-312" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-312-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-312-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pader"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Pader in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Pader"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-313
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-313-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-313-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-313" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Yumbe in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-313-Subdivision ;
+	lcc-lr:hasTag "UG-313" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-313-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-313-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yumbe"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Yumbe in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Yumbe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-314
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-314-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-314-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-314" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Abim in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-314-Subdivision ;
+	lcc-lr:hasTag "UG-314" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-314-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-314-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abim"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Abim in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Abim"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-315
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-315-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-315-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-315" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Amolatar in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-315-Subdivision ;
+	lcc-lr:hasTag "UG-315" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-315-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-315-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amolatar"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Amolatar in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Amolatar"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-316
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-316-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-316-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-316" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Amuru in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-316-Subdivision ;
+	lcc-lr:hasTag "UG-316" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-316-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-316-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amuru"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Amuru in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Amuru"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-317
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-317-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-317-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-317" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Dokolo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-317-Subdivision ;
+	lcc-lr:hasTag "UG-317" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-317-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-317-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dokolo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Dokolo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Dokolo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-318
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-318-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-318-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-318" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kaabong in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-318-Subdivision ;
+	lcc-lr:hasTag "UG-318" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-318-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-318-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaabong"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kaabong in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kaabong"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-319
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-319-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-319-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-319" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Koboko in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-319-Subdivision ;
+	lcc-lr:hasTag "UG-319" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-319-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-319-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Koboko"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Koboko in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Koboko"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-320
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-320-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-320-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-320" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Maracha in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-320-Subdivision ;
+	lcc-lr:hasTag "UG-320" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-320-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-320-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maracha"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Maracha in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Maracha"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-321
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-321-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-321-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-321" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Oyam in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-321-Subdivision ;
+	lcc-lr:hasTag "UG-321" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-321-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-321-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oyam"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Oyam in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Oyam"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-322
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-322-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-322-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-322" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Agago in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-322-Subdivision ;
+	lcc-lr:hasTag "UG-322" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-322-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-322-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Agago"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Agago in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Agago"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-323
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-323-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-323-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-323" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Alebtong in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-323-Subdivision ;
+	lcc-lr:hasTag "UG-323" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-323-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-323-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alebtong"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Alebtong in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Alebtong"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-324
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-324-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-324-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-324" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Amudat in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-324-Subdivision ;
+	lcc-lr:hasTag "UG-324" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-324-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-324-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amudat"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Amudat in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Amudat"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-325
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-325-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-325-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-325" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kole in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-325-Subdivision ;
+	lcc-lr:hasTag "UG-325" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-325-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-325-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kole"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kole in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kole"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-326
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-326-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-326-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-326" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Lamwo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-326-Subdivision ;
+	lcc-lr:hasTag "UG-326" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-326-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-326-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lamwo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Lamwo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Lamwo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-327
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-327-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-327-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-327" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Napak in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-327-Subdivision ;
+	lcc-lr:hasTag "UG-327" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-327-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-327-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Napak"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Napak in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Napak"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-328
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-328-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-328-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-328" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Nwoya in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-328-Subdivision ;
+	lcc-lr:hasTag "UG-328" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-328-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-328-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nwoya"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Nwoya in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Nwoya"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-329
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-329-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-329-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-329" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Otuke in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-329-Subdivision ;
+	lcc-lr:hasTag "UG-329" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-329-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-329-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Otuke"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Otuke in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Otuke"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-330
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-330-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-330-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-330" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Zombo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-330-Subdivision ;
+	lcc-lr:hasTag "UG-330" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-330-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-330-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zombo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Zombo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Zombo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-331
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-331-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-331-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-331" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Omoro in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-331-Subdivision ;
+	lcc-lr:hasTag "UG-331" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-331-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-331-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Omoro"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Omoro in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Omoro"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-332
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-332-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-332-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-332" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Pakwach in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-332-Subdivision ;
+	lcc-lr:hasTag "UG-332" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-332-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-332-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pakwach"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Pakwach in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Pakwach"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-333
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-333-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-333-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-333" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kwania in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-333-Subdivision ;
+	lcc-lr:hasTag "UG-333" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-333-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-333-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kwania"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kwania in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kwania"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-334
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-334-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-334-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-334" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Nabilatuk in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-334-Subdivision ;
+	lcc-lr:hasTag "UG-334" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-334-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-334-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision category district in the country of Uganda" ;
+	.
+
+lcc-3166-2-ug:UG-334-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nabilatuk"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Nabilatuk in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Nabilatuk"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-335
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-335-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-335-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-335" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Karenga in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-335-Subdivision ;
+	lcc-lr:hasTag "UG-335" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-335-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-335-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karenga"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Karenga in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Karenga"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-336
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-336-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-336-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-336" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Madi-Okollo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-336-Subdivision ;
+	lcc-lr:hasTag "UG-336" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-336-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-336-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madi-Okollo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Madi-Okollo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Madi-Okollo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-337
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-337-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-337-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-337" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Obongi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-337-Subdivision ;
+	lcc-lr:hasTag "UG-337" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-337-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-337-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Obongi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Obongi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Obongi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-N-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-401
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-401-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-401-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-401" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bundibugyo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-401-Subdivision ;
+	lcc-lr:hasTag "UG-401" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-401-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-401-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bundibugyo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bundibugyo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bundibugyo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-402
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-402-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-402-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-402" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bushenyi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-402-Subdivision ;
+	lcc-lr:hasTag "UG-402" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-402-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-402-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bushenyi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bushenyi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bushenyi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-403
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-403-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-403-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-403" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Hoima in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-403-Subdivision ;
+	lcc-lr:hasTag "UG-403" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-403-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-403-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hoima"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Hoima in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Hoima"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-404
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-404-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-404-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-404" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kabale in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-404-Subdivision ;
+	lcc-lr:hasTag "UG-404" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-404-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-404-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kabale"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kabale in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kabale"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-405
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-405-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-405-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-405" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kabarole in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-405-Subdivision ;
+	lcc-lr:hasTag "UG-405" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-405-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-405-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kabarole"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kabarole in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kabarole"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-406
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-406-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-406-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-406" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kasese in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-406-Subdivision ;
+	lcc-lr:hasTag "UG-406" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-406-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-406-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kasese"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kasese in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kasese"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-407
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-407-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-407-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-407" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kibaale in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-407-Subdivision ;
+	lcc-lr:hasTag "UG-407" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-407-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-407-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kibaale"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kibaale in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kibaale"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-408
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-408-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-408-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-408" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kisoro in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-408-Subdivision ;
+	lcc-lr:hasTag "UG-408" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-408-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-408-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kisoro"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kisoro in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kisoro"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-409
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-409-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-409-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-409" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Masindi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-409-Subdivision ;
+	lcc-lr:hasTag "UG-409" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-409-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-409-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Masindi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Masindi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Masindi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-410
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-410-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-410-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-410" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mbarara in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-410-Subdivision ;
+	lcc-lr:hasTag "UG-410" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-410-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-410-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mbarara"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mbarara in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mbarara"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-411
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-411-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-411-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-411" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Ntungamo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-411-Subdivision ;
+	lcc-lr:hasTag "UG-411" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-411-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-411-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ntungamo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Ntungamo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Ntungamo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-412
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-412-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-412-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-412" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Rukungiri in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-412-Subdivision ;
+	lcc-lr:hasTag "UG-412" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-412-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-412-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rukungiri"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Rukungiri in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Rukungiri"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-413
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-413-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-413-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-413" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kamwenge in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-413-Subdivision ;
+	lcc-lr:hasTag "UG-413" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-413-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-413-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kamwenge"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kamwenge in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kamwenge"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-414
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-414-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-414-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-414" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kanungu in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-414-Subdivision ;
+	lcc-lr:hasTag "UG-414" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-414-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-414-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kanungu"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kanungu in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kanungu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-415
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-415-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-415-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-415" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kyenjojo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-415-Subdivision ;
+	lcc-lr:hasTag "UG-415" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-415-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-415-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyenjojo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kyenjojo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kyenjojo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-416
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-416-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-416-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-416" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Buliisa in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-416-Subdivision ;
+	lcc-lr:hasTag "UG-416" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-416-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-416-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buliisa"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Buliisa in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Buliisa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-417
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-417-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-417-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-417" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Ibanda in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-417-Subdivision ;
+	lcc-lr:hasTag "UG-417" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-417-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-417-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ibanda"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Ibanda in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Ibanda"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-418
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-418-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-418-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-418" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Isingiro in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-418-Subdivision ;
+	lcc-lr:hasTag "UG-418" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-418-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-418-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isingiro"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Isingiro in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Isingiro"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-419
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-419-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-419-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-419" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kiruhura in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-419-Subdivision ;
+	lcc-lr:hasTag "UG-419" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-419-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-419-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kiruhura"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kiruhura in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kiruhura"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-420
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-420-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-420-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-420" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Buhweju in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-420-Subdivision ;
+	lcc-lr:hasTag "UG-420" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-420-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-420-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buhweju"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Buhweju in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Buhweju"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-421
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-421-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-421-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-421" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kiryandongo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-421-Subdivision ;
+	lcc-lr:hasTag "UG-421" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-421-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-421-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kiryandongo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kiryandongo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kiryandongo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-422
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-422-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-422-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-422" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kyegegwa in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-422-Subdivision ;
+	lcc-lr:hasTag "UG-422" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-422-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-422-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyegegwa"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kyegegwa in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kyegegwa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-423
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-423-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-423-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-423" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Mitooma in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-423-Subdivision ;
+	lcc-lr:hasTag "UG-423" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-423-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-423-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mitooma"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Mitooma in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Mitooma"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-424
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-424-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-424-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-424" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Ntoroko in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-424-Subdivision ;
+	lcc-lr:hasTag "UG-424" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-424-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-424-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ntoroko"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Ntoroko in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Ntoroko"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-425
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-425-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-425-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-425" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Rubirizi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-425-Subdivision ;
+	lcc-lr:hasTag "UG-425" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-425-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-425-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rubirizi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Rubirizi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Rubirizi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-426
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-426-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-426-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-426" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Sheema in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-426-Subdivision ;
+	lcc-lr:hasTag "UG-426" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-426-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-426-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sheema"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Sheema in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Sheema"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-427
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-427-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-427-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-427" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kagadi in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-427-Subdivision ;
+	lcc-lr:hasTag "UG-427" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-427-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-427-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kagadi"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kagadi in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kagadi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-428
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-428-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-428-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-428" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kakumiro in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-428-Subdivision ;
+	lcc-lr:hasTag "UG-428" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-428-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-428-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kakumiro"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kakumiro in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kakumiro"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-429
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-429-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-429-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-429" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Rubanda in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-429-Subdivision ;
+	lcc-lr:hasTag "UG-429" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-429-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-429-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rubanda"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Rubanda in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Rubanda"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-430
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-430-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-430-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-430" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Bunyangabu in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-430-Subdivision ;
+	lcc-lr:hasTag "UG-430" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-430-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-430-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bunyangabu"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Bunyangabu in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Bunyangabu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-431
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-431-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-431-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-431" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Rukiga in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-431-Subdivision ;
+	lcc-lr:hasTag "UG-431" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-431-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-431-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rukiga"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Rukiga in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Rukiga"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-432
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-432-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-432-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-432" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kikuube in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-432-Subdivision ;
+	lcc-lr:hasTag "UG-432" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-432-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-432-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kikuube"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kikuube in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kikuube"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-433
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-433-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-433-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-433" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kazo in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-433-Subdivision ;
+	lcc-lr:hasTag "UG-433" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-433-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-433-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kazo"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kazo in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kazo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-434
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-434-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-434-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-434" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Kitagwenda in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-434-Subdivision ;
+	lcc-lr:hasTag "UG-434" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-434-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-434-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kitagwenda"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Kitagwenda in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Kitagwenda"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-435
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-435-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-435-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-435" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the district of Rwampara in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-435-Subdivision ;
+	lcc-lr:hasTag "UG-435" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-435-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-435-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rwampara"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the district of Rwampara in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Rwampara"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-334-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:UG-459-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision category city in the country of Uganda" ;
+	.
+
+lcc-3166-2-ug:UG-C
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-C-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-C-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the geographical region of Central in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-C-Subdivision ;
+	lcc-lr:hasTag "UG-C" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-C-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-C-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the geographical region of Central in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Central"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-254-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uganda ;
+	.
+
+lcc-3166-2-ug:UG-E
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-E-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-E-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the geographical region of Eastern in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-E-Subdivision ;
+	lcc-lr:hasTag "UG-E" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-E-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-E-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the geographical region of Eastern in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Eastern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-254-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uganda ;
+	.
+
+lcc-3166-2-ug:UG-N
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-N-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-N-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the geographical region of Northern in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-N-Subdivision ;
+	lcc-lr:hasTag "UG-N" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-N-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-N-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the geographical region of Northern in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Northern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-254-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uganda ;
+	.
+
+lcc-3166-2-ug:UG-W
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-W-RegionIdentifier ;
+	.
+
+lcc-3166-2-ug:UG-W-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UG-W" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "subdivision code for the geographical region of Western in the country of Uganda" ;
+	lcc-lr:denotes lcc-3166-2-ug:UG-W-Subdivision ;
+	lcc-lr:hasTag "UG-W" ;
+	lcc-lr:identifies lcc-3166-2-ug:UG-W-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ug:UG-W-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western"@en ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UG/> ;
+	skos:definition "the geographical region of Western in the country of Uganda" ;
+	lcc-cr:hasEnglishShortName "Western"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ug:UG-254-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uganda ;
+	.
+
+lcc-3166-2-ug:Wakiso
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-113-Subdivision ;
+	.
+
+lcc-3166-2-ug:Western
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-W-Subdivision ;
+	.
+
+lcc-3166-2-ug:Yumbe
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-313-Subdivision ;
+	.
+
+lcc-3166-2-ug:Zombo
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ug:UG-330-Subdivision ;
+	.
+

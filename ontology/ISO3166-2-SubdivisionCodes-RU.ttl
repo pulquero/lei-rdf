@@ -1,0 +1,3686 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ru: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes for Russian Federation (the) Ontology" ;
+	dct:issued "2021-10-30T01:57:18.464529+02:00"^^xsd:dateTime ;
+	dct:license "http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	sm:contentLanguage "https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2020 Adaptive Inc." ,
+		"Copyright (c) 2015-2021 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2021 Thematix Partners LLC" ,
+		"Copyright (c) 2021 agnos.ai UK Ltd."
+		;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ru" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Russian Federation (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-RU.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20211101/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	.
+
+lcc-3166-2-ru:Adygeya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AD-Subdivision ;
+	.
+
+lcc-3166-2-ru:Altaj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AL-Subdivision ;
+	.
+
+lcc-3166-2-ru:AltajskijKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ALT-Subdivision ;
+	.
+
+lcc-3166-2-ru:AmurskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AMU-Subdivision ;
+	.
+
+lcc-3166-2-ru:ArkhangelskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ARK-Subdivision ;
+	.
+
+lcc-3166-2-ru:AstrakhanskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AST-Subdivision ;
+	.
+
+lcc-3166-2-ru:AvtonomnayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-355-RegionKind ;
+	.
+
+lcc-3166-2-ru:AvtonomnyyGorod
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-311-RegionKind ;
+	.
+
+lcc-3166-2-ru:AvtonomnyyOkrug
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-309-RegionKind ;
+	.
+
+lcc-3166-2-ru:Baskortostan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BA-Subdivision ;
+	.
+
+lcc-3166-2-ru:BelgorodskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BEL-Subdivision ;
+	.
+
+lcc-3166-2-ru:BryanskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BRY-Subdivision ;
+	.
+
+lcc-3166-2-ru:Buryatiya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BU-Subdivision ;
+	.
+
+lcc-3166-2-ru:CecenskajaRespublika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CE-Subdivision ;
+	.
+
+lcc-3166-2-ru:CeljabinskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CHE-Subdivision ;
+	.
+
+lcc-3166-2-ru:ChukotskiyAvtonomnyyOkrug
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CHU-Subdivision ;
+	.
+
+lcc-3166-2-ru:CuvasskajaRespublika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CU-Subdivision ;
+	.
+
+lcc-3166-2-ru:Dagestan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-DA-Subdivision ;
+	.
+
+lcc-3166-2-ru:Hakasija
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KK-Subdivision ;
+	.
+
+lcc-3166-2-ru:Ingusetija
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-IN-Subdivision ;
+	.
+
+lcc-3166-2-ru:IrkutskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-IRK-Subdivision ;
+	.
+
+lcc-3166-2-ru:IvanovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-IVA-Subdivision ;
+	.
+
+lcc-3166-2-ru:Jamalo-NeneckijAvtonomnyjOkrug
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-YAN-Subdivision ;
+	.
+
+lcc-3166-2-ru:JaroslavskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-YAR-Subdivision ;
+	.
+
+lcc-3166-2-ru:Kabardino-BalkarskayaRespublika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KB-Subdivision ;
+	.
+
+lcc-3166-2-ru:KaliningradRegion
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-1095-Territory ;
+	.
+
+lcc-3166-2-ru:KaliningradskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KGD-Subdivision ;
+	.
+
+lcc-3166-2-ru:Kalmykija
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KL-Subdivision ;
+	.
+
+lcc-3166-2-ru:KaluzskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KLU-Subdivision ;
+	.
+
+lcc-3166-2-ru:KamchatskiyKray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KAM-Subdivision ;
+	.
+
+lcc-3166-2-ru:Karachayevo-CherkesskayaRespublika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KC-Subdivision ;
+	.
+
+lcc-3166-2-ru:Kareliya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KR-Subdivision ;
+	.
+
+lcc-3166-2-ru:KemerovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KEM-Subdivision ;
+	.
+
+lcc-3166-2-ru:KhabarovskiyKray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KHA-Subdivision ;
+	.
+
+lcc-3166-2-ru:Khanty-MansiyskiyAvtonomnyyOkrug
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KHM-Subdivision ;
+	.
+
+lcc-3166-2-ru:KirovskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KIR-Subdivision ;
+	.
+
+lcc-3166-2-ru:Komi
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KO-Subdivision ;
+	.
+
+lcc-3166-2-ru:KostromskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KOS-Subdivision ;
+	.
+
+lcc-3166-2-ru:KrasnodarskiyKray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KDA-Subdivision ;
+	.
+
+lcc-3166-2-ru:KrasnojarskijKraj
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KYA-Subdivision ;
+	.
+
+lcc-3166-2-ru:Kray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-396-RegionKind ;
+	.
+
+lcc-3166-2-ru:KurganskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KGN-Subdivision ;
+	.
+
+lcc-3166-2-ru:KurskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KRS-Subdivision ;
+	.
+
+lcc-3166-2-ru:LeningradskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-LEN-Subdivision ;
+	.
+
+lcc-3166-2-ru:LipeckajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-LIP-Subdivision ;
+	.
+
+lcc-3166-2-ru:MagadanskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MAG-Subdivision ;
+	.
+
+lcc-3166-2-ru:MariyEl
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ME-Subdivision ;
+	.
+
+lcc-3166-2-ru:Mordoviya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MO-Subdivision ;
+	.
+
+lcc-3166-2-ru:MoskovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MOS-Subdivision ;
+	.
+
+lcc-3166-2-ru:Moskva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MOW-Subdivision ;
+	.
+
+lcc-3166-2-ru:MurmanskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MUR-Subdivision ;
+	.
+
+lcc-3166-2-ru:NenetskiyAvtonomnyyOkrug
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NEN-Subdivision ;
+	.
+
+lcc-3166-2-ru:NizegorodskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NIZ-Subdivision ;
+	.
+
+lcc-3166-2-ru:NovgorodskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NGR-Subdivision ;
+	.
+
+lcc-3166-2-ru:NovosibirskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NVS-Subdivision ;
+	.
+
+lcc-3166-2-ru:Oblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-290-RegionKind ;
+	.
+
+lcc-3166-2-ru:OmskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-OMS-Subdivision ;
+	.
+
+lcc-3166-2-ru:OrenburgskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ORE-Subdivision ;
+	.
+
+lcc-3166-2-ru:OrlovskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ORL-Subdivision ;
+	.
+
+lcc-3166-2-ru:PenzenskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PNZ-Subdivision ;
+	.
+
+lcc-3166-2-ru:PermskiyKray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PER-Subdivision ;
+	.
+
+lcc-3166-2-ru:PrimorskiyKray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PRI-Subdivision ;
+	.
+
+lcc-3166-2-ru:PskovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PSK-Subdivision ;
+	.
+
+lcc-3166-2-ru:RU-1095-Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the territory of Kaliningrad Region in the country of Russian Federation (the)" ;
+	lcc-cr:hasEnglishShortName "Kaliningrad Region"@en ;
+	lcc-cr:hasFrenchShortName "la Région de Kaliningrad"@fr ;
+	lcc-cr:hasNumericRegionCode "1095" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-290-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "oblast'"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision category oblast' in the country of Russian Federation (the)" ;
+	.
+
+lcc-3166-2-ru:RU-309-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "avtonomnyy okrug"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision category avtonomnyy okrug in the country of Russian Federation (the)" ;
+	.
+
+lcc-3166-2-ru:RU-311-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "avtonomnyy gorod"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision category avtonomnyy gorod in the country of Russian Federation (the)" ;
+	.
+
+lcc-3166-2-ru:RU-355-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "avtonomnaya oblast'"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision category avtonomnaya oblast' in the country of Russian Federation (the)" ;
+	.
+
+lcc-3166-2-ru:RU-396-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "kray"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision category kray in the country of Russian Federation (the)" ;
+	.
+
+lcc-3166-2-ru:RU-433-RegionKind
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "respublika"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision category respublika in the country of Russian Federation (the)" ;
+	.
+
+lcc-3166-2-ru:RU-AD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AD-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-AD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-AD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Adygeya, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-AD-Subdivision ;
+	lcc-lr:hasTag "RU-AD" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-AD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-AD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Adygeja, Respublika"@ru ,
+		"Adygeya, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Adygeya, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Adygeja, Respublika"@ru ,
+		"Adygeya, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-AL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-AL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Altaj, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-AL-Subdivision ;
+	lcc-lr:hasTag "RU-AL" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-AL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-AL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Altaj, Respublika"@ru ,
+		"Altay, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Altaj, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Altaj, Respublika"@ru ,
+		"Altay, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ALT
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ALT-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ALT-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ALT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Altajskij kraj in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ALT-Subdivision ;
+	lcc-lr:hasTag "RU-ALT" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ALT-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ALT-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Altajskij kraj"@ru ,
+		"Altayskiy kray"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Altajskij kraj in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Altajskij kraj"@ru ,
+		"Altayskiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-AMU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AMU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-AMU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-AMU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Amurskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-AMU-Subdivision ;
+	lcc-lr:hasTag "RU-AMU" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-AMU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-AMU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Amurskaja oblast'"@ru ,
+		"Amurskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Amurskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Amurskaja oblast'"@ru ,
+		"Amurskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ARK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ARK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ARK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ARK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Arkhangel'skaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ARK-Subdivision ;
+	lcc-lr:hasTag "RU-ARK" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ARK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ARK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Arhangel'skaja oblast'"@ru ,
+		"Arkhangel'skaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Arkhangel'skaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Arhangel'skaja oblast'"@ru ,
+		"Arkhangel'skaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-AST
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-AST-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-AST-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-AST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Astrakhanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-AST-Subdivision ;
+	lcc-lr:hasTag "RU-AST" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-AST-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-AST-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Astrahanskaja oblast'"@ru ,
+		"Astrakhanskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Astrakhanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Astrahanskaja oblast'"@ru ,
+		"Astrakhanskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-BA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-BA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Baškortostan, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-BA-Subdivision ;
+	lcc-lr:hasTag "RU-BA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-BA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-BA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Bashkortostan, Respublika"@ru ,
+		"Baškortostan, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Baškortostan, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Bashkortostan, Respublika"@ru ,
+		"Baškortostan, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-BEL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BEL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-BEL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-BEL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Belgorodskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-BEL-Subdivision ;
+	lcc-lr:hasTag "RU-BEL" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-BEL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-BEL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Belgorodskaja oblast'"@ru ,
+		"Belgorodskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Belgorodskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Belgorodskaja oblast'"@ru ,
+		"Belgorodskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-BRY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BRY-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-BRY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-BRY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Bryanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-BRY-Subdivision ;
+	lcc-lr:hasTag "RU-BRY" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-BRY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-BRY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Brjanskaja oblast'"@ru ,
+		"Bryanskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Bryanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Brjanskaja oblast'"@ru ,
+		"Bryanskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-BU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-BU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-BU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Buryatiya, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-BU-Subdivision ;
+	lcc-lr:hasTag "RU-BU" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-BU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-BU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Burjatija, Respublika"@ru ,
+		"Buryatiya, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Buryatiya, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Burjatija, Respublika"@ru ,
+		"Buryatiya, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-CE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-CE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Čečenskaja Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-CE-Subdivision ;
+	lcc-lr:hasTag "RU-CE" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-CE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-CE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Chechenskaya Respublika"@ru ,
+		"Čečenskaja Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Čečenskaja Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Chechenskaya Respublika"@ru ,
+		"Čečenskaja Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-CHE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CHE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-CHE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-CHE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Čeljabinskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-CHE-Subdivision ;
+	lcc-lr:hasTag "RU-CHE" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-CHE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-CHE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Chelyabinskaya oblast'"@ru ,
+		"Čeljabinskaja oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Čeljabinskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Chelyabinskaya oblast'"@ru ,
+		"Čeljabinskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-CHU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CHU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-CHU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-CHU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the avtonomnyy okrug of Chukotskiy avtonomnyy okrug in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-CHU-Subdivision ;
+	lcc-lr:hasTag "RU-CHU" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-CHU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-CHU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Chukotskiy avtonomnyy okrug"@ru ,
+		"Čukotskij avtonomnyj okrug"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the avtonomnyy okrug of Chukotskiy avtonomnyy okrug in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Chukotskiy avtonomnyy okrug"@ru ,
+		"Čukotskij avtonomnyj okrug"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-309-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-CU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-CU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-CU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-CU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Čuvašskaja Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-CU-Subdivision ;
+	lcc-lr:hasTag "RU-CU" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-CU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-CU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Chuvashskaya Respublika"@ru ,
+		"Čuvašskaja Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Čuvašskaja Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Chuvashskaya Respublika"@ru ,
+		"Čuvašskaja Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-DA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-DA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-DA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-DA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Dagestan, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-DA-Subdivision ;
+	lcc-lr:hasTag "RU-DA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-DA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-DA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dagestan, Respublika"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Dagestan, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName "Dagestan, Respublika"@ru ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-IN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-IN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-IN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-IN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Ingušetija, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-IN-Subdivision ;
+	lcc-lr:hasTag "RU-IN" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-IN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-IN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ingushetiya, Respublika"@ru ,
+		"Ingušetija, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Ingušetija, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Ingushetiya, Respublika"@ru ,
+		"Ingušetija, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-IRK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-IRK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-IRK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-IRK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Irkutskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-IRK-Subdivision ;
+	lcc-lr:hasTag "RU-IRK" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-IRK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-IRK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Irkutskaja oblast'"@ru ,
+		"Irkutskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Irkutskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Irkutskaja oblast'"@ru ,
+		"Irkutskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-IVA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-IVA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-IVA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-IVA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Ivanovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-IVA-Subdivision ;
+	lcc-lr:hasTag "RU-IVA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-IVA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-IVA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ivanovskaja oblast'"@ru ,
+		"Ivanovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Ivanovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Ivanovskaja oblast'"@ru ,
+		"Ivanovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Kamchatskiy kray in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KAM-Subdivision ;
+	lcc-lr:hasTag "RU-KAM" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kamchatskiy kray"@ru ,
+		"Kamčatskij kraj"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Kamchatskiy kray in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kamchatskiy kray"@ru ,
+		"Kamčatskij kraj"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Kabardino-Balkarskaya Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KB-Subdivision ;
+	lcc-lr:hasTag "RU-KB" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kabardino-Balkarskaja Respublika"@ru ,
+		"Kabardino-Balkarskaya Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Kabardino-Balkarskaya Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kabardino-Balkarskaja Respublika"@ru ,
+		"Kabardino-Balkarskaya Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KC
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KC-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KC-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Karachayevo-Cherkesskaya Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KC-Subdivision ;
+	lcc-lr:hasTag "RU-KC" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KC-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KC-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Karachayevo-Cherkesskaya Respublika"@ru ,
+		"Karačaevo-Čerkesskaja Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Karachayevo-Cherkesskaya Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Karachayevo-Cherkesskaya Respublika"@ru ,
+		"Karačaevo-Čerkesskaja Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KDA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KDA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KDA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KDA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Krasnodarskiy kray in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KDA-Subdivision ;
+	lcc-lr:hasTag "RU-KDA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KDA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KDA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Krasnodarskij kraj"@ru ,
+		"Krasnodarskiy kray"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Krasnodarskiy kray in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Krasnodarskij kraj"@ru ,
+		"Krasnodarskiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KEM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KEM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KEM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KEM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Kemerovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KEM-Subdivision ;
+	lcc-lr:hasTag "RU-KEM" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KEM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KEM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kemerovskaja oblast'"@ru ,
+		"Kemerovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Kemerovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kemerovskaja oblast'"@ru ,
+		"Kemerovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KGD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KGD-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KGD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KGD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Kaliningradskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KGD-Subdivision ;
+	lcc-lr:hasTag "RU-KGD" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KGD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KGD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kaliningradskaja oblast'"@ru ,
+		"Kaliningradskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Kaliningradskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kaliningradskaja oblast'"@ru ,
+		"Kaliningradskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KGN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KGN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KGN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KGN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Kurganskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KGN-Subdivision ;
+	lcc-lr:hasTag "RU-KGN" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KGN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KGN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kurganskaja oblast'"@ru ,
+		"Kurganskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Kurganskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kurganskaja oblast'"@ru ,
+		"Kurganskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KHA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KHA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KHA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KHA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Khabarovskiy kray in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KHA-Subdivision ;
+	lcc-lr:hasTag "RU-KHA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KHA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KHA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Habarovskij kraj"@ru ,
+		"Khabarovskiy kray"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Khabarovskiy kray in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Habarovskij kraj"@ru ,
+		"Khabarovskiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KHM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KHM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KHM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KHM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the avtonomnyy okrug of Khanty-Mansiyskiy avtonomnyy okrug in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KHM-Subdivision ;
+	lcc-lr:hasTag "RU-KHM" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KHM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KHM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Hanty-Mansijskij avtonomnyj okrug"@ru ,
+		"Khanty-Mansiyskiy avtonomnyy okrug"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the avtonomnyy okrug of Khanty-Mansiyskiy avtonomnyy okrug in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Hanty-Mansijskij avtonomnyj okrug"@ru ,
+		"Khanty-Mansiyskiy avtonomnyy okrug"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-309-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KIR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KIR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KIR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KIR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Kirovskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KIR-Subdivision ;
+	lcc-lr:hasTag "RU-KIR" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KIR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KIR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kirovskaja oblast'"@ru ,
+		"Kirovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Kirovskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kirovskaja oblast'"@ru ,
+		"Kirovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Hakasija, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KK-Subdivision ;
+	lcc-lr:hasTag "RU-KK" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Hakasija, Respublika"@ru ,
+		"Khakasiya, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Hakasija, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Hakasija, Respublika"@ru ,
+		"Khakasiya, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Kalmykija, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KL-Subdivision ;
+	lcc-lr:hasTag "RU-KL" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kalmykija, Respublika"@ru ,
+		"Kalmykiya, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Kalmykija, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kalmykija, Respublika"@ru ,
+		"Kalmykiya, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KLU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KLU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KLU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KLU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Kalužskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KLU-Subdivision ;
+	lcc-lr:hasTag "RU-KLU" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KLU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KLU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kaluzhskaya oblast'"@ru ,
+		"Kalužskaja oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Kalužskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kaluzhskaya oblast'"@ru ,
+		"Kalužskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Komi, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KO-Subdivision ;
+	lcc-lr:hasTag "RU-KO" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Komi, Respublika"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Komi, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName "Komi, Respublika"@ru ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KOS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KOS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KOS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KOS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Kostromskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KOS-Subdivision ;
+	lcc-lr:hasTag "RU-KOS" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KOS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KOS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kostromskaja oblast'"@ru ,
+		"Kostromskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Kostromskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kostromskaja oblast'"@ru ,
+		"Kostromskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Kareliya, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KR-Subdivision ;
+	lcc-lr:hasTag "RU-KR" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Karelija, Respublika"@ru ,
+		"Kareliya, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Kareliya, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Karelija, Respublika"@ru ,
+		"Kareliya, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KRS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KRS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KRS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KRS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Kurskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KRS-Subdivision ;
+	lcc-lr:hasTag "RU-KRS" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KRS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KRS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Kurskaja oblast'"@ru ,
+		"Kurskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Kurskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Kurskaja oblast'"@ru ,
+		"Kurskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-KYA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-KYA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-KYA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-KYA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Krasnojarskij kraj in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-KYA-Subdivision ;
+	lcc-lr:hasTag "RU-KYA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-KYA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-KYA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Krasnojarskij kraj"@ru ,
+		"Krasnoyarskiy kray"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Krasnojarskij kraj in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Krasnojarskij kraj"@ru ,
+		"Krasnoyarskiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-LEN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-LEN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-LEN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-LEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Leningradskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-LEN-Subdivision ;
+	lcc-lr:hasTag "RU-LEN" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-LEN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-LEN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Leningradskaja oblast'"@ru ,
+		"Leningradskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Leningradskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Leningradskaja oblast'"@ru ,
+		"Leningradskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-LIP
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-LIP-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-LIP-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-LIP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Lipeckaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-LIP-Subdivision ;
+	lcc-lr:hasTag "RU-LIP" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-LIP-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-LIP-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Lipeckaja oblast'"@ru ,
+		"Lipetskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Lipeckaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Lipeckaja oblast'"@ru ,
+		"Lipetskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-MAG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MAG-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-MAG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-MAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Magadanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-MAG-Subdivision ;
+	lcc-lr:hasTag "RU-MAG" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-MAG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-MAG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Magadanskaja oblast'"@ru ,
+		"Magadanskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Magadanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Magadanskaja oblast'"@ru ,
+		"Magadanskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ME
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ME-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ME-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ME" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Mariy El, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ME-Subdivision ;
+	lcc-lr:hasTag "RU-ME" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ME-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ME-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Marij Èl, Respublika"@ru ,
+		"Mariy El, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Mariy El, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Marij Èl, Respublika"@ru ,
+		"Mariy El, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-MO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-MO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Mordoviya, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-MO-Subdivision ;
+	lcc-lr:hasTag "RU-MO" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-MO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-MO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Mordovija, Respublika"@ru ,
+		"Mordoviya, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Mordoviya, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Mordovija, Respublika"@ru ,
+		"Mordoviya, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-MOS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MOS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-MOS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-MOS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Moskovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-MOS-Subdivision ;
+	lcc-lr:hasTag "RU-MOS" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-MOS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-MOS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Moskovskaja oblast'"@ru ,
+		"Moskovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Moskovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Moskovskaja oblast'"@ru ,
+		"Moskovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-MOW
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MOW-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-MOW-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-MOW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the avtonomnyy gorod of Moskva in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-MOW-Subdivision ;
+	lcc-lr:hasTag "RU-MOW" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-MOW-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-MOW-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moskva"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the avtonomnyy gorod of Moskva in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName "Moskva"@ru ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-311-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-MUR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-MUR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-MUR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-MUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Murmanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-MUR-Subdivision ;
+	lcc-lr:hasTag "RU-MUR" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-MUR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-MUR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Murmanskaja oblast'"@ru ,
+		"Murmanskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Murmanskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Murmanskaja oblast'"@ru ,
+		"Murmanskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-NEN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NEN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-NEN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-NEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the avtonomnyy okrug of Nenetskiy avtonomnyy okrug in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-NEN-Subdivision ;
+	lcc-lr:hasTag "RU-NEN" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-NEN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-NEN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Neneckij avtonomnyj okrug"@ru ,
+		"Nenetskiy avtonomnyy okrug"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the avtonomnyy okrug of Nenetskiy avtonomnyy okrug in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Neneckij avtonomnyj okrug"@ru ,
+		"Nenetskiy avtonomnyy okrug"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-309-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-NGR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NGR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-NGR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-NGR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Novgorodskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-NGR-Subdivision ;
+	lcc-lr:hasTag "RU-NGR" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-NGR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-NGR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Novgorodskaja oblast'"@ru ,
+		"Novgorodskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Novgorodskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Novgorodskaja oblast'"@ru ,
+		"Novgorodskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-NIZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NIZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-NIZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-NIZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Nižegorodskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-NIZ-Subdivision ;
+	lcc-lr:hasTag "RU-NIZ" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-NIZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-NIZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Nizhegorodskaya oblast'"@ru ,
+		"Nižegorodskaja oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Nižegorodskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Nizhegorodskaya oblast'"@ru ,
+		"Nižegorodskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-NVS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-NVS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-NVS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-NVS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Novosibirskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-NVS-Subdivision ;
+	lcc-lr:hasTag "RU-NVS" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-NVS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-NVS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Novosibirskaja oblast'"@ru ,
+		"Novosibirskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Novosibirskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Novosibirskaja oblast'"@ru ,
+		"Novosibirskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-OMS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-OMS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-OMS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-OMS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Omskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-OMS-Subdivision ;
+	lcc-lr:hasTag "RU-OMS" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-OMS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-OMS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Omskaja oblast'"@ru ,
+		"Omskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Omskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Omskaja oblast'"@ru ,
+		"Omskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ORE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ORE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ORE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ORE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Orenburgskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ORE-Subdivision ;
+	lcc-lr:hasTag "RU-ORE" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ORE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ORE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Orenburgskaja oblast'"@ru ,
+		"Orenburgskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Orenburgskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Orenburgskaja oblast'"@ru ,
+		"Orenburgskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ORL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ORL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ORL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ORL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Orlovskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ORL-Subdivision ;
+	lcc-lr:hasTag "RU-ORL" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ORL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ORL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Orlovskaja oblast'"@ru ,
+		"Orlovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Orlovskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Orlovskaja oblast'"@ru ,
+		"Orlovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-PER
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PER-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-PER-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-PER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Permskiy kray in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-PER-Subdivision ;
+	lcc-lr:hasTag "RU-PER" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-PER-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-PER-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Permskij kraj"@ru ,
+		"Permskiy kray"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Permskiy kray in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Permskij kraj"@ru ,
+		"Permskiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-PNZ
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PNZ-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-PNZ-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-PNZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Penzenskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-PNZ-Subdivision ;
+	lcc-lr:hasTag "RU-PNZ" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-PNZ-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-PNZ-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Penzenskaja oblast'"@ru ,
+		"Penzenskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Penzenskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Penzenskaja oblast'"@ru ,
+		"Penzenskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-PRI
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PRI-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-PRI-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-PRI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Primorskiy kray in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-PRI-Subdivision ;
+	lcc-lr:hasTag "RU-PRI" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-PRI-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-PRI-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Primorskiy kray"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Primorskiy kray in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Primorskij kraj"@ur ,
+		"Primorskiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-PSK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-PSK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-PSK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-PSK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Pskovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-PSK-Subdivision ;
+	lcc-lr:hasTag "RU-PSK" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-PSK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-PSK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pskovskaya oblast'"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Pskovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Pskovskaja oblast'"@ur ,
+		"Pskovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ROS
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ROS-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ROS-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ROS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Rostovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ROS-Subdivision ;
+	lcc-lr:hasTag "RU-ROS" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ROS-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ROS-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rostovskaya oblast'"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Rostovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Rostovskaja oblast'"@ur ,
+		"Rostovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-RYA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-RYA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-RYA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-RYA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Rjazanskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-RYA-Subdivision ;
+	lcc-lr:hasTag "RU-RYA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-RYA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-RYA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Rjazanskaja oblast'"@ru ,
+		"Ryazanskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Rjazanskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Rjazanskaja oblast'"@ru ,
+		"Ryazanskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Saha, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SA-Subdivision ;
+	lcc-lr:hasTag "RU-SA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Saha, Respublika"@ru ,
+		"Sakha, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Saha, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Saha, Respublika"@ru ,
+		"Sakha, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SAK
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SAK-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SAK-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SAK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Sahalinskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SAK-Subdivision ;
+	lcc-lr:hasTag "RU-SAK" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SAK-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SAK-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Sahalinskaja oblast'"@ru ,
+		"Sakhalinskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Sahalinskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Sahalinskaja oblast'"@ru ,
+		"Sakhalinskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Samarskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SAM-Subdivision ;
+	lcc-lr:hasTag "RU-SAM" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Samarskaja oblast'"@ru ,
+		"Samarskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Samarskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Samarskaja oblast'"@ru ,
+		"Samarskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SAR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SAR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SAR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Saratovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SAR-Subdivision ;
+	lcc-lr:hasTag "RU-SAR" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SAR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SAR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Saratovskaja oblast'"@ru ,
+		"Saratovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Saratovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Saratovskaja oblast'"@ru ,
+		"Saratovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Severnaya Osetiya, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SE-Subdivision ;
+	lcc-lr:hasTag "RU-SE" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Severnaja Osetija, Respublika"@ru ,
+		"Severnaya Osetiya, Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Severnaya Osetiya, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Severnaja Osetija, Respublika"@ru ,
+		"Severnaya Osetiya, Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SMO
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SMO-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SMO-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SMO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Smolenskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SMO-Subdivision ;
+	lcc-lr:hasTag "RU-SMO" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SMO-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SMO-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Smolenskaja oblast'"@ru ,
+		"Smolenskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Smolenskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Smolenskaja oblast'"@ru ,
+		"Smolenskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SPE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SPE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SPE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SPE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the avtonomnyy gorod of Sankt-Peterburg in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SPE-Subdivision ;
+	lcc-lr:hasTag "RU-SPE" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SPE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SPE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sankt-Peterburg"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the avtonomnyy gorod of Sankt-Peterburg in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName "Sankt-Peterburg"@ru ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-311-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-STA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-STA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-STA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-STA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Stavropol'skiy kray in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-STA-Subdivision ;
+	lcc-lr:hasTag "RU-STA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-STA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-STA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Stavropol'skij kraj"@ru ,
+		"Stavropol'skiy kray"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Stavropol'skiy kray in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Stavropol'skij kraj"@ru ,
+		"Stavropol'skiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-SVE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SVE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-SVE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-SVE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Sverdlovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-SVE-Subdivision ;
+	lcc-lr:hasTag "RU-SVE" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-SVE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-SVE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Sverdlovskaja oblast'"@ru ,
+		"Sverdlovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Sverdlovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Sverdlovskaja oblast'"@ru ,
+		"Sverdlovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-TA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-TA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Tatarstan, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-TA-Subdivision ;
+	lcc-lr:hasTag "RU-TA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-TA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-TA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tatarstan, Respublika"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Tatarstan, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName "Tatarstan, Respublika"@ru ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-TAM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TAM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-TAM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-TAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Tambovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-TAM-Subdivision ;
+	lcc-lr:hasTag "RU-TAM" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-TAM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-TAM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tambovskaja oblast'"@ru ,
+		"Tambovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Tambovskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Tambovskaja oblast'"@ru ,
+		"Tambovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-TOM
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TOM-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-TOM-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-TOM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Tomskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-TOM-Subdivision ;
+	lcc-lr:hasTag "RU-TOM" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-TOM-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-TOM-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tomskaja oblast'"@ru ,
+		"Tomskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Tomskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Tomskaja oblast'"@ru ,
+		"Tomskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-TUL
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TUL-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-TUL-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-TUL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Tul'skaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-TUL-Subdivision ;
+	lcc-lr:hasTag "RU-TUL" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-TUL-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-TUL-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tul'skaja oblast'"@ru ,
+		"Tul'skaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Tul'skaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Tul'skaja oblast'"@ru ,
+		"Tul'skaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-TVE
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TVE-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-TVE-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-TVE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Tverskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-TVE-Subdivision ;
+	lcc-lr:hasTag "RU-TVE" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-TVE-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-TVE-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tverskaja oblast'"@ru ,
+		"Tverskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Tverskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Tverskaja oblast'"@ru ,
+		"Tverskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-TY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TY-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-TY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-TY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Tyva, Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-TY-Subdivision ;
+	lcc-lr:hasTag "RU-TY" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-TY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-TY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tyva, Respublika"@ru ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Tyva, Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName "Tyva, Respublika"@ru ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-TYU
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TYU-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-TYU-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-TYU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Tyumenskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-TYU-Subdivision ;
+	lcc-lr:hasTag "RU-TYU" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-TYU-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-TYU-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Tjumenskaja oblast'"@ru ,
+		"Tyumenskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Tyumenskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Tjumenskaja oblast'"@ru ,
+		"Tyumenskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-UD
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-UD-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-UD-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-UD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the respublika of Udmurtskaya Respublika in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-UD-Subdivision ;
+	lcc-lr:hasTag "RU-UD" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-UD-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-UD-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Udmurtskaja Respublika"@ru ,
+		"Udmurtskaya Respublika"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the respublika of Udmurtskaya Respublika in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Udmurtskaja Respublika"@ru ,
+		"Udmurtskaya Respublika"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-433-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ULY
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ULY-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ULY-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ULY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Ul'janovskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ULY-Subdivision ;
+	lcc-lr:hasTag "RU-ULY" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ULY-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ULY-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Ul'janovskaja oblast'"@ru ,
+		"Ul'yanovskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Ul'janovskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Ul'janovskaja oblast'"@ru ,
+		"Ul'yanovskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-VGG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VGG-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-VGG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-VGG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Volgogradskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-VGG-Subdivision ;
+	lcc-lr:hasTag "RU-VGG" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-VGG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-VGG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Volgogradskaja oblast'"@ru ,
+		"Volgogradskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Volgogradskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Volgogradskaja oblast'"@ru ,
+		"Volgogradskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-VLA
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VLA-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-VLA-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-VLA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Vladimirskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-VLA-Subdivision ;
+	lcc-lr:hasTag "RU-VLA" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-VLA-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-VLA-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Vladimirskaja oblast'"@ru ,
+		"Vladimirskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Vladimirskaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Vladimirskaja oblast'"@ru ,
+		"Vladimirskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-VLG
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VLG-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-VLG-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-VLG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Vologodskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-VLG-Subdivision ;
+	lcc-lr:hasTag "RU-VLG" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-VLG-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-VLG-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Vologodskaja oblast'"@ru ,
+		"Vologodskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Vologodskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Vologodskaja oblast'"@ru ,
+		"Vologodskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-VOR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VOR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-VOR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-VOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Voronežskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-VOR-Subdivision ;
+	lcc-lr:hasTag "RU-VOR" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-VOR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-VOR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Voronezhskaya oblast'"@ru ,
+		"Voronežskaja oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Voronežskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Voronezhskaya oblast'"@ru ,
+		"Voronežskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-YAN
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-YAN-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-YAN-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-YAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the avtonomnyy okrug of Jamalo-Neneckij avtonomnyj okrug in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-YAN-Subdivision ;
+	lcc-lr:hasTag "RU-YAN" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-YAN-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-YAN-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Jamalo-Neneckij avtonomnyj okrug"@ru ,
+		"Yamalo-Nenetskiy avtonomnyy okrug"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the avtonomnyy okrug of Jamalo-Neneckij avtonomnyj okrug in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Jamalo-Neneckij avtonomnyj okrug"@ru ,
+		"Yamalo-Nenetskiy avtonomnyy okrug"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-309-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-YAR
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-YAR-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-YAR-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-YAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the oblast' of Jaroslavskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-YAR-Subdivision ;
+	lcc-lr:hasTag "RU-YAR" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-YAR-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-YAR-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Jaroslavskaja oblast'"@ru ,
+		"Yaroslavskaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the oblast' of Jaroslavskaja oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Jaroslavskaja oblast'"@ru ,
+		"Yaroslavskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-290-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-YEV
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-YEV-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-YEV-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-YEV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the avtonomnaya oblast' of Yevreyskaya avtonomnaya oblast' in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-YEV-Subdivision ;
+	lcc-lr:hasTag "RU-YEV" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-YEV-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-YEV-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Evrejskaja avtonomnaja oblast'"@ru ,
+		"Yevreyskaya avtonomnaya oblast'"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the avtonomnaya oblast' of Yevreyskaya avtonomnaya oblast' in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Evrejskaja avtonomnaja oblast'"@ru ,
+		"Yevreyskaya avtonomnaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-355-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:RU-ZAB
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ZAB-RegionIdentifier ;
+	.
+
+lcc-3166-2-ru:RU-ZAB-RegionIdentifier
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RU-ZAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "subdivision code for the kray of Zabaykal'skiy kray in the country of Russian Federation (the)" ;
+	lcc-lr:denotes lcc-3166-2-ru:RU-ZAB-Subdivision ;
+	lcc-lr:hasTag "RU-ZAB" ;
+	lcc-lr:identifies lcc-3166-2-ru:RU-ZAB-Subdivision ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ru:RU-ZAB-Subdivision
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label
+		"Zabajkal'skij kraj"@ru ,
+		"Zabaykal'skiy kray"@ru
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/> ;
+	skos:definition "the kray of Zabaykal'skiy kray in the country of Russian Federation (the)" ;
+	lcc-cr:hasLocalShortName
+		"Zabajkal'skij kraj"@ru ,
+		"Zabaykal'skiy kray"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ru:RU-396-RegionKind ;
+	lcc-cr:isSubregionOf lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-2-ru:Respublika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-433-RegionKind ;
+	.
+
+lcc-3166-2-ru:RjazanskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-RYA-Subdivision ;
+	.
+
+lcc-3166-2-ru:RostovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ROS-Subdivision ;
+	.
+
+lcc-3166-2-ru:Saha
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SA-Subdivision ;
+	.
+
+lcc-3166-2-ru:SahalinskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SAK-Subdivision ;
+	.
+
+lcc-3166-2-ru:SamarskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SAM-Subdivision ;
+	.
+
+lcc-3166-2-ru:Sankt-Peterburg
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SPE-Subdivision ;
+	.
+
+lcc-3166-2-ru:SaratovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SAR-Subdivision ;
+	.
+
+lcc-3166-2-ru:SevernayaOsetiya
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SE-Subdivision ;
+	.
+
+lcc-3166-2-ru:SmolenskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SMO-Subdivision ;
+	.
+
+lcc-3166-2-ru:StavropolskiyKray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-STA-Subdivision ;
+	.
+
+lcc-3166-2-ru:SverdlovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-SVE-Subdivision ;
+	.
+
+lcc-3166-2-ru:TambovskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TAM-Subdivision ;
+	.
+
+lcc-3166-2-ru:Tatarstan
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TA-Subdivision ;
+	.
+
+lcc-3166-2-ru:TomskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TOM-Subdivision ;
+	.
+
+lcc-3166-2-ru:TulskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TUL-Subdivision ;
+	.
+
+lcc-3166-2-ru:TverskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TVE-Subdivision ;
+	.
+
+lcc-3166-2-ru:TyumenskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TYU-Subdivision ;
+	.
+
+lcc-3166-2-ru:Tyva
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-TY-Subdivision ;
+	.
+
+lcc-3166-2-ru:UdmurtskayaRespublika
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-UD-Subdivision ;
+	.
+
+lcc-3166-2-ru:UljanovskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ULY-Subdivision ;
+	.
+
+lcc-3166-2-ru:VladimirskayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VLA-Subdivision ;
+	.
+
+lcc-3166-2-ru:VolgogradskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VGG-Subdivision ;
+	.
+
+lcc-3166-2-ru:VologodskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VLG-Subdivision ;
+	.
+
+lcc-3166-2-ru:VoronezskajaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-VOR-Subdivision ;
+	.
+
+lcc-3166-2-ru:YevreyskayaAvtonomnayaOblast
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-YEV-Subdivision ;
+	.
+
+lcc-3166-2-ru:ZabaykalskiyKray
+	a owl:NamedIndividual ;
+	owl:sameAs lcc-3166-2-ru:RU-ZAB-Subdivision ;
+	.
+
